@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.txt linguist-language=Paradox Script
+*.yml linguist-language=Paradox Script
+*.gui linguist-language=Paradox Script
