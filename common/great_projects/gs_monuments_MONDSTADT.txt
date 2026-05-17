@@ -1211,14 +1211,6 @@ xingluo = {	#星落湖
 		on_upgraded = {
 			owner = {
 				add_stability = 1
-				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_kong } }
-					add_country_modifier = {
-						name = gs_leader_kong
-						duration = -1
-					}
-					custom_tooltip = desc_gs_leader_kong
-				}
 			}
 			if = {
 				limit = {

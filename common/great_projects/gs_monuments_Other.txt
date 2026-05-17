@@ -88,16 +88,7 @@ masike = {	#马斯克礁
 			native_assimilation = 0.5
 		}
 		on_upgraded = {
-			owner = {
-				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_skirk } }	
-					add_country_modifier = {
-						name = gs_leader_skirk
-						duration = -1
-					}
-					custom_tooltip = desc_gs_leader_skirk
-				}
-			}
+
 		}
 	}
 	tier_3 = {
@@ -119,12 +110,12 @@ masike = {	#马斯克礁
 			owner = { add_stability = 1 }
 			owner = {
 				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_ying } }	
+					limit = { NOT = { has_country_modifier = gs_leader_skirk } }	
 					add_country_modifier = {
-						name = gs_leader_ying
+						name = gs_leader_skirk
 						duration = -1
 					}
-					custom_tooltip = desc_gs_leader_ying
+					custom_tooltip = desc_gs_leader_skirk
 				}
 			}
 			if = {
