@@ -1,0 +1,132 @@
+[h1]本mod包含以下内容：[/h1]
+[olist]
+    [*]截止《原神》5.7版本出现的地区，以及《崩坏3》、《未定事件簿》、《崩坏：星穹铁道》、《绝区零》的彩蛋，共计186个奇观。一些奇观升级会有风味事件和独特的效果。
+    [*]截止《原神》5.7版本所有的原神角色、一些NPC和彩蛋，共计123个角色，可以通过升级奇观获得。获得原神角色后可以启用「神之眼」持有者阶层。给予对应的阶层特权，可以令原神角色成为将领、顾问和配偶。
+    [*]行政、外交、军事三个元素理念组和政策。通过给予「神之眼」持有者阶层对应的特权启用。
+    [*]一些娱乐决议，例如使神明成为统治者、更改国家名称和颜色为原神国家等。
+    [*]可以在设置事件里取消原神奇观限制、开启娱乐模式和彩蛋模式，允许AI使用某些决议等。
+[/olist]
+
+交流群：959166763
+欢迎来群里反馈意见和建议，更欢迎大家来玩，平时没事了可以吹水聊天，p社游戏、米游以及泛二次元相关话题都可以。
+
+[hr][/hr]
+8月11日
+v6.5
+[olist]
+    [*]更新了原神角色丝柯克、塔利雅。
+    [*]修复了bug和奇观效果。
+[/olist]
+
+6月14日
+v6.4
+[olist]
+    [*]更新了事件，在省份升满级时触发，可以给省份改名字。
+    [*]更新了奇观德波大饭店。
+    [*]更新了原神角色爱可菲、伊法。
+    [*]修复了bug和奇观效果。
+[/olist]
+
+5月21日
+v6.3
+[olist]
+    [*]为原神奇观增加了描述。
+    [*]更新了沃陆之邦、图兰大火山的奇观。
+    [*]更新了原神角色伊安珊、瓦雷莎。
+    [*]更新了元素政策。
+    [*]修复了bug和奇观效果。
+[/olist]
+
+3月18日
+v6.2
+[olist]
+    [*]更新了奇观秋沙钱汤、安眠处、「真正的安眠处」。
+    [*]更新了原神角色梦见月瑞希。
+    [*]更新了派蒙。开局短期内拿不到原神将领的话，可以通过派蒙开启神之眼持有者阶层。
+    [*]现在元素理念组也需要阶层特权才能开启了。
+    [*]更新《绝区零》的彩蛋奇观。
+    [*]提高了AI选择元素理念组的概率，拥有的原神角色元素种类越多概率越高。
+    [*]现在在娱乐模式下，变身奇观被占领不再会降低等级了。
+    [*]修复了bug和奇观效果。
+[/olist]
+
+1月27日
+v6.1
+[olist]
+    [*]更新了37个纳塔奇观。
+[/olist]
+
+12月30日
+v6.0
+[olist]
+    [*]原神将领系统全面升级为原神角色系统。从奇观中获得角色后可以令其成为将领、顾问和配偶。需要给予「神之眼」持有者阶层对应的特权。
+    [*]大量优化了角色修正、统治者特质与顾问的显示模式与本地化内容。
+    [*]大量优化了AI原神国家的行为逻辑。
+    [*]修复了大量bug和奇观效果。
+[/olist]
+
+更多更新日志见改动说明
+
+[hr][/hr]
+[h1]submod[/h1]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3220852007]可移动补丁[/url]（推荐配合修改了地图的mod使用）
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3375447454]安本纳尔补丁[/url]（适配安本纳尔mp）
+[/list]
+[h1]作者的其他相关mod[/h1]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3561303410]崩坏星穹铁道奇观[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3267489654]原神特殊兵种[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3405219025]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3405231258]原神音乐 Genshin Music[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3398691187]原神字体[/url]
+    [*]原神地图字体（[url=https://steamcommunity.com/workshop/filedetails/?id=3398691823]黑[/url]）（[url=https://steamcommunity.com/workshop/filedetails/?id=3398692120]白[/url]）
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3438314279]爱莉希雅宗教[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3376335103]生活重心：密谋[/url]（搭配使用可以让原神配偶成为统治者）
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3475507130]理念组记忆 Memorize Idea Group[/url]（彻底解决理念槽不够的问题！）
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3483671512]【崩坏：星穹铁道】命途理念组[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3325095648]胡桃互助协会[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3467856635]ai军事质量加强[/url]
+[/list]
+
+[h1]推荐使用[/h1]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2471388429]Larger Monuments Interface[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3343209149]!超大的国家修正界面[/url]
+[/list]
+
+[hr][/hr]
+[h1]友情链接[/h1]
+[b]其他奇观mod[/b]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2469419235]Great Monuments Expanded[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3014207840]奇观[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2603834143]（历史类）无限制奇观拓展1.34[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2605913280]（梗类）无限制奇观1.34[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3339304815]1.37 更多全球奇观[/url]
+[/list]
+[b]其他辅助型泛二次元mod[/b][spoiler]（[strike]实则为轮椅大合集[/strike]）[/spoiler]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2289238838]Anime Universalis[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3340627985]国家娘美化（支持铁人）[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=2494666673]女仆之国[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3169776621]WarShipGirl Cirno![/url]（被Steam审核毙了，有一个可用的搬运[url=https://steamcommunity.com/workshop/filedetails/?id=3305832288]WarshipGirl Cirno2[/url]）
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3232659721]魅魔与堕落（先行测试）[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3266358729]尘白禁区mod[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3431900911]Mygo理念组(大帮多利时代)[/url]
+    
+[/list]
+[b]其他小伙伴们的mod[/b]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3260378591]邀请外国顾问[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3417530040]一些奇奇怪怪的想法[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3267475868]强大的天灾国家 1.37[/url]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3311391518]外挂版爱莉希雅第三奥德赛sub[/url]
+[/list]
+[b]作者的其他mod[/b]
+[list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3169125522]魔物娘风云汉化 Monster Girl Universalis CN[/url]
+[/list]
+
+[hr][/hr]
+[url=https://steamcommunity.com/workshop/filedetails/?id=2619264711]原mod[/url]

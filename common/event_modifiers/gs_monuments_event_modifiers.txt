@@ -1,0 +1,269 @@
+#全局
+gs_start = {
+	great_project_upgrade_cost = -0.05
+	great_project_upgrade_time = -0.05
+}
+gs_monuments_unlimit_open = {
+	great_project_upgrade_cost = -0.05
+	great_project_upgrade_time = -0.05
+}
+gs_estate_open = {
+	administrative_efficiency = 0.025
+}
+gs_Gurabad_modifier = {
+	global_unrest = -1
+	administrative_efficiency = 0.05
+}
+gs_modifier_huasanli = { #gs_huasanli_modifier
+	war_exhaustion = -0.01
+	shock_damage_received = -0.05
+}
+gs_modifier_Paimon_repay = {
+	interest = -4
+	land_morale = 0.4
+	naval_morale = 0.4
+	reinforce_speed = 0.2					#Slower reinforce
+	bureaucrats_influence = -0.2
+	mr_guilds_influence = -0.2
+	manpower_recovery_speed = 0.8
+	sailors_recovery_speed = 0.8
+	advisor_cost = -0.4
+	monthly_fervor_increase = 0.8
+	global_autonomy = -0.04
+	global_institution_spread = 0.40
+	monthly_militarized_society = 0.4
+	monthly_prussian_militarized_society_1 = -0.016
+	monthly_prussian_militarized_society_2 = -0.04
+	monthly_prussian_militarized_society_3 = -0.06
+	yearly_absolutism = 1.6
+	technology_cost = -0.4
+	idea_cost = -0.4
+	imperial_mandate = 0.08
+	great_project_upgrade_cost = -0.4
+	monthly_russian_modernization = 0.8
+	monthly_authority_power = -0.2
+}
+gs_shimen_modifier = {
+	embracement_cost = -0.2
+	global_institution_spread = 0.2
+	relation_with_heathens = 25
+	reverse_relation_with_heathen_religion = 25
+	relation_with_heretics = 25
+	reverse_relation_with_heretic_religion = 25
+}
+gs_destroy_qunyu_modifier = {
+	siege_ability = 0.5
+	morale_damage = 0.5
+	fire_damage = 0.5
+	shock_damage = 0.5
+}
+gs_jiede_fuchou_end = {
+	legitimacy = 0.2
+	republican_tradition = 0.1
+	devotion = 0.2
+	horde_unity = 0.2
+	meritocracy = 0.1
+}
+gs_silusha_end = {
+	global_monthly_devastation = -0.1
+	global_prosperity_growth = 0.1
+}
+gs_willow_modifier = {
+	land_attrition = -0.05
+}
+gs_overlord_Vision_hunt = {
+	all_power_cost = -0.05
+	global_tax_modifier = 0.15
+}
+gs_subject_Vision_hunt = {
+	global_tax_modifier = -0.1
+}
+gs_aliu_modifier = {
+	war_exhaustion = -0.01
+	fire_damage = 0.05
+}
+gs_baojue_fanghong = {
+	imperial_mandate = 0.03
+}
+gs_refund_banner_corruption = {
+	yearly_corruption = -0.03
+	special_unit_forcelimit = 0.15
+}
+gs_chiwang_hexiedu = {
+	yearly_harmony = 0.1
+}
+gs_chaoyue = {
+	global_unrest = -2
+}
+gs_Annapausis_real = {
+	global_unrest = -2
+}
+gs_Remuria_modifier = {
+	global_unrest = -2
+	diplomatic_reputation = 2
+	stability_cost_modifier = -0.2
+	infantry_power = 0.10
+	land_forcelimit_modifier = 0.15
+	production_efficiency = 0.2
+	global_tax_modifier = 0.1
+	administrative_efficiency = 0.05
+	core_creation = -0.25
+	years_of_nationalism = -5
+}
+gs_Star_modifier = {
+	all_power_cost = -1
+	global_tax_modifier = 1
+	production_efficiency = 1
+	trade_efficiency = 1
+	global_trade_goods_size_modifier = 1
+	global_manpower_modifier = 1
+	can_bypass_forts = yes
+	force_march_free = yes
+}
+gs_ZZZ_modifier = {
+	diplomats = 10
+	missionaries = 10
+	colonists = 10
+	merchants = 10
+	envoy_travel_time = -1
+	improve_relation_modifier = 1
+	spy_offence = 1
+	can_transfer_vassal_wargoal = yes
+	can_chain_claim = yes
+	can_claim_states = yes
+	reduced_stab_impacts = yes
+}
+jiushi_modifier = { 
+	land_morale = 1
+	siege_ability = 0.5
+}
+zhenwo_modifier = { 
+	governing_capacity = 200
+	governing_capacity_modifier = 0.5
+	global_unrest = -10
+}
+jielv_modifier = { 
+	missionaries = 3
+	global_missionary_strength = 0.1
+	enforce_religion_cost = -1
+}
+huangjin_modifier = { 
+	administrative_efficiency = 0.2
+	all_power_cost = -0.2
+	advisor_cost = -0.5
+}
+luoxuan_modifier = { 
+	production_efficiency = 0.3
+	build_time = -0.5
+	global_trade_goods_size_modifier = 0.3
+	global_monthly_devastation = -1
+}
+aomie_modifier = { 
+	infantry_fire = 2
+	cavalry_fire = 2
+	artillery_fire = 2
+	morale_damage = 0.5
+	fire_damage = 0.5
+}
+tianhui_modifier = { 
+	idea_cost = -0.5
+	embracement_cost = -0.5
+	global_institution_spread = 0.5
+}
+chana_modifier = { 
+	spy_offence = 0.5
+	global_spy_defence = 1
+	yearly_corruption = -0.5
+}
+xuguang_modifier = { 
+	ignore_coring_distance = yes
+	core_creation = -0.25
+	stability_cost_modifier = -0.5
+}
+wuxian_modifier = { 
+	technology_cost = -0.2
+	possible_policy = 3
+}
+fanxing_modifier = {
+	may_explore = yes
+	colonists = 3
+	range = 1
+	native_uprising_chance = -1
+	auto_explore_adjacent_to_colony = yes
+	colonist_placement_chance = 0.2
+}
+fusheng_modifier = { 
+	can_bypass_forts = yes
+	army_tradition = 2
+	yearly_army_professionalism = 0.001
+	discipline = 0.2
+	drill_gain_modifier = 1
+	drill_decay_modifier = -1
+}
+kongmeng_modifier = { 
+	merchants = 1
+	trade_efficiency = 0.6
+	privateer_efficiency = 1
+	global_trade_power = 0.3
+}
+
+#省份
+gs_rebuild = {
+	local_great_project_upgrade_cost = -0.5
+	local_great_project_upgrade_time = -0.5
+}
+gs_rebuild_kexueyuan = {
+	local_great_project_upgrade_cost = -0.5
+	local_great_project_upgrade_time = -0.5
+}
+gs_rebuild_qunyu = {
+	local_great_project_upgrade_cost = -0.5
+	local_great_project_upgrade_time = -0.5
+}
+gs_chaoyue_same_culture = {
+	local_tax_modifier = 0.15
+	local_manpower_modifier = 0.15
+	local_sailors_modifier = 0.15
+	local_unrest = -2
+	local_tax_modifier = 0.33
+	local_manpower_modifier = 0.33
+	local_sailors_modifier = 0.2
+}
+gs_chaoyue_same_culture_group = {
+	local_tax_modifier = 0.15
+	local_manpower_modifier = 0.15
+	local_sailors_modifier = 0.15
+}
+gs_chaoyue_same_culture_group_2 = {
+	local_tax_modifier = 0.3
+	local_manpower_modifier = 0.3
+	local_sailors_modifier = 0.3
+}
+gs_chaoyue_wrong_culture = {
+	local_unrest = -2
+	local_tax_modifier = 0.33
+	local_manpower_modifier = 0.33
+	local_sailors_modifier = 0.2
+}
+gs_chaoyue_wrong_culture_2 = {
+	local_unrest = -4
+	local_tax_modifier = 0.66
+	local_manpower_modifier = 0.66
+	local_sailors_modifier = 0.4
+}
+gs_taixu_location = {
+	local_manpower_modifier = 0.1
+}
+gs_letu_location = {
+	local_tax_modifier = 0.1
+}
+gs_NXX_location = {
+	local_unrest = -1
+}
+gs_Star_location = {
+	local_friendly_movement_speed = 0.2
+}
+gs_ZZZ_location = {
+	local_hostile_attrition = 1
+}
+

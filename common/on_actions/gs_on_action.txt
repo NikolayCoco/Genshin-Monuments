@@ -1,0 +1,317 @@
+#国家
+on_startup = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { has_global_flag = gs_start_end } }
+			set_global_flag = gs_start_end
+			set_global_flag = ys_qiguan_shengfen_mingzi
+			set_global_flag = gs_allow_ai_Easter
+			set_global_flag = gs_allow_ai_gs_estate
+			if = {
+				limit = { has_global_flag = gs_move_start }
+				set_global_flag = ys_ai_qiguan_shengfen_mingzi
+			}
+		}
+	}
+	if = {
+		limit = {
+			ai = no
+			NOT = { has_country_modifier = gs_start }
+		}
+		country_event = { id = gs_decisions_events.1000 }
+	}
+}
+on_bankruptcy = {
+	if = {
+		limit = {
+			has_country_modifier = gs_Paimon
+			NOT = { has_country_flag = gs_Paimon_repay_end }
+		}
+		set_country_flag = gs_Paimon_repay_end
+		country_event = { id = gs_decisions_events.1003 }
+	}
+}
+on_new_monarch = {
+	hidden_effect = {
+		#宝玦口防水灾
+		if = {
+			limit = {
+				OR = {
+					has_country_modifier = gsld_gov_reform_gs_S_12
+					has_country_modifier = gs_baojue_fanghong
+				}
+			}
+			country_event = { id = gs_monuments_events.15 }
+		}
+	}
+}
+
+
+
+
+#省份
+on_province_religion_converted = {
+	owner = {
+		if = {
+			limit = {
+				has_country_modifier = gs_chiwang_hexiedu
+				OR = {
+					religion = confucianism
+					religion = yangmingism
+					#religion = elysia_ruru_worship
+				}
+			}
+			add_harmony = 10
+		}
+	}
+}
+on_province_owner_change = {
+	hidden_effect = {
+		#娱乐模式变身奇观不降级
+		if = {
+			limit = { owner = { gs_happy_mod_trigger = yes } }
+			if = {
+				limit = {
+					has_great_project = {
+						type = bbts
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = bbts
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = bbts
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = bbts
+					tier = 1
+				}
+			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = thegoldenhouse
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = thegoldenhouse
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = thegoldenhouse
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = thegoldenhouse
+					tier = 1
+				}
+			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = leishenxiang
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = leishenxiang
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = leishenxiang
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = leishenxiang
+					tier = 1
+				}
+			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = jingshan
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = jingshan
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = jingshan
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = jingshan
+					tier = 1
+				}
+			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = Lucine
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = Lucine
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = Lucine
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = Lucine
+					tier = 1
+				}
+			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = huashi
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = huashi
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = huashi
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = huashi
+					tier = 1
+				}
+			}
+		}
+		#移除彩蛋奇观
+		if = {
+			limit = { has_province_modifier = gs_taixu_location }
+			remove_province_modifier = gs_taixu_location
+		}
+		if = {
+			limit = {
+				has_great_project = {
+					type = taixu
+					tier = 0
+				}
+			}
+			destroy_great_project = { type = taixu }
+		}
+		if = {
+			limit = { has_province_modifier = gs_NXX_location }
+			remove_province_modifier = gs_NXX_location
+		}
+		if = {
+			limit = {
+				has_great_project = {
+					type = NXX
+					tier = 0
+				}
+			}
+			destroy_great_project = { type = NXX }
+		}
+		if = {
+			limit = { has_province_modifier = gs_Star_location }
+			remove_province_modifier = gs_Star_location
+		}
+		if = {
+			limit = {
+				has_great_project = {
+					type = Star
+					tier = 0
+				}
+			}
+			destroy_great_project = { type = Star }
+		}
+		if = {
+			limit = { has_province_modifier = gs_ZZZ_location }
+			remove_province_modifier = gs_ZZZ_location
+		}
+		if = {
+			limit = {
+				has_great_project = {
+					type = ZZZ
+					tier = 0
+				}
+			}
+			destroy_great_project = { type = ZZZ }
+		}
+		if = {
+			limit = { has_province_modifier = gs_letu_location }
+			remove_province_modifier = gs_letu_location
+		}
+		if = {
+			limit = {
+				has_great_project = {
+					type = letu
+					tier = 0
+				}
+			}
+			destroy_great_project = { type = letu }
+		}
+		#赤王陵降级
+		if = {
+			limit = {
+				OR = {
+					has_great_project = {
+						type = Baoyin
+						tier = 0
+					}
+					has_great_project = {
+						type = Birang
+						tier = 0
+					}
+					has_great_project = {
+						type = Shuoshi
+						tier = 0
+					}
+				}
+			}
+			FROM = {
+				random_owned_province = {
+					limit = {
+						has_great_project = {
+							type = Chiwangling
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = -1
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = -1
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = -1
+					}
+				}
+			}
+		}
+	}
+}
+on_banner_raised = {
+	owner = { 
+		if = { 
+			limit = { has_country_modifier = gs_refund_banner_corruption }
+			add_corruption = -0.2
+		}
+	}
+}
+
+
+
+
+#脉冲
+
+

@@ -1,0 +1,352 @@
+spriteTypes = {
+	###奇观事件
+	# 仇敌仿佛众水翻腾……
+	spriteType = {
+		name = "gs_monuments_events_11_eventPicture"
+		texturefile = "gfx/event_pictures/tanit.dds"
+		alwaystransparent = yes
+	}
+	#已逝去的末日
+	spriteType = {
+		name = "gs_monuments_events_2_eventPicture"
+		texturefile = "gfx/event_pictures/gurabad.dds"
+		alwaystransparent = yes
+	}
+	#枫丹科学院，停滞于一片废墟上
+	spriteType = {
+		name = "gs_monuments_events_31_eventPicture"
+		texturefile = "gfx/event_pictures/kexueyuan.dds"
+		alwaystransparent = yes
+	}
+	#艾德温·伊斯丁豪斯
+	spriteType = {
+		name = "gs_monuments_events_4_eventPicture"
+		texturefile = "gfx/event_pictures/kexueyuan.dds"
+		alwaystransparent = yes
+	}
+	#「祭水之仪」
+	spriteType = {
+		name = "gs_monuments_events_51_eventPicture"
+		texturefile = "gfx/event_pictures/apaosha.dds"
+		alwaystransparent = yes
+	}
+	#灵光颂
+	spriteType = {
+		name = "gs_monuments_events_6_eventPicture"
+		texturefile = "gfx/event_pictures/vourukasha.dds"
+		alwaystransparent = yes
+	}
+	#古老的书卷
+	spriteType = {
+		name = "gs_monuments_events_7_eventPicture"
+		texturefile = "gfx/event_pictures/vourukasha.dds"
+		alwaystransparent = yes
+	}
+	#林中奇遇
+	spriteType = {
+		name = "gs_monuments_events_8_eventPicture"
+		texturefile = "gfx/event_pictures/vimara.dds"
+		alwaystransparent = yes
+	}
+	#起初，只是在路边救了一个女孩……
+	spriteType = {
+		name = "gs_monuments_events_9_eventPicture"
+		texturefile = "gfx/event_pictures/vanarana.dds"
+		alwaystransparent = yes
+	}
+	#水仙十字
+	spriteType = {
+		name = "gs_monuments_events_20_eventPicture"
+		texturefile = "gfx/event_pictures/ipsissimus.dds"
+		alwaystransparent = yes
+	}
+	#水仙十字2
+	spriteType = {
+		name = "gs_monuments_events_25_eventPicture"
+		texturefile = "gfx/event_pictures/Annapausis.dds"
+		alwaystransparent = yes
+	}
+	#湖中垂柳的秘密
+	spriteType = {
+		name = "gs_monuments_events_40_eventPicture"
+		texturefile = "gfx/event_pictures/willow.dds"
+		alwaystransparent = yes
+	}
+	#神樱大祓
+	spriteType = {
+		name = "gs_monuments_events_41_eventPicture"
+		texturefile = "gfx/event_pictures/huasanli.dds"
+		alwaystransparent = yes
+	}
+	#踏鞴物语
+	spriteType = {
+		name = "gs_monuments_events_42_eventPicture"
+		texturefile = "gfx/event_pictures/yuying.dds"
+		alwaystransparent = yes
+	}
+	#眼狩令
+	spriteType = {
+		name = "gs_monuments_events_43_eventPicture"
+		texturefile = "gfx/event_pictures/vision_hunt.dds"
+		alwaystransparent = yes
+	}
+	#雾海纪行
+	spriteType = {
+		name = "gs_monuments_events_44_eventPicture"
+		texturefile = "gfx/event_pictures/wuhai.dds"
+		alwaystransparent = yes
+	}
+	#「旧日之海」
+	spriteType = {
+		name = "gs_monuments_events_45_eventPicture"
+		texturefile = "gfx/event_pictures/sea_of_bygone_eras.dds"
+		alwaystransparent = yes
+	}
+	#璃蒙诗歌握手言欢会
+	spriteType = {
+		name = "gs_monuments_events_60_eventPicture"
+		texturefile = "gfx/event_pictures/Poetry.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_monuments_events_61_eventPicture"
+		texturefile = "gfx/event_pictures/Poetry.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_monuments_events_62_eventPicture"
+		texturefile = "gfx/event_pictures/water.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_monuments_events_63_eventPicture"
+		texturefile = "gfx/event_pictures/water.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_monuments_events_64_eventPicture"
+		texturefile = "gfx/event_pictures/water.dds"
+		alwaystransparent = yes
+	}
+	#爱德华多·贝克
+	spriteType = {
+		name = "gs_decisions_events_10_eventPicture"
+		texturefile = "gfx/event_pictures/Poisson.dds"
+		alwaystransparent = yes
+	}
+	#「伟大者」 帕西法尔
+	spriteType = {
+		name = "gs_decisions_events_11_eventPicture"
+		texturefile = "gfx/event_pictures/Poisson.dds"
+		alwaystransparent = yes
+	}
+	#灰河整肃运动
+	spriteType = {
+		name = "gs_decisions_events_12_eventPicture"
+		texturefile = "gfx/event_pictures/dixaicheng.dds"
+		alwaystransparent = yes
+	}
+	#卡尔·英戈德
+	spriteType = {
+		name = "gs_decisions_events_13_eventPicture"
+		texturefile = "gfx/event_pictures/thePhoto.dds"
+		alwaystransparent = yes
+	}
+	#白淞之围
+	spriteType = {
+		name = "gs_decisions_events_14_eventPicture"
+		texturefile = "gfx/event_pictures/Poisson.dds"
+		alwaystransparent = yes
+	}
+	###改名事件
+	#蒙德
+	spriteType = {
+		name = "gs_qiguan_shengfen_mengde_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/mondstadt.dds"
+		alwaystransparent = yes
+	}
+	#璃月
+	spriteType = {
+		name = "gs_qiguan_shengfen_liyue_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/liyue.dds"
+		alwaystransparent = yes
+	}
+	#稻妻
+	spriteType = {
+		name = "gs_qiguan_shengfen_daoqi_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/inazuma.dds"
+		alwaystransparent = yes
+	}
+	#须弥
+	spriteType = {
+		name = "gs_qiguan_shengfen_xumi_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/sumeru.dds"
+		alwaystransparent = yes
+	}
+	#枫丹
+	spriteType = {
+		name = "gs_qiguan_shengfen_fengdan_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/fontaine.dds"
+		alwaystransparent = yes
+	}
+	#纳塔
+	spriteType = {
+		name = "gs_qiguan_shengfen_nata_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/natlan.dds"
+		alwaystransparent = yes
+	}
+	#至冬
+	spriteType = {
+		name = "gs_qiguan_shengfen_zhidong_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#其他
+	spriteType = {
+		name = "gs_qiguan_shengfen_qitahecaidan_mingzi_events_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	###决议事件
+	#介绍事件
+	spriteType = {
+		name = "gs_decisions_events_1000_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_decisions_events_1001_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_decisions_events_1002_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#派蒙还钱
+	spriteType = {
+		name = "gs_decisions_events_1003_eventPicture"
+		texturefile = "gfx/event_pictures/Paimon_apologize_2.dds"
+		alwaystransparent = yes
+	}
+	#一键建成原神奇观
+	spriteType = {
+		name = "gs_decisions_events_31_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	###原神配偶
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.1_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-蒙德
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.10_eventPicture"
+		texturefile = "gfx/event_pictures/mondstadt.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-璃月
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.11_eventPicture"
+		texturefile = "gfx/event_pictures/liyue.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-稻妻
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.12_eventPicture"
+		texturefile = "gfx/event_pictures/inazuma.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-须弥
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.13_eventPicture"
+		texturefile = "gfx/event_pictures/sumeru.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-枫丹
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.14_eventPicture"
+		texturefile = "gfx/event_pictures/fontaine.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-纳塔
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.15_eventPicture"
+		texturefile = "gfx/event_pictures/natlan.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-至冬
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.16_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#原神配偶-异界
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.17_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	###原神顾问
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.1000_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.1_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-蒙德
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.10_eventPicture"
+		texturefile = "gfx/event_pictures/mondstadt.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-璃月
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.11_eventPicture"
+		texturefile = "gfx/event_pictures/liyue.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-稻妻
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.12_eventPicture"
+		texturefile = "gfx/event_pictures/inazuma.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-须弥
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.13_eventPicture"
+		texturefile = "gfx/event_pictures/sumeru.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-枫丹
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.14_eventPicture"
+		texturefile = "gfx/event_pictures/fontaine.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-纳塔
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.15_eventPicture"
+		texturefile = "gfx/event_pictures/natlan.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-至冬
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.16_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-异界
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.17_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
+}

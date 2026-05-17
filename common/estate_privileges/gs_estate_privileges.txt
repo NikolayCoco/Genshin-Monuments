@@ -1,0 +1,408 @@
+estate_genshin_base = {
+	icon = privilege_grant_autonomy
+
+	land_share = 28 				#要让出的王冠领地（给阶级）
+	max_absolutism = 46        		#特权对最大专治度的影响
+	loyalty = -0.3					#这个特权生效产生的忠诚度影响
+	influence  = -0.3				#这个特权生效产生的影响力修正
+
+	#is_valid = { always = yes }	#国家启用该特权的条件
+	can_select = {
+		if = {
+			limit = { gs_has_OnlyFans_monuments = yes }
+			OR = {
+				gs_has_OnlyFans_leader = yes
+				gs_has_gs_leader_with_element = yes
+				has_country_modifier = gs_Paimon
+			}
+		}
+		else = {
+			OR = {
+				gs_has_gs_leader_with_element = yes
+				has_country_modifier = gs_Paimon
+			}
+		}
+	}		#国家是否允许选择特权条件
+	#on_granted = { <effects> }     #特权立即执行的效果
+	can_revoke = {
+		NOT = { has_estate_privilege = estate_genshin_leader }
+		NOT = { has_estate_privilege = estate_genshin_peiou }
+		NOT = { has_estate_privilege = estate_genshin_advisor }
+	} 	#国家是否可以撤销特权的条件 
+	#on_revoked = { <effects> } 	#特权被撤销的影响
+	#on_invalid = { <effects> } 	#由于权限无效造成撤销的影响
+
+	#penalties = { <modifiers> } 	#特权激活时代负面修正
+	benefits = {
+		governing_capacity = 300
+		country_admin_power = 1
+		country_diplomatic_power = 1
+		country_military_power = 1
+		global_tax_modifier = 0.1
+		trade_efficiency = 0.1
+		global_manpower_modifier = 0.1
+		estate_genshin_privilege_slots = 49
+	}      #特权激活时的正面修正
+	#conditional_modifier = { 		
+	#	#如果指令为真，应用的修正
+	#		 trigger = { <triggers> }
+	#		 modifier = { <modifiers> }
+	#		 is_bad = <bool>				#yes/no修正是否是负面的
+	#}
+	#modifier_by_land_ownership = { <modifiers> } 	#修正与阶级领地相乘
+	#mechanics = { <mechanics> } 			#特权引用的特殊机制
+
+	#cooldown_years = <int> 				#特权无法撤销的时间限制
+	#on_cooldown_expires = { effects }		#Effect executed once the specified cooldown_years timer has run down
+
+	ai_will_do = {					#If above ESTATE_PRIVILEGE_GRANT_THRESHOLD define, AI will try to apply. If below 
+		factor = 1000                               #ESTATE_PRIVILEGE_REVOKE_THRESHOLD, AI will try to revoke.
+		#modifier = {
+		#		factor = <float>
+		#		<triggers>
+		#}
+	}
+}
+estate_genshin_vision_anemo = {
+	icon = GFX_estate_genshin_vision_anemo
+
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+	
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_anemo = yes
+			has_country_modifier = gs_leader_wendi
+		}
+	}
+
+	benefits = {
+		development_cost = -0.1
+		trade_steering = 0.1
+		movement_speed = 0.2
+	}
+	conditional_modifier = {
+		trigger = { has_country_modifier = gs_leader_wendi }
+		modifier = {
+			development_cost = -0.1
+			trade_steering = 0.1
+			movement_speed = 0.2
+		}
+		is_bad = no
+	}
+	
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_geo = {
+	icon = GFX_estate_genshin_vision_geo
+
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_geo = yes
+			has_country_modifier = gs_leader_zhongli
+		}
+	}
+
+	benefits = {
+		build_cost = -0.1
+		trade_efficiency = 0.1
+		defensiveness = 0.1
+	}
+	conditional_modifier = {
+		trigger = { has_country_modifier = gs_leader_zhongli }
+		modifier = {
+			build_cost = -0.1
+			trade_efficiency = 0.1
+			defensiveness = 0.1
+		}
+		is_bad = no
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_electro = {
+	icon = GFX_estate_genshin_vision_electro
+		
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_electro = yes
+			has_country_modifier = gs_leader_leishen
+		}
+	}
+
+	benefits = {
+		global_autonomy = -0.05
+		diplomatic_reputation = 1
+		shock_damage = 0.1
+	}
+	conditional_modifier = {
+		trigger = { has_country_modifier = gs_leader_leishen }
+		modifier = {
+			global_autonomy = -0.05
+			diplomatic_reputation = 1
+			shock_damage = 0.1
+		}
+		is_bad = no
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_dendro = {
+	icon = GFX_estate_genshin_vision_dendro
+		
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_dendro = yes
+			has_country_modifier = gs_leader_naxida
+		}
+	}
+
+	benefits = {
+		global_trade_goods_size_modifier = 0.2
+		diplomatic_annexation_cost = -0.1
+		siege_ability = 0.1
+	}
+	conditional_modifier = {
+		trigger = { has_country_modifier = gs_leader_naxida }
+		modifier = {
+			global_trade_goods_size_modifier = 0.2
+			diplomatic_annexation_cost = -0.1
+			siege_ability = 0.1
+		}
+		is_bad = no
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_hydro = {
+	icon = GFX_estate_genshin_vision_hydro
+		
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_hydro = yes
+			has_country_modifier = gs_leader_nawei
+		}
+	}
+
+	benefits = {
+		stability_cost_modifier = -0.15
+		global_colonial_growth = 10
+		global_manpower_modifier = 0.1
+	}
+	conditional_modifier = {
+		trigger = {
+			OR = {
+				has_country_modifier = gs_leader_funingna
+				has_country_modifier = gs_leader_nawei
+			}
+		}
+		modifier = {
+			stability_cost_modifier = -0.15
+			global_colonial_growth = 10
+			global_manpower_modifier = 0.1
+		}
+		is_bad = no
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_pyro = {
+	icon = GFX_estate_genshin_vision_pyro
+		
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		OR = {
+			gs_has_gs_leader_with_vision_pyro = yes
+			has_country_modifier = gs_leader_maweika
+		}
+	}
+
+	benefits = {
+		technology_cost = -0.1
+		number_of_cannons_modifier = 0.1
+		fire_damage = 0.1
+	}
+	conditional_modifier = {
+		trigger = { has_country_modifier = gs_leader_maweika }
+		modifier = {
+			technology_cost = -0.1
+			number_of_cannons_modifier = 0.1
+			fire_damage = 0.1
+		}
+		is_bad = no
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_vision_cryo = {
+	icon = GFX_estate_genshin_vision_cryo
+		
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	can_select = {
+		#OR = {
+			gs_has_gs_leader_with_vision_cryo = yes
+			#	has_country_modifier = gs_leader_
+		#}
+	}
+
+	benefits = {
+		global_monthly_devastation = -0.1
+		global_prosperity_growth = 0.1
+		land_attrition = -0.15
+		naval_attrition = -0.15
+	}
+	#conditional_modifier = {
+	#	trigger = { has_country_modifier = gs_leader_ }
+	#	modifier = {
+	#		global_monthly_devastation = -0.1
+	#		global_prosperity_growth = 0.1
+	#		land_attrition = -0.15
+	#		naval_attrition = -0.15
+	#	}
+	#	is_bad = no
+	#}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_monument = {
+	icon = privilege_build_jain_temple
+		
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	#can_select = { always = yes }
+
+	on_granted = {
+		add_treasury = -100
+	}
+
+	benefits = {
+		great_project_upgrade_cost = -0.25
+		great_project_upgrade_time = -0.25
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_element_idea = {
+	icon = GFX_estate_genshin_element_idea
+		
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	#can_select = { always = yes }
+
+	on_granted = {
+		add_adm_power = -10
+		add_dip_power = -10
+		add_mil_power = -10
+		add_treasury = -10
+	}
+
+	benefits = {
+		idea_cost = -0.1
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_leader = {
+	icon = privilege_supply_arms
+		
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	#can_select = { always = yes }
+	can_revoke = {
+		if = {
+			limit = { ai = yes }
+			NOT = { gs_has_gs_leader = yes }
+		}
+	}
+
+	on_granted = { add_mil_power = -100 }
+
+	benefits = {
+		army_tradition = 1
+		army_tradition_decay = -0.01
+		navy_tradition = 1
+		navy_tradition_decay = -0.01
+		yearly_army_professionalism = 0.01
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_peiou = {
+	icon = privilege_coup_detat
+		
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	#can_select = { always = yes }
+
+	on_granted = { add_dip_power = -100 }
+
+	benefits = {
+		heir_chance = 0.5
+	}
+
+	ai_will_do = { factor = 1000 }
+}
+estate_genshin_advisor = {
+	icon = privilege_recruit_minister
+		
+	loyalty = 0.05
+	influence  = 0.05
+
+	is_valid = { has_estate_privilege = estate_genshin_base }
+	#can_select = { always = yes }
+
+	on_granted = { add_adm_power = -100 }
+
+	benefits = {
+		advisor_cost = -0.25
+		advisor_pool = 1
+		female_advisor_chance = 0.5
+	}
+
+	ai_will_do = { factor = 1000 }
+}

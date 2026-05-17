@@ -1,0 +1,393 @@
+country_decisions = {
+	#介绍事件
+	gs_monuments_intro = {
+		major = yes
+		potential = { ai = no }
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = { id = gs_decisions_events.1000 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#原神阶层
+	gs_yuanshen_estate_open = {
+		color = { 0 255 255 }
+		major = no
+		potential = {
+			OR = {
+				ai = no
+				has_global_flag = gs_allow_ai_gs_estate
+				gs_is_gs_nation = yes
+				gs_has_OnlyFans_monuments = yes
+			}
+			NOT = { has_country_modifier = gs_estate_open }
+		}
+		allow = {
+			if = {
+				limit = { gs_has_OnlyFans_monuments = yes }
+				OR = {
+					gs_has_OnlyFans_leader = yes
+					gs_has_gs_leader = yes
+					has_country_modifier = gs_Paimon
+				}
+			}
+			else = {
+				OR = {
+					gs_has_gs_leader = yes
+					has_country_modifier = gs_Paimon
+				}
+			}
+			adm_power = 10
+			dip_power = 10
+			mil_power = 10
+		}
+		effect = {
+			add_adm_power = -10
+			add_dip_power = -10
+			add_mil_power = -10
+			add_country_modifier = {
+				name = gs_estate_open
+				duration = -1
+			}
+			custom_tooltip = desc_gs_estate_open
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#原神配偶
+	gs_yuanshen_peiou = {
+		color = { 0 255 255 }
+		major = no
+		potential = {
+			ai = no
+			gs_has_gs_leader_country = yes
+			has_estate = estate_genshin
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_peiou
+			treasury = 50
+			dip_power = 50
+		}
+		effect = {
+			add_treasury = -50
+			add_dip_power = -50
+			country_event = { id = gs_yuanshenpeiou_events.1 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#原神顾问
+	gs_yuanshen_advisor = {
+		color = { 0 255 255 }
+		major = no
+		potential = {
+			ai = no
+			gs_has_gs_leader_country = yes
+			has_estate = estate_genshin
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_advisor
+			treasury = 50
+			adm_power = 50
+		}
+		effect = {
+			add_treasury = -50
+			add_adm_power = -50
+			country_event = { id = gs_yuanshenadvisor_events.1000 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#修建运河
+	gs_build_kiel_canal = { # 基尔运河
+		major = no
+		potential = {
+			ai = no
+			has_estate = estate_genshin
+			owns_or_vassal_of = 1775
+			owns_or_vassal_of = 4141
+			NOT = {
+				OR = {
+					any_owned_province = {
+						has_great_project = {
+							type = kiel_canal
+							tier = 0
+						}
+					}
+					has_global_flag = gs_kiel_built
+				}
+			}
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_monument
+			owns_or_vassal_of = 1775
+			owns_or_vassal_of = 4141
+			treasury = 20000
+			adm_power = 300
+		}
+		effect = {
+			add_treasury = -20000
+			add_adm_power = -300
+			1775 = { add_canal = kiel_canal }
+			set_global_flag = gs_kiel_built
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gs_build_suez_canal = { # 苏伊士运河
+		major = no
+		potential = {
+			ai = no
+			has_estate = estate_genshin
+			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 2315
+			NOT = {
+				OR = {
+					any_owned_province = {
+						has_great_project = {
+							type = suez_canal
+							tier = 0
+						}
+					}
+					has_global_flag = gs_suez_built
+				}
+			}
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_monument
+			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 2315
+			treasury = 40000
+			adm_power = 300
+		}
+		effect = {
+			add_treasury = -40000
+			add_adm_power = -300
+			4316 = { add_canal = suez_canal }
+			set_global_flag = gs_suez_built
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gs_build_panama_canal = { # 巴拿马运河
+		major = no
+		potential = {
+			ai = no
+			has_estate = estate_genshin
+			owns_or_vassal_of = 835
+			NOT = {
+				OR = {
+					any_owned_province = {
+						has_great_project = {
+							type = panama_canal
+							tier = 0
+						}
+					}
+					has_global_flag = gs_panama_built
+				}
+			}
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_monument
+			owns_or_vassal_of = 835
+			treasury = 60000
+			adm_power = 300
+		}
+		effect = {
+			add_treasury = -60000
+			add_adm_power = -300
+			835 = { add_canal = panama_canal }
+			set_global_flag = gs_panama_built
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#一键建成原神奇观
+	gs_monuments_build_all = {
+		major = no
+		potential = {
+			ai = no
+			gs_happy_mod_trigger = yes
+		}
+		allow = {
+			always = yes
+		}
+		effect = { country_event = { id = gs_decisions_events.31 } }
+	}
+	#添加元素理念
+	gs_yuanshen_ideas_add = {
+		major = no
+		potential = {
+			# NOT = { adm_tech = 10 }
+			has_estate = estate_genshin
+			OR = {
+				NOT = { has_idea_group = gs_element_adm_ideas }
+				NOT = { has_idea_group = gs_element_dip_ideas }
+				NOT = { has_idea_group = gs_element_mil_ideas }
+			}
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_element_idea
+			# NOT = { adm_tech = 10 }
+			OR = {
+				NOT = { has_idea_group = gs_element_adm_ideas }
+				NOT = { has_idea_group = gs_element_dip_ideas }
+				NOT = { has_idea_group = gs_element_mil_ideas }
+			}
+			adm_power = 150
+			dip_power = 150
+			mil_power = 150
+			treasury = 300
+		}
+		effect = {
+			add_adm_power = -150
+			add_dip_power = -150
+			add_mil_power = -150
+			add_treasury = -300
+    		add_idea_group = gs_element_adm_ideas
+			add_idea_group = gs_element_dip_ideas
+			add_idea_group = gs_element_mil_ideas
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				AND = {
+					ai = yes
+					gs_is_gs_nation = no
+				}
+			}
+		}
+	}
+	#白淞之围
+	gs_Siege_of_Poisson = {
+		major = no
+		potential = {
+			any_owned_province = {
+				has_great_project = {
+					type = Poisson
+					tier = 3
+				}
+			}
+			NOT = { has_country_flag = gs_Siege_of_Poisson_start }
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = Poisson
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			country_event = { 
+				id = gs_decisions_events.10
+				days = 30
+				random = 15
+			}
+			set_country_flag = gs_Siege_of_Poisson_start
+			random_owned_province = {
+				limit = {
+					has_great_project = {
+						type = Poisson
+						tier = 3
+					}
+				}
+				save_global_event_target_as = Siege_of_Poisson_target
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#砸群玉阁
+	gs_destroy_qunyu = {
+		major = no
+		potential = {
+			any_owned_province = {
+				has_great_project = {
+					type = qunyu
+					tier = 3
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = qunyu
+					tier = 3
+				}
+			}
+			NOT = { has_country_modifier = gs_destroy_qunyu_modifier }
+			is_at_war = yes
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					has_great_project = {
+						type = qunyu
+						tier = 3
+					}
+				}
+				add_devastation = 20
+				add_great_project_tier = {
+					type = qunyu
+					tier = -3
+				}
+				every_province_in_state = {
+					add_base_tax = -2
+					add_base_production = -2
+					add_base_manpower = -2
+				}
+				add_province_modifier = {
+					name = gs_rebuild_qunyu
+					duration = 7300
+				}
+			}
+			add_country_modifier = {
+				name = gs_destroy_qunyu_modifier
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#白淞之围
+	gs_Convert_to_Vourukasha = {
+		major = no
+		potential = {
+			any_owned_province = {
+				has_great_project = {
+					type = Vourukasha
+					tier = 3
+				}
+			}
+			NOT = { religion = zoroastrian  }
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = Vourukasha
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			change_religion = zoroastrian
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

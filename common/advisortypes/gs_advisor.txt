@@ -1,0 +1,1348 @@
+######################蒙德
+gs_advisor_shatang = { #砂糖
+	monarch_power = ADM
+	allow_only_female = yes
+
+	production_efficiency = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_lisha = { #丽莎
+	monarch_power = ADM
+	allow_only_female = yes
+
+	monthly_reform_progress = 0.3
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_fichel = { #菲谢尔
+	monarch_power = ADM
+	allow_only_female = yes
+
+	monthly_splendor = 5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_anbo = { #安柏
+	monarch_power = MIL
+	allow_only_female = yes
+
+	land_attrition = -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_leize = { #雷泽
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	mercenary_cost = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_babala = { #芭芭拉
+	monarch_power = MIL
+	allow_only_female = yes
+
+	recover_army_morale_speed = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_bannite = { #班尼特
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	reinforce_speed = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_kaiya = { #凯亚
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	cavalry_power = 0.33
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_noel = { #诺艾尔
+	monarch_power = MIL
+	allow_only_female = yes
+
+	global_defender_dice_roll_bonus = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_qin = { #琴
+	monarch_power = ADM
+	allow_only_female = yes
+
+	administrative_efficiency = 0.05
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_diluke = { #迪卢克
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	yearly_army_professionalism = 0.04
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_mona = { #莫娜
+	monarch_power = ADM
+	allow_only_female = yes
+
+	idea_cost = -0.15
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_wendi = { #温迪
+	monarch_power = ADM
+	allow_only_male = yes
+	
+    missionaries = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			global_missionary_strength = 0.02
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_keli = { #可莉
+	monarch_power = MIL
+	allow_only_female = yes
+
+	fire_damage = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_diona = { #迪奥娜
+	monarch_power = ADM
+	allow_only_female = yes
+
+	
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_abeiduo = { #阿贝多
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	technology_cost = -0.15
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_luosha = { #罗莎莉亚
+	monarch_power = MIL
+	allow_only_female = yes
+
+	harsh_treatment_cost = -0.9
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_youla = { #优菈
+	monarch_power = MIL
+	allow_only_female = yes
+
+	infantry_power = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_mika = { #米卡
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	global_colonial_growth = 20
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_taliya = { #塔利雅
+    monarch_power = ADM
+    allow_only_male = yes
+    
+    tolerance_own = 1
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
+######################璃月
+gs_advisor_ningguang = { #凝光
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_tax_modifier = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xingqiu = { #行秋
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	inflation_reduction = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xiangling = { #香菱
+	monarch_power = ADM
+	allow_only_female = yes
+
+	great_project_upgrade_cost = -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_chongyun = { #重云
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	artillery_barrage_cost = -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_beidou = { #北斗
+	monarch_power = DIP
+	allow_only_female = yes
+
+	heavy_ship_power = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_qiqi = { #七七
+	monarch_power = MIL
+	allow_only_female = yes
+
+	morale_damage_received = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_keqing = { #刻晴
+	monarch_power = MIL
+	allow_only_female = yes
+
+	movement_speed = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xinyan = { #辛焱
+	monarch_power = DIP
+	allow_only_female = yes
+
+	diplomatic_annexation_cost = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_zhongli = { #钟离
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	defensiveness = 0.6
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			siege_ability = 0.2
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ganyu = { #甘雨
+	monarch_power = ADM
+	allow_only_female = yes
+
+	core_creation = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xiao = { #魈
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	army_tradition = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_hutao = { #胡桃
+	monarch_power = MIL
+	allow_only_female = yes
+
+	morale_damage = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yanfei = { #烟绯
+	monarch_power = ADM
+	allow_only_female = yes
+
+	yearly_corruption = -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yunjin = { #云堇
+	monarch_power = ADM
+	allow_only_female = yes
+
+	advisor_cost = -0.15
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_shenhe = { #申鹤
+	monarch_power = ADM
+	allow_only_female = yes
+
+	build_time = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yelan = { #夜兰
+	monarch_power = ADM
+	allow_only_female = yes
+
+	spy_offence = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yaoyao = { #瑶瑶
+	monarch_power = DIP
+	allow_only_female = yes
+
+	culture_conversion_time = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_baizhu = { #白术
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	manpower_recovery_speed = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_jiaming = { #嘉明
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	envoy_travel_time = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xianyun = { #闲云
+	monarch_power = MIL
+	allow_only_female = yes
+
+	movement_speed = 0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_lanyan = { #蓝砚
+	monarch_power = DIP
+	allow_only_female = yes
+
+	development_cost_in_primary_culture = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################稻妻
+gs_advisor_wanye = { #枫原万叶
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	naval_morale = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_linghua = { #神里凌华
+	monarch_power = DIP
+	allow_only_female = yes
+
+	ae_impact = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_zaoyou = { #早柚
+	monarch_power = DIP
+	allow_only_female = yes
+
+	fabricate_claims_cost= -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xiaogong = { #宵宫
+	monarch_power = DIP
+	allow_only_female = yes
+
+	trade_efficiency = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_jiutiao = { #九条裟罗
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_unrest = -2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_leishen = { #影
+	monarch_power = MIL
+	allow_only_female = yes
+
+	discipline = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			land_morale = 0.05
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xinhai = { #珊瑚宫心海
+	monarch_power = MIL
+	allow_only_female = yes
+
+	military_tactics = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_tuoma = { #托马
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	monarch_lifespan = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_wulang = { #五郎
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	galley_power = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yidou = { #荒泷一斗
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	shock_damage = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_shenzi = { #八重神子
+	monarch_power = ADM
+	allow_only_female = yes
+
+	tolerance_own = 2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_lingren = { #神里凌人
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	global_autonomy = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_jiuqiren = { #久歧忍
+	monarch_power = MIL
+	allow_only_female = yes
+
+	army_tradition_from_battle = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_pingzang = { #鹿野院平藏
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	colonist_placement_chance = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_kirara = { #绮良良
+	monarch_power = DIP
+	allow_only_female = yes
+
+	global_foreign_trade_power = 0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_qianzhi = { #千织
+	monarch_power = DIP
+	allow_only_female = yes
+
+	culture_conversion_cost = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ruixi = { #梦见月瑞希
+	monarch_power = ADM
+	allow_only_female = yes
+
+	monarch_lifespan = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################须弥
+gs_advisor_kelai = { #科莱
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_prosperity_growth = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_tinali = { #提纳里
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	min_autonomy_in_territories = -0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_duoli = { #多莉
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_trade_goods_size_modifier = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_kandisi = { #坎蒂丝
+	monarch_power = ADM
+	allow_only_female = yes
+
+	hostile_attrition = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_sainuo = { #赛诺
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	land_maintenance_modifier = -0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_nilu = { #妮露
+	monarch_power = ADM
+	allow_only_female = yes
+
+	diplomatic_upkeep = 2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_naxida = { #纳西妲
+	monarch_power = ADM
+	allow_only_female = yes
+
+	all_power_cost = -0.05
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			monthly_reform_progress_modifier = 0.1
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_laiyila = { #莱依拉
+	monarch_power = DIP
+	allow_only_female = yes
+
+	chance_to_inherit = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_falushan = { #法璐珊
+	monarch_power = ADM
+	allow_only_female = yes
+
+	free_policy = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_bengbeng = { #散兵
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	global_regiment_recruit_speed = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_aierhaisen = { #艾尔海森
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	yearly_absolutism = 1
+	max_absolutism = 20
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_dixiya = { #迪希亚
+	monarch_power = MIL
+	allow_only_female = yes
+
+	mercenary_manpower= 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_kawei = { #卡维
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	great_project_upgrade_time = -0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_saisuosi = { #赛索斯
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	tolerance_heretic = 2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################枫丹
+gs_advisor_linnite = { #琳妮特
+	monarch_power = DIP
+	allow_only_female = yes
+
+	transport_attrition = -1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_linni = { #林尼
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	reduced_liberty_desire_on_same_continent = 20
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_feimini = { #菲米尼
+	monarch_power = DIP
+	allow_only_male = yes
+	
+	blockade_efficiency = 0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_nawei = { #那维莱特
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	state_governing_cost = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_laiou = { #莱欧斯利
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	leader_cost = -0.3
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xialuodi = { #夏洛蒂
+	monarch_power = DIP
+	allow_only_female = yes
+
+	improve_relation_modifier = 0.1
+	monthly_favor_modifier = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_funingna = { #芙宁娜
+	monarch_power = ADM
+	allow_only_female = yes
+
+	imperial_authority_value = 0.1
+	imperial_mandate = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			imperial_authority = 0.05
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_naweiya = { #娜维娅
+	monarch_power = MIL
+	allow_only_female = yes
+
+	backrow_artillery_damage = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xiawolei = { #夏沃蕾
+	monarch_power = ADM
+	allow_only_female = yes
+
+	harsh_treatment_cost = -0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+			imperial_authority = 0.05
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_keluolinde = { #克洛琳德
+	monarch_power = DIP
+	allow_only_female = yes
+
+	morale_in_fleet_modifier = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xigewen = { #希格雯
+	monarch_power = MIL
+	allow_only_female = yes
+
+	hostile_attrition = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_aimeiliai = { #艾梅莉埃
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_unrest = -2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_aikefei = { #爱可菲
+	monarch_power = DIP
+	allow_only_female = yes
+
+	global_trade_power = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################纳塔
+gs_advisor_kaqina = { #卡齐娜
+	monarch_power = MIL
+	allow_only_female = yes
+
+	global_regiment_cost = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_malani = { #玛拉妮
+	monarch_power = DIP
+	allow_only_female = yes
+
+	diplomatic_upkeep = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_jiniqi = { #基尼奇
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	governing_capacity_modifier = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_xinuoning = { #希诺宁
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_trade_goods_size_modifier = 0.15
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ouluolun = { #欧洛伦
+	monarch_power = ADM
+	allow_only_male = yes
+	
+	development_cost = -0.15
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_qiasika = { #恰斯卡
+	monarch_power = DIP
+	allow_only_female = yes
+
+	diplomatic_reputation = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_maweika = { #玛薇卡
+	monarch_power = MIL
+	allow_only_female = yes
+
+	morale_damage_received = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_nainai = { #茜特菈莉
+	monarch_power = ADM
+	allow_only_female = yes
+
+	missionary_maintenance_cost = -0.3
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yianshan = { #伊安珊
+	monarch_power = MIL
+	allow_only_female = yes
+
+	monarch_lifespan = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_niuniu = { #瓦雷莎
+	monarch_power = ADM
+	allow_only_female = yes
+
+	production_efficiency = 0.05
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yifa = { #伊法
+	monarch_power = ADM
+	allow_only_male = yes
+
+	cavalry_cost = -0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################至冬
+gs_advisor_dadaliya = { #达达利亚
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	has_streltsy = yes
+	allowed_streltsy_fraction = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_aleiqinuo = { #佩露薇利
+	monarch_power = DIP
+	allow_only_female = yes
+
+	spy_offence = 0.2
+	global_spy_defence = 0.33
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################异界
+gs_advisor_kong = { #空
+	monarch_power = DIP
+	allow_only_male = yes
+	
+    diplomatic_reputation = 2
+    improve_relation_modifier = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ying = { #荧
+	monarch_power = DIP
+	allow_only_female = yes
+
+    diplomatic_reputation = 2
+    improve_relation_modifier = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ailuoyi = { #埃洛伊
+	monarch_power = DIP
+	allow_only_female = yes
+
+    global_colonial_growth = 20
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_skirk = { #丝柯克
+    monarch_power = MIL
+    allow_only_female = yes
+    
+    discipline = 0.1
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
+

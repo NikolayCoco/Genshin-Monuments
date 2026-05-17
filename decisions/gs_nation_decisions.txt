@@ -1,0 +1,1092 @@
+country_decisions = {
+	#«ë(u˜ñFz)RöN˝VT
+	gs_country_name_Remuria = {
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			tag = ROM
+			any_owned_province = {
+				has_great_project = {
+					type = Aurea
+					tier = 3
+				}
+			}
+			has_country_modifier = gs_Remuria_modifier
+			NOT = { has_country_flag = gs_set_country_name_Remuria }
+		}
+		allow = {
+			tag = ROM
+			any_owned_province = {
+				has_great_project = {
+					type = Aurea
+					tier = 3
+				}
+			}
+			has_country_modifier = gs_Remuria_modifier
+		}
+		effect = {
+			override_country_name = THE_Remuria
+			set_country_flag = gs_set_country_name_Remuria
+		}
+		ai_will_do = { factor = 1 }
+	}
+	# æãnüS^yﬂuªlw
+	#ôÑ∑V	MONDSTADT	Œò	50 215 160
+	#Étg	LIYUE		©S	255 172 0
+	#IzªY	INAZUMA		˜ñ	204 128 255
+	#âò%V	SUMERU		IÉ	144 204 0
+	#´g9N	FONTAINE	4l	0 192 255
+	#≥uTX	NATLAN		kp	255 102 64
+	#ÛÅ¨Q	SNEZHNAYA	∞Q	128 255 255
+	#PNW	YONGSHILETU	wb	255 204 251
+	#					‡e	147 147 147
+	gs_set_ruler_wendi = {
+		color = { 50 215 160 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_wendi
+			NOT = { has_ruler_flag = gs_ruler_wendi }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£anemo£ )nÍè"
+				dynasty = "ÙTÙTXbØe"
+				#culture = saxon
+				#religion = catholic
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 3500
+				birth_date = -2055.6.16
+				claim = 100
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_anemo_personality
+				add_ruler_personality = charismatic_negotiator_personality
+				#add_ruler_personality = fierce_negotiator_personality
+				set_ruler_flag = gs_ruler_wendi
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_wendi_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_anemo_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_wendi_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_zhongli = {
+		color = { 255 172 0 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_zhongli
+			NOT = { has_ruler_flag = gs_ruler_zhongli }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£geo£ üîªy"
+				dynasty = "id…bKQØe"
+				#culture = zhongyuan
+				#religion = confucianism
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 6000
+				birth_date = -4556.12.31
+				claim = 100
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_geo_personality
+				#add_ruler_personality = midas_touched_personality
+				add_ruler_personality = great_engineer_personality
+				set_ruler_flag = gs_ruler_zhongli
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_zhongli_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_geo_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_zhongli_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_leishen = {
+		color = { 204 128 255 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_leishen
+			NOT = { has_ruler_flag = gs_ruler_leishen }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "qV"
+				dynasty = "ø£electro£ ˜ñ5u"
+				#culture = japanese
+				#religion = shinto
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 2000
+				birth_date = -555.6.26
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_electro_personality
+				#add_ruler_personality = martial_educator_personality
+				add_ruler_personality = peasant_revolt_leader_personality
+				set_ruler_flag = gs_ruler_leishen
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_leishen_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_electro_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_leishen_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_naxida = {
+		color = { 144 204 0 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_naxida
+			NOT = { has_ruler_flag = gs_ruler_naxida }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£dendro£ ≥uâ≤Y"
+				dynasty = "^6wS"
+				#culture = kanauji
+				#religion = hinduism
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 500
+				birth_date = 944.10.27
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_dendro_personality
+				#add_ruler_personality = benevolent_personality
+				add_ruler_personality = tolerant_personality
+				set_ruler_flag = gs_ruler_naxida
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_naxida_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_dendro_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_naxida_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_funingna = {
+		color = { 0 192 255 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_funingna
+			NOT = { has_ruler_flag = gs_ruler_funingna }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£hydro£ß ôÇÅRZ"
+				dynasty = "∑V ´g9N"
+				#culture = french
+				#religion = catholic
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 500
+				birth_date = 944.10.13
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_hydro_personality
+				#add_ruler_personality = patron_of_arts_personality
+				add_ruler_personality = papal_puppetmaster_personality
+				set_ruler_flag = gs_ruler_funingna
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_funingna_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_hydro_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_funingna_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_maweika = {
+		color = { 255 102 64 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_maweika
+			NOT = { has_ruler_flag = gs_ruler_maweika }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£pyro£ß õsáÖaS"
+				dynasty = "kç^ÃëFz"
+				#culture = aztek
+				#religion = nahuatl
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 500
+				birth_date = 944.10.13
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_pyro_personality
+				#add_ruler_personality = 
+				add_ruler_personality = legendary_conqueror_personality
+				set_ruler_flag = gs_ruler_maweika
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_maweika_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_pyro_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_maweika_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_ailixiya = {
+		color = { 255 204 251 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			ai = no
+			has_country_modifier = gs_leader_ailixiya
+			NOT = { has_ruler_flag = gs_ruler_ailixiya }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£zhenwo£ 1râÉ^≈ñ"
+				dynasty = "ÀYênKNãVw"
+				#culture = 
+				#religion = 
+				adm = 6
+				dip = 6
+				mil = 6
+				#age = 
+				#birth_date = 
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_zhenwo_personality
+				add_ruler_personality = god_of_zhenwo2_personality
+				add_ruler_personality = god_of_zhenwo3_personality
+				set_ruler_flag = gs_ruler_ailixiya
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	gs_god_ruler_defender_of_the_faith = {
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			ai = no
+			gs_is_gs_nation = yes
+			is_lesser_in_union = no
+			is_defender_of_faith = no
+		}
+		allow = {
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			treasury = 300
+		}
+		effect = {
+			add_adm_power = -100
+			add_dip_power = -100
+			add_mil_power = -100
+			add_treasury = -300
+			set_defender_of_the_faith = {
+				who = ROOT
+				religion = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# «ë(uüS^y˝VT0úòrÇNtıV
+	gs_country_MONDSTADT = {
+		color = { 50 215 160 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_wendi
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_MONDSTADT }
+				NOT = { has_country_flag = gs_set_country_color_MONDSTADT }
+				NOT = { has_country_flag = gs_set_country_idea_MONDSTADT }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_MONDSTADT
+			set_country_flag = gs_set_country_color_MONDSTADT
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_MONDSTADT
+			}
+			else = { override_country_name = THE_MONDSTADT }
+			change_country_color = { color = { 50 215 160 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_MONDSTADT } }
+				set_country_flag = gs_set_country_idea_MONDSTADT
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_MONDSTADT_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_MONDSTADT_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_MONDSTADT_emperor = {
+		color = { 50 215 160 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			ai = no
+			has_ruler_flag = gs_ruler_wendi
+			is_lesser_in_union = no
+			is_emperor = no
+		}
+		allow = { is_emperor = no }
+		effect = {
+			set_emperor = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gs_country_LIYUE = {
+		color = { 255 172 0 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_zhongli
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_LIYUE }
+				NOT = { has_country_flag = gs_set_country_color_LIYUE }
+				NOT = { has_country_flag = gs_set_country_idea_LIYUE }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_LIYUE
+			set_country_flag = gs_set_country_color_LIYUE
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_LIYUE
+			}
+			else = { override_country_name = THE_LIYUE }
+			change_country_color = { color = { 255 172 0 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_LIYUE } }
+				set_country_flag = gs_set_country_idea_LIYUE
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			taiwan_area = {
+				limit = { is_empty = yes }
+				add_siberian_construction = 100
+			}
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_LIYUE_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_LIYUE_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_LIYUE_Heaven = {
+		color = { 255 172 0 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			ai = no
+			has_ruler_flag = gs_ruler_zhongli
+			is_lesser_in_union = no
+			is_emperor_of_china = no
+		}
+		allow = { is_emperor_of_china = no }
+		effect = {
+			set_emperor_of_china = ROOT
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gs_country_INAZUMA = {
+		color = { 204 128 255 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_leishen
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_INAZUMA }
+				NOT = { has_country_flag = gs_set_country_color_INAZUMA }
+				NOT = { has_country_flag = gs_set_country_idea_INAZUMA }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_INAZUMA
+			set_country_flag = gs_set_country_color_INAZUMA
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_INAZUMA
+			}
+			else = { override_country_name = THE_INAZUMA }
+			change_country_color = { color = { 204 128 255 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_INAZUMA } }
+				set_country_flag = gs_set_country_idea_INAZUMA
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_INAZUMA_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_INAZUMA_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_SUMERU = {
+		color = { 144 204 0 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_naxida
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_SUMERU }
+				NOT = { has_country_flag = gs_set_country_color_SUMERU }
+				NOT = { has_country_flag = gs_set_country_idea_SUMERU }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_SUMERU
+			set_country_flag = gs_set_country_color_SUMERU
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_SUMERU
+			}
+			else = { override_country_name = THE_SUMERU }
+			change_country_color = { color = { 144 204 0 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_SUMERU } }
+				set_country_flag = gs_set_country_idea_SUMERU
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_SUMERU_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_SUMERU_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_FONTAINE = {
+		color = { 0 192 255 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_funingna
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_FONTAINE }
+				NOT = { has_country_flag = gs_set_country_color_FONTAINE }
+				NOT = { has_country_flag = gs_set_country_idea_FONTAINE }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_FONTAINE
+			set_country_flag = gs_set_country_color_FONTAINE
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_FONTAINE
+			}
+			else = { override_country_name = THE_FONTAINE }
+			change_country_color = { color = { 0 192 255 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_FONTAINE } }
+				set_country_flag = gs_set_country_idea_FONTAINE
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_FONTAINE_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_FONTAINE_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_NATLAN = {
+		color = { 255 102 64 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_maweika
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_NATLAN }
+				NOT = { has_country_flag = gs_set_country_color_NATLAN }
+				NOT = { has_country_flag = gs_set_country_idea_NATLAN }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_NATLAN
+			set_country_flag = gs_set_country_color_NATLAN
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_NATLAN
+			}
+			else = { override_country_name = THE_NATLAN }
+			change_country_color = { color = { 255 102 64 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_NATLAN } }
+				set_country_flag = gs_set_country_idea_NATLAN
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { technology_group = high_american } }
+				change_technology_group = high_american
+				change_unit_type = high_american
+			}
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_NATLAN_first } }
+				add_adm_tech = 2
+				add_dip_tech = 2
+				add_mil_tech = 2
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_NATLAN_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
+			}
+		}
+	}
+	gs_country_NATLAN_civilize = {
+		color = { 255 102 64 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_maweika
+			is_lesser_in_union = no
+			OR = {
+				religion = nahuatl
+				religion = mesoamerican_religion
+				religion = inti
+			}
+			is_religion_reformed = no
+		}
+		allow = {
+			OR = {
+				religion = nahuatl
+				religion = mesoamerican_religion
+				religion = inti
+			}
+			is_religion_reformed = no
+		}
+		effect = {
+			if = {
+				limit = { NOT = { technology_group = high_american } }
+				change_technology_group = high_american
+				change_unit_type = high_american
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						religion = nahuatl
+						is_religion_reformed = no
+					}
+					change_religion = animism
+					set_primitive = no
+					change_religion = nahuatl
+				}
+				if = {
+					limit = {
+						religion = mesoamerican_religion
+						is_religion_reformed = no
+					}
+					change_religion = animism
+					set_primitive = no
+					change_religion = mesoamerican_religion
+				}
+				if = {
+					limit = {
+						religion = inti
+						is_religion_reformed = no
+					}
+					change_religion = animism
+					set_primitive = no
+					change_religion = inti
+				}
+			}
+			custom_tooltip = gs_country_NATLAN_civilize_tt
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_country = {
+						is_neighbor_of = ROOT
+						NOT = { same_continent = ROOT }
+					}
+				}
+			}
+		}
+	}
+	gs_country_YONGSHILETU = {
+		color = { 255 204 251 }
+		major = no
+		potential = {
+			ai = no
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_ailixiya
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_YONGSHILETU }
+				NOT = { has_country_flag = gs_set_country_color_YONGSHILETU }
+				NOT = { has_country_flag = gs_set_country_idea_YONGSHILETU }
+			}
+		}
+		allow = {
+			is_lesser_in_union = no
+		}
+		effect = {
+			set_country_flag = gs_set_country_name_YONGSHILETU
+			set_country_flag = gs_set_country_color_YONGSHILETU
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_YONGSHILETU
+			}
+			else = { override_country_name = THE_YONGSHILETU }
+			change_country_color = { color = { 255 204 251 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_YONGSHILETU } }
+				set_country_flag = gs_set_country_idea_YONGSHILETU
+				country_event = { id = ideagroups.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# b`YRÀY˝VT
+	gs_country_name_Rever = {
+		color = { 147 147 147 }
+		major = no
+		potential = {
+			OR = {
+				has_country_flag = gs_set_country_name_MONDSTADT
+				has_country_flag = gs_set_country_name_LIYUE
+				has_country_flag = gs_set_country_name_INAZUMA
+				has_country_flag = gs_set_country_name_SUMERU
+				has_country_flag = gs_set_country_name_FONTAINE
+				has_country_flag = gs_set_country_name_NATLAN
+				has_country_flag = gs_set_country_name_Remuria
+				has_country_flag = gs_set_country_name_YONGSHILETU
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			restore_country_name = yes
+			clr_country_flag = gs_set_country_name_MONDSTADT
+			clr_country_flag = gs_set_country_name_LIYUE
+			clr_country_flag = gs_set_country_name_INAZUMA
+			clr_country_flag = gs_set_country_name_SUMERU
+			clr_country_flag = gs_set_country_name_FONTAINE
+			clr_country_flag = gs_set_country_name_NATLAN
+			clr_country_flag = gs_set_country_name_Remuria
+			clr_country_flag = gs_set_country_name_YONGSHILETU
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# b`YRÀYúòrÇ
+	gs_country_color_Rever = {
+		color = { 147 147 147 }
+		major = no
+		potential = {
+			OR = {
+				has_country_flag = gs_set_country_color_MONDSTADT
+				has_country_flag = gs_set_country_color_LIYUE
+				has_country_flag = gs_set_country_color_INAZUMA
+				has_country_flag = gs_set_country_color_SUMERU
+				has_country_flag = gs_set_country_color_FONTAINE
+				has_country_flag = gs_set_country_color_NATLAN
+				has_country_flag = gs_set_country_color_YONGSHILETU
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			restore_country_color = yes
+			clr_country_flag = gs_set_country_color_MONDSTADT
+			clr_country_flag = gs_set_country_color_LIYUE
+			clr_country_flag = gs_set_country_color_INAZUMA
+			clr_country_flag = gs_set_country_color_SUMERU
+			clr_country_flag = gs_set_country_color_FONTAINE
+			clr_country_flag = gs_set_country_color_NATLAN
+			clr_country_flag = gs_set_country_color_YONGSHILETU
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# 7R∞etıV
+	gs_country_ideal_Rever = {
+		color = { 147 147 147 }
+		major = no
+		potential = {
+			OR = {
+				has_country_flag = gs_set_country_idea_MONDSTADT
+				has_country_flag = gs_set_country_idea_LIYUE
+				has_country_flag = gs_set_country_idea_INAZUMA
+				has_country_flag = gs_set_country_idea_SUMERU
+				has_country_flag = gs_set_country_idea_FONTAINE
+				has_country_flag = gs_set_country_idea_NATLAN
+				has_country_flag = gs_set_country_color_YONGSHILETU
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			clr_country_flag = gs_set_country_idea_MONDSTADT
+			clr_country_flag = gs_set_country_idea_LIYUE
+			clr_country_flag = gs_set_country_idea_INAZUMA
+			clr_country_flag = gs_set_country_idea_SUMERU
+			clr_country_flag = gs_set_country_idea_FONTAINE
+			clr_country_flag = gs_set_country_idea_NATLAN
+			clr_country_flag = gs_set_country_color_YONGSHILETU
+			country_event = { id = ideagroups.1 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,438 @@
+country_decisions = {
+	#*YZÜqS
+	gs_taixu_build = {
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_taixu_build_end }
+			ai = no
+			any_owned_province = {
+				infantry_in_province = 84
+				NOT = { infantry_in_province = 85 }
+				cavalry_in_province = 64
+				NOT = { cavalry_in_province = 65 }
+				artillery_in_province = 90
+				NOT = { artillery_in_province = 91 }
+			}
+			NOT = {
+				any_owned_province = {
+					has_great_project = {
+						type = taixu
+						tier = 0
+					}
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				infantry_in_province = 84
+				NOT = { infantry_in_province = 85 }
+				cavalry_in_province = 64
+				NOT = { cavalry_in_province = 65 }
+				artillery_in_province = 90
+				NOT = { artillery_in_province = 91 }
+			}
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					infantry_in_province = 84
+					NOT = { infantry_in_province = 85 }
+					cavalry_in_province = 64
+					NOT = { cavalry_in_province = 65 }
+					artillery_in_province = 90
+					NOT = { artillery_in_province = 91 }
+				}
+				add_province_modifier = {
+					name = gs_taixu_location
+					duration = -1
+				}
+				add_great_project = {
+					type = taixu
+					instant = yes
+				}
+			}
+			set_country_flag = gs_taixu_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#8lNPNW
+	gs_letu_build = {
+		color = { 255 204 251 }
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_letu_build_end }
+			ai = no
+			any_owned_province = {
+				infantry_in_province = 22
+				NOT = { infantry_in_province = 23 }
+				cavalry_in_province = 11
+				NOT = { cavalry_in_province = 12 }
+				artillery_in_province = 11
+				NOT = { artillery_in_province = 12 }
+			}
+			NOT = {
+				any_owned_province = {
+					has_great_project = {
+						type = letu
+						tier = 0
+					}
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				infantry_in_province = 22
+				NOT = { infantry_in_province = 23 }
+				cavalry_in_province = 11
+				NOT = { cavalry_in_province = 12 }
+				artillery_in_province = 11
+				NOT = { artillery_in_province = 12 }
+			}
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					infantry_in_province = 22
+					NOT = { infantry_in_province = 23 }
+					cavalry_in_province = 11
+					NOT = { cavalry_in_province = 12 }
+					artillery_in_province = 11
+					NOT = { artillery_in_province = 12 }
+				}
+				add_province_modifier = {
+					name = gs_letu_location
+					duration = -1
+				}
+				add_great_project = {
+					type = letu
+					instant = yes
+				}
+			}
+			set_country_flag = gs_letu_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#ÏS2UÒÇNh
+	gs_yingjie_build = {
+		color = { 255 204 251 }
+		major = no
+		potential = {
+			NOT = { has_country_flag = gs_yingjie_build_end }
+			ai = no
+			any_owned_province = {
+				has_great_project = {
+					type = letu
+					tier = 3
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = letu
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_kaiwen } }
+				add_country_modifier = {
+					name = gs_leader_kaiwen
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_ailixiya } }
+				add_country_modifier = {
+					name = gs_leader_ailixiya
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_aboniya } }
+				add_country_modifier = {
+					name = gs_leader_aboniya
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_yidian } }
+				add_country_modifier = {
+					name = gs_leader_yidian
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_weierwei } }
+				add_country_modifier = {
+					name = gs_leader_weierwei
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_qianjie } }
+				add_country_modifier = {
+					name = gs_leader_qianjie
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_su } }
+				add_country_modifier = {
+					name = gs_leader_su
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_ying2 } }
+				add_country_modifier = {
+					name = gs_leader_ying2
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_kesimo } }
+				add_country_modifier = {
+					name = gs_leader_kesimo
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_meibiwusi } }
+				add_country_modifier = {
+					name = gs_leader_meibiwusi
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_geleixiu } }
+				add_country_modifier = {
+					name = gs_leader_geleixiu
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_hua } }
+				add_country_modifier = {
+					name = gs_leader_hua
+					duration = -1
+				}
+			}
+			if = {
+				limit = { NOT = { has_country_modifier = gs_leader_paduo } }
+				add_country_modifier = {
+					name = gs_leader_paduo
+					duration = -1
+				}
+			}
+			set_country_flag = gs_yingjie_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#NXX
+	gs_NXX_build = {
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_NXX_build_end }
+			ai = no
+			has_leader = "YfV"
+			has_leader = "ÊT6q"
+			has_leader = "´ÉV"
+			has_leader = "FñofåT"
+			NOT = {
+				any_owned_province = {
+					has_great_project = {
+						type = NXX
+						tier = 0
+					}
+				}
+			}
+		}
+		allow = {
+			has_leader = "YfV"
+			has_leader = "ÊT6q"
+			has_leader = "´ÉV"
+			has_leader = "FñofåT"
+		}
+		effect = {
+			if = {
+				limit = {
+					any_owned_province = {
+						cavalry_in_province = 3
+						NOT = { cavalry_in_province = 4 }
+					}
+				}
+				random_owned_province = {
+					limit = {
+						cavalry_in_province = 3
+						NOT = { cavalry_in_province = 4 }
+					}
+					add_province_modifier = {
+						name = gs_NXX_location
+						duration = -1
+					}
+					add_great_project = {
+						type = NXX
+						instant = yes
+					}
+				}
+			}
+			else = {
+				random_owned_province = {
+					add_province_modifier = {
+						name = gs_NXX_location
+						duration = -1
+					}
+					add_great_project = {
+						type = NXX
+						instant = yes
+					}
+				}
+			}
+			set_country_flag = gs_NXX_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#fyzRfè
+	gs_Star_build = {
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_Star_build_end }
+			ai = no
+			any_owned_province = {
+				base_tax = 23
+				NOT = { base_tax = 24 }
+				base_production = 4
+				NOT = { base_production = 5 }
+				base_manpower = 26
+				NOT = { base_manpower = 27 }
+			}
+			NOT = {
+				any_owned_province = {
+					has_great_project = {
+						type = Star
+						tier = 0
+					}
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				base_tax = 23
+				NOT = { base_tax = 24 }
+				base_production = 4
+				NOT = { base_production = 5 }
+				base_manpower = 26
+				NOT = { base_manpower = 27 }
+			}
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					base_tax = 23
+					NOT = { base_tax = 24 }
+					base_production = 4
+					NOT = { base_production = 5 }
+					base_manpower = 26
+					NOT = { base_manpower = 27 }
+				}
+				add_province_modifier = {
+					name = gs_Star_location
+					duration = -1
+				}
+				add_great_project = {
+					type = Star
+					instant = yes
+				}
+			}
+			set_country_flag = gs_Star_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#∞eåÇ)R˝ê
+	gs_ZZZ_build = {
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_ZZZ_build_end }
+			ai = no
+			num_of_allies = 1
+			NOT = { num_of_allies = 2 }
+			vassal = 2
+			NOT = { vassal = 3 }
+			march = 3
+			NOT = { march = 4 }
+			NOT = {
+				any_owned_province = {
+					has_great_project = {
+						type = ZZZnew
+						tier = 0
+					}
+				}
+			}
+		}
+		allow = {
+			num_of_allies = 1
+			NOT = { num_of_allies = 2 }
+			vassal = 2
+			NOT = { vassal = 3 }
+			march = 3
+			NOT = { march = 4 }
+		}
+		effect = {
+			if = {
+				limit = {
+					any_owned_province = {
+						cavalry_in_province = 3
+						NOT = { cavalry_in_province = 4 }
+					}
+				}
+				random_owned_province = {
+					limit = {
+						cavalry_in_province = 3
+						NOT = { cavalry_in_province = 4 }
+					}
+					add_province_modifier = {
+						name = gs_ZZZ_location
+						duration = -1
+					}
+					add_great_project = {
+						type = ZZZnew
+						instant = yes
+					}
+				}
+			}
+			else = {
+				random_owned_province = {
+					add_province_modifier = {
+						name = gs_ZZZ_location
+						duration = -1
+					}
+					add_great_project = {
+						type = ZZZnew
+						instant = yes
+					}
+				}
+			}
+			set_country_flag = gs_ZZZ_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

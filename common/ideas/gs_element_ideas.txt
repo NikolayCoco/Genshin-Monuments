@@ -1,0 +1,246 @@
+gs_element_adm_ideas = { 
+	category = ADM
+	trigger = {
+		OR = {
+			ai = no
+			has_global_flag = gs_allow_ai_element_ideas
+			gs_is_gs_nation = yes
+		}
+		has_estate_privilege = estate_genshin_element_idea
+	}
+
+	gs_element_adm_ideas_1 = {	
+		global_unrest = -2
+		idea_cost = -0.3
+	}
+	gs_element_adm_ideas_2 = {
+		governing_cost = -0.25
+		global_trade_goods_size = 0.2
+	}
+	gs_element_adm_ideas_3 = {
+		global_autonomy = -0.15
+		min_autonomy = -20
+		min_autonomy_in_territories = -0.2
+	}
+	gs_element_adm_ideas_4 = {
+		technology_cost = -0.15
+		global_monthly_devastation = -0.25
+		global_prosperity_growth = 0.25
+	}
+	gs_element_adm_ideas_5 = {
+		legitimacy = 2
+		republican_tradition = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		tolerance_own = 2
+		missionaries = 2
+		global_missionary_strength = 0.02
+		yearly_harmony = 0.2
+	}
+	gs_element_adm_ideas_6 = {
+		mercenary_cost = -0.25
+		merc_maintenance_modifier = -0.25
+		possible_condottieri = 1
+	}
+	gs_element_adm_ideas_7 = {
+		global_institution_spread = 0.5
+		embracement_cost = -0.3
+	}
+	bonus = {
+		core_creation = -0.2
+		years_of_nationalism = -10
+	}
+
+	ai_will_do = {
+		factor = 0.7
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_anemo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_geo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_electro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_dendro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_hydro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_pyro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_cryo
+		}
+	}
+}
+
+gs_element_dip_ideas = { 
+	category = DIP
+	trigger = {
+		OR = {
+			ai = no
+			has_global_flag = gs_allow_ai_element_ideas
+			gs_is_gs_nation = yes
+		}
+		has_estate_privilege = estate_genshin_element_idea
+	}
+
+	gs_element_dip_ideas_1 = {	
+		diplomats = 2
+		envoy_travel_time = -0.4
+	}
+	gs_element_dip_ideas_2 = {
+		merchants = 2
+		trade_efficiency = 0.2
+	}
+	gs_element_dip_ideas_3 = {
+		diplomatic_upkeep = 2
+		improve_relation_modifier = 0.2
+	}
+	gs_element_dip_ideas_4 = {
+		may_explore = yes
+		colonists = 2
+		global_colonial_growth = 20
+		range = 1
+	}
+	gs_element_dip_ideas_5 = {
+		spy_offence = 1
+		global_spy_defence = 0.66
+	}
+	gs_element_dip_ideas_6 = {
+		diplomatic_annexation_cost = -0.3
+		accept_vassalization_reasons = 30
+	}
+	gs_element_dip_ideas_7 = {
+		naval_morale = 0.2
+		naval_morale_damage_received = -0.2
+	}
+	bonus = {
+		ae_impact = -0.2
+		diplomatic_reputation = 2
+	}
+	
+	ai_will_do = {
+		factor = 0.7
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_anemo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_geo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_electro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_dendro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_hydro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_pyro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_cryo
+		}
+	}
+}
+
+gs_element_mil_ideas = { 
+	category = MIL
+	trigger = {
+		OR = {
+			ai = no
+			has_global_flag = gs_allow_ai_element_ideas
+			gs_is_gs_nation = yes
+		}
+		has_estate_privilege = estate_genshin_element_idea
+	}
+
+	gs_element_mil_ideas_1 = {
+		movement_speed = 0.4
+		land_attrition = -0.3
+	}
+	gs_element_mil_ideas_2 = {
+		shock_damage_received = -0.2
+		fire_damage_received = -0.2
+	}
+	gs_element_mil_ideas_3 = {
+		land_morale = 0.2
+		morale_damage_received = -0.2
+	}
+	gs_element_mil_ideas_4 = {
+		discipline = 0.2
+		siege_ability = 0.25
+	}
+	gs_element_mil_ideas_5 = {
+		reinforce_speed = 0.1
+		recover_army_morale_speed = 0.1
+		military_tactics = 0.5
+	}
+	gs_element_mil_ideas_6 = {
+		shock_damage = 0.2
+		fire_damage = 0.2
+	}
+	gs_element_mil_ideas_7 = {
+		may_recruit_female_generals = yes
+		leader_land_fire = 1
+		leader_land_shock = 1
+		leader_land_manuever = 1
+		leader_siege = 1
+	}
+	bonus = {
+		province_warscore_cost = -0.2
+		global_manpower_modifier = 0.2
+	}
+
+	ai_will_do = {
+		factor = 0.7
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_anemo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_geo
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_electro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_dendro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_hydro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_pyro
+		}
+		modifier = {
+			factor = 1.32
+			has_estate_privilege = estate_genshin_vision_cryo
+		}
+	}
+}

@@ -1,0 +1,1066 @@
+namespace = gs_monuments_events
+
+# 仇敌仿佛众水翻腾……
+country_event = {
+	id = gs_monuments_events.10
+	title = gs_monuments_events_10_title
+	desc = gs_monuments_events_10_desc
+	picture = gs_monuments_events_10_eventPicture
+
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	immediate = { country_event = { id = gs_monuments_events.11 } }
+
+	option = { name = gs_monuments_events.10.a }
+}
+country_event = {
+	id = gs_monuments_events.11
+	title = gs_monuments_events_11_title
+	desc = gs_monuments_events_11_desc
+	picture = gs_monuments_events_11_eventPicture
+	goto = event_target:jiede_fuchou_target
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.11.a
+		event_target:jiede_fuchou_target = {
+			add_devastation = 30
+			add_great_project_tier = {
+				type = Tanit
+				tier = -3
+			}
+			add_base_tax = -2
+			add_base_production = -2
+			add_base_manpower = -2
+		}
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_jiede } }
+			add_country_modifier = {
+				name = gs_leader_jiede
+				duration = -1
+			}
+		}
+		add_country_modifier = {
+			name = gs_jiede_fuchou_end
+			duration = -1
+		}
+	}
+}
+
+# 已逝去的末日
+country_event = {
+	id = gs_monuments_events.2
+	title = gs_monuments_events_2_title
+	desc = gs_monuments_events_2_desc
+	picture = gs_monuments_events_2_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.2.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_Gurabad_modifier } }
+			add_country_modifier = {
+				name = gs_Gurabad_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+# 枫丹科学院，停滞于一片废墟上
+country_event = {
+	id = gs_monuments_events.30
+	title = gs_monuments_events_30_title
+	desc = gs_monuments_events_30_desc
+	picture = gs_monuments_events_30_eventPicture
+
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	immediate = { country_event = { id = gs_monuments_events.31 } }
+
+	option = { name = gs_monuments_events.30.a }
+}
+country_event = {
+	id = gs_monuments_events.31
+	title = gs_monuments_events_31_title
+	desc = gs_monuments_events_31_desc
+	picture = gs_monuments_events_31_eventPicture
+	goto = event_target:kexuey_shigu_target
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = { 
+		name = gs_monuments_events.31.a
+
+		event_target:kexuey_shigu_target = {
+			add_devastation = 10
+			add_great_project_tier = {
+				type = kexueyuan
+				tier = -2
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		country_event = { id = gs_monuments_events.4 }
+	}
+}
+
+# 艾德温 伊斯丁豪斯
+country_event = {
+	id = gs_monuments_events.4
+	title = gs_monuments_events_4_title
+	desc = gs_monuments_events_4_desc
+	picture = gs_monuments_events_4_eventPicture
+	goto = event_target:kexuey_shigu_target
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.4.a
+		
+		custom_tooltip = gs_monuments_events_4_tooltip
+		add_manpower = 1
+		add_treasury = 300
+		if = {
+			limit = { NOT = { has_country_modifier = gs_rebuild_kexueyuan } }
+			event_target:kexuey_shigu_target = {
+				add_province_modifier = {
+					name = gs_rebuild_kexueyuan
+					duration = 7300
+				}
+			}
+		}
+	}
+}
+
+# 「祭水之仪」
+country_event = {
+	id = gs_monuments_events.50
+	title = gs_monuments_events_50_title
+	desc = gs_monuments_events_50_desc
+	picture = gs_monuments_events_50_eventPicture
+
+	is_triggered_only = yes
+
+	hidden = yes
+	
+	immediate = { country_event = { id = gs_monuments_events.51 } }
+
+	option = { name = gs_monuments_events.50.a }
+}
+country_event = {
+	id = gs_monuments_events.51
+	title = gs_monuments_events_51_title
+	desc = gs_monuments_events_51_desc
+	picture = gs_monuments_events_51_eventPicture
+	goto = event_target:jishui_zhiyi_target
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.51.a
+
+		add_country_modifier = {
+			name = gs_silusha_end
+			duration = -1
+		}
+		event_target:jishui_zhiyi_target = {
+			add_prosperity = 30
+			add_great_project_tier = {
+				type = Apaosha
+				tier = -3
+			}
+			set_great_project_tier_1 = { type = Harvisptokhm }
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+	
+		}
+		if = {
+			limit = {
+				NOT = { has_country_modifier = gs_leader_silusha }
+			}
+			add_country_modifier = {
+				name = gs_leader_silusha
+				duration = -1
+			}
+		}
+		change_asha_vahishta = { value = 5 }
+	}
+}
+
+# 灵光颂
+country_event = {
+	id = gs_monuments_events.6
+	title = gs_monuments_events_6_title
+	desc = gs_monuments_events_6_desc
+	picture = gs_monuments_events_6_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.6.a
+		add_stability = 1
+		change_asha_vahishta = { value = 10 }
+	}
+}
+
+# 古老的书卷
+country_event = {
+	id = gs_monuments_events.7
+	title = gs_monuments_events_7_title
+	desc = gs_monuments_events_7_desc
+	picture = gs_monuments_events_7_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.7.a
+		add_stability = 2
+		change_asha_vahishta = { value = 20 }
+	}
+}
+
+# 林中奇遇
+country_event = {
+	id = gs_monuments_events.8
+	title = gs_monuments_events_8_title
+	desc = gs_monuments_events_8_desc
+	picture = gs_monuments_events_8_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.8.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_lana } }
+			add_country_modifier = {
+				name = gs_leader_lana
+				duration = -1
+			}
+		}
+	}
+}
+
+# 起初，只是在路边救了一个女孩……
+country_event = {
+	id = gs_monuments_events.9
+	title = gs_monuments_events_9_title
+	desc = gs_monuments_events_9_desc
+	picture = gs_monuments_events_9_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.9.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_lanluomo } }
+			add_country_modifier = {
+				name = gs_leader_lanluomo
+				duration = -1
+			}
+		}
+	}
+}
+
+# 仙人护佑-水患事件不再发生
+country_event = {
+	id = gs_monuments_events.15
+	title = gs_monuments_events_15_title
+	desc = gs_monuments_events_15_desc
+	picture = gs_monuments_events_15_eventPicture
+
+	trigger = {
+		OR = {
+			has_country_modifier = gsld_gov_reform_gs_S_12
+			has_country_modifier = gs_baojue_fanghong
+		}
+		OR = {
+			NOT = { has_ruler_flag = stall_flood_events_flag }
+			NOT = { has_ruler_flag = stall_flood_events2_flag }
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = {
+		set_ruler_flag = stall_flood_events_flag
+		set_ruler_flag = stall_flood_events2_flag
+	}
+
+	option = {
+		name = gs_monuments_events.15.a
+	}
+}
+
+
+# 给法兰西自身自体之塔的核心
+country_event = {
+	id = gs_monuments_events.20
+	title = gs_monuments_events_20_title
+	desc = gs_monuments_events_20_desc
+	picture = gs_monuments_events_20_eventPicture
+	goto = event_target:FRA_Ips_core_target
+
+	trigger = {
+		tag = FRA
+		event_target:FRA_Ips_core_target = {
+			has_great_project = {
+				type = Ipsissimus
+				tier = 1
+			}
+			NOT = { owned_by = FRA }
+		}
+		NOT = { has_country_flag = gs_FRA_Ips_core }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	immediate = { set_country_flag = gs_FRA_Ips_core }
+
+	option = {
+		name = gs_monuments_events.20.a
+		highlight = yes
+		event_target:FRA_Ips_core_target = {
+			add_territorial_core = FRA
+		}
+	}
+	option = {
+		name = gs_monuments_events.20.b
+	}
+}
+
+# 「超越」-抵消文化影响
+country_event = {
+	id = gs_monuments_events.21
+	title = gs_monuments_events_21_title
+	desc = gs_monuments_events_21_desc
+	picture = gs_monuments_events_21_eventPicture
+
+	trigger = {
+		has_country_modifier = gs_chaoyue
+		if = {
+			limit = { has_country_modifier = gs_Annapausis_real }
+			any_owned_province = {
+				OR = {
+					AND = {
+						AND = {
+							NOT = { culture_group = ROOT }
+							has_owner_culture = yes
+						}
+						NOT = { has_province_modifier = gs_chaoyue_same_culture }
+					}
+					AND = {
+						AND = {
+							NOT = { culture_group = ROOT }
+							has_owner_accepted_culture = no
+							has_owner_culture = no
+						}
+						NOT = { has_province_modifier = gs_chaoyue_wrong_culture_2 }
+					}
+					AND = {
+						AND = {
+							owner = {
+								has_cultural_union = no
+							}
+							culture_group = ROOT
+							has_owner_accepted_culture = no
+						}
+						NOT = { has_province_modifier = gs_chaoyue_same_culture_group_2 }
+					}
+				}
+			}
+		}
+		else = {
+			any_owned_province = {
+				OR = {
+					AND = {
+						AND = {
+							NOT = { culture_group = ROOT }
+							has_owner_accepted_culture = no
+							has_owner_culture = no
+						}
+						NOT = { has_province_modifier = gs_chaoyue_wrong_culture }
+					}
+					AND = {
+						AND = {
+							owner = {
+								has_cultural_union = no
+							}
+							culture_group = ROOT
+							has_owner_accepted_culture = no
+						}
+						NOT = { has_province_modifier = gs_chaoyue_same_culture_group }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { has_country_modifier = gs_Annapausis_real }
+			every_owned_province = {
+				if = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						has_owner_culture = yes
+					}
+					add_province_modifier = {
+						name = gs_chaoyue_same_culture
+						duration = -1
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						has_owner_accepted_culture = no
+						has_owner_culture = no
+					}
+					add_province_modifier = {
+						name = gs_chaoyue_wrong_culture_2
+						duration = -1
+					}
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_cultural_union = no
+						}
+						culture_group = ROOT
+						has_owner_accepted_culture = no
+					}
+					add_province_modifier = {
+						name = gs_chaoyue_same_culture_group_2
+						duration = -1
+					}
+				}
+			}
+		}
+		else = {
+			every_owned_province = {
+				if = {
+					limit = {
+						NOT = { culture_group = ROOT }
+						has_owner_accepted_culture = no
+						has_owner_culture = no
+					}
+					add_province_modifier = {
+						name = gs_chaoyue_wrong_culture
+						duration = -1
+					}
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_cultural_union = no
+						}
+						culture_group = ROOT
+						has_owner_accepted_culture = no
+					}
+					add_province_modifier = {
+						name = gs_chaoyue_same_culture_group
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = gs_monuments_events.21.a
+	}
+}
+
+# 去除「超越」修正-无gs_chaoyue
+country_event = {
+	id = gs_monuments_events.22
+	title = gs_monuments_events_22_title
+	desc = gs_monuments_events_22_desc
+	picture = gs_monuments_events_22_eventPicture
+
+	trigger = {
+		NOT = { has_country_modifier = gs_chaoyue }
+		any_owned_province = {
+			OR = {
+				has_province_modifier = gs_chaoyue_same_culture
+				has_province_modifier = gs_chaoyue_wrong_culture
+				has_province_modifier = gs_chaoyue_wrong_culture_2
+				has_province_modifier = gs_chaoyue_same_culture_group
+				has_province_modifier = gs_chaoyue_same_culture_group_2
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = {
+		every_owned_province = {
+			remove_province_modifier = gs_chaoyue_wrong_culture
+			remove_province_modifier = gs_chaoyue_wrong_culture_2
+			remove_province_modifier = gs_chaoyue_same_culture_group
+			remove_province_modifier = gs_chaoyue_same_culture_group_2
+		}
+	}
+
+	option = {
+		name = gs_monuments_events.22.a
+	}
+}
+
+# 去除「超越」修正-不再是异文化
+country_event = {
+	id = gs_monuments_events.23
+	title = gs_monuments_events_23_title
+	desc = gs_monuments_events_23_desc
+	picture = gs_monuments_events_23_eventPicture
+
+	trigger = {
+		has_country_modifier = gs_chaoyue
+		any_owned_province = {
+			OR = {
+				AND = {
+					NOT = {
+						AND = {
+							NOT = { culture_group = ROOT }
+							has_owner_accepted_culture = no
+							has_owner_culture = no
+						}
+					}
+					OR = {
+						has_province_modifier = gs_chaoyue_wrong_culture
+						has_province_modifier = gs_chaoyue_wrong_culture_2
+					}
+					
+				}
+				AND = {
+					NOT = {
+						AND = {
+							owner = {
+								has_cultural_union = no
+							}
+							culture_group = ROOT
+							has_owner_accepted_culture = no
+						}
+					}
+					OR = {
+						has_province_modifier = gs_chaoyue_same_culture_group
+						has_province_modifier = gs_chaoyue_same_culture_group_2
+					}
+					
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = {
+		every_owned_province = {
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							AND = {
+								NOT = { culture_group = ROOT }
+								has_owner_accepted_culture = no
+								has_owner_culture = no
+							}
+						}
+						OR = {
+							has_province_modifier = gs_chaoyue_wrong_culture
+							has_province_modifier = gs_chaoyue_wrong_culture_2
+						}
+					}
+				}
+				remove_province_modifier = gs_chaoyue_wrong_culture
+				remove_province_modifier = gs_chaoyue_wrong_culture_2
+			}
+			else_if = {
+				limit = {
+					AND = {
+						NOT = {
+							AND = {
+								owner = {
+									has_cultural_union = no
+								}
+								culture_group = ROOT
+								has_owner_accepted_culture = no
+							}
+						}
+						OR = {
+							has_province_modifier = gs_chaoyue_same_culture_group
+							has_province_modifier = gs_chaoyue_same_culture_group_2
+						}
+					}
+				}
+				remove_province_modifier = gs_chaoyue_same_culture_group
+				remove_province_modifier = gs_chaoyue_same_culture_group_2
+			}
+		}
+	}
+
+	option = {
+		name = gs_monuments_events.23.a
+	}
+}
+# 替换「超越」修正-获得gs_Annapausis_real
+country_event = {
+	id = gs_monuments_events.24
+	title = gs_monuments_events_24_title
+	desc = gs_monuments_events_24_desc
+	picture = gs_monuments_events_24_eventPicture
+
+	trigger = {
+		has_country_modifier = gs_chaoyue
+		has_country_modifier = gs_Annapausis_real
+		any_owned_province = {
+			OR = {
+				has_province_modifier = gs_chaoyue_wrong_culture
+				has_province_modifier = gs_chaoyue_same_culture_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = {
+		every_owned_province = {
+			remove_province_modifier = gs_chaoyue_wrong_culture
+			remove_province_modifier = gs_chaoyue_same_culture_group
+		}
+	}
+
+	option = {
+		name = gs_monuments_events.23.a
+	}
+}
+#水仙十字
+country_event = {
+	id = gs_monuments_events.25
+	title = gs_monuments_events_25_title
+	desc = gs_monuments_events_25_desc
+	picture = gs_monuments_events_25_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {  }
+
+	option = { 
+		name = gs_monuments_events.25.a 
+		if = {
+			limit = {
+				NOT = { 
+					has_country_modifier = gs_Annapausis_real
+				} 
+			}
+			add_country_modifier = {
+                name = gs_Annapausis_real
+		        duration = -1
+	        }
+		}
+	}
+}
+
+# 湖中垂柳的秘密
+country_event = {
+	id = gs_monuments_events.40
+	title = gs_monuments_events_40_title
+	desc = gs_monuments_events_40_desc
+	picture = gs_monuments_events_40_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.40.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_willow_modifier } }
+			add_country_modifier = {
+				name = gs_willow_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+# 神樱大祓
+country_event = {
+	id = gs_monuments_events.41
+	title = gs_monuments_events_41_title
+	desc = gs_monuments_events_41_desc
+	picture = gs_monuments_events_41_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.41.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_modifier_huasanli } }
+			add_country_modifier = {
+				name = gs_modifier_huasanli
+				duration = -1
+			}
+		}
+	}
+}
+
+# 踏鞴物语
+country_event = {
+	id = gs_monuments_events.42
+	title = gs_monuments_events_42_title
+	desc = gs_monuments_events_42_desc
+	picture = gs_monuments_events_42_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.42.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_zeweier } }
+			add_country_modifier = {
+				name = gs_leader_zeweier
+				duration = -1
+			}
+		}
+		custom_tooltip = desc_gs_leader_zeweier
+	}
+}
+
+# 眼狩令
+country_event = {
+	id = gs_monuments_events.43
+	title = gs_monuments_events_43_title
+	desc = gs_monuments_events_43_desc
+	picture = gs_monuments_events_43_eventPicture
+
+	trigger = {
+		has_country_modifier = overlord_sword_hunt
+		any_owned_province = {
+			has_great_project = {
+				type = leishenxiang
+				tier = 3
+			}
+			OR = {
+				gs_monuments_unlimit_trigger = yes
+				AND =  {
+					OR = {
+						has_owner_culture = yes
+						has_owner_accepted_culture = yes
+					}
+					culture_group = japanese_g
+					religion = shinto
+					has_owner_religion = yes
+				}
+			}
+		}
+		NOT = { has_country_modifier = gs_overlord_Vision_hunt }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		add_prestige = -20
+		add_country_modifier = {
+			name = gs_overlord_Vision_hunt
+			duration = 3650
+		}
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		custom_tooltip = gs_every_daimyo_Vision_hunt_tooltip
+		hidden_effect = {
+			every_subject_country = {
+				limit = {
+					is_subject_of_type = daimyo_vassal
+				}
+				add_country_modifier = {
+					name = gs_subject_Vision_hunt
+					duration = 3650
+				}
+			}
+		}
+	}
+
+	option = { name = gs_monuments_events.43.a }
+}
+
+# 雾海纪行
+country_event = {
+	id = gs_monuments_events.44
+	title = gs_monuments_events_44_title
+	desc = gs_monuments_events_44_desc
+	picture = gs_monuments_events_44_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.44.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_aliu_modifier } }
+			add_country_modifier = {
+				name = gs_aliu_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+# 「旧日之海」
+country_event = {
+	id = gs_monuments_events.45
+	title = gs_monuments_events_45_title
+	desc = gs_monuments_events_45_desc
+	picture = gs_monuments_events_45_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.45.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_Remuria_modifier } }
+			add_country_modifier = {
+				name = gs_Remuria_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+# 游水酝诗籍
+country_event = {
+	id = gs_monuments_events.60
+	title = gs_monuments_events_60_title
+	desc = gs_monuments_events_60_desc
+	picture = gs_monuments_events_60_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.60.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_shimen_modifier } }
+			add_country_modifier = {
+				name = gs_shimen_modifier
+				duration = -1
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_great_project = {
+					type = shimen
+					tier = 3
+				}
+			}
+			add_next_institution_embracement = 100
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = bbts
+					tier = 0
+				}
+			}
+			discover_country = ROOT
+			owner = {
+				add_historical_friend = ROOT
+				country_event = { id = gs_monuments_events.61 }
+			}
+		}
+	}
+	option = {
+		name = gs_monuments_events.60.b
+		if = {
+			limit = { NOT = { has_country_modifier = gs_shimen_modifier } }
+			add_country_modifier = {
+				name = gs_shimen_modifier
+				duration = -1
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_great_project = {
+					type = shimen
+					tier = 3
+				}
+			}
+			add_next_institution_embracement = 100
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = bbts
+					tier = 0
+				}
+			}
+			discover_country = ROOT
+			owner = {
+				add_historical_friend = ROOT
+				country_event = { id = gs_monuments_events.61 }
+			}
+		}
+		country_event = {
+			id = gs_monuments_events.62
+			days = 30
+		}
+	}
+}
+country_event = {
+	id = gs_monuments_events.61
+	title = gs_monuments_events_61_title
+	desc = gs_monuments_events_61_desc
+	picture = gs_monuments_events_61_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.60.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_shimen_modifier } }
+			add_country_modifier = {
+				name = gs_shimen_modifier
+				duration = -1
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_great_project = {
+					type = bbts
+					tier = 0
+				}
+			}
+			add_next_institution_embracement = 100
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = shimen
+					tier = 0
+				}
+			}
+			discover_country = ROOT
+			owner = { add_historical_friend = ROOT }
+		}
+	}
+}
+country_event = {
+	id = gs_monuments_events.62
+	title = gs_monuments_events_62_title
+	desc = gs_monuments_events_62_desc
+	picture = gs_monuments_events_62_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.62.a
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = Lucine
+					tier = 0
+				}
+			}
+			discover_country = ROOT
+			owner = {
+				add_historical_friend = ROOT
+				country_event = { id = gs_monuments_events.63 }
+			}
+		}
+		#play_song = amongthepoor
+	}
+}
+country_event = {
+	id = gs_monuments_events.63
+	title = gs_monuments_events_63_title
+	desc = gs_monuments_events_63_desc
+	picture = gs_monuments_events_63_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_monuments_events.63.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_shimen_modifier } }
+			add_country_modifier = {
+				name = gs_shimen_modifier
+				duration = -1
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_great_project = {
+					type = Lucine
+					tier = 0
+				}
+			}
+			add_next_institution_embracement = 100
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = shimen
+					tier = 0
+				}
+			}
+			discover_country = ROOT
+			owner = { add_historical_friend = ROOT }
+		}
+		#play_song = amongthepoor
+	}
+}

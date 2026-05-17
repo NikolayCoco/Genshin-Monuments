@@ -1,0 +1,4529 @@
+namespace = gs_decisions_events
+
+# ÀNÕuãNˆN
+country_event = {
+	id = gs_decisions_events.1000
+	title = gs_decisions_events_1000_title
+	desc = gs_decisions_events_1000_desc
+	picture = gs_decisions_events_1000_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.1000.a
+		country_event = { id = gs_decisions_events.1001 }
+	}
+	option = {
+		name = gs_decisions_events.1000.b
+		country_event = { id = gs_decisions_events.1002 }
+	}
+
+	option = {
+		name = gs_decisions_events.1000.c
+		highlight = yes
+		
+		if = {
+			limit = { NOT = { has_country_modifier = gs_start } }
+			add_country_modifier = {
+				name = gs_start
+				duration = -1
+			}
+		}
+		custom_tooltip = desc_gs_start
+	}
+
+	option = {
+		name = gs_decisions_events.1000.d
+		highlight = yes
+		trigger = { NOT = { has_country_modifier = gs_Paimon } }
+
+		if = {
+			limit = { NOT = { has_country_modifier = gs_start } }
+			add_country_modifier = {
+				name = gs_start
+				duration = -1
+			}
+		}
+		custom_tooltip = desc_gs_start
+		if = {
+			limit = { NOT = { has_country_modifier = gs_Paimon } }
+			add_country_modifier = {
+				name = gs_Paimon
+				duration = -1
+			}
+		}
+		custom_tooltip = gs_Paimon_start
+	}
+}
+country_event = {
+	id = gs_decisions_events.1001
+	title = gs_decisions_events_1001_title
+	desc = gs_decisions_events_1001_desc
+	picture = gs_decisions_events_1001_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.1001.a
+		trigger = { NOT = { has_global_flag = gs_Natlan_Ode_Resurrection } }
+		set_global_flag = gs_Natlan_Ode_Resurrection
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.b
+		trigger = { has_global_flag = gs_Natlan_Ode_Resurrection }
+		clr_global_flag = gs_Natlan_Ode_Resurrection
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.c
+		trigger = { NOT = { has_country_modifier = gs_monuments_unlimit_open } }
+		add_country_modifier = {
+			name = gs_monuments_unlimit_open
+			duration = -1
+			desc = desc_gs_monuments_unlimit_open
+		}
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.d
+		trigger = { has_country_modifier = gs_monuments_unlimit_open }
+		remove_country_modifier = gs_monuments_unlimit_open
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.e
+		trigger = { NOT = { has_global_flag = ys_qiguan_shengfen_mingzi } }
+		set_global_flag = ys_qiguan_shengfen_mingzi
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.f
+		trigger = { has_global_flag = ys_qiguan_shengfen_mingzi }
+		clr_global_flag = ys_qiguan_shengfen_mingzi
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.g
+		trigger = { NOT = { has_global_flag = gs_happy_mod_open } }
+		set_global_flag = gs_happy_mod_open
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.h
+		trigger = { has_global_flag = gs_happy_mod_open }
+		clr_global_flag = gs_happy_mod_open
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.i
+		trigger = { NOT = { has_global_flag = gs_OnlyFans_mod_open } }
+		set_global_flag = gs_OnlyFans_mod_open
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.j
+		trigger = { has_global_flag = gs_OnlyFans_mod_open }
+		clr_global_flag = gs_OnlyFans_mod_open
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1001.k
+		country_event = { id = gs_decisions_events.1000 }
+	}
+}
+country_event = {
+	id = gs_decisions_events.1002
+	title = gs_decisions_events_1002_title
+	desc = gs_decisions_events_1002_desc
+	picture = gs_decisions_events_1002_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.1002.a
+		trigger = { NOT = { has_global_flag = gs_allow_ai_unlimit } }
+		set_global_flag = gs_allow_ai_unlimit
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.b
+		trigger = { has_global_flag = gs_allow_ai_unlimit }
+		clr_global_flag = gs_allow_ai_unlimit
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.c
+		trigger = {
+			NOT = { has_global_flag = gs_move_start }
+			NOT = { has_global_flag = ys_ai_qiguan_shengfen_mingzi }
+		}
+		set_global_flag = ys_ai_qiguan_shengfen_mingzi
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.d
+		trigger = {
+			NOT = { has_global_flag = gs_move_start }
+			has_global_flag = ys_ai_qiguan_shengfen_mingzi
+		}
+		clr_global_flag = ys_ai_qiguan_shengfen_mingzi
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.e
+		trigger = { NOT = { has_global_flag = gs_allow_ai_Easter } }
+		set_global_flag = gs_allow_ai_Easter
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.f
+		trigger = { has_global_flag = gs_allow_ai_Easter }
+		clr_global_flag = gs_allow_ai_Easter
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.g
+		trigger = { NOT = { has_global_flag = gs_allow_ai_happy } }
+		set_global_flag = gs_allow_ai_happy
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.h
+		trigger = { has_global_flag = gs_allow_ai_happy }
+		clr_global_flag = gs_allow_ai_happy
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.i
+		trigger = { NOT = { has_global_flag = gs_allow_ai_gs_estate } }
+		set_global_flag = gs_allow_ai_gs_estate
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.j
+		trigger = { has_global_flag = gs_allow_ai_gs_estate }
+		clr_global_flag = gs_allow_ai_gs_estate
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.k
+		trigger = { NOT = { has_global_flag = gs_allow_ai_element_ideas } }
+		set_global_flag = gs_allow_ai_element_ideas
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.l
+		trigger = { has_global_flag = gs_allow_ai_element_ideas }
+		clr_global_flag = gs_allow_ai_element_ideas
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1002.m
+		country_event = { id = gs_decisions_events.1000 }
+	}
+}
+# >môÑÿè±î
+country_event = {
+	id = gs_decisions_events.1003
+	title = gs_decisions_events_1003_title
+	desc = gs_decisions_events_1003_desc
+	picture = gs_decisions_events_1003_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		custom_tooltip = gs_Paimon_repay_tooltip_tt
+		hidden_effect = {
+			kill_leader = { type = ">môÑ 0gãYÑvO4Oˇ0" }
+			#remove_country_modifier = bankruptcy
+			add_country_modifier = {
+				name = gs_modifier_Paimon_repay
+				duration = 1825
+			}
+		}
+	}
+
+	option = {
+		name = gs_decisions_events.1003.a
+
+		add_stability = 1
+		add_treasury = 10000
+		add_years_of_income = 100
+		add_inflation = 10
+	}
+}
+#AIüS^y˝V∂R-°l	gtıV-ªSdñtıVflag
+country_event = {
+	id = gs_decisions_events.20
+	title = gs_decisions_events_20_title
+	desc = gs_decisions_events_20_desc
+	picture = gs_decisions_events_20_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_MONDSTADT
+		NOT = { has_idea = MONDSTADT_ideas_1 }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_MONDSTADT }
+
+	option = {
+		name = gs_decisions_events.20.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.21
+	title = gs_decisions_events_21_title
+	desc = gs_decisions_events_21_desc
+	picture = gs_decisions_events_21_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_LIYUE
+		NOT = { has_idea = LIYUE_ideas_1 }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_LIYUE }
+
+	option = {
+		name = gs_decisions_events.21.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.22
+	title = gs_decisions_events_22_title
+	desc = gs_decisions_events_22_desc
+	picture = gs_decisions_events_22_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_INAZUMA
+		NOT = { has_idea = INAZUMA_ideas_1 }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_INAZUMA }
+
+	option = {
+		name = gs_decisions_events.22.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.23
+	title = gs_decisions_events_23_title
+	desc = gs_decisions_events_23_desc
+	picture = gs_decisions_events_23_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_SUMERU
+		NOT = { has_idea = SUMERU_ideas_1 }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_SUMERU }
+
+	option = {
+		name = gs_decisions_events.23.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.24
+	title = gs_decisions_events_24_title
+	desc = gs_decisions_events_24_desc
+	picture = gs_decisions_events_24_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_FONTAINE
+		NOT = { has_idea = FONTAINE_ideas_1 }
+		NOT = { is_revolution_target = yes }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_FONTAINE }
+
+	option = {
+		name = gs_decisions_events.24.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.25
+	title = gs_decisions_events_25_title
+	desc = gs_decisions_events_25_desc
+	picture = gs_decisions_events_25_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_FONTAINE
+		NOT = { has_idea = Revolution_FONTAINE_ideas_1 }
+		is_revolution_target = yes
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_FONTAINE }
+
+	option = {
+		name = gs_decisions_events.25.a
+	}
+}
+country_event = {
+	id = gs_decisions_events.26
+	title = gs_decisions_events_26_title
+	desc = gs_decisions_events_26_desc
+	picture = gs_decisions_events_26_eventPicture
+
+	trigger = {
+		ai = yes
+		adm_tech = 7
+		has_country_flag = gs_set_country_idea_NATLAN
+		NOT = { has_idea = Revolution_NATLAN_ideas_1 }
+		is_revolution_target = yes
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	hidden = yes
+
+	immediate = { clr_country_flag = gs_set_country_idea_NATLAN }
+
+	option = {
+		name = gs_decisions_events.26.a
+	}
+}
+country_event = {#ÉtglèÿSg!ç:NDñ∏^
+	id = gs_decisions_events.30
+	title = gs_decisions_events_30_title
+	desc = gs_decisions_events_30_desc
+	picture = gs_decisions_events_30_eventPicture
+
+	trigger = {
+		ai = yes
+		gs_happy_mod_trigger = yes
+		has_ruler_flag = gs_ruler_zhongli
+		is_emperor_of_china = yes
+		empire_of_china_reform_passed = vassalize_tributaries_decision
+		imperial_mandate = 100
+	}
+	
+	mean_time_to_happen = { days = 730 }
+	
+	hidden = yes
+
+	immediate = {
+		save_event_target_as = liyue_subject_target
+		random_country = {
+			limit = {
+				ai = yes
+				is_subject_of = event_target:liyue_subject_target
+				is_subject_of_type = tributary_state
+				NOT = { total_development = 400 }
+			}
+			save_event_target_as = liyue_vassal_target
+		}
+		create_subject = {
+			subject_type = vassal
+			subject = event_target:liyue_vassal_target
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 400 }
+					total_development = 360
+				}
+			}
+			add_mandate = -100
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 360 }
+					total_development = 320
+				}
+			}
+			add_mandate = -90
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 320 }
+					total_development = 280
+				}
+			}
+			add_mandate = -80
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 280 }
+					total_development = 240
+				}
+			}
+			add_mandate = -70
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 240 }
+					total_development = 200
+				}
+			}
+			add_mandate = -60
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 200 }
+					total_development = 160
+				}
+			}
+			add_mandate = -50
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 200 }
+					total_development = 160
+				}
+			}
+			add_mandate = -50
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 160 }
+					total_development = 120
+				}
+			}
+			add_mandate = -40
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 120 }
+					total_development = 80
+				}
+			}
+			add_mandate = -30
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 80 }
+					total_development = 40
+				}
+			}
+			add_mandate = -20
+		}
+		if = {
+			limit = {
+				event_target:liyue_vassal_target = {
+					NOT = { total_development = 40 }
+				}
+			}
+			add_mandate = -10
+		}
+	}
+
+	option = {
+		name = gs_decisions_events.30.a
+	}
+}
+
+country_event = {#N.ï˙^büS^yGY¬â
+	id = gs_decisions_events.31
+	title = gs_decisions_events_31_title
+	desc = gs_decisions_events_31_desc
+	picture = gs_decisions_events_31_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.31.a
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_wendi
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengqishi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xifengqishi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xifengqishi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xifengqishi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bbts
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = bbts
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bbts
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bbts
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingfu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jingfu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingfu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingfu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengchurch
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xifengchurch
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xifengchurch
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xifengchurch
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = feixu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = feixu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = feixu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = feixu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chenxi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = chenxi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chenxi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chenxi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qianfeng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qianfeng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qianfeng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qianfeng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = haitan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = haitan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = haitan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = haitan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xingluo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xingluo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xingluo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xingluo
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhaixing
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zhaixing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhaixing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhaixing
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = pugongying
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = pugongying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = pugongying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = pugongying
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shiyan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shiyan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fengqidi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = fengqidi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fengqidi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fengqidi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tushuguan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tushuguan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tushuguan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tushuguan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = benlang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = benlang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = benlang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = benlang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dafengjiguan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dafengjiguan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dafengjiguan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dafengjiguan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = diyu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = diyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = diyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = diyu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qingquan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qingquan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qingquan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qingquan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fuxue
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = fuxue
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fuxue
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fuxue
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuezang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xuezang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuezang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuezang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hantian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hantian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hantian
+						tier = 1
+					}
+				}
+			}
+
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.b
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_zhongli
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = qunyu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qunyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qunyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qunyu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yiyan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yiyan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuehai
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yuehai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuehai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuehai
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yujing
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yujing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yujing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yujing
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = thegoldenhouse
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = thegoldenhouse
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = thegoldenhouse
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = thegoldenhouse
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fenglin
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = fenglin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fenglin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fenglin
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jueyun
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jueyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jueyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jueyun
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qingce
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qingce
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qingce
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qingce
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianheng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tianheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianheng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wangshu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = wangshu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wangshu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wangshu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dihua
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dihua
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dihua
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dihua
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yaoguang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yaoguang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yaoguang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yaoguang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = guyun
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = guyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guyun
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = guizhong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = guizhong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guizhong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guizhong
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = lingju
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = lingju
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lingju
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lingju
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = lisha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = lisha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lisha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lisha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hulao
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = hulao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hulao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hulao
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wanmin
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = wanmin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wanmin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wanmin
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wangsheng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = wangsheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wangsheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wangsheng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bubulu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = bubulu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bubulu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bubulu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dizhong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dizhong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dizhong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dizhong
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shimen
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shimen
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shimen
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shimen
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = heiyan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = heiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = heiyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = heiyan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yanceng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yanceng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yanceng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yanceng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dansha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dansha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dansha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dansha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = juyuanzhikou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = juyuanzhikou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = juyuanzhikou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = juyuanzhikou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiao
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qiao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiao
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yiloong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yiloong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yiloong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yiloong
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = baojue
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = baojue
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = baojue
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = baojue
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chiwang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = chiwang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chiwang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chiwang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = guhua
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = guhua
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guhua
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guhua
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yaodie
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yaodie
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yaodie
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yaodie
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuanlian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuanlian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanlian
+						tier = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.c
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_leishen
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianshou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tianshou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianshou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianshou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = leishenxiang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = leishenxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = leishenxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = leishenxiang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenying
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shenying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenying
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yingxiang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yingxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yingxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yingxiang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = changyeyuan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = changyeyuan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = changyeyuan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = changyeyuan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiusha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qiusha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiusha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiusha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianling
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tianling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianling
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = kanding
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = kanding
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = kanding
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = kanding
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mulou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = mulou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mulou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mulou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhenshou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zhenshou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhenshou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhenshou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = ganjin
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = ganjin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = ganjin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = ganjin
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = lidao
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = lidao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lidao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lidao
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shegu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shegu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shegu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shegu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tabei
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tabei
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tabei
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tabei
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuying
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yuying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuying
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuying
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wuxiang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = wuxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wuxiang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = wuxiang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mingzhui
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = mingzhui
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mingzhui
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mingzhui
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jiutiao
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jiutiao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jiutiao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jiutiao
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenli
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shenli
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenli
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenli
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qinglai
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qinglai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qinglai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qinglai
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shanhu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shanhu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shanhu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shanhu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tengdou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tengdou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tengdou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tengdou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mengyun
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = mengyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mengyun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mengyun
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = baiye
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = baiye
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = baiye
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = baiye
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jianming
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jianming
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jianming
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jianming
+						tier = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.d
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_naxida
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingshan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jingshan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingshan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingshan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jiaoling
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jiaoling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jiaoling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jiaoling
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhihuigong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zhihuigong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhihuigong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhihuigong
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dabazha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dabazha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dabazha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dabazha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jusha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jusha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jusha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jusha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gandharva
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Gandharva
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gandharva
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gandharva
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gandhahill
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Gandhahill
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gandhahill
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gandhahill
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Devadaha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Devadaha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Devadaha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Devadaha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Alcazarzaray
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Alcazarzaray
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Alcazarzaray
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Alcazarzaray
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Ormos
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Ormos
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Ormos
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Ormos
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Bayda
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Bayda
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Bayda
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Bayda
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Vimala
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Vimala
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vimala
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vimala
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Vanarana
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Vanarana
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vanarana
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vanarana
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Dhyai
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Dhyai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Dhyai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Dhyai
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Apam
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Apam
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Apam
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Apam
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Dahri
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Dahri
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Dahri
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Dahri
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Caravan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Caravan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Caravan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Caravan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Aru
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Aru
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aru
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aru
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Chiwangling
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Chiwangling
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Baoyin
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Baoyin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Baoyin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Baoyin
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Shuoshi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Shuoshi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Shuoshi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Shuoshi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Birang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Birang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Birang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Birang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = miyi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = miyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = miyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = miyi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jianmo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jianmo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jianmo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jianmo
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qipan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qipan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qipan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qipan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shengxian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shengxian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shengxian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shengxian
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huoli
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = huoli
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huoli
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huoli
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Damavand
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Damavand
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Damavand
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Damavand
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = lvzhou
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = lvzhou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lvzhou
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = lvzhou
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gurabad
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Gurabad
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gurabad
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Gurabad
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Tanit
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Tanit
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Tanit
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Tanit
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Hadramaveth
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Hadramaveth
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Hadramaveth
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Hadramaveth
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Apaosha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Apaosha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Apaosha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Apaosha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Harvisptokhm
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Harvisptokhm
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Harvisptokhm
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Harvisptokhm
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Vourukasha
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Vourukasha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vourukasha
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Vourukasha
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hollow
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = hollow
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hollow
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = hollow
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = basong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = basong
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = basong
+						tier = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.e
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_funingna
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = momang
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = momang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = momang
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = momang
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhengqi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zhengqi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhengqi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhengqi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qianzhi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qianzhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qianzhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qianzhi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Lucine
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Lucine
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Lucine
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Lucine
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Epiclese
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Epiclese
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Epiclese
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Epiclese
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Poisson
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Poisson
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Poisson
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Poisson
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = kexueyuan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = kexueyuan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = kexueyuan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = kexueyuan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = highmore
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = highmore
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = highmore
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = highmore
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Meropide
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Meropide
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Meropide
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Meropide
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dixaicheng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = dixaicheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dixaicheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = dixaicheng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Urania
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Urania
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Urania
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Urania
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = willow
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = willow
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = willow
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = willow
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Lumidouce
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Lumidouce
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Lumidouce
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Lumidouce
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Romaritime
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Romaritime
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Romaritime
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Romaritime
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Narzissenkreuz
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Narzissenkreuz
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Narzissenkreuz
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Narzissenkreuz
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Ipsissimus
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Ipsissimus
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Ipsissimus
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Ipsissimus
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Annapausis
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Annapausis
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Annapausis
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Annapausis
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = RealAnnapausis
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = RealAnnapausis
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = RealAnnapausis
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = RealAnnapausis
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Petrichor
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Petrichor
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Petrichor
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Petrichor
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Aurea
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Aurea
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = Aurea
+						tier = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.f
+
+		every_country = {
+			limit = {
+				ai = yes
+				has_ruler_flag = gs_ruler_maweika
+			}
+			every_owned_province = {
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenghuo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shenghuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenghuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shenghuo
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huashi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = huashi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huashi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huashi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = duanshi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = duanshi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = duanshi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = duanshi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = guili
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = guili
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guili
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = guili
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = longyiwu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = longyiwu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = longyiwu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = longyiwu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = juanyi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = juanyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = juanyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = juanyi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huisheng
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = huisheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huisheng
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huisheng
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = liujing
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = liujing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = liujing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = liujing
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhongyan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zhongyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhongyan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zhongyan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fendao
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = fendao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fendao
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fendao
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shizai
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = shizai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shizai
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = shizai
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingtu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jingtu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingtu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingtu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuanmu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = xuanmu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanmu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = xuanmu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huoliu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = huoliu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huoliu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huoliu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jushi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jushi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jushi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jushi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zuyi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = zuyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zuyi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = zuyi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = ransu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = ransu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = ransu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = ransu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = liuquan
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = liuquan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = liuquan
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = liuquan
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = rongshui
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = rongshui
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = rongshui
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = rongshui
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = futu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = futu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = futu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = futu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = malanidian
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = malanidian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = malanidian
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = malanidian
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiehuo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qiehuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiehuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiehuo
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yanmi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yanmi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yanmi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yanmi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingbi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = jingbi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingbi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = jingbi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mitu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = mitu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mitu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = mitu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bianzhi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = bianzhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bianzhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = bianzhi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = manxun
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = manxun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = manxun
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = manxun
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fuyu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = fuyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fuyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = fuyu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huayu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = huayu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huayu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = huayu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = feixing
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = feixing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = feixing
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = feixing
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiaozhi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = qiaozhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiaozhi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = qiaozhi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chaixin
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = chaixin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chaixin
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = chaixin
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = aoqika
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = aoqika
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = aoqika
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = aoqika
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianshe
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tianshe
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianshe
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tianshe
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tongyu
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tongyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tongyu
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tongyu
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tuozuozi
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = tuozuozi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tuozuozi
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = tuozuozi
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuanhuo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuanhuo
+							tier = 0
+						}
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+					add_great_project_tier = {
+						type = yuanhuo
+						tier = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = gs_decisions_events.31.g
+	}
+}
+
+#ãvﬁmKNÙVãNˆN˛î
+country_event = {#1r∑VNSY çKQ
+	id = gs_decisions_events.10
+	title = gs_decisions_events_10_title
+	desc = gs_decisions_events_10_desc
+	picture = gs_decisions_events_10_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.10.a
+		country_event = { 
+			id = gs_decisions_events.11
+			days = 30
+			random = 15
+		}
+	}
+}
+country_event = {#0O'Yw0 0^â’lS0
+	id = gs_decisions_events.11
+	title = gs_decisions_events_11_title
+	desc = gs_decisions_events_11_desc
+	picture = gs_decisions_events_11_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.11.a
+		country_event = { 
+			id = gs_decisions_events.12
+			days = 30
+			random = 15
+		}
+	}
+}
+country_event = {#pp≥lteÉw–è®R
+	id = gs_decisions_events.12
+	title = gs_decisions_events_12_title
+	desc = gs_decisions_events_12_desc
+	picture = gs_decisions_events_12_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.12.a
+		country_event = { 
+			id = gs_decisions_events.13
+			days = 30
+			random = 15
+		}
+	}
+}
+country_event = {#aSS ÒÇb∑V
+	id = gs_decisions_events.13
+	title = gs_decisions_events_13_title
+	desc = gs_decisions_events_13_desc
+	picture = gs_decisions_events_13_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.13.a
+		country_event = { 
+			id = gs_decisions_events.14
+			days = 30
+			random = 15
+		}
+	}
+}
+country_event = {#ãvﬁmKNÙV
+	id = gs_decisions_events.14
+	title = gs_decisions_events_14_title
+	desc = gs_decisions_events_14_desc
+	picture = gs_decisions_events_14_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = { name = gs_decisions_events.14.a }
+	option = {
+		name = gs_decisions_events.14.b
+		set_revolution_target = FROM
+		spawn_center_of_revolution = event_target:Siege_of_Poisson_target
+		event_target:Siege_of_Poisson_target = { set_province_flag = first_revolution_center }
+		set_global_flag = first_revolution_center_spawned
+		set_government_rank = 3
+		add_government_reform = revolutionary_empire_reform
+		country_event = { id = ideagroups.1 }
+		hidden_effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+}
+country_event = {#1rËï
+	id = gs_decisions_events.11112
+	title = gs_decisions_events.11112_title
+	desc = gs_decisions_events.11112_desc
+	picture = gs_decisions_events.11112_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {  }
+
+	option = { 
+		name = gs_decisions_events.11112.a 
+	    country_event = { id = gs_decisions_events.1111 }
+	}
+}
+country_event = {#ÂNb:NÀYˇÂNb:N»u
+	id = gs_decisions_events.1111
+	title = gs_decisions_events_1111_title
+	desc = gs_decisions_events_1111_desc
+	picture = gs_decisions_events_1111_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = { 
+		name = gs_decisions_events.1111.a 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_kongmeng }
+		}
+		set_country_flag = ys_yingjie_kongmeng
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = kongmeng_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.b 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_fusheng }
+		}
+		set_country_flag = ys_yingjie_fusheng
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = fusheng_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.c 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_fanxing }
+		}
+		set_country_flag = ys_yingjie_fanxing
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = fanxing_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.d 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_wuxian }
+		}
+		set_country_flag = ys_yingjie_wuxian
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = wuxian_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.e 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_xuguang }
+		}
+		set_country_flag = ys_yingjie_xuguang
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = xuguang_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.f 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_chana }
+		}
+		set_country_flag = ys_yingjie_chana
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = chana_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.g 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_tianhui }
+		}
+		set_country_flag = ys_yingjie_tianhui
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = tianhui_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.h 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_aomie }
+		}
+		set_country_flag = ys_yingjie_aomie
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = aomie_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.i 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_luoxuan }
+		}
+		set_country_flag = ys_yingjie_luoxuan
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = luoxuan_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.j 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_huangjin }
+		}
+		set_country_flag = ys_yingjie_huangjin
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = huangjin_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.k 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_jielv }
+		}
+		set_country_flag = ys_yingjie_jielv
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = jielv_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.l 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_jiushi }
+		}
+		set_country_flag = ys_yingjie_jiushi
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = jiushi_modifier
+		    duration = -1
+	    }
+	}
+	option = { 
+		name = gs_decisions_events.1111.m 
+		trigger = {
+			NOT = { has_country_flag = ys_yingjie_zhenwo }
+		}
+		set_country_flag = ys_yingjie_zhenwo
+		country_event = { 
+			id = gs_decisions_events.11112
+		}
+	    add_country_modifier = {
+            name = zhenwo_modifier
+		    duration = -1
+	    }
+	}
+	option = {
+		name = gs_decisions_events.1111.n
+	}
+}
+
+
+

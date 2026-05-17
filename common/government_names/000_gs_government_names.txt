@@ -1,0 +1,125 @@
+THE_MONDSTADT = {
+	rank = {
+		1 = MONDSTADT
+		2 = MONDSTADT
+		3 = MONDSTADT
+	}
+
+	ruler_male = {
+		1 = WENDI
+		2 = WENDI
+		3 = WENDI
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_wendi
+	}
+}
+
+THE_LIYUE = {
+	rank = {
+		1 = LIYUE
+		2 = LIYUE
+		3 = LIYUE
+	}
+
+	ruler_male = {
+		1 = ZHONGLI
+		2 = ZHONGLI
+		3 = ZHONGLI
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_zhongli
+	}
+}
+
+THE_INAZUMA = {
+	rank = {
+		1 = INAZUMA
+		2 = INAZUMA
+		3 = INAZUMA
+	}
+
+	ruler_female = {
+		1 = LEIDIAN
+		2 = LEIDIAN
+		3 = LEIDIAN
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_leishen
+	}
+}
+
+THE_SUMERU = {
+	rank = {
+		1 = SUMERU
+		2 = SUMERU
+		3 = SUMERU
+	}
+
+	ruler_female = {
+		1 = NAXIDA
+		2 = NAXIDA
+		3 = NAXIDA
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_naxida
+	}
+}
+
+THE_FONTAINE = {
+	rank = {
+		1 = FONTAINE
+		2 = FONTAINE
+		3 = FONTAINE
+	}
+
+	ruler_female = {
+		1 = FUNINGNA
+		2 = FUNINGNA
+		3 = FUNINGNA
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_funingna
+	}
+}
+
+THE_NATLAN = {
+	rank = {
+		1 = NATLAN
+		2 = NATLAN
+		3 = NATLAN
+	}
+
+	ruler_female = {
+		1 = MAWEIKA
+		2 = MAWEIKA
+		3 = MAWEIKA
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_maweika
+	}
+}
+
+THE_YONGSHILETU = {
+	rank = {
+		1 = YONGSHILETU
+		2 = YONGSHILETU
+		3 = YONGSHILETU
+	}
+
+	ruler_female = {
+		1 = AILIXIYA
+		2 = AILIXIYA
+		3 = AILIXIYA
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_ailixiya
+	}
+}

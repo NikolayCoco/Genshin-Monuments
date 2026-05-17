@@ -1,0 +1,96 @@
+estate_genshin = {
+	icon = 6
+	color = { 0 255 255 }	# What color the estate appears as in the estate mapmode
+	
+	# If true, country will get estate
+	trigger = {
+		AND = {
+			OR = {
+				ai = no
+				has_global_flag = gs_allow_ai_gs_estate
+				gs_is_gs_nation = yes
+			}
+			has_country_modifier = gs_estate_open
+		}
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		tolerance_own = 2
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+	country_modifier_neutral = {
+		tolerance_own = 1
+	}	
+	country_modifier_angry = {
+		tolerance_own = -2
+		tolerance_heretic = -1
+		tolerance_heathen = -1
+	}
+
+	land_ownership_modifier = {
+	#	<modifiers>
+	}
+
+	province_independence_weight = {
+		factor = 0
+		#modifier = {
+		#	factor = <float>
+		#	#Insert conditions here
+		#}
+	}
+
+	# Influence modifiers
+	base_influence = 5
+	#influence_modifier = {
+	#	desc = <key> # The new name to apply
+	#	trigger = {
+	#		<triggers>
+	#	}	
+	#	influence = <float>
+	#}
+	# Loyalty modifiers
+	#loyalty_modifier = {
+	#	desc = <key> # The new name to apply
+	#	trigger = {
+	#		<triggers>
+	#	}
+	#	loyalty = <float>
+	#}
+
+	#custom_name = {
+	#	desc = <key> # The new name to apply
+	#	trigger = {
+	#		OR = {
+	#		
+	#		}
+	#	}
+	#}
+	#contributes_to_curia_treasury = <bool> #yes/no
+
+	privileges = {
+		#'privileges' includes the names of the estate privileges this estate uses.
+		#Estate privileges can be found in the {{path|common/estates_privileges/00_privileges.txt}}
+		estate_genshin_base
+        estate_genshin_vision_anemo
+		estate_genshin_vision_geo
+		estate_genshin_vision_electro
+		estate_genshin_vision_dendro
+		estate_genshin_vision_hydro
+		estate_genshin_vision_pyro
+		estate_genshin_vision_cryo
+		estate_genshin_monument
+		estate_genshin_element_idea
+		estate_genshin_leader
+		estate_genshin_peiou
+		estate_genshin_advisor
+	}
+
+	agendas = {
+		#'agendas' includes the names of the estate privileges this estate uses.
+		#Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+        estate_genshin_build_monument
+	}
+	influence_from_dev_modifier = 1.0	#Determines percent influence from development
+}

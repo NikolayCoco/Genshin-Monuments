@@ -1,0 +1,780 @@
+namespace = gs_qiguan_shengfen_xumi_mingzi_events
+
+#âò%VGY¬â
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.1
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "âò%VŒW"
+        rename_capital = "âò%VŒW"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.2
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "âò%VŒWSfRbñ:S"
+        rename_capital = "âò%VŒWSfRbñ:S"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.3
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "zfga´R"
+        rename_capital = "zfga´R"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.4
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "âò%VŒWâFUN:S"
+        rename_capital = "âò%VŒWâFUN:S"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.5
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "âò%VŒWNõQY:S"
+        rename_capital = "âò%VŒWNõQY:S"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.6
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "Sêbóg"
+        rename_capital = "Sêbóg"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.7
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ôôâëaW"
+        rename_capital = "ôôâëaW"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.8
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = ")Y¬Å`l"
+        rename_capital = ")Y¬Å`l"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.9
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "≤bNÓh"
+        rename_capital = "≤bNÓh"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.10
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "eYidØe=n"
+        rename_capital = "eYidØe=n"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.11
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "‹bæè=n"
+        rename_capital = "‹bæè=n"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.12
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ÙuidÑ^"
+        rename_capital = "ÙuidÑ^"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.13
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "Sh±êpQ±ê"
+        rename_capital = "Sh±êpQ±ê"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.14
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "Öy±êÌV"
+        rename_capital = "Öy±êÌV"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.15
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "4l)YNóg"
+        rename_capital = "4l)YNóg"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.16
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "|É√ãKNµ^"
+        rename_capital = "|É√ãKNµ^"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.17
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "éUNö"
+        rename_capital = "éUNö"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.18
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "?ñÇYQg"
+        rename_capital = "?ñÇYQg"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.19
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "dçãsŒW"
+        rename_capital = "dçãsŒW"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.20
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "qônôKNN"
+        rename_capital = "qônôKNN"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.21
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ƒîÛwKNN"
+        rename_capital = "ƒîÛwKNN"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.22
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ê©ãKNN"
+        rename_capital = "ê©ãKNN"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.23
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ÿyÍN1Wøk"
+        rename_capital = "ÿyÍN1Wøk"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.24
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ÿûKNøk"
+        rename_capital = "ÿûKNøk"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.25
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "^yKNÀhÿv"
+        rename_capital = "^yKNÀhÿv"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.26
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "1W>fÖS"
+        rename_capital = "1W>fÖS"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.27
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ImõRKN∂R"
+        rename_capital = "ImõRKN∂R"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.28
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "æèlöqS"
+        rename_capital = "æèlöqS"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.29
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "8lR`ˇu2m"
+        rename_capital = "8lR`ˇu2m"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.30
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "ESSŒW"
+        rename_capital = "ESSŒW"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.31
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "TX<SyrËêœe"
+        rename_capital = "TX<SyrËêœe"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.32
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "CS—Xôl0W"
+        rename_capital = "CS—Xôl0W"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.33
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "u2ó±Çwm"
+        rename_capital = "u2ó±Çwm"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.34
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "u2ó±Çwm"
+        rename_capital = "u2ó±Çwm"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.35
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "u2ó±Çwm"
+        rename_capital = "u2ó±Çwm"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.36
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "RÉÛwÕÇ.o"
+        rename_capital = "RÉÛwÕÇ.o"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = gs_qiguan_shengfen_xumi_mingzi_events.37
+	title = gs_qiguan_shengfen_mingzi_events_title
+	desc = gs_qiguan_shengfen_mingzi_events_desc
+	picture = gs_qiguan_shengfen_xumi_mingzi_events_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_qiguan_shengfen_mingzi_events_yes
+		ai_chance = { factor = 100 }
+        change_province_name = "Àçågvò"
+        rename_capital = "Àçågvò"
+	}
+    option = {
+		name = gs_qiguan_shengfen_mingzi_events_no
+		ai_chance = { factor = 0 }
+	}
+}

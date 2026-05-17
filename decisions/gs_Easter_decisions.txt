@@ -1,0 +1,2633 @@
+country_decisions = {
+	#ìS2US†˜
+	gs_monuments_Easter = {
+		color = { 0 255 255 }
+		major = no
+		potential = {
+			has_estate = estate_genshin
+			OR = {
+				AND = {
+					has_country_modifier = gs_Paimon
+					NOT = { has_leader = ">m™„ 0g‹Y„vO4Oÿ0" }
+				}
+				########________™„·V________################________™„·V________################________™„·V________########
+				########________™„·V________################________™„·V________################________™„·V________########
+				########________™„·V________################________™„·V________################________™„·V________########
+				########________™„·V________################________™„·V________################________™„·V________########
+				########________™„·V________################________™„·V________################________™„·V________########
+				AND = {
+					has_country_modifier = gs_leader_shatang
+					NOT = { has_leader = "£anemo£ xÖ| 0àe³Ru¦^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lisha
+					NOT = { has_leader = "£electro£ KNƒ OeyQ 07…‡…T›sY0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_fichel
+					NOT = { has_leader = "£electro£ òƒ0ŒS ¯Q 2—VËem¯e ±òƒYyr 0­ej‡vsYÿÿ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_anbo
+					NOT = { has_leader = "£pyro£ ‰RÏg 0¦OßR‘šëX0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_leize
+					NOT = { has_leader = "£electro£ ÷–ıl 0ürSt^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_babala
+					NOT = { has_leader = "£hydro£ ­‚­‚Éb iOGY 0ê•wvPÏP0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_bannite
+					NOT = { has_leader = "£pyro£ ís<Syr 0‹TĞÕ‹Ñ‘ów0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kaiya
+					NOT = { has_leader = "£cryo£ ïQšN šNS=OÌ‘GY 0ÒRÎ˜QRëX0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_noel
+					NOT = { has_leader = "£geo£ ú‹Œ‚S 0*gˆcËRKN±‚0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_qin
+					NOT = { has_leader = "£anemo£ 4t äSi`^S·V 0ãNtâV• ²„lQñ‚‘šëX0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_diluke
+					NOT = { has_leader = "£pyro£ êbSKQ ±ƒn‚¬‚·V 0ckEºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_mona
+					NOT = { has_leader = "£hydro£ ?–¯eXbm	T¯e «ƒZ …hìY¯eşV¯e 0f)Y4lj•0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_wendi
+					NOT = { has_leader = "£anemo£ )nê 0Î˜r‚×‹ºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_keli
+					NOT = { has_leader = "£pyro£ ïS‰ƒ 0kp±‚‘šëX0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_diona
+					NOT = { has_leader = "£cryo£ êeYZ ïQ(ƒ±ƒ5ƒ 0+s>SyrŒ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_abeiduo
+					NOT = { has_leader = "£geo£ ?–Y 0‹v©WKNPR0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_luosha
+					NOT = { has_leader = "£cryo£ Wƒ‰ƒšN 0Øh Qi`xQ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_youla
+					NOT = { has_leader = "£cryo£ OÈƒ ³R&O¯e 0jm±‚‘šëX0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_mika
+					NOT = { has_leader = "£cryo£ s|aS ËeÆRyr 0tf—„vhØu0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_taliya
+					NOT = { has_leader = "£cryo£ TX)RÅ– 0‚˜<ykymy0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_faerjia
+					NOT = { has_leader = "ÕlSKO 0'YâV•0" }
+				}
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				########________ƒtg________################________ƒtg________################________ƒtg________########
+				AND = {
+					has_country_modifier = gs_leader_ningguang
+					NOT = { has_leader = "£geo£ İQIQ 0)YCgf0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xingqiu
+					NOT = { has_leader = "£hydro£ LˆËy 0St^%fkˆ?|0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xiangling
+					NOT = { has_leader = "£pyro£ oS™™ñƒ 0NlŒvsT0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_chongyun
+					NOT = { has_leader = "£cryo£ Í‘‘N 0ê–‡	g*0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_beidou
+					NOT = { has_leader = "£electro£ S—e 0àe•Q„v™Ÿ‹s0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_qiqi
+					NOT = { has_leader = "£cryo£ NN 0»Q»QŞVB›Y0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_keqing
+					NOT = { has_leader = "£electro£ IRtf 0‰saˆf0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xinyan
+					NOT = { has_leader = "£pyro£ ›1q 0åqípËe‹V0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_zhongli
+					NOT = { has_leader = "£geo£ Ÿ”»y 0SNò•8n0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ganyu
+					NOT = { has_leader = "£cryo£ uè– 0ªVªVˆRg0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xiao
+					NOT = { has_leader = "£anemo£ H› 0²bÕlYÉS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_hutao
+					NOT = { has_leader = "£pyro£ áwCh 0ê–—…h™™0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yanfei
+					NOT = { has_leader = "£pyro£ ßpïu 0zffàeª0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yunjin
+					NOT = { has_leader = "£geo£ ‘NX 0¢uùkuZZ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_shenhe
+					NOT = { has_leader = "£cryo£ 3ud 0dR°ƒ`0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yelan
+					NOT = { has_leader = "£hydro£ YpQ 0pQu‹^7Œ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yaoyao
+					NOT = { has_leader = "£dendro£ vtvt 0ÙNJ…²sÑs0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_baizhu
+					NOT = { has_leader = "£dendro£ ‹v=g 0uuTŒT0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_jiaming
+					NOT = { has_leader = "£pyro£ öS	Vf 0šs˜–™0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xianyun
+					NOT = { has_leader = "£anemo£ ò•‘N 0>ó—dáO0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lanyan
+					NOT = { has_leader = "£anemo£ İ„x 0æ‰s%f0" }
+				}
+				########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+				########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+				########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+				########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+				########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+				AND = {
+					has_country_modifier = gs_leader_wanye
+					NOT = { has_leader = "£anemo£ «gŸSNöS 0¢uöSRƒâl0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_linghua
+					NOT = { has_leader = "£cryo£ ^yÌ‘ëuNS 0‹vm—NS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_zaoyou
+					NOT = { has_leader = "£anemo£ éeÚg 0ÍVÌ‘KN‰Œ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xiaogong
+					NOT = { has_leader = "£pyro£ •Î‘ŸSµR«R 0	t0qNS‚0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_jiutiao
+					NOT = { has_leader = "£electro£ kNagßˆW 0ÑË1k•0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_leishen
+					NOT = { has_leader = "£electro£ ÷–5uS›Q 0N¨R1^yÿálqV­emp0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xinhai
+					NOT = { has_leader = "£hydro£ ÊsZt«RÃVwm 0wàsKNzf0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_tuoma
+					NOT = { has_leader = "£pyro£ Xblš 0!negËNw0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_wulang
+					NOT = { has_leader = "£geo£ ”NÎ 0b¬r5•5•0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yidou
+					NOT = { has_leader = "£geo£ Rƒ÷lN—e 0±‚BWjŒëV0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_shenzi
+					NOT = { has_leader = "£electro£ kQÍ‘^yPR 0nmNrŒvÿY0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lingren
+					NOT = { has_leader = "£hydro£ ^yÌ‘ëuºN 0ĞxmyöSˆR0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_jiuqiren
+					NOT = { has_leader = "£electro£ ENSÍV 0æp|`Rd–0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_pingzang
+					NOT = { has_leader = "£anemo£ Î‘b–s^Ï… 0ÃVgBN‰R0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kirara
+					NOT = { has_leader = "£dendro£ îuo‚o‚ 0j‡R+s8n0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_qianzhi
+					NOT = { has_leader = "£geo£ CSÇu 01÷–„vÁˆ&•^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ruixi
+					NOT = { has_leader = "£anemo£ ¦hÁ‰g^t^ 0îu¦h1ûu0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_baimugui
+					NOT = { has_leader = "dWzŒvîv<› 0nA|„vN‰kKN<›0" }
+				}
+				########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+				########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+				########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+				########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+				########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+				AND = {
+					has_country_modifier = gs_leader_kelai
+					NOT = { has_leader = "£dendro£ ïg±ƒ 0„õVR†0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_tinali
+					NOT = { has_leader = "£dendro£ Ğc³uÌ‘ 0Em…‰Lˆ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_duoli
+					NOT = { has_leader = "£electro£ Y‰ƒ QhLk›sÈTôTO 0¦híVÏ…Ñ‘0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kandisi
+					NOT = { has_leader = "£hydro£ NW‚„N 0nmÑ‘„v“Š?a0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_sainuo
+					NOT = { has_leader = "£electro£ iú‹ 0'YÎ˜:gsQ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_nilu
+					NOT = { has_leader = "£hydro£ ®Y2— 0²ƒIQK„‚ur0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_naxida
+					NOT = { has_leader = "£dendro£ ³u‰²Y 0àQR„vzf?a0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_laiyila
+					NOT = { has_leader = "£cryo£ ±ƒOÉb 0îu`Zff0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_falushan
+					NOT = { has_leader = "£anemo£ Ğs2—Ês 0åwº‹>mT¿R0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_bengbeng
+					NOT = { has_leader = "£anemo£ Amjmw 0mQeQKSfÿø‹øv†vàe0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_aierhaisen
+					NOT = { has_leader = "£dendro£ Œ‚Swmîh 0‡e1V„vfR=gRPR0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_dixiya
+					NOT = { has_leader = "£pyro£ ê^Å– 0Ëp›KNîr0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kawei
+					NOT = { has_leader = "£dendro£ aSôu 0™Yº‹>mKNIQ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_saisuosi
+					NOT = { has_leader = "£electro£ i0t¯e 0aˆfåw¦^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lana
+					NOT = { has_leader = "ÉbZ 0ôuid„^µe‹s0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lanluomo
+					NOT = { has_leader = "pQWid" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_jiede
+					NOT = { has_leader = "UZ·V Oòƒ 1kê 0SŞr+s0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_silusha
+					NOT = { has_leader = "¯e2—ƒ 0±‚up„vÇRw0" }
+				}
+				########________«g9N________################________«g9N________################________«g9N________########
+				########________«g9N________################________«g9N________################________«g9N________########
+				########________«g9N________################________«g9N________################________«g9N________########
+				########________«g9N________################________«g9N________################________«g9N________########
+				########________«g9N________################________«g9N________################________«g9N________########
+				AND = {
+					has_country_modifier = gs_leader_linnite
+					NOT = { has_leader = "£anemo£ 3t®Yyr ê–HY(ƒ™‚Z 0KNqVîuLˆ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_linni
+					NOT = { has_leader = "£pyro£ —g<S ê–HY(ƒôuGY 0'YT›=g^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_feimini
+					NOT = { has_leader = "£cryo£ òƒs|<S ê–HY(ƒôuGY 0jo`P¦h0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_nawei
+					NOT = { has_leader = "£hydro£ ±ôu±ƒyr 0ŒJT„vnoó—0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_laiou
+					NOT = { has_leader = "£cryo£ ±ƒ'k¯e)R 0ÂRj„vÆRO0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xialuodi
+					NOT = { has_leader = "£cryo£ Ym‚„ 0gj•0tw0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_funingna
+					NOT = { has_leader = "£hydro£ ™‚RZ ·V «g9N 08lN†˜1UÿàeKSW‚0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_naweiya
+					NOT = { has_leader = "£geo£ ZôuZ aS(„^ 0f±‚…5‚0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xiawolei
+					NOT = { has_leader = "£pyro£ YƒlŒ… 0f‹V³QZ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_keluolinde
+					NOT = { has_leader = "£electro£ KQm3t·V 0ÉyÛpİrqV0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xigewen
+					NOT = { has_leader = "£hydro£ ^<hï– 0™ŸsY™YØS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_aimeiliai
+					NOT = { has_leader = "£dendro£ Œ‚…h‰ƒÃW 0CSKN*0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_aikefei
+					NOT = { has_leader = "£cryo£ 1rïSòƒ 0u¹p'Y!h0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_zeweier
+					NOT = { has_leader = "ılôuS ·V iOyrÌ‘KQ 0'YÑSf¶R0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_mameihe
+					NOT = { has_leader = "›s…hk" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_paxifu
+					NOT = { has_leader = "Às‰™‚ 0Vishap0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yagebu
+					NOT = { has_leader = "Å–T^ ñ‚b·V 04lÙNASWR„vºNåT1W’V0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_leinei
+					NOT = { has_leader = "÷–…Q ·V iOyr‰ƒïS 0'Y^ ³uPŸîhÑyœyQ0" }
+				}
+				########________³uTX________################________³uTX________################________³uTX________########
+				########________³uTX________################________³uTX________################________³uTX________########
+				########________³uTX________################________³uTX________################________³uTX________########
+				########________³uTX________################________³uTX________################________³uTX________########
+				########________³uTX________################________³uTX________################________³uTX________########
+				AND = {
+					has_country_modifier = gs_leader_kaqina
+					NOT = { has_leader = "£geo£ aSPŸZ 00ZW:V0 LN™lZS‚„0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_malani
+					NOT = { has_leader = "£hydro£ ›sÉb®Y 00âVÓu0 ƒlidö^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_jiniqi
+					NOT = { has_leader = "£dendro£ úW<SGY 00ŞVkp0 lš›RjS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_xinuoning
+					NOT = { has_leader = "£geo£ ^ú‹R 00kyy0 ôT±ƒaS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ouluolun
+					NOT = { has_leader = "£electro£ 'km&O 00IY.s0 ‡^r0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_qiasika
+					NOT = { has_leader = "£anemo£ p`¯eaS 00…Š0 fkaS0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_maweika
+					NOT = { has_leader = "£pyro£ ›s‡…aS 00†˜–ˆ0 úWlbbyQ0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_nainai
+					NOT = { has_leader = "£cryo£ ƒyrÈƒ‰ƒ 00°‹ÆV0 LNfZS“^0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yianshan
+					NOT = { has_leader = "£electro£ O‰RÊs 00›RÏ‘0 LNZPO0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_niuniu
+					NOT = { has_leader = "£electro£ æt÷–ƒ 0òƒ6w‚„Z0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yifa
+					NOT = { has_leader = "£anemo£ OÕl 0åTìN0" }
+				}
+				########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+				########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+				########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+				########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+				########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+				AND = {
+					has_country_modifier = gs_leader_gongzi
+					NOT = { has_leader = "£hydro£ ?–>KQ¯e 00lQPR0 ¾¾)RšN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_aleiqinuo
+					NOT = { has_leader = "£pyro£ iO2—‡…)R ê–HY(ƒ™‚Z 00ÆNºN0 ?–Œ…GYú‹0" }
+				}
+				########________VLu________################________VLu________################________VLu________########
+				########________VLu________################________VLu________################________VLu________########
+				########________VLu________################________VLu________################________VLu________########
+				########________VLu________################________VLu________################________VLu________########
+				########________VLu________################________VLu________################________VLu________########
+				AND = {
+					has_country_modifier = gs_leader_kong
+					NOT = { has_leader = "zz 0ÅeLˆw0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ying
+					NOT = { has_leader = "gƒ 0ÅeLˆw0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ailuoyi
+					NOT = { has_leader = "£cryo£ ÃWmO 0VLu„vQeNIN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_skirk
+					NOT = { has_leader = "£cryo£ NïgKQ 0Z†n—ff0" }
+				}
+				########________iVË†________################________iVË†________################________iVË†________########
+				########________iVË†________################________iVË†________################________iVË†________########
+				########________iVË†________################________iVË†________################________iVË†________########
+				########________iVË†________################________iVË†________################________iVË†________########
+				########________iVË†________################________iVË†________################________iVË†________########
+				AND = {
+					has_country_modifier = gs_leader_fuhua
+					NOT = { has_leader = "&rNS 0d3ÙNºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ailixiya
+					NOT = { has_leader = "£zhenwo£ 1r‰ƒ^Å– 0ºNKN‹Vw0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kaiwen
+					NOT = { has_leader = "£jiushi£ ïQ‡e 0kpAS	Nñ‚Nh0QeN00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_aboniya
+					NOT = { has_leader = "£jielv£ ?–âl<SšN 0kpAS	Nñ‚Nh0b‹V00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yidian
+					NOT = { has_leader = "£huangjin£ O8u 0kpAS	Nñ‚Nh0ÄÑ‘00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_weierwei
+					NOT = { has_leader = "£luoxuan£ ôuS‡… 0kpAS	Nñ‚Nh0º‡Ëe00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_qianjie
+					NOT = { has_leader = "£aomie£ CS«R 0kpAS	Nñ‚Nh0Ö“mp00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_su
+					NOT = { has_leader = "£tianhui£ Ï‚ 0kpAS	Nñ‚Nh0)Yga00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ying2
+					NOT = { has_leader = "£chana£ 1j 0kpAS	Nñ‚Nh09R±00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_kesimo
+					NOT = { has_leader = "£xuguang£ Ñy¯eT› 0kpAS	Nñ‚Nh0íeIQ00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_meibiwusi
+					NOT = { has_leader = "£wuxian£ …hÔkLN¯e 0kpAS	Nñ‚Nh0àeP–00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_geleixiu
+					NOT = { has_leader = "£fanxing£ <hŒ…îO 0kpAS	Nñ‚Nh0Auf00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_hua
+					NOT = { has_leader = "£fusheng£ NS 0kpAS	Nñ‚Nh0nmu00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_paduo
+					NOT = { has_leader = "£kongmeng£ ^5gòƒ‰ƒN 0kpAS	Nñ‚Nh0zz¦h00" }
+				}
+			}
+		}
+		allow = {
+			has_estate_privilege = estate_genshin_leader
+			treasury = 50
+			mil_power = 50
+		}
+		effect = {
+			add_treasury = -50
+			add_mil_power = -50
+			if = {
+				limit = {
+					has_country_modifier = gs_Paimon
+					NOT = { has_leader = ">m™„ 0g‹Y„vO4Oÿ0" }
+				}
+				define_general = {
+					shock = 1
+					fire = 1
+					manuever = 1
+					siege = 1
+					name = ">m™„ 0g‹Y„vO4Oÿ0"
+					female = yes
+					trait = gs_leader_Paimon_personality
+				}
+				custom_tooltip = gs_leader_Paimon_personality
+			}
+			########________™„·V________################________™„·V________################________™„·V________########
+			########________™„·V________################________™„·V________################________™„·V________########
+			########________™„·V________################________™„·V________################________™„·V________########
+			########________™„·V________################________™„·V________################________™„·V________########
+			########________™„·V________################________™„·V________################________™„·V________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_shatang
+					NOT = { has_leader = "£anemo£ xÖ| 0àe³Ru¦^0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£anemo£ xÖ| 0àe³Ru¦^0"
+					female = yes
+					trait = gs_leader_shatang_personality
+				}
+				custom_tooltip = gs_leader_shatang_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lisha
+					NOT = { has_leader = "£electro£ KNƒ OeyQ 07…‡…T›sY0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£electro£ KNƒ OeyQ 07…‡…T›sY0"
+					female = yes
+					trait = gs_leader_lisha_personality
+				}
+				custom_tooltip = gs_leader_lisha_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_fichel
+					NOT = { has_leader = "£electro£ òƒ0ŒS ¯Q 2—VËem¯e ±òƒYyr 0­ej‡vsYÿÿ0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£electro£ òƒ0ŒS ¯Q 2—VËem¯e ±òƒYyr 0­ej‡vsYÿÿ0"
+					female = yes
+					trait = gs_leader_fichel_personality
+				}
+				custom_tooltip = gs_leader_fichel_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_anbo
+					NOT = { has_leader = "£pyro£ ‰RÏg 0¦OßR‘šëX0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£pyro£ ‰RÏg 0¦OßR‘šëX0"
+					female = yes
+					trait = gs_leader_anbo_personality
+				}
+				custom_tooltip = gs_leader_anbo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_leize
+					NOT = { has_leader = "£electro£ ÷–ıl 0ürSt^0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£electro£ ÷–ıl 0ürSt^0"
+					trait = gs_leader_leize_personality
+				}
+				custom_tooltip = gs_leader_leize_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_babala
+					NOT = { has_leader = "£hydro£ ­‚­‚Éb iOGY 0ê•wvPÏP0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£hydro£ ­‚­‚Éb iOGY 0ê•wvPÏP0"
+					female = yes
+					trait = gs_leader_babala_personality
+				}
+				custom_tooltip = gs_leader_babala_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_bannite
+					NOT = { has_leader = "£pyro£ ís<Syr 0‹TĞÕ‹Ñ‘ów0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£pyro£ ís<Syr 0‹TĞÕ‹Ñ‘ów0"
+					trait = gs_leader_bannite_personality
+				}
+				custom_tooltip = gs_leader_bannite_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kaiya
+					NOT = { has_leader = "£cryo£ ïQšN šNS=OÌ‘GY 0ÒRÎ˜QRëX0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£cryo£ ïQšN šNS=OÌ‘GY 0ÒRÎ˜QRëX0"
+					trait = gs_leader_kaiya_personality
+				}
+				custom_tooltip = gs_leader_kaiya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_noel
+					NOT = { has_leader = "£geo£ ú‹Œ‚S 0*gˆcËRKN±‚0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 5
+					siege = 6
+					name = "£geo£ ú‹Œ‚S 0*gˆcËRKN±‚0"
+					female = yes
+					trait = gs_leader_noel_personality
+				}
+				custom_tooltip = gs_leader_noel_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_qin
+					NOT = { has_leader = "£anemo£ 4t äSi`^S·V 0ãNtâV• ²„lQñ‚‘šëX0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 6
+					siege = 7
+					name = "£anemo£ 4t äSi`^S·V 0ãNtâV• ²„lQñ‚‘šëX0"
+					female = yes
+					trait = gs_leader_qin_personality
+				}
+				custom_tooltip = gs_leader_qin_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_diluke
+					NOT = { has_leader = "£pyro£ êbSKQ ±ƒn‚¬‚·V 0ckEºN0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£pyro£ êbSKQ ±ƒn‚¬‚·V 0ckEºN0"
+					trait = gs_leader_diluke_personality
+				}
+				custom_tooltip = gs_leader_diluke_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_mona
+					NOT = { has_leader = "£hydro£ ?–¯eXbm	T¯e «ƒZ …hìY¯eşV¯e 0f)Y4lj•0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£hydro£ ?–¯eXbm	T¯e «ƒZ …hìY¯eşV¯e 0f)Y4lj•0"
+					female = yes
+					trait = gs_leader_mona_personality
+				}
+				custom_tooltip = gs_leader_mona_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_wendi
+					NOT = { has_leader = "£anemo£ )nê 0Î˜r‚×‹ºN0" }
+				}
+				define_general = {
+					shock = 8
+					fire = 7
+					manuever = 8
+					siege = 7
+					name = "£anemo£ )nê 0Î˜r‚×‹ºN0"
+					trait = gs_leader_wendi_personality
+				}
+				custom_tooltip = gs_leader_wendi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_keli
+					NOT = { has_leader = "£pyro£ ïS‰ƒ 0kp±‚‘šëX0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£pyro£ ïS‰ƒ 0kp±‚‘šëX0"
+					female = yes
+					trait = gs_leader_keli_personality
+				}
+				custom_tooltip = gs_leader_keli_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_diona
+					NOT = { has_leader = "£cryo£ êeYZ ïQ(ƒ±ƒ5ƒ 0+s>SyrŒ0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£cryo£ êeYZ ïQ(ƒ±ƒ5ƒ 0+s>SyrŒ0"
+					female = yes
+					trait = gs_leader_diona_personality
+				}
+				custom_tooltip = gs_leader_diona_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_abeiduo
+					NOT = { has_leader = "£geo£ ?–Y 0‹v©WKNPR0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£geo£ ?–Y 0‹v©WKNPR0"
+					trait = gs_leader_abeiduo_personality
+				}
+				custom_tooltip = gs_leader_abeiduo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_luosha
+					NOT = { has_leader = "£cryo£ Wƒ‰ƒšN 0Øh Qi`xQ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£cryo£ Wƒ‰ƒšN 0Øh Qi`xQ0"
+					female = yes
+					trait = gs_leader_luosha_personality
+				}
+				custom_tooltip = gs_leader_luosha_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_youla
+					NOT = { has_leader = "£cryo£ OÈƒ ³R&O¯e 0jm±‚‘šëX0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£cryo£ OÈƒ ³R&O¯e 0jm±‚‘šëX0"
+					female = yes
+					trait = gs_leader_youla_personality
+				}
+				custom_tooltip = gs_leader_youla_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_mika
+					NOT = { has_leader = "£cryo£ s|aS ËeÆRyr 0tf—„vhØu0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£cryo£ s|aS ËeÆRyr 0tf—„vhØu0"
+					trait = gs_leader_mika_personality
+				}
+				custom_tooltip = gs_leader_mika_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_taliya
+					NOT = { has_leader = "£hydro£ TX)RÅ– 0‚˜<ykymy0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£hydro£ TX)RÅ– 0‚˜<ykymy0"
+					trait = gs_leader_taliya_personality
+				}
+				custom_tooltip = gs_leader_taliya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_faerjia
+					NOT = { has_leader = "ÕlSKO 0'YâV•0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "ÕlSKO 0'YâV•0"
+					trait = gs_leader_faerjia_personality
+				}
+			}
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			########________ƒtg________################________ƒtg________################________ƒtg________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ningguang
+					NOT = { has_leader = "£geo£ İQIQ 0)YCgf0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£geo£ İQIQ 0)YCgf0"
+					female = yes
+					trait = gs_leader_ningguang_personality
+				}
+				custom_tooltip = gs_leader_ningguang_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xingqiu
+					NOT = { has_leader = "£hydro£ LˆËy 0St^%fkˆ?|0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£hydro£ LˆËy 0St^%fkˆ?|0"
+					trait = gs_leader_xingqiu_personality
+				}
+				custom_tooltip = gs_leader_xingqiu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xiangling
+					NOT = { has_leader = "£pyro£ oS™™ñƒ 0NlŒvsT0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£pyro£ oS™™ñƒ 0NlŒvsT0"
+					female = yes
+					trait = gs_leader_xiangling_personality
+				}
+				custom_tooltip = gs_leader_xiangling_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_chongyun
+					NOT = { has_leader = "£cryo£ Í‘‘N 0ê–‡	g*0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£cryo£ Í‘‘N 0ê–‡	g*0"
+					trait = gs_leader_chongyun_personality
+				}
+				custom_tooltip = gs_leader_chongyun_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_beidou
+					NOT = { has_leader = "£electro£ S—e 0àe•Q„v™Ÿ‹s0" }
+				}
+				define_admiral = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£electro£ S—e 0àe•Q„v™Ÿ‹s0"
+					female = yes
+					trait = gs_leader_beidou_personality
+				}
+				custom_tooltip = gs_leader_beidou_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_qiqi
+					NOT = { has_leader = "£cryo£ NN 0»Q»QŞVB›Y0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 6
+					siege = 7
+					name = "£cryo£ NN 0»Q»QŞVB›Y0"
+					female = yes
+					trait = gs_leader_qiqi_personality
+				}
+				custom_tooltip = gs_leader_qiqi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_keqing
+					NOT = { has_leader = "£electro£ IRtf 0‰saˆf0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£electro£ IRtf 0‰saˆf0"
+					female = yes
+					trait = gs_leader_keqing_personality
+				}
+				custom_tooltip = gs_leader_keqing_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xinyan
+					NOT = { has_leader = "£pyro£ ›1q 0åqípËe‹V0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£pyro£ ›1q 0åqípËe‹V0"
+					female = yes
+					trait = gs_leader_xinyan_personality
+				}
+				custom_tooltip = gs_leader_xinyan_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_zhongli
+					NOT = { has_leader = "£geo£ Ÿ”»y 0SNò•8n0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 8
+					manuever = 7
+					siege = 8
+					name = "£geo£ Ÿ”»y 0SNò•8n0"
+					trait = gs_leader_zhongli_personality
+				}
+				custom_tooltip = gs_leader_zhongli_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ganyu
+					NOT = { has_leader = "£cryo£ uè– 0ªVªVˆRg0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£cryo£ uè– 0ªVªVˆRg0"
+					female = yes
+					trait = gs_leader_ganyu_personality
+				}
+				custom_tooltip = gs_leader_ganyu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xiao
+					NOT = { has_leader = "£anemo£ H› 0²bÕlYÉS0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 6
+					siege = 7
+					name = "£anemo£ H› 0²bÕlYÉS0"
+					trait = gs_leader_xiao_personality
+				}
+				custom_tooltip = gs_leader_xiao_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_hutao
+					NOT = { has_leader = "£pyro£ áwCh 0ê–—…h™™0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£pyro£ áwCh 0ê–—…h™™0"
+					female = yes
+					trait = gs_leader_hutao_personality
+				}
+				custom_tooltip = gs_leader_hutao_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yanfei
+					NOT = { has_leader = "£pyro£ ßpïu 0zffàeª0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£pyro£ ßpïu 0zffàeª0"
+					female = yes
+					trait = gs_leader_yanfei_personality
+				}
+				custom_tooltip = gs_leader_yanfei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yunjin
+					NOT = { has_leader = "£geo£ ‘NX 0¢uùkuZZ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 5
+					siege = 6
+					name = "£geo£ ‘NX 0¢uùkuZZ0"
+					female = yes
+					trait = gs_leader_yunjin_personality
+				}
+				custom_tooltip = gs_leader_yunjin_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_shenhe
+					NOT = { has_leader = "£cryo£ 3ud 0dR°ƒ`0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£cryo£ 3ud 0dR°ƒ`0"
+					female = yes
+					trait = gs_leader_shenhe_personality
+				}
+				custom_tooltip = gs_leader_shenhe_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yelan
+					NOT = { has_leader = "£hydro£ YpQ 0pQu‹^7Œ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£hydro£ YpQ 0pQu‹^7Œ0"
+					female = yes
+					trait = gs_leader_yelan_personality
+				}
+				custom_tooltip = gs_leader_yelan_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yaoyao
+					NOT = { has_leader = "£dendro£ vtvt 0ÙNJ…²sÑs0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£dendro£ vtvt 0ÙNJ…²sÑs0"
+					female = yes
+					trait = gs_leader_yaoyao_personality
+				}
+				custom_tooltip = gs_leader_yaoyao_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_baizhu
+					NOT = { has_leader = "£dendro£ ‹v=g 0uuTŒT0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£dendro£ ‹v=g 0uuTŒT0"
+					trait = gs_leader_baizhu_personality
+				}
+				custom_tooltip = gs_leader_baizhu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_jiaming
+					NOT = { has_leader = "£pyro£ öS	Vf 0šs˜–™0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "£pyro£ öS	Vf 0šs˜–™0"
+					trait = gs_leader_jiaming_personality
+				}
+				custom_tooltip = gs_leader_jiaming_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xianyun
+					NOT = { has_leader = "£anemo£ ò•‘N 0>ó—dáO0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£anemo£ ò•‘N 0>ó—dáO0"
+					female = yes
+					trait = gs_leader_xianyun_personality
+				}
+				custom_tooltip = gs_leader_xianyun_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lanyan
+					NOT = { has_leader = "£anemo£ İ„x 0æ‰s%f0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£anemo£ İ„x 0æ‰s%f0"
+					female = yes
+					trait = gs_leader_lanyan_personality
+				}
+				custom_tooltip = gs_leader_lanyan_personality
+			}
+			########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+			########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+			########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+			########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+			########________Iz»Y________################________Iz»Y________################________Iz»Y________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_wanye
+					NOT = { has_leader = "£anemo£ «gŸSNöS 0¢uöSRƒâl0" }
+				}
+				define_admiral = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£anemo£ «gŸSNöS 0¢uöSRƒâl0"
+					trait = gs_leader_wanye_personality
+				}
+				custom_tooltip = gs_leader_wanye_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_linghua
+					NOT = { has_leader = "£cryo£ ^yÌ‘ëuNS 0‹vm—NS0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£cryo£ ^yÌ‘ëuNS 0‹vm—NS0"
+					female = yes
+					trait = gs_leader_linghua_personality
+				}
+				custom_tooltip = gs_leader_linghua_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_zaoyou
+					NOT = { has_leader = "£anemo£ éeÚg 0ÍVÌ‘KN‰Œ0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£anemo£ éeÚg 0ÍVÌ‘KN‰Œ0"
+					female = yes
+					trait = gs_leader_zaoyou_personality
+				}
+				custom_tooltip = gs_leader_zaoyou_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xiaogong
+					NOT = { has_leader = "£pyro£ •Î‘ŸSµR«R 0	t0qNS‚0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£pyro£ •Î‘ŸSµR«R 0	t0qNS‚0"
+					female = yes
+					trait = gs_leader_xiaogong_personality
+				}
+				custom_tooltip = gs_leader_xiaogong_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_jiutiao
+					NOT = { has_leader = "£electro£ kNagßˆW 0ÑË1k•0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£electro£ kNagßˆW 0ÑË1k•0"
+					female = yes
+					trait = gs_leader_jiutiao_personality
+				}
+				custom_tooltip = gs_leader_jiutiao_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_leishen
+					NOT = { has_leader = "£electro£ ÷–5uS›Q 0N¨R1^yÿálqV­emp0" }
+				}
+				define_general = {
+					shock = 8
+					fire = 7
+					manuever = 7
+					siege = 8
+					name = "£electro£ ÷–5uS›Q 0N¨R1^yÿálqV­emp0"
+					female = yes
+					trait = gs_leader_leishen_personality
+				}
+				custom_tooltip = gs_leader_leishen_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xinhai
+					NOT = { has_leader = "£hydro£ ÊsZt«RÃVwm 0wàsKNzf0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£hydro£ ÊsZt«RÃVwm 0wàsKNzf0"
+					female = yes
+					trait = gs_leader_xinhai_personality
+				}
+				custom_tooltip = gs_leader_xinhai_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_tuoma
+					NOT = { has_leader = "£pyro£ Xblš 0!negËNw0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£pyro£ Xblš 0!negËNw0"
+					trait = gs_leader_tuoma_personality
+				}
+				custom_tooltip = gs_leader_tuoma_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_wulang
+					NOT = { has_leader = "£geo£ ”NÎ 0b¬r5•5•0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£geo£ ”NÎ 0b¬r5•5•0"
+					trait = gs_leader_wulang_personality
+				}
+				custom_tooltip = gs_leader_wulang_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yidou
+					NOT = { has_leader = "£geo£ Rƒ÷lN—e 0±‚BWjŒëV0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£geo£ Rƒ÷lN—e 0±‚BWjŒëV0"
+					trait = gs_leader_yidou_personality
+				}
+				custom_tooltip = gs_leader_yidou_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_shenzi
+					NOT = { has_leader = "£electro£ kQÍ‘^yPR 0nmNrŒvÿY0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£electro£ kQÍ‘^yPR 0nmNrŒvÿY0"
+					female = yes
+					trait = gs_leader_shenzi_personality
+				}
+				custom_tooltip = gs_leader_shenzi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lingren
+					NOT = { has_leader = "£hydro£ ^yÌ‘ëuºN 0ĞxmyöSˆR0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 6
+					siege = 7
+					name = "£hydro£ ^yÌ‘ëuºN 0ĞxmyöSˆR0"
+					trait = gs_leader_lingren_personality
+					
+				}
+				custom_tooltip = gs_leader_lingren_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_jiuqiren
+					NOT = { has_leader = "£electro£ ENSÍV 0æp|`Rd–0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 6
+					siege = 7
+					name = "£electro£ ENSÍV 0æp|`Rd–0"
+					trait = gs_leader_jiuqiren_personality
+					
+				}
+				custom_tooltip = gs_leader_jiuqiren_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_pingzang
+					NOT = { has_leader = "£anemo£ Î‘b–s^Ï… 0ÃVgBN‰R0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£anemo£ Î‘b–s^Ï… 0ÃVgBN‰R0"
+					trait = gs_leader_pingzang_personality
+					
+				}
+				custom_tooltip = gs_leader_pingzang_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kirara
+					NOT = { has_leader = "£dendro£ îuo‚o‚ 0j‡R+s8n0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£dendro£ îuo‚o‚ 0j‡R+s8n0"
+					trait = gs_leader_kirara_personality
+					
+				}
+				custom_tooltip = gs_leader_kirara_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_qianzhi
+					NOT = { has_leader = "£geo£ CSÇu 01÷–„vÁˆ&•^0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£geo£ CSÇu 01÷–„vÁˆ&•^0"
+					trait = gs_leader_qianzhi_personality
+				}
+				custom_tooltip = gs_leader_qianzhi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ruixi
+					NOT = { has_leader = "£anemo£ ¦hÁ‰g^t^ 0îu¦h1ûu0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£anemo£ ¦hÁ‰g^t^ 0îu¦h1ûu0"
+					trait = gs_leader_ruixi_personality
+				}
+				custom_tooltip = gs_leader_ruixi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_baimugui
+					NOT = { has_leader = "dWzŒvîv<› 0nA|„vN‰kKN<›0" }
+				}
+				define_admiral = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "dWzŒvîv<› 0nA|„vN‰kKN<›0"
+					trait = gs_leader_baimugui_personality
+				}
+			}
+			########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+			########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+			########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+			########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+			########________‰˜%V________################________‰˜%V________################________‰˜%V________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kelai
+					NOT = { has_leader = "£dendro£ ïg±ƒ 0„õVR†0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£dendro£ ïg±ƒ 0„õVR†0"
+					female = yes
+					trait = gs_leader_kelai_personality
+				}
+				custom_tooltip = gs_leader_kelai_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_tinali
+					NOT = { has_leader = "£dendro£ Ğc³uÌ‘ 0Em…‰Lˆ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£dendro£ Ğc³uÌ‘ 0Em…‰Lˆ0"
+					trait = gs_leader_tinali_personality
+				}
+				custom_tooltip = gs_leader_tinali_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_duoli
+					NOT = { has_leader = "£electro£ Y‰ƒ QhLk›sÈTôTO 0¦híVÏ…Ñ‘0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£electro£ Y‰ƒ QhLk›sÈTôTO 0¦híVÏ…Ñ‘0"
+					female = yes
+					trait = gs_leader_duoli_personality
+				}
+				custom_tooltip = gs_leader_duoli_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kandisi
+					NOT = { has_leader = "£hydro£ NW‚„N 0nmÑ‘„v“Š?a0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£hydro£ NW‚„N 0nmÑ‘„v“Š?a0"
+					female = yes
+					trait = gs_leader_kandisi_personality
+				}
+				custom_tooltip = gs_leader_kandisi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_sainuo
+					NOT = { has_leader = "£electro£ iú‹ 0'YÎ˜:gsQ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£electro£ iú‹ 0'YÎ˜:gsQ0"
+					trait = gs_leader_sainuo_personality
+				}
+				custom_tooltip = gs_leader_sainuo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_nilu
+					NOT = { has_leader = "£hydro£ ®Y2— 0²ƒIQK„‚ur0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£hydro£ ®Y2— 0²ƒIQK„‚ur0"
+					female = yes
+					trait = gs_leader_nilu_personality
+				}
+				custom_tooltip = gs_leader_nilu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_naxida
+					NOT = { has_leader = "£dendro£ ³u‰²Y 0àQR„vzf?a0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 8
+					siege = 8
+					name = "£dendro£ ³u‰²Y 0àQR„vzf?a0"
+					female = yes
+					trait = gs_leader_naxida_personality
+				}
+				custom_tooltip = gs_leader_naxida_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_laiyila
+					NOT = { has_leader = "£cryo£ ±ƒOÉb 0îu`Zff0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 5
+					siege = 6
+					name = "£cryo£ ±ƒOÉb 0îu`Zff0"
+					female = yes
+					trait = gs_leader_laiyila_personality
+				}
+				custom_tooltip = gs_leader_laiyila_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_falushan
+					NOT = { has_leader = "£anemo£ Ğs2—Ês 0åwº‹>mT¿R0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£anemo£ Ğs2—Ês 0åwº‹>mT¿R0"
+					female = yes
+					trait = gs_leader_falushan_personality
+				}
+				custom_tooltip = gs_leader_falushan_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_bengbeng
+					NOT = { has_leader = "£anemo£ Amjmw 0mQeQKSfÿø‹øv†vàe0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£anemo£ Amjmw 0mQeQKSfÿø‹øv†vàe0"
+					trait = gs_leader_bengbeng_personality
+				}
+				custom_tooltip = gs_leader_bengbeng_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_aierhaisen
+					NOT = { has_leader = "£dendro£ Œ‚Swmîh 0‡e1V„vfR=gRPR0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£dendro£ Œ‚Swmîh 0‡e1V„vfR=gRPR0"
+					trait = gs_leader_aierhaisen_personality
+				}
+				custom_tooltip = gs_leader_aierhaisen_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_dixiya
+					NOT = { has_leader = "£pyro£ ê^Å– 0Ëp›KNîr0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£pyro£ ê^Å– 0Ëp›KNîr0"
+					female = yes
+					trait = gs_leader_dixiya_personality
+				}
+				custom_tooltip = gs_leader_dixiya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kawei
+					NOT = { has_leader = "£dendro£ aSôu 0™Yº‹>mKNIQ0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£dendro£ aSôu 0™Yº‹>mKNIQ0"
+					trait = gs_leader_kawei_personality
+				}
+				custom_tooltip = gs_leader_kawei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_saisuosi
+					NOT = { has_leader = "£electro£ i0t¯e 0aˆfåw¦^0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£electro£ i0t¯e 0aˆfåw¦^0"
+					trait = gs_leader_saisuosi_personality
+				}
+				custom_tooltip = gs_leader_saisuosi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lana
+					NOT = { has_leader = "ÉbZ 0ôuid„^µe‹s0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "ÉbZ 0ôuid„^µe‹s0"
+					female = yes
+					trait = gs_leader_lana_personality
+				}
+				custom_tooltip = gs_leader_lana_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lanluomo
+					NOT = { has_leader = "pQWid" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "pQWid"
+					trait = gs_leader_lanluomo_personality
+				}
+				custom_tooltip = gs_leader_lanluomo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_jiede
+					NOT = { has_leader = "UZ·V Oòƒ 1kê 0SŞr+s0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "UZ·V Oòƒ 1kê 0SŞr+s0"
+					female = yes
+					trait = gs_leader_jiede_personality
+				}
+				custom_tooltip = gs_leader_jiede_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_silusha
+					NOT = { has_leader = "¯e2—ƒ 0±‚up„vÇRw0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "¯e2—ƒ 0±‚up„vÇRw0"
+					female = yes
+					trait = gs_leader_silusha_personality
+				}
+				custom_tooltip = gs_leader_jiede_personality
+			}
+			########________«g9N________################________«g9N________################________«g9N________########
+			########________«g9N________################________«g9N________################________«g9N________########
+			########________«g9N________################________«g9N________################________«g9N________########
+			########________«g9N________################________«g9N________################________«g9N________########
+			########________«g9N________################________«g9N________################________«g9N________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_linnite
+					NOT = { has_leader = "£anemo£ 3t®Yyr ê–HY(ƒ™‚Z 0KNqVîuLˆ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					name = "£anemo£ 3t®Yyr ê–HY(ƒ™‚Z 0KNqVîuLˆ0"
+					female = yes
+					trait = gs_leader_linnite_personality
+				}
+				custom_tooltip = gs_leader_linnite_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_linni
+					NOT = { has_leader = "£pyro£ —g<S ê–HY(ƒôuGY 0'YT›=g^0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£pyro£ —g<S ê–HY(ƒôuGY 0'YT›=g^0"
+					trait = gs_leader_linni_personality
+				}
+				custom_tooltip = gs_leader_linni_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_feimini
+					NOT = { has_leader = "£cryo£ òƒs|<S ê–HY(ƒôuGY 0jo`P¦h0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£cryo£ òƒs|<S ê–HY(ƒôuGY 0jo`P¦h0"
+					trait = gs_leader_feimini_personality
+				}
+				custom_tooltip = gs_leader_feimini_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_nawei
+					NOT = { has_leader = "£hydro£ ±ôu±ƒyr 0ŒJT„vnoó—0" }
+				}
+				define_general = {
+					shock = 8
+					fire = 8
+					manuever = 8
+					siege = 8
+					name = "£hydro£ ±ôu±ƒyr 0ŒJT„vnoó—0"
+					trait = gs_leader_nawei_personality
+				}
+				custom_tooltip = gs_leader_nawei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_laiou
+					NOT = { has_leader = "£cryo£ ±ƒ'k¯e)R 0ÂRj„vÆRO0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£cryo£ ±ƒ'k¯e)R 0ÂRj„vÆRO0"
+					trait = gs_leader_laiou_personality
+				}
+				custom_tooltip = gs_leader_laiou_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xialuodi
+					NOT = { has_leader = "£cryo£ Ym‚„ 0gj•0tw0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£cryo£ Ym‚„ 0gj•0tw0"
+					trait = gs_leader_xialuodi_personality
+				}
+				custom_tooltip = gs_leader_xialuodi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_funingna
+					NOT = { has_leader = "£hydro£ ™‚RZ ·V «g9N 08lN†˜1UÿàeKSW‚0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 8
+					manuever = 8
+					siege = 7
+					name = "£hydro£ ™‚RZ ·V «g9N 08lN†˜1UÿàeKSW‚0"
+					female = yes
+					trait = gs_leader_funingna_personality
+				}
+				custom_tooltip = gs_leader_funingna_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_naweiya
+					NOT = { has_leader = "£geo£ ZôuZ aS(„^ 0f±‚…5‚0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£geo£ ZôuZ aS(„^ 0f±‚…5‚0"
+					female = yes
+					trait = gs_leader_naweiya_personality
+				}
+				custom_tooltip = gs_leader_naweiya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xiawolei
+					NOT = { has_leader = "£pyro£ YƒlŒ… 0f‹V³QZ0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					name = "£pyro£ YƒlŒ… 0f‹V³QZ0"
+					female = yes
+					trait = gs_leader_xiawolei_personality
+				}
+				custom_tooltip = gs_leader_xiawolei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_keluolinde
+					NOT = { has_leader = "£electro£ KQm3t·V 0ÉyÛpİrqV0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£electro£ KQm3t·V 0ÉyÛpİrqV0"
+					female = yes
+					trait = gs_leader_keluolinde_personality
+				}
+				custom_tooltip = gs_leader_keluolinde_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xigewen
+					NOT = { has_leader = "£hydro£ ^<hï– 0™ŸsY™YØS0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£hydro£ ^<hï– 0™ŸsY™YØS0"
+					female = yes
+					trait = gs_leader_xigewen_personality
+				}
+				custom_tooltip = gs_leader_xigewen_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_aimeiliai
+					NOT = { has_leader = "£dendro£ Œ‚…h‰ƒÃW 0CSKN*0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£dendro£ Œ‚…h‰ƒÃW 0CSKN*0"
+					female = yes
+					trait = gs_leader_aimeiliai_personality
+				}
+				custom_tooltip = gs_leader_aimeiliai_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_aikefei
+					NOT = { has_leader = "£cryo£ 1rïSòƒ 0u¹p'Y!h0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					name = "£cryo£ 1rïSòƒ 0u¹p'Y!h0"
+					female = yes
+					trait = gs_leader_aikefei_personality
+				}
+				custom_tooltip = gs_leader_aikefei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_zeweier
+					NOT = { has_leader = "ılôuS ·V iOyrÌ‘KQ 0'YÑSf¶R0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "ılôuS ·V iOyrÌ‘KQ 0'YÑSf¶R0"
+					trait = gs_leader_zeweier_personality
+				}
+				custom_tooltip = gs_leader_zeweier_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_mameihe
+					NOT = { has_leader = "›s…hk" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "›s…hk"
+					female = yes
+					trait = gs_leader_mameihe_personality
+				}
+				custom_tooltip = gs_leader_mameihe_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_paxifu
+					NOT = { has_leader = "Às‰™‚ 0Vishap0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 5
+					siege = 5
+					name = "Às‰™‚ 0Vishap0"
+					female = yes
+					trait = gs_leader_paxifu_personality
+				}
+				custom_tooltip = gs_leader_paxifu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yagebu
+					NOT = { has_leader = "Å–T^ ñ‚b·V 04lÙNASWR„vºNåT1W’V0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 6
+					siege = 6
+					name = "Å–T^ ñ‚b·V 04lÙNASWR„vºNåT1W’V0"
+					trait = gs_leader_yagebu_personality
+				}
+				custom_tooltip = gs_leader_yagebu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_leinei
+					NOT = { has_leader = "÷–…Q ·V iOyr‰ƒïS 0'Y^ ³uPŸîhÑyœyQ0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 7
+					siege = 7
+					name = "÷–…Q ·V iOyr‰ƒïS 0'Y^ ³uPŸîhÑyœyQ0"
+					trait = gs_leader_leinei_personality
+				}
+				custom_tooltip = gs_leader_leinei_personality
+			}
+			########________³uTX________################________³uTX________################________³uTX________########
+			########________³uTX________################________³uTX________################________³uTX________########
+			########________³uTX________################________³uTX________################________³uTX________########
+			########________³uTX________################________³uTX________################________³uTX________########
+			########________³uTX________################________³uTX________################________³uTX________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kaqina
+					NOT = { has_leader = "£geo£ aSPŸZ 00ZW:V0 LN™lZS‚„0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					name = "£geo£ aSPŸZ 00ZW:V0 LN™lZS‚„0"
+					female = yes
+					trait = gs_leader_kaqina_personality
+				}
+				custom_tooltip = gs_leader_kaqina_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_malani
+					NOT = { has_leader = "£hydro£ ›sÉb®Y 00âVÓu0 ƒlidö^0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£hydro£ ›sÉb®Y 00âVÓu0 ƒlidö^0"
+					female = yes
+					trait = gs_leader_malani_personality
+				}
+				custom_tooltip = gs_leader_malani_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_jiniqi
+					NOT = { has_leader = "£dendro£ úW<SGY 00ŞVkp0 lš›RjS0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					name = "£dendro£ úW<SGY 00ŞVkp0 lš›RjS0"
+					trait = gs_leader_jiniqi_personality
+				}
+				custom_tooltip = gs_leader_jiniqi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_xinuoning
+					NOT = { has_leader = "£geo£ ^ú‹R 00kyy0 ôT±ƒaS0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					name = "£geo£ ^ú‹R 00kyy0 ôT±ƒaS0"
+					female = yes
+					trait = gs_leader_xinuoning_personality
+				}
+				custom_tooltip = gs_leader_xinuoning_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ouluolun
+					NOT = { has_leader = "£electro£ 'km&O 00IY.s0 ‡^r0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					name = "£electro£ 'km&O 00IY.s0 ‡^r0"
+					trait = gs_leader_ouluolun_personality
+				}
+				custom_tooltip = gs_leader_ouluolun_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_qiasika
+					NOT = { has_leader = "£anemo£ p`¯eaS 00…Š0 fkaS0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					female = yes
+					name = "£anemo£ p`¯eaS 00…Š0 fkaS0"
+					trait = gs_leader_qiasika_personality
+				}
+				custom_tooltip = gs_leader_qiasika_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_maweika
+					NOT = { has_leader = "£pyro£ ›s‡…aS 00†˜–ˆ0 úWlbbyQ0" }
+				}
+				define_general = {
+					shock = 8
+					fire = 8
+					manuever = 7
+					siege = 7
+					female = yes
+					name = "£pyro£ ›s‡…aS 00†˜–ˆ0 úWlbbyQ0"
+					trait = gs_leader_maweika_personality
+				}
+				custom_tooltip = gs_leader_maweika_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_nainai
+					NOT = { has_leader = "£cryo£ ƒyrÈƒ‰ƒ 00°‹ÆV0 LNfZS“^0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					female = yes
+					name = "£cryo£ ƒyrÈƒ‰ƒ 00°‹ÆV0 LNfZS“^0"
+					trait = gs_leader_nainai_personality
+				}
+				custom_tooltip = gs_leader_nainai_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yianshan
+					NOT = { has_leader = "£electro£ O‰RÊs 00›RÏ‘0 LNZPO0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					female = yes
+					name = "£electro£ O‰RÊs 00›RÏ‘0 LNZPO0"
+					trait = gs_leader_yianshan_personality
+				}
+				custom_tooltip = gs_leader_yianshan_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_niuniu
+					NOT = { has_leader = "£electro£ æt÷–ƒ 0òƒ6w‚„Z0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					female = yes
+					name = "£electro£ æt÷–ƒ 0òƒ6w‚„Z0"
+					trait = gs_leader_niuniu_personality
+				}
+				custom_tooltip = gs_leader_niuniu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yifa
+					NOT = { has_leader = "£anemo£ OÕl 0åTìN0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 6
+					manuever = 6
+					siege = 5
+					female = yes
+					name = "£anemo£ OÕl 0åTìN0"
+					trait = gs_leader_yifa_personality
+				}
+				custom_tooltip = gs_leader_yifa_personality
+			}
+			########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+			########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+			########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+			########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+			########________ó¬Q________################________ó¬Q________################________ó¬Q________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_gongzi
+					NOT = { has_leader = "£hydro£ ?–>KQ¯e 00lQPR0 ¾¾)RšN0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£hydro£ ?–>KQ¯e 00lQPR0 ¾¾)RšN0"
+					trait = gs_leader_gongzi_personality
+				}
+				custom_tooltip = gs_leader_gongzi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_aleiqinuo
+					NOT = { has_leader = "£pyro£ iO2—‡…)R ê–HY(ƒ™‚Z 00ÆNºN0 ?–Œ…GYú‹0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 6
+					female = yes
+					name = "£pyro£ iO2—‡…)R ê–HY(ƒ™‚Z 00ÆNºN0 ?–Œ…GYú‹0"
+					trait = gs_leader_aleiqinuo_personality
+				}
+				custom_tooltip = gs_leader_aleiqinuo_personality
+			}
+			########________VLu________################________VLu________################________VLu________########
+			########________VLu________################________VLu________################________VLu________########
+			########________VLu________################________VLu________################________VLu________########
+			########________VLu________################________VLu________################________VLu________########
+			########________VLu________################________VLu________################________VLu________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kong
+					NOT = { has_leader = "zz 0ÅeLˆw0" }
+				}
+				define_general = {
+					shock = 10
+					fire = 10
+					manuever = 10
+					siege = 10
+					name = "zz 0ÅeLˆw0"
+					trait = gs_leader_kong_personality
+				}
+				custom_tooltip = gs_leader_kong_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ying
+					NOT = { has_leader = "gƒ 0ÅeLˆw0" }
+				}
+				define_general = {
+					shock = 10
+					fire = 10
+					manuever = 10
+					siege = 10
+					name = "gƒ 0ÅeLˆw0"
+					female = yes
+					trait = gs_leader_ying_personality
+				}
+				custom_tooltip = gs_leader_ying_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ailuoyi
+					NOT = { has_leader = "£cryo£ ÃWmO 0VLu„vQeNIN0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£cryo£ ÃWmO 0VLu„vQeNIN0"
+					female = yes
+					trait = gs_leader_ailuoyi_personality
+				}
+				custom_tooltip = gs_leader_ailuoyi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_skirk
+					NOT = { has_leader = "£cryo£ NïgKQ 0Z†n—ff0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£cryo£ NïgKQ 0Z†n—ff0"
+					female = yes
+					trait = gs_leader_skirk_personality
+				}
+				custom_tooltip = gs_leader_skirk_personality
+			}
+			########________iVË†________################________iVË†________################________iVË†________########
+			########________iVË†________################________iVË†________################________iVË†________########
+			########________iVË†________################________iVË†________################________iVË†________########
+			########________iVË†________################________iVË†________################________iVË†________########
+			########________iVË†________################________iVË†________################________iVË†________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_fuhua
+					NOT = { has_leader = "&rNS 0d3ÙNºN0" }
+				}
+				define_general = {
+					shock = 64
+					fire = 84
+					manuever = 80
+					siege = 90
+					name = "&rNS 0d3ÙNºN0"
+					female = yes
+					trait = gs_leader_fuhua_personality
+				}
+				custom_tooltip = gs_leader_fuhua_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ailixiya
+					NOT = { has_leader = "£zhenwo£ 1r‰ƒ^Å– 0ºNKN‹Vw0" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£zhenwo£ 1r‰ƒ^Å– 0ºNKN‹Vw0"
+					female = yes
+					trait = gs_leader_ailixiya_personality
+				}
+				custom_tooltip = gs_leader_ailixiya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kaiwen
+					NOT = { has_leader = "£jiushi£ ïQ‡e 0kpAS	Nñ‚Nh0QeN00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£jiushi£ ïQ‡e 0kpAS	Nñ‚Nh0QeN00"
+					trait = gs_leader_kaiwen_personality
+				}
+				custom_tooltip = gs_leader_kaiwen_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_aboniya
+					NOT = { has_leader = "£jielv£ ?–âl<SšN 0kpAS	Nñ‚Nh0b‹V00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£jielv£ ?–âl<SšN 0kpAS	Nñ‚Nh0b‹V00"
+					female = yes
+					trait = gs_leader_aboniya_personality
+				}
+				custom_tooltip = gs_leader_aboniya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yidian
+					NOT = { has_leader = "£huangjin£ O8u 0kpAS	Nñ‚Nh0ÄÑ‘00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£huangjin£ O8u 0kpAS	Nñ‚Nh0ÄÑ‘00"
+					female = yes
+					trait = gs_leader_yidian_personality
+				}
+				custom_tooltip = gs_leader_yidian_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_weierwei
+					NOT = { has_leader = "£luoxuan£ ôuS‡… 0kpAS	Nñ‚Nh0º‡Ëe00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£luoxuan£ ôuS‡… 0kpAS	Nñ‚Nh0º‡Ëe00"
+					female = yes
+					trait = gs_leader_weierwei_personality
+				}
+				custom_tooltip = gs_leader_weierwei_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_qianjie
+					NOT = { has_leader = "£aomie£ CS«R 0kpAS	Nñ‚Nh0Ö“mp00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£aomie£ CS«R 0kpAS	Nñ‚Nh0Ö“mp00"
+					trait = gs_leader_qianjie_personality
+				}
+				custom_tooltip = gs_leader_qianjie_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_su
+					NOT = { has_leader = "£tianhui£ Ï‚ 0kpAS	Nñ‚Nh0)Yga00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£tianhui£ Ï‚ 0kpAS	Nñ‚Nh0)Yga00"
+					trait = gs_leader_su_personality
+				}
+				custom_tooltip = gs_leader_su_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ying2
+					NOT = { has_leader = "£chana£ 1j 0kpAS	Nñ‚Nh09R±00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£chana£ 1j 0kpAS	Nñ‚Nh09R±00"
+					female = yes
+					trait = gs_leader_ying2_personality
+				}
+				custom_tooltip = gs_leader_ying2_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_kesimo
+					NOT = { has_leader = "£xuguang£ Ñy¯eT› 0kpAS	Nñ‚Nh0íeIQ00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£xuguang£ Ñy¯eT› 0kpAS	Nñ‚Nh0íeIQ00"
+					trait = gs_leader_kesimo_personality
+				}
+				custom_tooltip = gs_leader_kesimo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_meibiwusi
+					NOT = { has_leader = "£wuxian£ …hÔkLN¯e 0kpAS	Nñ‚Nh0àeP–00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£wuxian£ …hÔkLN¯e 0kpAS	Nñ‚Nh0àeP–00"
+					female = yes
+					trait = gs_leader_meibiwusi_personality
+				}
+				custom_tooltip = gs_leader_meibiwusi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_geleixiu
+					NOT = { has_leader = "£fanxing£ <hŒ…îO 0kpAS	Nñ‚Nh0Auf00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£fanxing£ <hŒ…îO 0kpAS	Nñ‚Nh0Auf00"
+					female = yes
+					trait = gs_leader_geleixiu_personality
+				}
+				custom_tooltip = gs_leader_geleixiu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_hua
+					NOT = { has_leader = "£fusheng£ NS 0kpAS	Nñ‚Nh0nmu00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£fusheng£ NS 0kpAS	Nñ‚Nh0nmu00"
+					female = yes
+					trait = gs_leader_hua_personality
+				}
+				custom_tooltip = gs_leader_hua_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_paduo
+					NOT = { has_leader = "£kongmeng£ ^5gòƒ‰ƒN 0kpAS	Nñ‚Nh0zz¦h00" }
+				}
+				define_general = {
+					shock = 13
+					fire = 13
+					manuever = 13
+					siege = 13
+					name = "£kongmeng£ ^5gòƒ‰ƒN 0kpAS	Nñ‚Nh0zz¦h00"
+					female = yes
+					trait = gs_leader_paduo_personality
+				}
+				custom_tooltip = gs_leader_paduo_personality
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = gs_allow_ai_Easter }
+			}
+		}
+	}
+}

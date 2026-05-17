@@ -1,0 +1,8046 @@
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+
+shenghuo = {	#圣火竞技场
+	start = 852 #墨西哥
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = shenghuo }
+	on_destroyed = { hide_ambient_object = shenghuo }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = {
+		#gs_happy_mod_trigger = yes
+		#owner = { ai = yes }
+	}
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.05
+			discipline = 0.05
+			recover_army_morale_speed = 0.1
+			drill_gain_modifier = 0.50
+			drill_decay_modifier = -0.1
+			female_advisor_chance = 0.30
+			monthly_blood = 0.1
+		}
+		conditional_modifier = {
+			trigger = { owner = { is_religion_reformed = no } }
+			modifier = { yearly_doom_reduction = 1 }
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.1
+			discipline = 0.08
+			recover_army_morale_speed = 0.3
+			drill_gain_modifier = 0.75
+			drill_decay_modifier = -0.3
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.60
+			monthly_blood = 0.25
+			has_tercio = yes
+		}
+		conditional_modifier = {
+			trigger = { owner = { is_religion_reformed = no } }
+			modifier = { yearly_doom_reduction = 3 }
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			  
+		}
+		country_modifiers = {
+			land_morale = 0.2
+			discipline = 0.1
+			recover_army_morale_speed = 0.5
+			drill_gain_modifier = 1
+			drill_decay_modifier = -0.5
+			may_recruit_female_generals = yes
+			monarch_military_power = 1
+			free_mil_policy = 1
+			female_advisor_chance = 0.85
+			monthly_blood = 0.5
+			has_tercio = yes
+			allowed_tercio_fraction = 0.25
+		}
+		conditional_modifier = {
+			trigger = { owner = { is_religion_reformed = no } }
+			modifier = { yearly_doom_reduction = 5 }
+		}
+		on_upgraded = {
+            if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.1 }
+			}
+		}
+	}
+}
+
+huashi = {	#话事处
+	start = 852 #墨西哥
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = huashi }
+	on_destroyed = { hide_ambient_object = huashi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_tax_modifier = 0.1
+		}
+		area_modifier = {
+			local_governing_cost = -0.1
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.05
+			governing_capacity_modifier = 0.1
+			monthly_gold_inflation_modifier = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_tax_modifier = 0.2
+		}
+		area_modifier = {
+			local_governing_cost = -0.2
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.08
+			governing_capacity_modifier = 0.2
+			monthly_gold_inflation_modifier = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_tax_modifier = 0.3
+		}
+		area_modifier = {
+			local_governing_cost = -0.3
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.1
+			governing_capacity_modifier = 0.3
+			monarch_admin_power = 1
+			free_adm_policy = 1
+			monthly_gold_inflation_modifier = -0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_maweika } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_maweika
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_maweika
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.2 }
+			}
+		}
+	}
+}
+
+duanshi = {	#神庙·锻石之轮
+	start = 852 #墨西哥
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = duanshi }
+	on_destroyed = { hide_ambient_object = duanshi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			diplomats = 1
+			global_unrest = -1
+			reduced_liberty_desire = 10
+			stability_cost_modifier = -0.1
+			improve_relation_modifier = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			diplomats = 2
+			global_unrest = -1
+			reduced_liberty_desire = 20
+			stability_cost_modifier = -0.2
+			improve_relation_modifier = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			diplomats = 3
+			global_unrest = -2
+			reduced_liberty_desire = 30
+			stability_cost_modifier = -0.3
+			improve_relation_modifier = 0.3
+			monarch_diplomatic_power = 1
+			free_dip_policy = 1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.3 }
+			}
+		}
+	}
+}
+
+guili = {	#皈礼熔炉
+	start = 850 #特拉斯卡拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = guili }
+	on_destroyed = { hide_ambient_object = guili }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.1
+		}
+		country_modifiers = {
+			production_efficiency = 0.1
+			global_trade_goods_size_modifier = 0.05
+			global_regiment_cost = -0.05
+			global_regiment_recruit_speed = -0.05
+			gold_depletion_chance_modifier = -0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.2
+		}
+		country_modifiers = {
+			production_efficiency = 0.2
+			global_trade_goods_size_modifier = 0.1
+			global_regiment_cost = -0.1
+			global_regiment_recruit_speed = -0.1
+			gold_depletion_chance_modifier = -0.75
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.3
+		}
+		country_modifiers = {
+			production_efficiency = 0.3
+			global_trade_goods_size_modifier = 0.2
+			global_regiment_cost = -0.2
+			global_regiment_recruit_speed = -0.2
+			gold_depletion_chance_modifier = -1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.4 }
+			}
+		}
+	}
+}
+
+longyiwu = {	#龙遗物研究学会
+	start = 4582 #特奥蒂特兰
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = longyiwu }
+	on_destroyed = { hide_ambient_object = longyiwu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			institution_growth = 1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.03
+			idea_cost = -0.05
+			embracement_cost = -0.1
+			global_institution_spread = 0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			institution_growth = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			idea_cost = -0.1
+			embracement_cost = -0.2
+			global_institution_spread = 0.75
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			institution_growth = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			idea_cost = -0.15
+			embracement_cost = -0.3
+			global_institution_spread = 1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.5 }
+			} 
+		}
+	}
+}
+
+juanyi = {	#倦意之屋
+	start = 853 #特拉帕科扬
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = juanyi }
+	on_destroyed = { hide_ambient_object = juanyi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = nahuatl
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			manpower_recovery_speed = 0.1
+			reinforce_speed = 0.1
+			land_attrition = -0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			manpower_recovery_speed = 0.2
+			reinforce_speed = 0.2
+			land_attrition = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			manpower_recovery_speed = 0.3
+			reinforce_speed = 0.3
+			land_attrition = -0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.6 }
+			} 
+		}
+	}
+}
+########________回声之子________################________回声之子________################________回声之子________########
+########________回声之子________################________回声之子________################________回声之子________########
+########________回声之子________################________回声之子________################________回声之子________########
+huisheng = {	#回声之子
+	start = 846 #索图塔
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = huisheng }
+	on_destroyed = { hide_ambient_object = huisheng }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.1
+			fort_level = 1
+		}
+		country_modifiers = {
+			production_efficiency = 0.1
+			global_trade_goods_size_modifier = 0.05
+			artillery_fire = 0.5
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.2
+			fort_level = 2
+		}
+		country_modifiers = {
+			production_efficiency = 0.2
+			global_trade_goods_size_modifier = 0.1
+			artillery_fire = 0.75
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_kaqina } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_kaqina
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_kaqina
+			    }
+		    }
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.3
+			fort_level = 3
+		}
+		country_modifiers = {
+			production_efficiency = 0.3
+			global_trade_goods_size_modifier = 0.2
+			artillery_fire = 1
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_xinuoning } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_xinuoning
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_xinuoning
+			    }
+		    }
+			if = {
+				limit = { NOT = { trade_goods = gems } }
+				change_trade_goods = gems
+				if = {
+					limit = {
+						has_global_flag = gs_huisheng_changed_price
+					}
+					change_price = {
+						trade_goods = gems
+						key = huisheng
+						value = 1
+						duration = -1
+					}
+					set_global_flag = gs_huisheng_changed_price
+				}
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.7 }
+			}
+		}
+	}
+}
+
+liujing = {	#硫晶支脉
+	start = 2637 #卓特利
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = liujing }
+	on_destroyed = { hide_ambient_object = liujing }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			trade_goods_size = 0.5
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			production_efficiency = 0.05
+			global_trade_goods_size_modifier = 0.05
+			gold_depletion_chance_modifier = -0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			trade_goods_size = 1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			production_efficiency = 0.1
+			global_trade_goods_size_modifier = 0.1
+			gold_depletion_chance_modifier = -0.75
+		}
+		on_upgraded = {
+			if = {
+				limit = { NOT = { trade_goods = gold } }
+				change_trade_goods = gold
+			}
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			trade_goods_size = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			production_efficiency = 0.2
+			global_trade_goods_size_modifier = 0.2
+			gold_depletion_chance_modifier = -1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.8 }
+			}
+		}
+	}
+}
+
+zhongyan = {	#众岩之里
+	start = 4593 #希卡克
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = zhongyan }
+	on_destroyed = { hide_ambient_object = zhongyan }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.05
+			discipline = 0.05
+			war_exhaustion = -0.05
+			drill_gain_modifier = 0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.1
+			discipline = 0.08
+			war_exhaustion = -0.1
+			drill_gain_modifier = 0.75
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.2
+			discipline = 0.1
+			war_exhaustion = -0.2
+			drill_gain_modifier = 1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.9 }
+			} 
+		}
+	}
+}
+
+fendao = {	#分道誓约之厅
+	start = 4590 #休
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = fendao }
+	on_destroyed = { hide_ambient_object = fendao }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			all_estate_loyalty_equilibrium = 0.1
+			loyalty_change_on_revoked = -0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			all_estate_loyalty_equilibrium = 0.2
+			loyalty_change_on_revoked = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			all_estate_loyalty_equilibrium = 0.3
+			allow_free_estate_privilege_revocation = yes
+			loyalty_change_on_revoked = -0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.10 }
+			}
+		}
+	}
+}
+
+shizai = {	#始灾的边界
+	start = 2651 #阿卡努尔
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = fendao
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	on_built = { show_ambient_object = shizai }
+	on_destroyed = { hide_ambient_object = shizai }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = fendao
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = fendao
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_power = 0.1
+			artillery_power = 0.1
+			army_tradition_from_battle = 0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_power = 0.1
+			artillery_power = 0.2
+			army_tradition_from_battle = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_power = 0.3
+			artillery_power = 0.3
+			army_tradition_from_battle = 0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.11 }
+			}
+		}
+	}
+}
+
+jingtu = {	#族裔最后的净土
+	start = 2633 #克佩奇
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shizai
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	on_built = { show_ambient_object = jingtu }
+	on_destroyed = { hide_ambient_object = jingtu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shizai
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = mesoamerican_religion
+			has_owner_religion = yes
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shizai
+						tier = 3
+					}
+				}	
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			monarch_lifespan = 0.5
+			global_unrest = -1
+			stability_cost_modifier = -0.1
+			years_of_nationalism = -5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			monarch_lifespan = 0.75
+			global_unrest = -2
+			stability_cost_modifier = -0.2
+			years_of_nationalism = -8
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			monarch_lifespan = 1
+			global_unrest = -3
+			stability_cost_modifier = -0.3
+			years_of_nationalism = -10
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.12 }
+			} 
+		}
+	}
+}
+########________悬木人________################________悬木人________################________悬木人________########
+########________悬木人________################________悬木人________################________悬木人________########
+########________悬木人________################________悬木人________################________悬木人________########
+xuanmu = {	#悬木人
+	start = 808 #库斯科
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = xuanmu }
+	on_destroyed = { hide_ambient_object = xuanmu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_hostile_attrition = 2
+		}
+		country_modifiers = {
+			global_unrest = -1
+			spy_offence = 0.1
+			global_spy_defence = 0.1
+			movement_speed = 0.1
+			monthly_divine_authority = 0.1
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_hostile_attrition = 4
+		}
+		country_modifiers = {
+			global_unrest = -2
+			spy_offence = 0.2
+			global_spy_defence = 0.2
+			movement_speed = 0.2
+			monthly_divine_authority = 0.3
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_hostile_attrition = 6
+		}
+		country_modifiers = {
+			global_unrest = -3
+			spy_offence = 0.3
+			global_spy_defence = 0.3
+			movement_speed = 0.3
+			monthly_divine_authority = 0.5
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_jiniqi } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_jiniqi
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_jiniqi
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.13 }
+			}
+		}
+	}
+}
+
+huoliu = {	#火榴树根系
+	start = 2830 #克罗
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = huoliu }
+	on_destroyed = { hide_ambient_object = huoliu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			fire_damage = 0.1
+			production_efficiency = 0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			fire_damage = 0.2
+			production_efficiency = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			fire_damage = 0.3
+			production_efficiency = 0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.14 }
+			} 
+		}
+	}
+}
+
+jushi = {	#据石山
+	start = 812 #昌昌
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = jushi }
+	on_destroyed = { hide_ambient_object = jushi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 1
+			local_hostile_attrition = 2
+		}
+		country_modifiers = {
+			defensiveness = 0.1
+			fort_maintenance_modifier = -0.1
+			discipline = 0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 2
+			local_hostile_attrition = 4
+		}
+		country_modifiers = {
+			defensiveness = 0.2
+			fort_maintenance_modifier = -0.2
+			discipline = 0.08
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 3
+			local_hostile_attrition = 6
+		}
+		country_modifiers = {
+			defensiveness = 0.3
+			fort_maintenance_modifier = -0.3
+			discipline = 0.1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.15 }
+			} 
+		}
+	}
+}
+
+zuyi = {	#祖遗庙宇
+	start = 2831 #蒂亚瓦纳科
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = zuyi }
+	on_destroyed = { hide_ambient_object = zuyi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			fort_level = 1
+			local_hostile_attrition = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 1
+			global_missionary_strength = 0.01
+			missionary_maintenance_cost = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			fort_level = 2
+			local_hostile_attrition = 4
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 1
+			global_missionary_strength = 0.03
+			missionary_maintenance_cost = -0.3
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			fort_level = 3
+			local_hostile_attrition = 6
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 2
+			global_missionary_strength = 0.05
+			missionary_maintenance_cost = -0.5
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.17 }
+			}
+		}
+	}
+}
+
+ransu = {	#燃素开采研究所
+	start = 807 #阿班凯
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = ransu }
+	on_destroyed = { hide_ambient_object = ransu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = inti
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			institution_growth = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.03
+			production_efficiency = 0.1
+			global_trade_goods_size_modifier = 0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			institution_growth = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			production_efficiency = 0.2
+			global_trade_goods_size_modifier = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			institution_growth = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			production_efficiency = 0.3
+			global_trade_goods_size_modifier = 0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.18 }
+			} 
+		}
+	}
+}
+########________流泉之众________################________流泉之众________################________流泉之众________########
+########________流泉之众________################________流泉之众________################________流泉之众________########
+########________流泉之众________################________流泉之众________################________流泉之众________########
+liuquan = {	#流泉之众
+	start = 1090 #约拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	on_built = { show_ambient_object = liuquan }
+	on_destroyed = { hide_ambient_object = liuquan }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -1
+			naval_morale = 0.1
+			ship_durability = 0.05
+			naval_attrition = -0.1
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.1
+				migration_cost = -0.1
+				tribal_development_growth = 0.02
+				settle_cost = -0.1
+			}
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -2
+			naval_morale = 0.3
+			ship_durability = 0.1
+			naval_attrition = -0.2
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.3
+				migration_cost = -0.3
+				tribal_development_growth = 0.06
+				settle_cost = -0.3
+			}
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -3
+			naval_morale = 0.5
+			ship_durability = 0.2
+			naval_attrition = -0.3
+			sea_repair = yes
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.5
+				migration_cost = -0.5
+				tribal_development_growth = 0.1
+				settle_cost = -0.5
+			}
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.19 }
+			}
+		}
+	}
+}
+
+rongshui = {	#溶水域
+	start = 1107 #塔拉纳基
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	on_built = { show_ambient_object = rongshui }
+	on_destroyed = { hide_ambient_object = rongshui }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			max_flagships = 1
+			number_of_cannons_flagship = 10
+			flagship_durability = 0.05
+			flagship_cost = -0.1
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			max_flagships = 2
+			number_of_cannons_flagship = 30
+			flagship_durability = 0.1
+			flagship_cost = -0.2
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			max_flagships = 3
+			number_of_cannons_flagship = 50
+			flagship_durability = 0.2
+			flagship_cost = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.20 }
+			}
+		}
+	}
+}
+
+futu = {	#浮土境界
+	start = 1244 #土阿莫土群岛
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	on_built = { show_ambient_object = futu }
+	on_destroyed = { hide_ambient_object = futu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			  
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			institution_growth = 1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			idea_cost = -0.05
+			global_institution_spread = 0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			institution_growth = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.08
+			idea_cost = -0.08
+			global_institution_spread = 0.75
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			institution_growth = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			idea_cost = -0.1
+			global_institution_spread = 1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.21 }
+			} 
+		}
+	}
+}
+
+malanidian = {	#玛拉妮的小店
+	start = 1090 #约拉 #4935 #瓦胡
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	on_built = { show_ambient_object = malanidian }
+	on_destroyed = { hide_ambient_object = malanidian }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			province_trade_power_value = 1
+		}
+		country_modifiers = {
+			merchants = 1
+			trade_efficiency = 0.1
+			global_trade_goods_size_modifier = 0.05
+			trade_steering = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			province_trade_power_value = 2
+		}
+		country_modifiers = {
+			merchants = 2
+			trade_efficiency = 0.2
+			global_trade_goods_size_modifier = 0.1
+			trade_steering = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			province_trade_power_value = 3
+		}
+		country_modifiers = {
+			merchants = 3
+			trade_efficiency = 0.3
+			global_trade_goods_size_modifier = 0.2
+			trade_steering = 0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_malani } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_malani
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_malani
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.22 }
+			}
+		}
+	}
+}
+
+qiehuo = {	#窃火者的密岛
+	start = 4869 #皮拉佩尔
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	on_built = { show_ambient_object = qiehuo }
+	on_destroyed = { hide_ambient_object = qiehuo }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			OR = {
+                AND = {
+                    OR = {
+			            culture_group = pacific
+			            culture_group = aboriginal_australian
+		            }
+		            OR = {
+			            has_owner_culture = yes
+			            has_owner_accepted_culture = yes
+		            }
+                }
+	            AND = {
+                    religion = dreamtime
+		            has_owner_religion = yes
+                }
+	            AND = {
+		            owner = { technology_group = polynesian_tech }
+	            }
+            }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			heavy_ship_number_of_cannons_modifier = 0.1
+			global_ship_recruit_speed = -0.1
+			global_naval_engagement_modifier = 0.1
+			range = 0.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			heavy_ship_number_of_cannons_modifier = 0.2
+			global_ship_recruit_speed = -0.2
+			global_naval_engagement_modifier = 0.2
+			colonists = 1
+			range = 0.75
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			heavy_ship_number_of_cannons_modifier = 0.3
+			global_ship_recruit_speed = -0.3
+			global_naval_engagement_modifier = 0.3
+			may_perform_slave_raid = yes
+			colonists = 2
+			range = 1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.23 }
+			}
+		}
+	}
+}
+########________烟迷主________################________烟迷主________################________烟迷主________########
+########________烟迷主________################________烟迷主________################________烟迷主________########
+########________烟迷主________################________烟迷主________################________烟迷主________########
+yanmi = {	#烟迷主
+	start = 1170 #姆彭巴
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = yanmi }
+	on_destroyed = { hide_ambient_object = yanmi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -1
+			governing_capacity_modifier = 0.1
+			administrative_efficiency = 0.5
+			governing_cost = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -2
+			governing_capacity_modifier = 0.2
+			administrative_efficiency = 0.08
+			governing_cost = -0.2
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_ouluolun } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_ouluolun
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_ouluolun
+			    }
+		    }
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -3
+			governing_capacity_modifier = 0.3
+			administrative_efficiency = 0.1
+			governing_cost = -0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_nainai } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_nainai
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_nainai
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.24 }
+			}
+		}
+	}
+}
+
+jingbi = {	#镜壁山
+	start = 1171 #恩东戈
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = jingbi }
+	on_destroyed = { hide_ambient_object = jingbi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 1
+			local_hostile_attrition = 2
+		}
+		country_modifiers = {
+			defensiveness = 0.1
+			garrison_size = 0.1
+			fort_maintenance_modifier = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 2
+			local_hostile_attrition = 4
+		}
+		country_modifiers = {
+			defensiveness = 0.2
+			garrison_size = 0.2
+			fort_maintenance_modifier = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 3
+			local_hostile_attrition = 6
+		}
+		country_modifiers = {
+			defensiveness = 0.3
+			garrison_size = 0.3
+			fort_maintenance_modifier = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.25 }
+			} 
+		}
+	}
+}
+
+mitu = {	#迷土祭祀场
+	start = 2949 #姆巴塔
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = mitu }
+	on_destroyed = { hide_ambient_object = mitu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 1
+			global_missionary_strength = 0.01
+			missionary_maintenance_cost = -0.1
+			religious_unity = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 2
+			global_missionary_strength = 0.03
+			missionary_maintenance_cost = -0.3
+			religious_unity = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			missionaries = 3
+			global_missionary_strength = 0.05
+			missionary_maintenance_cost = -0.5
+			religious_unity = 0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.26 }
+			} 
+		}
+	}
+}
+
+bianzhi = {	#编织处
+	start = 798 #幕布维拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = bianzhi }
+	on_destroyed = { hide_ambient_object = bianzhi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			num_accepted_cultures = 1
+			culture_conversion_cost = -0.1
+            culture_conversion_time = -0.1
+			stability_cost_modifier = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			num_accepted_cultures = 2
+			culture_conversion_cost = -0.3
+            culture_conversion_time = -0.3
+			stability_cost_modifier = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			num_accepted_cultures = 3
+			culture_conversion_cost = -0.5
+            culture_conversion_time = -0.5
+			stability_cost_modifier = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.27 }
+			} 
+		}
+	}
+}
+
+manxun = {	#漫曛谷
+	start = 1901 #姆藩古
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = manxun }
+	on_destroyed = { hide_ambient_object = manxun }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.05
+			discipline = 0.05
+			land_attrition = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.1
+			discipline = 0.08
+			land_attrition = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.2
+			discipline = 0.1
+			land_attrition = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.28 }
+			} 
+		}
+	}
+}
+
+fuyu = {	#浮羽之湾
+	start = 1306 #圣多美
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = fuyu }
+	on_destroyed = { hide_ambient_object = fuyu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			naval_morale = 0.1
+			ship_durability = 0.05
+			merchants = 1
+			trade_efficiency = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			naval_morale = 0.2
+			ship_durability = 0.08
+			merchants = 1
+			trade_efficiency = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			naval_morale = 0.3
+			ship_durability = 0.1
+			merchants = 2
+			trade_efficiency = 0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.29 }
+			} 
+		}
+	}
+}
+########________花羽会________################________花羽会________################________花羽会________########
+########________花羽会________################________花羽会________################________花羽会________########
+########________花羽会________################________花羽会________################________花羽会________########
+huayu = {	#花羽会
+	start = 1184 #津巴布韦
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = huayu }
+	on_destroyed = { hide_ambient_object = huayu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -1
+			cavalry_power = 0.1
+			cav_to_inf_ratio = 0.1
+			artillery_power = 0.1
+			movement_speed = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -2
+			cavalry_power = 0.2
+			cav_to_inf_ratio = 0.3
+			artillery_power = 0.2
+			movement_speed = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -3
+			cavalry_power = 0.3
+			cav_to_inf_ratio = 0.5
+			artillery_power = 0.3
+			movement_speed = 0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_qiasika } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_qiasika
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_qiasika
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.30 }
+			}
+		}
+	}
+}
+
+feixing = {	#飞行试炼场
+	start = 1186 #索法拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = feixing }
+	on_destroyed = { hide_ambient_object = feixing }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.05
+			discipline = 0.05
+			land_attrition = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.1
+			discipline = 0.08
+			land_attrition = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			land_morale = 0.2
+			discipline = 0.1
+			land_attrition = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.31 }
+			} 
+		}
+	}
+}
+
+qiaozhi = {	#翘枝崖
+	start = 1195 #莫桑比克
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = qiaozhi }
+	on_destroyed = { hide_ambient_object = qiaozhi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 1
+			local_hostile_attrition = 2
+		}
+		country_modifiers = {
+			defensiveness = 0.1
+			garrison_size = 0.1
+			military_tactics = 0.15
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 2
+			local_hostile_attrition = 4
+		}
+		country_modifiers = {
+			defensiveness = 0.2
+			garrison_size = 0.2
+			military_tactics = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			fort_level = 3
+			local_hostile_attrition = 6
+		}
+		country_modifiers = {
+			defensiveness = 0.3
+			garrison_size = 0.3
+			military_tactics = 0.25
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_yifa } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_yifa
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_yifa
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.32 }
+			} 
+		}
+	}
+}
+
+chaixin = {	#柴薪之丘
+	start = 1185 #布图啊
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = chaixin }
+	on_destroyed = { hide_ambient_object = chaixin }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = shamanism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_defensiveness = 0.1
+			fort_level = 1
+		}
+		country_modifiers = {
+			technology_cost = -0.03
+			idea_cost = -0.03
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_defensiveness = 0.2
+			fort_level = 2
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			idea_cost = -0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_defensiveness = 0.3
+			fort_level = 3
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			idea_cost = -0.1
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.33 }
+			} 
+		}
+	}
+}
+
+########________沃陆之邦________################________沃陆之邦________################________沃陆之邦________########
+########________沃陆之邦________################________沃陆之邦________################________沃陆之邦________########
+########________沃陆之邦________################________沃陆之邦________################________沃陆之邦________########
+wolu = {	#沃陆之邦
+	start = 960 #奥农多高诺
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = wolu }
+	on_destroyed = { hide_ambient_object = wolu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			fort_level = 1
+			local_fort_maintenance_modifier = -0.1
+			local_garrison_size = 0.3
+			local_defender_dice_roll_bonus = 1
+			local_garrison_damage = 0.1
+		}
+		area_modifier = {
+			local_hostile_attrition = 2
+			local_defensiveness = 0.1
+			local_friendly_movement_speed = 0.1
+			local_hostile_movement_speed = -0.1
+		}
+		country_modifiers = {
+			land_morale = 0.1
+			discipline = 0.05
+			infantry_power = 0.1
+			military_tactics = 0.05
+			global_attacker_dice_roll_bonus = 1
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.1
+				migration_cost = -0.1
+				tribal_development_growth = 0.02
+				settle_cost = -0.1
+			}
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			fort_level = 2
+			local_fort_maintenance_modifier = -0.3
+			local_garrison_size = 0.5
+			local_defender_dice_roll_bonus = 2
+			local_garrison_damage = 0.2
+		}
+		area_modifier = {
+			local_hostile_attrition = 4
+			local_defensiveness = 0.3
+			local_friendly_movement_speed = 0.2
+			local_hostile_movement_speed = -0.3
+		}
+		country_modifiers = {
+			land_morale = 0.2
+			discipline = 0.08
+			infantry_power = 0.2
+			military_tactics = 0.08
+			global_attacker_dice_roll_bonus = 2
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.3
+				migration_cost = -0.3
+				tribal_development_growth = 0.06
+				settle_cost = -0.3
+			}
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			fort_level = 3
+			local_fort_maintenance_modifier = -0.5
+			local_garrison_size = 1
+			local_defender_dice_roll_bonus = 3
+			local_garrison_damage = 0.3
+		}
+		area_modifier = {
+			local_hostile_attrition = 6
+			local_defensiveness = 0.5
+			local_friendly_movement_speed = 0.3
+			local_hostile_movement_speed = -0.5
+		}
+		country_modifiers = {
+			land_morale = 0.3
+			discipline = 0.1
+			infantry_power = 0.3
+			military_tactics = 0.1
+			global_attacker_dice_roll_bonus = 3
+		}
+		conditional_modifier = {
+			trigger = { owner ={ has_reform = native_basic_reform } }
+			modifier = {
+				monthly_reform_progress = 0.3
+				migration_cost = -0.3
+				tribal_development_growth = 0.1
+				settle_cost = -0.5
+			}
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.34 }
+			} 
+		}
+	}
+}
+
+jianshenjule = {	#伊安珊的健身俱乐部
+	start = 964 #卡尼恩凯哈卡
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = jianshenjule }
+	on_destroyed = { hide_ambient_object = jianshenjule }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_tax_modifier = 0.1
+			local_development_cost = -0.1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			drill_gain_modifier = 0.1
+			drill_decay_modifier = -0.1
+			yearly_army_professionalism = 0.01
+			morale_damage_received = -0.1
+			movement_speed = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_tax_modifier = 0.2
+			local_development_cost = -0.2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			drill_gain_modifier = 0.3
+			drill_decay_modifier = -0.2
+			yearly_army_professionalism = 0.03
+			morale_damage_received = -0.2
+			movement_speed = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_tax_modifier = 0.3
+			local_development_cost = -0.3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			drill_gain_modifier = 0.5
+			drill_decay_modifier = -0.3
+			yearly_army_professionalism = 0.05
+			morale_damage_received = -0.3
+			movement_speed = 0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_yianshan } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_yianshan
+			    	    duration = -1
+			    	}
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.35 }
+			}
+		}
+	}
+}
+
+waleishaguoyuan = {	#瓦雷莎的果园
+	start = 959 #加约戈霍诺
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = waleishaguoyuan }
+	on_destroyed = { hide_ambient_object = waleishaguoyuan }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_tax_modifier = 0.1
+			local_production_efficiency = 0.1
+			trade_goods_size = 1
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.1
+		}
+		country_modifiers = {
+			global_supply_limit_modifier = 0.1
+			land_attrition = -0.1
+			land_forcelimit_modifier = 0.1
+			land_maintenance_modifier = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_tax_modifier = 0.2
+			local_production_efficiency = 0.2
+			trade_goods_size = 2
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.2
+		}
+		country_modifiers = {
+			global_supply_limit_modifier = 0.2
+			land_attrition = -0.2
+			land_forcelimit_modifier = 0.2
+			land_maintenance_modifier = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_tax_modifier = 0.3
+			local_production_efficiency = 0.3
+			trade_goods_size = 3
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.3
+		}
+		country_modifiers = {
+			global_supply_limit_modifier = 0.3
+			land_attrition = -0.3
+			land_forcelimit_modifier = 0.3
+			land_maintenance_modifier = -0.3
+		}
+		on_upgraded = {
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_niuniu } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_niuniu
+			    	    duration = -1
+			    	}
+			    }
+		    }
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.36 }
+			}
+		}
+	}
+}
+
+shuaijiao = {	#摔跤竞技场
+	start = 961 #奥尼约塔卡
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = shuaijiao }
+	on_destroyed = { hide_ambient_object = shuaijiao }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_tax_modifier = 0.1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			army_tradition = 1
+			army_tradition_decay = -0.1
+			leader_land_fire = 1
+			leader_land_manuever = 1
+			leader_land_shock = 1
+			leader_siege = 1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_tax_modifier = 0.2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			army_tradition = 2
+			army_tradition_decay = -0.2
+			leader_land_fire = 2
+			leader_land_manuever = 2
+			leader_land_shock = 2
+			leader_siege = 2
+			enable_forced_march = yes
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_tax_modifier = 0.3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			army_tradition = 3
+			army_tradition_decay = -0.3
+			leader_land_fire = 3
+			leader_land_manuever = 3
+			leader_land_shock = 3
+			leader_siege = 3
+			enable_forced_march = yes
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.37 }
+			} 
+		}
+	}
+}
+
+jieyiyiji = {	#孑遗的留迹
+	start = 2536 #马亚依米
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	on_built = { show_ambient_object = jieyiyiji }
+	on_destroyed = { hide_ambient_object = jieyiyiji }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			religion = totemism
+			has_owner_religion = yes
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_friendly_movement_speed = 0.1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			yearly_innovativeness = 0.1
+			idea_cost = -0.05
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_friendly_movement_speed = 0.3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.08
+			yearly_innovativeness = 0.2
+			idea_cost = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_friendly_movement_speed = 0.5
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			yearly_innovativeness = 0.3
+			idea_cost = -0.15
+		}
+		on_upgraded = {
+			 if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.38 }
+			}
+		}
+	}
+}
+########________奥奇卡纳塔________################________奥奇卡纳塔________################________奥奇卡纳塔________########
+########________奥奇卡纳塔________################________奥奇卡纳塔________################________奥奇卡纳塔________########
+########________奥奇卡纳塔________################________奥奇卡纳塔________################________奥奇卡纳塔________########
+aoqika = {	#奥奇卡纳塔
+	start = 1792 #梅里纳
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 3
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	on_built = { show_ambient_object = aoqika }
+	on_destroyed = { hide_ambient_object = aoqika }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -1
+			administrative_efficiency = 0.05
+			production_efficiency = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -2
+			administrative_efficiency = 0.08
+			production_efficiency = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -3
+			administrative_efficiency = 0.1
+			free_policy = 1
+			production_efficiency = 0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.39 }
+			} 
+		}
+	}
+}
+
+tianshe = {	#天蛇船
+	start = 4021 #安坦卡拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	on_built = { show_ambient_object = tianshe }
+	on_destroyed = { hide_ambient_object = tianshe }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 1500}
+		cost_to_upgrade = { factor =  10000 }
+		province_modifiers = {
+			institution_growth = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.05
+			idea_cost = -0.1
+			global_unrest = -1
+			all_power_cost = -0.05
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  30000 }
+		province_modifiers = {
+			institution_growth = 4
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			idea_cost = -0.2
+			global_unrest = -2
+			all_power_cost = -0.1
+		}
+		on_upgraded = {
+			
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 5000}
+		cost_to_upgrade = { factor =  50000 }
+		province_modifiers = {
+			institution_growth = 6
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.2
+			idea_cost = -0.3
+			global_unrest = -3
+			all_power_cost = -0.2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.40 }
+			}
+		}
+	}
+}
+
+tongyu = {	#旧日的统御核心
+	start = 4022 #伊博伊纳
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	on_built = { show_ambient_object = tongyu }
+	on_destroyed = { hide_ambient_object = tongyu }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 1500}
+		cost_to_upgrade = { factor =  10000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.05
+			governing_capacity_modifier = 0.1
+			governing_cost = -0.1
+			global_unrest = -1
+			stability_cost_modifier = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  30000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.1
+			governing_capacity_modifier = 0.3
+			governing_cost = -0.2
+			global_unrest = -3
+			stability_cost_modifier = -0.3
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 5000}
+		cost_to_upgrade = { factor =  50000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.2
+			governing_capacity_modifier = 0.5
+			governing_cost = -0.3
+			global_unrest = -5
+			stability_cost_modifier = -0.5
+		}
+		on_upgraded = {
+			 if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.41 }
+			}
+		}
+	}
+}
+
+tuozuozi = {	#托佐兹之岛
+	start = 4020 #科摩罗
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	on_built = { show_ambient_object = tuozuozi }
+	on_destroyed = { hide_ambient_object = tuozuozi }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			province_trade_power_value = 1
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			merchants = 1
+			trade_efficiency = 0.1
+			trade_steering = 0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			province_trade_power_value = 2
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			merchants = 1
+			trade_efficiency = 0.2
+			trade_steering = 0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			province_trade_power_value = 3
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			merchants = 2
+			trade_efficiency = 0.3
+			trade_steering = 0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.42 }
+			} 
+		}
+	}
+}
+
+yuanhuo = {	#源火圣座
+	start = 4029 #安塔诺西
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	on_built = { show_ambient_object = yuanhuo }
+	on_destroyed = { hide_ambient_object = yuanhuo }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			 
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			tolerance_own = 0.5
+			missionaries = 1
+			global_missionary_strength = 0.01
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			tolerance_own = 0.8
+			missionaries = 1
+			global_missionary_strength = 0.03
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			cb_on_religious_enemies = yes
+			extra_manpower_at_religious_war = yes
+			tolerance_own = 1
+			missionaries = 2
+			global_missionary_strength = 0.05
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.43 }
+			} 
+		}
+	}
+}
+
+
+
+
+########________图兰大火山________################________图兰大火山________################________图兰大火山________########
+########________图兰大火山________################________图兰大火山________################________图兰大火山________########
+########________图兰大火山________################________图兰大火山________################________图兰大火山________########
+tulanhuoshan = {	#永蕴常火的圣山
+	start = 2020 #巴纳库特
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	on_built = { show_ambient_object = tulanhuoshan }
+	on_destroyed = { hide_ambient_object = tulanhuoshan }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.44 }
+			} 
+		}
+	}
+}
+
+tianhuoguan = {	#天火之冠
+	start = 2489 #博霍依内
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = tianhuoguan }
+	on_destroyed = { hide_ambient_object = tianhuoguan }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			monthly_splendor = 10
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.45 }
+			} 
+		}
+	}
+}
+
+tulanshengcheng = {	#图兰圣城
+	start = 4917 #塞利斯
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = tulanshengcheng }
+	on_destroyed = { hide_ambient_object = tulanshengcheng }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 1000}
+		cost_to_upgrade = { factor =  100000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.1
+			local_tax_modifier = 0.1
+			local_development_cost = -0.1
+			trade_goods_size_modifier = 0.1
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.1
+			governing_capacity_modifier = 0.1
+			governing_cost = -0.1
+			development_cost = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 2000}
+		cost_to_upgrade = { factor =  200000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.3
+			local_tax_modifier = 0.3
+			local_development_cost = -0.3
+			trade_goods_size_modifier = 0.3
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.15
+			governing_capacity_modifier = 0.3
+			governing_cost = -0.3
+			development_cost = -0.2
+			allow_client_states = yes
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  300000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			local_production_efficiency = 0.5
+			local_tax_modifier = 0.5
+			local_development_cost = -0.5
+			trade_goods_size_modifier = 0.5
+		}
+		country_modifiers = {
+			administrative_efficiency = 0.2
+			governing_capacity_modifier = 0.5
+			governing_cost = -0.5
+			development_cost = -0.3
+			allow_client_states = yes
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.46 }
+			} 
+		}
+	}
+}
+
+fenliushihai = {	#分流识海
+	start = 2490 #戈休特
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = fenliushihai }
+	on_destroyed = { hide_ambient_object = fenliushihai }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			always = yes
+		}
+		else = {
+			
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 1000}
+		cost_to_upgrade = { factor =  100000 }
+		province_modifiers = {
+			institution_growth = 10
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			all_power_cost = -0.1
+			idea_cost = -0.1
+			embracement_cost = -0.1
+			global_institution_spread = 1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 2000}
+		cost_to_upgrade = { factor =  200000 }
+		province_modifiers = {
+			institution_growth = 20
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.2
+			all_power_cost = -0.15
+			idea_cost = -0.3
+			embracement_cost = -0.3
+			global_institution_spread = 1.5
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  300000 }
+		province_modifiers = {
+			institution_growth = 30
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			technology_cost = -0.3
+			all_power_cost = -0.2
+			idea_cost = -0.5
+			embracement_cost = -0.5
+			global_institution_spread = 2
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.47 }
+			} 
+		}
+	}
+}
+
+juhuo = {	#聚火祭研所
+	start = 2504 #厄拉拉皮
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = juhuo }
+	on_destroyed = { hide_ambient_object = juhuo }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  300000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_fire = 2
+			cavalry_fire = 2
+			artillery_fire = 2
+			morale_damage = 0.5
+			fire_damage = 2
+			artillery_levels_available_vs_fort = 2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 6000}
+		cost_to_upgrade = { factor =  500000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_fire = 4
+			cavalry_fire = 4
+			artillery_fire = 4
+			morale_damage = 0.75
+			fire_damage = 2
+			artillery_levels_available_vs_fort = 4
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 12000}
+		cost_to_upgrade = { factor =  700000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			infantry_fire = 6
+			cavalry_fire = 6
+			artillery_fire = 6
+			morale_damage = 1
+			fire_damage = 3
+			artillery_levels_available_vs_fort = 6
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.48 }
+			} 
+		}
+	}
+}
+
+shenyizhiting = {	#审议之庭
+	start = 2506 #库聪蒂卡
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = shenyizhiting }
+	on_destroyed = { hide_ambient_object = shenyizhiting }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			local_unrest = -5
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -1
+			stability_cost_modifier = -0.1
+			global_autonomy = -0.05
+			min_autonomy = -10
+			harsh_treatment_cost = -0.1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			local_unrest = -8
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -2
+			stability_cost_modifier = -0.2
+			global_autonomy = -0.08
+			min_autonomy = -20
+			harsh_treatment_cost = -0.2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			local_unrest = -10
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			global_unrest = -3
+			stability_cost_modifier = -0.3
+			global_autonomy = -0.1
+			min_autonomy = -30
+			harsh_treatment_cost = -0.3
+		}
+		on_upgraded = {
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.49 }
+			} 
+		}
+	}
+}
+
+shengshanzhixin = {	#圣山之心
+	start = 2020 #巴纳库特
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			##后续更新通关金蝶
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	on_built = { show_ambient_object = shengshanzhixin }
+	on_destroyed = { hide_ambient_object = shengshanzhixin }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				OR = {
+					gs_monuments_unlimit_trigger = yes
+					owner = { has_ruler_flag = gs_ruler_maweika }
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+		else = {
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = tulanhuoshan
+						tier = 3
+					}
+				}
+			}
+			owner = {
+				any_owned_province = {
+					has_great_project = {
+						type = shenyizhiting
+						tier = 3
+					}
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			 
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 1000}
+		cost_to_upgrade = { factor =  100000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 3
+			advisor_cost = -0.1
+			legitimacy = 3
+			republican_tradition = 3
+			devotion = 3
+			horde_unity = 3
+			meritocracy = 3
+			monthly_militarized_society = 0.5
+			reform_progress_growth = 0.1
+			country_admin_power = 1
+			country_diplomatic_power = 1
+			country_military_power = 1
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 2000}
+		cost_to_upgrade = { factor =  200000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 5
+			advisor_cost = -0.2
+			legitimacy = 5
+			republican_tradition = 5
+			devotion = 5
+			horde_unity = 5
+			meritocracy = 5
+			monthly_militarized_society = 0.75
+			reform_progress_growth = 0.2
+			country_admin_power = 2
+			country_diplomatic_power = 2
+			country_military_power = 2
+		}
+		on_upgraded = {
+			 
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 3000}
+		cost_to_upgrade = { factor =  300000 }
+		province_modifiers = {
+			 
+		}
+		area_modifier = {
+			 
+		}
+		country_modifiers = {
+			prestige = 10
+			advisor_cost = -0.3
+			legitimacy = 10
+			republican_tradition = 10
+			devotion = 10
+			horde_unity = 10
+			meritocracy = 10
+			monthly_militarized_society = 1
+			reform_progress_growth = 0.3
+			country_admin_power = 3
+			country_diplomatic_power = 3
+			country_military_power = 3
+		}
+		on_upgraded = {
+			#给火龙王特质和永生者特质
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_nata_mingzi_events.50 }
+			}
+		}
+	}
+}

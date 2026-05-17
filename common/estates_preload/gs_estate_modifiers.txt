@@ -1,0 +1,33 @@
+#Define estate loyalty and influence modifiers here
+
+
+estate_genshin = {
+	modifier_definition = {
+		type = land_ownership
+		key = estate_genshin_land_ownership_modifier
+		trigger = {
+			has_estate = estate_genshin
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = estate_genshin_loyalty_modifier
+		trigger = {
+			has_estate = estate_genshin
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = estate_genshin_influence_modifier
+		trigger = {
+			has_estate = estate_genshin
+		}
+	}
+	modifier_definition = {
+		type = privileges
+		key = estate_genshin_privilege_slots
+		trigger = {
+			has_estate = estate_genshin
+		}
+	}
+}

@@ -1,0 +1,491 @@
+########________其他________################________其他________################________其他________########
+########________其他________################________其他________################________其他________########
+########________其他________################________其他________################________其他________########
+########________其他________################________其他________################________其他________########
+########________其他________################________其他________################________其他________########
+
+masike = {	#马斯克礁
+	start = 1235 #关岛
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = {
+			owner = { num_of_colonists = 1 }
+		}
+	}
+	on_built = { show_ambient_object = masike }
+	on_destroyed = { hide_ambient_object = masike }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = {
+			owner = { num_of_colonists = 1 }
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = {
+			owner = { num_of_colonists = 1 }
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {native_uprising_chance = 0.05}
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  600 }
+		province_modifiers = { }
+		area_modifier = {
+			local_colonial_growth = 20
+			local_colonist_placement_chance = 0.05
+		}
+		country_modifiers = {
+			colonists = 1
+			range = 0.1
+			colonist_placement_chance = 0.05
+			native_assimilation = 0.25
+		}
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1200 }
+		province_modifiers = { }
+		area_modifier = {
+			local_colonial_growth = 50
+			local_colonist_placement_chance = 0.1
+		}
+		country_modifiers = {
+			colonists = 2
+			range = 0.25
+			colonist_placement_chance = 0.1
+			native_assimilation = 0.5
+		}
+		on_upgraded = {
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_skirk } }	
+					add_country_modifier = {
+						name = gs_leader_skirk
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_skirk
+				}
+			}
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1800 }
+		province_modifiers = { }
+		area_modifier = {
+			local_colonial_growth = 100
+			local_colonist_placement_chance = 0.15
+		}
+		country_modifiers = {
+			colonists = 3
+			range = 0.4
+			colonist_placement_chance = 0.15
+			native_assimilation = 0.8
+			colony_development_boost = 1
+		}
+		on_upgraded = {
+			owner = { add_stability = 1 }
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_ying } }	
+					add_country_modifier = {
+						name = gs_leader_ying
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_ying
+				}
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.1 }
+			}
+		}
+	}
+}
+
+
+######限时地图######
+jinpingguo = {	#金苹果群岛
+	start = 1981 #博恩霍尔姆
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_discovery }
+	}
+	on_built = { show_ambient_object = jinpingguo }
+	on_destroyed = { hide_ambient_object = jinpingguo }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_discovery }
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_discovery }
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {  }
+		area_modifier = {  }
+		country_modifiers = {  }
+		on_upgraded = {  }
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = { ship_recruit_speed = -0.1 }
+		area_modifier = { local_production_efficiency = 0.05
+		                  province_trade_power_value = 1 }
+		country_modifiers = { number_of_cannons_flagship = 20
+		                      number_of_cannons_flagship_modifier = 0.1
+							  flagship_fire = 1
+							  flagship_durability = 0.1 }
+		on_upgraded = { 
+			center_of_trade = 1
+		 }
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = { ship_recruit_speed = -0.3 }
+		area_modifier = { local_production_efficiency = 0.1
+		                  province_trade_power_value = 2 }
+		country_modifiers = { number_of_cannons_flagship = 50
+		                      number_of_cannons_flagship_modifier = 0.3
+							  flagship_fire = 2
+							  flagship_durability = 0.2
+							  max_flagships = 1 }
+		on_upgraded = { 
+			center_of_trade = 2
+			change_trade_goods = gold
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_fichel } }
+					add_country_modifier = {
+						name = gs_leader_fichel
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_fichel
+				}
+			}
+         }
+	}
+	tier_3 = {
+		upgrade_time = { months = 300 }
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = { ship_recruit_speed = -0.5 }
+		area_modifier = { local_production_efficiency = 0.2
+		province_trade_power_value = 3 }
+		country_modifiers = {
+			number_of_cannons_flagship = 100
+			number_of_cannons_flagship_modifier = 0.5
+			flagship_fire = 3
+			flagship_durability = 0.3
+			max_flagships = 2
+		}
+		on_upgraded = {
+			center_of_trade = 3
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_keli } }
+					add_country_modifier = {
+						name = gs_leader_keli
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_keli
+				}
+			}
+			custom_tooltip = gs_monument_time_limit_tooltip
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.2 }
+			}
+        }
+	}
+}
+
+Bottleland = {	#琉形蜃境
+	start = 1099 #索科特拉
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_reformation }
+	}
+	on_built = { show_ambient_object = masike }
+	on_destroyed = { hide_ambient_object = masike }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_reformation }
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_reformation }
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			technology_cost = -0.02
+			idea_cost = -0.1
+			innovativeness_gain = 0.1
+		}
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = { local_development_cost = -0.15 }
+		area_modifier = { }
+		country_modifiers = {
+			technology_cost = -0.05
+			idea_cost = -0.15
+			innovativeness_gain = 0.3
+		}
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = { }
+		area_modifier = {
+			local_development_cost = -0.15
+		}
+		country_modifiers = {
+			technology_cost = -0.1
+			idea_cost = -0.2
+			innovativeness_gain = 0.5
+		}
+		on_upgraded = { 
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.3 }
+			}
+		}
+	}
+}
+
+Simulanka = {	#希穆兰卡
+	start = 1248 #马尔代夫
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_absolutism }
+	}
+	on_built = { show_ambient_object = masike }
+	on_destroyed = { hide_ambient_object = masike }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_absolutism }
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = {
+				gs_monuments_unlimit_trigger = yes
+			}
+			always = yes
+		}
+		else = { current_age = age_of_absolutism }
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			prestige = 0.1
+			max_absolutism = 10
+			yearly_absolutism = 0.1
+		}
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = { local_autonomy = -0.05 }
+		area_modifier = { }
+		country_modifiers = {
+			prestige = 0.3
+			max_absolutism = 15
+			yearly_absolutism = 0.15
+		}
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = { }
+		area_modifier = { local_autonomy = -0.1 }
+		country_modifiers = {
+			prestige = 0.5
+			max_absolutism = 20
+			yearly_absolutism = 0.2
+		}
+		on_upgraded = { 
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.4 }
+			}
+		}
+	}
+}
+
+

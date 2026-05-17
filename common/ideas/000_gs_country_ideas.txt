@@ -1,0 +1,404 @@
+YONGSHILETU_ideas = {
+	start = {
+		tolerance_own = 2
+		global_unrest = -2
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.20
+		years_of_nationalism = -10
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_YONGSHILETU
+	}
+	free = yes
+	
+	YONGSHILETU_ideas_1 = {
+		land_morale = 0.2
+		discipline = 0.1
+	}
+	YONGSHILETU_ideas_2 = {
+		diplomats = 1
+		diplomatic_annexation_cost = -0.2
+	}
+	YONGSHILETU_ideas_3 = {
+		production_efficiency = 0.3
+		global_trade_goods_size_modifier = 0.2
+	}
+	YONGSHILETU_ideas_4 = {
+		global_unrest = -2
+		years_of_nationalism = -10
+	}
+	YONGSHILETU_ideas_5 = {
+		administrative_efficiency = 0.1
+		advisor_cost = -0.25
+	}
+	YONGSHILETU_ideas_6 = {
+		reduced_liberty_desire = 30
+		accept_vassalization_reasons = 20
+	}
+	YONGSHILETU_ideas_7 = {
+		all_power_cost = -0.1
+		prestige = 1
+	}
+}
+
+Revolution_FONTAINE_ideas = {
+	start = {
+		max_revolutionary_zeal = 20
+		harsh_treatment_cost = -0.5
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.25
+		years_of_nationalism = -10
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_FONTAINE
+		is_revolution_target = yes
+	}
+	free = yes
+	
+	Revolution_FONTAINE_ideas_1 = {
+		yearly_revolutionary_zeal = 2
+		legitimacy = 2
+		republican_tradition = 1
+		devotion = 2
+		horde_unity = 2
+		meritocracy = 2
+	}
+	Revolution_FONTAINE_ideas_2 = {
+		siege_ability = 0.25
+		defensiveness = 0.25
+		military_tactics = 1
+	}
+	Revolution_FONTAINE_ideas_3 = {
+		land_morale = 0.2
+		discipline = 0.1
+		fire_damage_received = -0.2
+	}
+	Revolution_FONTAINE_ideas_4 = {
+		infantry_power = 0.2
+		artillery_power = 0.2
+		fire_damage = 0.2
+	}
+	Revolution_FONTAINE_ideas_5 = {
+		administrative_efficiency = 0.1
+		global_trade_goods_size_modifier = 0.2
+		reform_progress_growth = 0.2
+	}
+	Revolution_FONTAINE_ideas_6 = {
+		core_creation = -0.2
+		idea_cost = -0.1
+	}
+	Revolution_FONTAINE_ideas_7 = {
+		global_manpower_modifier = 0.2
+		ae_impact = -0.2
+	}
+}
+
+
+MONDSTADT_ideas = {
+	start = {
+		global_unrest = -2
+		papal_influence = 2
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 0.25
+		yearly_patriarch_authority = 0.5
+	}
+	
+	bonus = {
+		accept_vassalization_reasons = 20
+		imperial_authority = 0.05
+		diplomatic_annexation_cost = -0.25
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_MONDSTADT
+	}
+	free = yes
+	
+	MONDSTADT_ideas_1 = {
+		global_tax_modifier = 0.2
+		global_monthly_devastation = -0.2
+		global_prosperity_growth = 0.2
+	}
+	MONDSTADT_ideas_2 = {
+		trade_efficiency = 0.2
+		core_creation = -0.2
+	}
+	MONDSTADT_ideas_3 = {
+		cavalry_power = 0.35
+		cav_to_inf_ratio = 0.25
+	}
+	MONDSTADT_ideas_4 = {
+		shock_damage_received = -0.2
+		cavalry_flanking = 1
+	}
+	MONDSTADT_ideas_5 = {
+		land_morale = 0.2
+		recover_army_morale_speed = 0.2
+	}
+	MONDSTADT_ideas_6 = {
+		global_attacker_dice_roll_bonus = 1
+		global_defender_dice_roll_bonus = 1
+		ae_impact = -0.2
+	}
+	MONDSTADT_ideas_7 = {
+		trade_steering = 0.2
+		administrative_efficiency = 0.1
+	}
+}
+
+LIYUE_ideas = {
+	start = {
+		merchants = 2
+		global_trade_goods_size = 0.25
+	}
+	
+	bonus = {
+		yearly_harmony = 0.5
+		imperial_mandate = 0.1
+		years_of_nationalism = -10
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_LIYUE
+	}
+	free = yes
+	
+	LIYUE_ideas_1 = {
+		caravan_power = 0.4
+		diplomatic_reputation = 2
+	}
+	LIYUE_ideas_2 = {
+		province_warscore_cost = -0.2
+		ae_impact = -0.2
+	}
+	LIYUE_ideas_3 = {
+		siege_ability = 0.25
+		defensiveness = 0.25
+	}
+	LIYUE_ideas_4 = {
+		land_morale = 0.2
+		morale_damage_received = -0.2
+	}
+	LIYUE_ideas_5 = {
+		heavy_ship_power = 0.2
+		ship_durability = 0.1
+	}
+	LIYUE_ideas_6 = {
+		num_accepted_cultures = 2
+		core_creation = -0.2
+	}
+	LIYUE_ideas_7 = {
+		governing_capacity_modifier = 0.25
+		administrative_efficiency = 0.1
+	}
+}
+
+INAZUMA_ideas = {
+	start = {
+		war_exhaustion = -0.15
+		land_morale = 0.2
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.2
+		global_regiment_cost = -0.2
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_INAZUMA
+	}
+	free = yes
+	
+	INAZUMA_ideas_1 = {
+		global_autonomy = -0.15
+		min_autonomy = -20
+		min_autonomy_in_territories = -0.2
+	}
+	INAZUMA_ideas_2 = {
+		global_tax_modifier = 0.4
+		core_creation = -0.2
+	}
+	INAZUMA_ideas_3 = {
+		artillery_power = 0.2
+		fire_damage = 0.2
+	}
+	INAZUMA_ideas_4 = {
+		infantry_power = 0.2
+		recover_army_morale_speed = 0.2
+	}
+	INAZUMA_ideas_5 = {
+		global_institution_spread = 0.5
+		embracement_cost = -0.3
+	}
+	INAZUMA_ideas_6 = {
+		num_accepted_cultures = 2
+		ae_impact = -0.2
+	}
+	INAZUMA_ideas_7 = {
+		global_unrest = -2
+		idea_cost = -0.2
+	}
+}
+
+SUMERU_ideas = {
+	start = {
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+	
+	bonus = {
+		yearly_innovativeness = 0.25
+		innovativeness_gain = 0.5
+		all_power_cost = -0.05
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_SUMERU
+	}
+	free = yes
+	
+	SUMERU_ideas_1 = {
+		technology_cost = -0.1
+		idea_cost = -0.2
+	}
+	SUMERU_ideas_2 = {
+		num_accepted_cultures = 2
+		military_tactics = 0.5
+	}
+	SUMERU_ideas_3 = {
+		land_attrition = -0.2
+		mercenary_discipline = 0.1
+	}
+	SUMERU_ideas_4 = {
+		mercenary_cost = -0.25
+		merc_maintenance_modifier = -0.25
+		possible_condottieri = 1
+	}
+	SUMERU_ideas_5 = {
+		yearly_corruption = -0.2
+		ae_impact = -0.2
+	}
+	SUMERU_ideas_6 = {
+		global_institution_spread = 0.5
+		administrative_efficiency = 0.1
+		reform_progress_growth = 0.2
+	}
+	SUMERU_ideas_7 = {
+		core_creation = -0.2
+		spy_offence = 0.5
+		global_spy_defence = 0.33
+	}
+}
+
+FONTAINE_ideas = {
+	start = {
+		tolerance_own = 2
+		global_unrest = -2
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.20
+		years_of_nationalism = -10
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_FONTAINE
+	}
+	free = yes
+	
+	FONTAINE_ideas_1 = {
+		legitimacy = 2
+		republican_tradition = 1
+		devotion = 2
+		horde_unity = 2
+		meritocracy = 2
+		prestige = 2
+	}
+	FONTAINE_ideas_2 = {
+		shock_damage_received = -0.2
+		fire_damage = 0.2
+	}
+	FONTAINE_ideas_3 = {
+		may_explore = yes
+		colonists = 2
+		global_colonial_growth = 20
+		range = 1
+	}
+	FONTAINE_ideas_4 = {
+		missionary_maintenance_cost = -0.3
+		global_missionary_strength = 0.03
+	}
+	FONTAINE_ideas_5 = {
+		global_trade_goods_size_modifier = 0.2
+		administrative_efficiency = 0.1
+	}
+	FONTAINE_ideas_6 = {
+		core_creation = -0.2
+		idea_cost = -0.1
+	}
+	FONTAINE_ideas_7 = {
+		global_manpower_modifier = 0.2
+		ae_impact = -0.2
+	}
+}
+
+NATLAN_ideas = {
+	start = {
+		may_establish_frontier = yes
+		core_creation = -0.2
+		ae_impact = -0.2
+	}
+	
+	bonus = {
+		global_institution_spread = 0.5
+		embracement_cost = -0.3
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_NATLAN
+	}
+	free = yes
+	
+	NATLAN_ideas_1 = {
+		discipline = 0.1
+		land_morale = 0.2
+	}
+	NATLAN_ideas_2 = {
+		fire_damage_received = -0.2
+		global_regiment_cost = -0.2
+	}
+	NATLAN_ideas_3 = {
+		spy_offence = 0.5
+		global_spy_defence = 0.33
+		province_warscore_cost = -0.2
+	}
+	NATLAN_ideas_4 = {
+		may_explore = yes
+		range = 1
+		administrative_efficiency = 0.1
+		reform_progress_growth = 0.2
+	}
+	NATLAN_ideas_5 = {
+		tolerance_own = 2
+		global_missionary_strength = 0.03
+		missionary_maintenance_cost = -0.3
+	}
+	NATLAN_ideas_6 = {
+		land_attrition = -0.2
+		fire_damage = 0.2
+	}
+	NATLAN_ideas_7 = {
+		global_manpower_modifier = 0.2
+		morale_damage_received = -0.2
+	}
+}
+
+
+
+

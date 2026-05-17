@@ -1,0 +1,469 @@
+taixu = {	#*YZÜqS
+	#start = 691 #NmWS
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_taixu_location
+	}
+	on_built = { show_ambient_object = taixu }
+	on_destroyed = { hide_ambient_object = taixu }
+	can_use_modifiers_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_taixu_location
+	}
+	can_upgrade_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_taixu_location
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120}
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240}
+		cost_to_upgrade = { factor =  3200 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480}
+		cost_to_upgrade = { factor =  5500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = {
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_fuhua } }
+					add_country_modifier = {
+						name = gs_leader_fuhua
+						duration = -1
+					}
+					custom_tooltip = gs_leader_fuhua_personality
+				}
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.5 }
+			}
+		}
+	}
+}
+
+letu = {	#8lNPNW
+	#start = 151 #TÎXfWN!X
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_letu_location
+	}
+	on_built = { show_ambient_object = letu }
+	on_destroyed = { hide_ambient_object = letu }
+	can_use_modifiers_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_letu_location
+	}
+	can_upgrade_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_letu_location
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120}
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			administrative_efficiency = 0.02
+			technology_cost = -0.02
+			idea_cost = -0.02
+			governing_capacity_modifier = 0.05
+			core_creation = -0.05
+			global_unrest = -1
+			has_marines = yes
+			allowed_marine_fraction = 0.1
+		}
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240}
+		cost_to_upgrade = { factor =  3200 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			administrative_efficiency = 0.05
+			technology_cost = -0.05
+			idea_cost = -0.05
+			governing_capacity_modifier = 0.15
+			core_creation = -0.1
+			global_unrest = -1
+			has_marines = yes
+			allowed_marine_fraction = 0.5
+		}
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480}
+		cost_to_upgrade = { factor =  5500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			administrative_efficiency = 0.1
+			technology_cost = -0.1
+			idea_cost = -0.1
+			governing_capacity_modifier = 0.25
+			core_creation = -0.2
+			global_unrest = -2
+			has_marines = yes
+			allowed_marine_fraction = 1
+		}
+		on_upgraded = {
+			owner = {
+				country_event = { id = gs_decisions_events.1111 }
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.6 }
+			}
+		}
+	}
+}
+
+
+NXX = {	#NXX
+	#start = 1822 #œÇﬁTˇNwm	ˇ
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_NXX_location
+	}
+	on_built = { show_ambient_object = NXX }
+	on_destroyed = { hide_ambient_object = NXX }
+	can_use_modifiers_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_NXX_location
+	}
+	can_upgrade_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_NXX_location
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120}
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240}
+		cost_to_upgrade = { factor =  3200 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480}
+		cost_to_upgrade = { factor =  5500 }
+		province_modifiers = { }
+		area_modifier = { allowed_num_of_buildings = 10 }
+		country_modifiers = { }
+		on_upgraded = {
+			change_province_name = "*gT^"
+			every_province_in_state = {
+				add_base_tax = 100
+				add_base_production = 100
+				add_base_manpower = 100
+				center_of_trade = 3
+				add_center_of_trade_level = 3
+				remove_building = all
+				add_building = stock_exchange
+				add_building = counting_house
+				add_building = town_hall
+				add_building = drydock
+				add_building = conscription_center
+				add_building = fort_18th
+				add_building = state_house
+				add_building = ramparts
+				add_building = soldier_households
+				add_building = impressment_offices
+				add_institution_embracement = {
+					which = feudalism
+					value = 100
+				}
+				add_institution_embracement = {
+					which = renaissance
+					value = 100
+				}
+				add_institution_embracement = {
+					which = new_world_i
+					value = 100
+				}
+				add_institution_embracement = {
+					which = printing_press
+					value = 100
+				}
+				add_institution_embracement = {
+					which = global_trade
+					value = 100
+				}
+				add_institution_embracement = {
+					which = manufactories
+					value = 100
+				}
+				add_institution_embracement = {
+					which = enlightenment
+					value = 100
+				}
+				add_institution_embracement = {
+					which = industrialization
+					value = 100
+				}	
+			}
+		}
+	}
+}
+
+
+Star = {	#fyzRfè—SfèŸz
+	#start = 707 #âsËïˇRë…l	ˇ
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_Star_location
+	}
+	on_built = { show_ambient_object = Star }
+	on_destroyed = { hide_ambient_object = Star }
+	can_use_modifiers_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_Star_location
+	}
+	can_upgrade_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_Star_location
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120}
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240}
+		cost_to_upgrade = { factor =  3200 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480}
+		cost_to_upgrade = { factor =  5500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = {
+			owner = {
+				if  = {
+					NOT  = { has_country_modifier = gs_Star_modifier }
+					add_country_modifier = {
+						name = gs_Star_modifier
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.7 }
+			}
+		}
+	}
+}
+
+ZZZnew = {	#∞eåÇ)R˝ê
+	#start = 4288 #(ÑTXˇåÇ)R˝ê	ˇ
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_ZZZ_location
+	}
+	on_built = { show_ambient_object = ZZZ }
+	on_destroyed = { hide_ambient_object = ZZZ }
+	can_use_modifiers_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_ZZZ_location
+	}
+	can_upgrade_trigger = {
+		owner = { ai = no }
+		has_province_modifier = gs_ZZZ_location
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120}
+		cost_to_upgrade = { factor = 1500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240}
+		cost_to_upgrade = { factor =  3200 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480}
+		cost_to_upgrade = { factor =  5500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = {
+			owner = {
+				if  = {
+					NOT  = { has_country_modifier = gs_ZZZ_modifier }
+					add_country_modifier = {
+						name = gs_ZZZ_modifier
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+                    OR = {
+                        AND = {
+							owner = { ai = yes }
+                            has_global_flag = ys_ai_qiguan_shengfen_mingzi
+							NOT = { has_global_flag = gs_move_start }
+                        }
+                        AND = {
+							owner = { ai = no }
+                            has_global_flag = ys_qiguan_shengfen_mingzi
+                        }
+                    }
+                }
+				province_event = { id = gs_qiguan_shengfen_qitahecaidan_mingzi_events.8 }
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+﻿l_english:
+ gs_yuanshen_estate_open_title:0 "KˆN0^yKN<w0c	gwCg›R"
+ gs_yuanshen_estate_open_desc:0 "ÑåeNÍy0CQ.t›R0„výw›RVËY(WýV…Q‹N¡R-NÑS%cŠegŠ'Y„vjO(uÿýwYO(u0CQ.t›R0„v0^yKN<w0c	gwmN(Wlô•-T2—4YÒ‰0bìNïSåNKˆN0^yKN<w0c	gwCg›RÿåN…©RbìN»ltýV¶R0\n§T=T(u0^yKN<w0c	gw6–BS0§!"
+ gs_estate_open:0 "0^yKN<w0c	gw…©RýV¶R»lt"
+ desc_gs_estate_open:0 "§T=T(u0^yKN<w0c	gw6–BS0§!\n"
+ estate_genshin:0 "0^yKN<w0c	gw"
+ estate_genshin_desc:0 "b—ùRàeÕlŒcµc„vƒXGöeÿºNìNI`=fŸUùSê«Ž„vàe›R0FO(WºNuga–íS„vl˜bYÿå‚	gáQºN„v04ng0¾0Rgôÿ^yf„vÆ‰¿u1SS•bSwN0Ù1S=f0^yKN<w0ÿ×S^y²‹ïSwNb·ƒ„vYnT››RhV˜Rÿ(uåNVüRCQ.tKN›R0\nÏkNMO0^yKN<w0„våb	gwÿý=f	gD<hb^y„vºNÿàVdk«ˆðyjO0ŸS^y0ÿåb	g‰vN)Yzz›S„vD<h0Ù=fêS	gwck^yupMbåwS„vØyÆR0"
+ estate_genshin_land_ownership_modifier:0 "0^yKN<w0c	gw†˜0W"
+ estate_genshin_loyalty_modifier:0 "0^yKN<w0c	gwàVÚ‹GWaˆ¹p"
+ estate_genshin_influence_modifier:0 "0^yKN<w0c	gwqVÍT›R"
+ estate_genshin_privilege_slots:0 "0^yKN<w0c	gw6–BSyrCgýiMO"
+ estate_genshin_base:0 "teT0^yKN<w0c	gw>y²"
+ estate_genshin_base_desc:0 "0^yKN<w0c	gwpeÏ‘zSÿNR^ö–ce0:N†Nôf‹Y„v¡rt0^yKN<w0c	gwÿv^OvQ(WýV…Q‹N¡R-NÑS%côf'Y„vjO(uÿbìN”^SVteTce^„v0^yKN<w0c	gw>y²0\n§GÙ=fvQÖNyrCg„vúWNx0§!\n"
+ estate_genshin_vision_anemo:0 "Í‘(u£anemo£Î˜^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_anemo_desc:0 "£anemo£Î˜CQ.t›RïSåNÏQSbìN9e.ê6q„vb,g0.^©RbìN„vFU9‚*‚LˆÿåNÊS©‹bìN„vF–›QåNôfëV„v¦^ýûQLe›Q0\n§G(Wåb	g§!£anemo£§T)nê§!§G„vÅ`µQNÿå‹yrCgÐc›O„vžXÊvSOûP0§!\n"
+ estate_genshin_vision_geo:0 "Í‘(u£geo£©S^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_geo_desc:0 "£geo£©SCQ.t›RïSåN.^©RbìNú^.ú^Qr0ÝO²bbìN„v8fÿåNÊS:VSbìN„v!X’W0\n§G(Wåb	g§!£geo£§YŸ”»y§!§G„vÅ`µQNÿå‹yrCgÐc›O„vžXÊvSOûP0§!\n"
+ estate_genshin_vision_electro:0 "Í‘(u£electro£÷–^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_electro_desc:0 "£electro£÷–CQ.t›RïSåN.^©RbìN R:VùR0W¹e„v¡rt0ÐcØšbìN„vðX‰ŠÿåNÊSžX:VbìN„vF–›Q²QûQ0\n§G(Wåb	g§!£electro£§V÷–5uS›Q§!§G„vÅ`µQNÿå‹yrCgÐc›O„vžXÊvSOûP0§!\n"
+ estate_genshin_vision_dendro:0 "Í‘(u£dendro£Iƒ^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_dendro_desc:0 "£dendro£IƒCQ.t›RïSåN.^©RbìNuµN0 R:VbìNN^SýV„vTwû|ÿåNÊSžX:VbìN„vôVÎWýw›R0\n§G(Wåb	g§!£dendro£§J³u‰²Y§!§G„vÅ`µQNÿå‹yrCgÐc›O„vžXÊvSOûP0§!\n"
+ estate_genshin_vision_hydro:0 "Í‘(u£hydro£4l^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_hydro_desc:0 "£hydro£4lCQ.t›RïSåN.^©RbìN3zšRýV¶R0 RëVbìN„v–kl0Wú^¾‹ÿåNÊS»l—ubìN„v2OXT0\n§G(Wåb	g§!£hydro£§M™‚RZ§!§Gb§!£hydro£§M±ôu±ƒyr§!§G„vÅ`µQNÿå‹yrCgÐc›O„vžXÊvSOûP0§!\n"
+ estate_genshin_vision_pyro:0 "Í‘(u£pyro£kp^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_pyro_desc:0 "£pyro£kpCQ.t›RïSåN©R›RbìN„vÑyfRžRŒš0žX:VbìN„vwm›Qkp›RŒTF–›Qkp›R0\n"
+ estate_genshin_vision_cryo:0 "Í‘(u£cryo£°Q^S'`0^yKN<w0c	gw"
+ estate_genshin_vision_cryo_desc:0 "£cryo£°QCQ.t›RïSåN.^©RbìNV¦WRƒ0W0 R:VbìNwm›QŒTF–›Q„v”^'`0\n"
+ estate_genshin_monument:0 "0^yKN<w0c	gw.^©RGYÂ‰ú^¾‹"
+ estate_genshin_monument_desc:0 ")R(u0^yKN<w0c	gw”^(uCQ.t›R„výw›R.^©RbìNÛLˆGYÂ‰ú^¾‹0\n§GïSåNàeÆ‰ÑyŽbIrµuú^.Ð³l0§!"
+ gs_build_kiel_canal_title:0 "ÐcMRîOú^úWSÐ³l"
+ gs_build_kiel_canal_desc:0 "(W0^yKN<w0c	gw„v.^©RNÿbìNïSåNÐcMRîOú^úWSÐ³l0"
+ gs_build_suez_canal_title:0 "ÐcMRîOú^Ï‚OëXÐ³l"
+ gs_build_suez_canal_desc:0 "(W0^yKN<w0c	gw„v.^©RNÿbìNïSåNÐcMRîOú^Ï‚OëXÐ³l0"
+ gs_build_panama_canal_title:0 "ÐcMRîOú^ôTÿblšÐ³l"
+ gs_build_panama_canal_desc:0 "(W0^yKN<w0c	gw„v.^©RNÿbìNïSåNÐcMRîOú^ôTÿblšÐ³l0"
+ estate_genshin_build_monument:0 "ú^¾‹GYÂ‰"
+ estate_genshin_build_monument_desc:0 "0^yKN<w0c	gw^gýwYOS©RbìNKSëV0WŒRbýV…Q„vGYÂ‰ú^¾‹0"
+ estate_genshin_element_idea:0 "Ÿ±R0^yKN<w0c	gwñmeQCQ.t›Rxvz"
+ estate_genshin_element_idea_desc:0 "0^yKN<w0c	gwùRCQ.t›R„vñmeQxvz©‹bìN'Y	g=TÑS0\n§G=T(uCQ.ttõVÄu0§!"
+ estate_genshin_leader:0 "ÙuˆN0^yKN<w0c	gw›Q‹Nc%cCg"
+ estate_genshin_leader_desc:0 "AQ¸‹0^yKN<w0c	gw†˜›QSb×N0\n§G=T(uŸS^yS†˜0§!\n"
+ estate_genshin_peiou:0 "S0^yKN<w0c	gw³ueQT«R"
+ estate_genshin_peiou_desc:0 "AQ¸‹0^yKN<w0c	gwÛeQT«R0\n§G=T(u0ŸS^yM‘vP0³Q®‹0§!\n"
+ estate_genshin_advisor:0 "0^yKN<w0c	gwŒ˜î•Cg"
+ estate_genshin_advisor_desc:0 "AQ¸‹0^yKN<w0c	gwú^Š.sVr0\n§G=T(uŸS^yŒ˜î•0§!\n"

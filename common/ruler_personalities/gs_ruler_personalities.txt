@@ -1,0 +1,229 @@
+god_of_anemo_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	liberty_desire = 10
+	reduced_liberty_desire = 10
+	idea_cost = -0.1
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	knowledge_sharing = yes
+	gift_chance = 25
+}
+god_of_geo_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	imperial_mandate = 0.1
+	yearly_corruption = -0.1
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	fair_fights = yes
+	gift_chance = 20
+	alliance_acceptance = 5
+	wants_avoid_debase = yes
+	#hidden = {
+	#	if = {
+	#		limit = { is_emperor_of_china = yes }
+	#		easy_war_chance_multiplier = 2
+	#		war_chance_multiplier = 1.75
+	#		wants_land = yes
+	#	}
+	#}
+}
+god_of_electro_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	global_autonomy = -0.1
+	years_of_nationalism = -10
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	#custom_ai_explanation = "AI_RULER_PICK_IDEA_GROUPS"
+	easy_war_chance_multiplier = 2
+	war_chance_multiplier = 1.75
+	building_budget_multiplier = 0.2
+	gift_chance = -50
+	wants_land = yes
+}
+god_of_dendro_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	technology_cost = -0.1
+	idea_cost = -0.1
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	#custom_ai_explanation = "AI_RULER_SPEND_UNLOCK_INSTIT"
+	knowledge_sharing = yes
+}
+god_of_hydro_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	legitimacy = 2
+	republican_tradition = 1
+	devotion = 2
+	horde_unity = 2
+	global_unrest = -4
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	easy_war_chance_multiplier = 0.5
+	fair_fights = yes
+	wants_ecumenical_council = yes
+}
+god_of_pyro_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	#monarch_lifespan = 10000
+	ae_impact = -0.2
+	global_colonial_growth = 30
+	#hidden = {
+	#	if = {
+	#		limit = { ai = yes }
+	#		rulers_can_be_generals = no
+	#	}
+	#}
+
+	#AI行为
+	war_chance_multiplier = 0.4
+	enemy_strength_multiplier = 1.2
+	wants_colonies = yes
+}
+god_of_zhenwo_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	global_unrest = -2
+	stability_cost_modifier = -0.1
+	administrative_efficiency = 0.1
+	monarch_lifespan = 10000
+
+	#AI行为
+	#easy_war_chance_multiplier = 0.5
+	#gift_chance = 65
+	#alliance_acceptance = 10
+}
+god_of_zhenwo2_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	improve_relation_modifier = 0.2
+	diplomatic_reputation = 1
+	advisor_cost = -0.25
+	monarch_lifespan = 10000
+
+	#AI行为
+
+}
+god_of_zhenwo3_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	land_morale = 0.1
+	discipline = 0.1
+	war_exhaustion = -0.1
+	monarch_lifespan = 10000
+
+	#AI行为
+
+}

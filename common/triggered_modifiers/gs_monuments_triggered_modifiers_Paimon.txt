@@ -1,0 +1,47 @@
+gs_Paimon_food_1 = {
+	potential = {
+		ai = no
+        has_country_modifier = gs_Paimon
+    }
+    trigger = {
+		has_leader = ">m™„ 0g‹Y„vO4Oÿ0"
+		current_age = age_of_reformation
+	}
+	global_tax_income = -27
+}
+gs_Paimon_food_2 = {
+	potential = {
+		ai = no
+        has_country_modifier = gs_Paimon
+    }
+    trigger = {
+		has_leader = ">m™„ 0g‹Y„vO4Oÿ0"
+		current_age = age_of_absolutism
+	}
+	global_tax_income = -297
+}
+gs_Paimon_food_3 = {
+	potential = {
+		ai = no
+        has_country_modifier = gs_Paimon
+    }
+    trigger = {
+		has_leader = ">m™„ 0g‹Y„vO4Oÿ0"
+		current_age = age_of_revolutions
+	}
+	global_tax_income = -2997
+}
+gs_Paimon_food_gold = {
+	potential = {
+		ai = no
+        has_country_modifier = gs_Paimon
+    }
+    trigger = {
+		has_leader = ">m™„ 0g‹Y„vO4Oÿ0"
+		in_golden_age = yes
+	}
+	global_tax_income = -10000
+	global_unrest = -2
+	diplomatic_reputation = 2
+	land_morale_constant = 20
+}

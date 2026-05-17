@@ -1,0 +1,664 @@
+gs_Paimon = {
+	free_leader_pool = 1
+	global_tax_income = -3
+}
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+gs_leader_shatang = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_lisha = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_fichel = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_anbo = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_leize = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_babala = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_bannite = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_kaiya = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_noel = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_qin = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_diluke = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_mona = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_wendi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_keli = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_diona = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_abeiduo = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_luosha = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_youla = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_mika = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_taliya = {
+    free_leader_pool = 1
+    estate_genshin_influence_modifier = 0.01
+    estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_faerjia = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+gs_leader_ningguang = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xingqiu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xiangling = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_chongyun = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_beidou = {
+	free_navy_leader_pool = 1
+	navy_tradition = 0.1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_qiqi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_keqing = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xinyan = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_zhongli = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_ganyu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xiao = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_hutao = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yanfei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yunjin = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_shenhe = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yelan = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yaoyao = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_baizhu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_jiaming = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xianyun = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_lanyan = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+gs_leader_wanye = {
+	free_navy_leader_pool = 1
+	navy_tradition = 0.1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_linghua = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_zaoyou = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xiaogong = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_jiutiao = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_leishen = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xinhai = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_tuoma = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_wulang = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yidou = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_shenzi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_lingren = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_jiuqiren = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_pingzang = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_kirara = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_qianzhi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_ruixi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_baimugui = {
+	free_navy_leader_pool = 1
+	navy_tradition = 0.1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+gs_leader_kelai = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_tinali = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_duoli = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_kandisi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_sainuo = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_nilu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_naxida = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_laiyila = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_falushan = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_bengbeng = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_aierhaisen = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_dixiya = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_kawei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_saisuosi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_lana = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_lanluomo = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_jiede = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_silusha = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+gs_leader_linnite = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_linni = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_feimini = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_nawei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_laiou = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xialuodi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_funingna = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_naweiya = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xiawolei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_keluolinde = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xigewen = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_aikefei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_aimeiliai = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_zeweier = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_mameihe = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_paxifu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yagebu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_leinei = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+gs_leader_kaqina = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_malani = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_jiniqi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_xinuoning = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_ouluolun = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_qiasika = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_maweika = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_nainai = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yianshan = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_niuniu = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_yifa = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+gs_leader_gongzi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_aleiqinuo = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+gs_leader_kong = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_ying = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_ailuoyi = {
+	free_leader_pool = 1
+	estate_genshin_influence_modifier = 0.01
+	estate_genshin_loyalty_modifier =  0.01
+}
+gs_leader_skirk = {
+    free_leader_pool = 1
+    estate_genshin_influence_modifier = 0.01
+    estate_genshin_loyalty_modifier =  0.01
+}
+########________彩蛋________################________彩蛋________################________彩蛋________########
+########________彩蛋________################________彩蛋________################________彩蛋________########
+########________彩蛋________################________彩蛋________################________彩蛋________########
+########________彩蛋________################________彩蛋________################________彩蛋________########
+########________彩蛋________################________彩蛋________################________彩蛋________########
+gs_leader_fuhua = {
+	free_leader_pool = 10
+	discipline = 0.5
+	land_morale = 1
+	army_tradition = 1
+	yearly_army_professionalism = 1
+}
+gs_leader_ailixiya = {
+	free_leader_pool = 1
+}
+gs_leader_kaiwen = {
+	free_leader_pool = 1
+}
+gs_leader_aboniya = {
+	free_leader_pool = 1
+}
+gs_leader_yidian = {
+	free_leader_pool = 1
+}
+gs_leader_weierwei = {
+	free_leader_pool = 1
+}
+gs_leader_qianjie = {
+	free_leader_pool = 1
+}
+gs_leader_su = {
+	free_leader_pool = 1
+}
+gs_leader_ying2 = {
+	free_leader_pool = 1
+}
+gs_leader_kesimo = {
+	free_leader_pool = 1
+}
+gs_leader_meibiwusi = {
+	free_leader_pool = 1
+}
+gs_leader_geleixiu = {
+	free_leader_pool = 1
+}
+gs_leader_hua = {
+	free_leader_pool = 1
+}
+gs_leader_paduo = {
+	free_leader_pool = 1
+}

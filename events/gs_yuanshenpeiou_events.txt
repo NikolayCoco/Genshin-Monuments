@@ -1,0 +1,2340 @@
+namespace = gs_yuanshenpeiou_events
+
+#	êÈb˝V∂R
+country_event = {
+    id = gs_yuanshenpeiou_events.1
+    title = gs_yuanshenpeiou_events.1_title
+    desc = gs_yuanshenpeiou_events.1_desc
+    picture = gs_yuanshenpeiou_events.1_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.1.a
+
+        trigger = {
+            gs_has_gs_leader_MONDSTADT = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.10 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.b
+
+        trigger = {
+            gs_has_gs_leader_LIYUE = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.11 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.c
+
+        trigger = {
+            gs_has_gs_leader_INAZUMA = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.12 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.d
+
+        trigger = {
+            gs_has_gs_leader_SUMERU = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.13 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.e
+
+        trigger = {
+            gs_has_gs_leader_FONTAINE = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.14 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.f
+
+        trigger = {
+            gs_has_gs_leader_NATLAN = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.15 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.g
+
+        trigger = {
+            gs_has_gs_leader_SNEZHNAYA = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.16 }
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.1.h
+
+        trigger = {
+            gs_has_gs_leader_OTHER = yes
+		}
+
+        country_event = { id = gs_yuanshenpeiou_events.17 }
+    }
+    option = { 
+        name = gs_yuanshenpeiou_events.1.i
+    }
+}
+#ôÑ∑V
+country_event = {
+    id = gs_yuanshenpeiou_events.10
+    title = gs_yuanshenpeiou_events.10_title
+    desc = gs_yuanshenpeiou_events.10_desc
+    picture = gs_yuanshenpeiou_events.10_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.10.a
+        trigger = {
+			has_country_modifier = gs_leader_shatang
+		}
+        define_consort = {
+            name = "£anemo£x÷|"
+            dynasty = "âŒòëöÎX ºp—ë"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_shatang_personality
+        }
+        custom_tooltip = desc_gs_peiou_shatang_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.b
+
+        trigger = {
+			has_country_modifier = gs_leader_lisha
+		}
+        
+        define_consort = {
+            name = "£electro£KNéÉ"
+            dynasty = "OeyQ"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_lisha_personality
+        }
+        custom_tooltip = desc_gs_peiou_lisha_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.c
+
+        trigger = {
+			has_country_modifier = gs_leader_fichel
+		}
+        
+        define_consort = {
+            name = "£electro£ÚÉ0åS"
+            dynasty = "ØQ 2óVÀemØe ±êÚÉYyr"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_fichel_personality
+        }
+        custom_tooltip = desc_gs_peiou_fichel_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.d
+
+        trigger = {
+			has_country_modifier = gs_leader_anbo
+		}
+        
+        define_consort = {
+            name = "£pyro£âRœg"
+            dynasty = "âŒòëöÎX"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_anbo_personality
+        }
+        custom_tooltip = desc_gs_peiou_anbo_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.e
+
+        trigger = {
+			has_country_modifier = gs_leader_leize
+		}
+        
+        define_consort = {
+            name = "£electro£˜ñ˝l"
+            dynasty = "bSÆvaS"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_leize_personality
+        }
+        custom_tooltip = desc_gs_peiou_leize_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.f
+
+        trigger = {
+			has_country_modifier = gs_leader_babala
+		}
+        
+        define_consort = {
+            name = "£hydro£≠Ç≠Ç…b"
+            dynasty = "iOGY"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_babala_personality
+        }
+        custom_tooltip = desc_gs_peiou_babala_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.g
+
+        trigger = {
+			has_country_modifier = gs_leader_bannite
+		}
+        
+        define_consort = {
+            name = "£pyro£Ìs<Syr"
+            dynasty = "Ìs<SíQiñ‚V"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_bannite_personality
+        }
+        custom_tooltip = desc_gs_peiou_bannite_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.h
+
+        trigger = {
+			has_country_modifier = gs_leader_kaiya
+		}
+        
+        define_consort = {
+            name = "£cryo£ÔQöN"
+            dynasty = "öNS=OÃëGY"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kaiya_personality
+        }
+        custom_tooltip = desc_gs_peiou_kaiya_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.i
+
+        trigger = {
+			has_country_modifier = gs_leader_noel
+		}
+        
+        define_consort = {
+            name = "£geo£˙ãåÇS"
+            dynasty = "âŒòëöÎX sY∆N"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_noel_personality
+        }
+        custom_tooltip = desc_gs_peiou_noel_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.j
+
+        trigger = {
+			has_country_modifier = gs_leader_qin
+		}
+        
+        define_consort = {
+            name = "£anemo£4t"
+            dynasty = "‰Si`^S∑V"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_qin_personality
+        }
+        custom_tooltip = desc_gs_peiou_qin_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.k
+
+        trigger = {
+			has_country_modifier = gs_leader_diluke
+		}
+        
+        define_consort = {
+            name = "£pyro£ÍèbSKQ"
+            dynasty = "±ÉnÇ¨Ç∑V"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_diluke_personality
+        }
+        custom_tooltip = desc_gs_peiou_diluke_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.l
+
+        trigger = {
+			has_country_modifier = gs_leader_mona
+		}
+        
+        define_consort = {
+            name = "£hydro£?ñØeXbm	TØe ´ÉZ"
+            dynasty = "ÖhÏYØe˛VØe"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_mona_personality
+        }
+        custom_tooltip = desc_gs_peiou_mona_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.m
+
+        trigger = {
+			has_country_modifier = gs_leader_wendi
+		}
+        
+        define_consort = {
+            name = "£anemo£)nÍè"
+            dynasty = "ÙTÙTXbØe"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_wendi_personality
+        }
+        custom_tooltip = desc_gs_peiou_wendi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.n
+
+        trigger = {
+			has_country_modifier = gs_leader_keli
+		}
+        
+        define_consort = {
+            name = "£pyro£ÔSâÉ"
+            dynasty = "âŒòëöÎX"
+            #age = 10
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_keli_personality
+        }
+        custom_tooltip = desc_gs_peiou_keli_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.o
+
+        trigger = {
+			has_country_modifier = gs_leader_diona
+		}
+        
+        define_consort = {
+            name = "£cryo£ÍèeYZ"
+            dynasty = "ÔQ(É±É5É"
+            #age = 12
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_diona_personality
+        }
+        custom_tooltip = desc_gs_peiou_diona_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.p
+
+        trigger = {
+			has_country_modifier = gs_leader_abeiduo
+		}
+        
+        define_consort = {
+            name = "£geo£?ñçY"
+            dynasty = "âŒòëöÎX ºp—ë"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_abeiduo_personality
+        }
+        custom_tooltip = desc_gs_peiou_abeiduo_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.q
+
+        trigger = {
+			has_country_modifier = gs_leader_luosha
+		}
+        
+        define_consort = {
+            name = "£cryo£WéÉâÉöN"
+            dynasty = "âŒòYeO"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_luosha_personality
+        }
+        custom_tooltip = desc_gs_peiou_luosha_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.r
+
+        trigger = {
+			has_country_modifier = gs_leader_youla
+		}
+        
+        define_consort = {
+            name = "£cryo£O»É"
+            dynasty = "≥R&OØe"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_youla_personality
+        }
+        custom_tooltip = desc_gs_peiou_youla_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.s
+
+        trigger = {
+			has_country_modifier = gs_leader_mika
+		}
+        
+        define_consort = {
+            name = "£cryo£s|aS"
+            dynasty = "Àe∆Ryr"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_mika_personality
+        }
+        custom_tooltip = desc_gs_peiou_mika_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.t
+
+        trigger = {
+			has_country_modifier = gs_leader_taliya
+		}
+        
+        define_consort = {
+            name = "£hydro£TX)R≈ñ"
+            dynasty = "âŒòYeO"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_taliya_personality
+        }
+        custom_tooltip = desc_gs_peiou_taliya_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.10.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#Étg
+country_event = {
+    id = gs_yuanshenpeiou_events.11
+    title = gs_yuanshenpeiou_events.11_title
+    desc = gs_yuanshenpeiou_events.11_desc
+    picture = gs_yuanshenpeiou_events.11_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.11.a
+
+        trigger = {
+			has_country_modifier = gs_leader_ningguang
+		}
+        
+        define_consort = {
+            name = "£geo£›QIQ"
+            dynasty = "Nf"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ningguang_personality
+        }
+        custom_tooltip = desc_gs_peiou_ningguang_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.b
+
+        trigger = {
+			has_country_modifier = gs_leader_xingqiu
+		}
+        
+        define_consort = {
+            name = "£hydro£LàÀy"
+            dynasty = "ﬁòëN"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xingqiu_personality
+        }
+        custom_tooltip = desc_gs_peiou_xingqiu_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.c
+
+        trigger = {
+			has_country_modifier = gs_leader_xiangling
+		}
+        
+        define_consort = {
+            name = "ôôÒÉ"
+            dynasty = "ø£pyro£oS"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xiangling_personality
+        }
+        custom_tooltip = desc_gs_peiou_xiangling_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.d
+
+        trigger = {
+			has_country_modifier = gs_leader_chongyun
+		}
+        
+        define_consort = {
+            name = "£cryo£ÕëëN"
+            dynasty = "qöTõπeÎX"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_chongyun_personality
+        }
+        custom_tooltip = desc_gs_peiou_chongyun_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.e
+
+        trigger = {
+			has_country_modifier = gs_leader_beidou
+		}
+        
+        define_consort = {
+            name = "£electro£Sóe"
+            dynasty = "âkFQf"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_beidou_personality
+        }
+        custom_tooltip = desc_gs_peiou_beidou_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.f
+
+        trigger = {
+			has_country_modifier = gs_leader_qiqi
+		}
+        
+        define_consort = {
+            name = "£cryo£NN"
+            dynasty = "ŸN∫N NjSê^"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_qiqi_personality
+        }
+        custom_tooltip = desc_gs_peiou_qiqi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.g
+
+        trigger = {
+			has_country_modifier = gs_leader_keqing
+		}
+        
+        define_consort = {
+            name = "£electro£IRtf"
+            dynasty = "Nf"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_keqing_personality
+        }
+        custom_tooltip = desc_gs_peiou_keqing_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.h
+
+        trigger = {
+			has_country_modifier = gs_leader_xinyan
+		}
+        
+        define_consort = {
+            name = "£pyro£õè1q"
+            dynasty = "¢u&V"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xinyan_personality
+        }
+        custom_tooltip = desc_gs_peiou_xinyan_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.i
+
+        trigger = {
+			has_country_modifier = gs_leader_zhongli
+		}
+        
+        define_consort = {
+            name = "£geo£üîªy"
+            dynasty = "id…bKQØe"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_zhongli_personality
+        }
+        custom_tooltip = desc_gs_peiou_zhongli_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.j
+
+        trigger = {
+			has_country_modifier = gs_leader_ganyu
+		}
+        
+        define_consort = {
+            name = "£cryo£uËñ"
+            dynasty = "ŸN∫N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ganyu_personality
+        }
+        custom_tooltip = desc_gs_peiou_ganyu_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.k
+
+        trigger = {
+			has_country_modifier = gs_leader_xiao
+		}
+        
+        define_consort = {
+            name = "£anemo£Hõ"
+            dynasty = "ŸN∫N Y…S"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xiao_personality
+        }
+        custom_tooltip = desc_gs_peiou_xiao_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.l
+
+        trigger = {
+			has_country_modifier = gs_leader_hutao
+		}
+        
+        define_consort = {
+            name = "£pyro£·wCh"
+            dynasty = "éVuX"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_hutao_personality
+        }
+        custom_tooltip = desc_gs_peiou_hutao_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.m
+
+        trigger = {
+			has_country_modifier = gs_leader_yanfei
+		}
+        
+        define_consort = {
+            name = "£pyro£ﬂpÔu"
+            dynasty = "ŸN∫N"
+            #age = 20
+            adm = 6
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yanfei_personality
+        }
+        custom_tooltip = desc_gs_peiou_yanfei_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.n
+
+        trigger = {
+			has_country_modifier = gs_leader_yunjin
+		}
+        
+        define_consort = {
+            name = "X"
+            dynasty = "ø£geo£ëN"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yunjin_personality
+        }
+        custom_tooltip = desc_gs_peiou_yunjin_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.o
+
+        trigger = {
+			has_country_modifier = gs_leader_shenhe
+		}
+        
+        define_consort = {
+            name = "£cryo£3udû"
+            dynasty = "ŸN∫N VPR"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_shenhe_personality
+        }
+        custom_tooltip = desc_gs_peiou_shenhe_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.p
+
+        trigger = {
+			has_country_modifier = gs_leader_yelan
+		}
+        
+        define_consort = {
+            name = "£hydro£YpQ"
+            dynasty = "©SN"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yelan_personality
+        }
+        custom_tooltip = desc_gs_peiou_yelan_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.q
+
+        trigger = {
+			has_country_modifier = gs_leader_yaoyao
+		}
+        
+        define_consort = {
+            name = "£dendro£vtvt"
+            dynasty = "ŸN∫N VPR"
+            #age = 12
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yaoyao_personality
+        }
+        custom_tooltip = desc_gs_peiou_yaoyao_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.r
+
+        trigger = {
+			has_country_modifier = gs_leader_baizhu
+		}
+        
+        define_consort = {
+            name = "£dendro£ãv=g"
+            dynasty = "NjSê^"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_baizhu_personality
+        }
+        custom_tooltip = desc_gs_peiou_baizhu_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.s
+
+        trigger = {
+			has_country_modifier = gs_leader_jiaming
+		}
+        
+        define_consort = {
+            name = "	Vf"
+            dynasty = "ø£pyro£ˆS"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_jiaming_personality
+        }
+        custom_tooltip = desc_gs_peiou_jiaming_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.t
+
+        trigger = {
+			has_country_modifier = gs_leader_xianyun
+		}
+        
+        define_consort = {
+            name = "£anemo£ÚïëN"
+            dynasty = "ŸN∫N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xianyun_personality
+        }
+        custom_tooltip = desc_gs_peiou_xianyun_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.u
+
+        trigger = {
+			has_country_modifier = gs_leader_lanyan
+		}
+        
+        define_consort = {
+            name = "x"
+            dynasty = "ø£anemo£›Ñ"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_lanyan_personality
+        }
+        custom_tooltip = desc_gs_peiou_lanyan_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.11.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#IzªY
+country_event = {
+    id = gs_yuanshenpeiou_events.12
+    title = gs_yuanshenpeiou_events.12_title
+    desc = gs_yuanshenpeiou_events.12_desc
+    picture = gs_yuanshenpeiou_events.12_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.12.a
+
+        trigger = {
+			has_country_modifier = gs_leader_wanye
+		}
+        
+        define_consort = {
+            name = "NˆS"
+            dynasty = "ø£anemo£´güS"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_wanye_personality
+        }
+        custom_tooltip = desc_gs_peiou_wanye_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.b
+
+        trigger = {
+			has_country_modifier = gs_leader_linghua
+		}
+        
+        define_consort = {
+            name = "ÎuNS"
+            dynasty = "ø£cryo£^yÃë"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_linghua_personality
+        }
+        custom_tooltip = desc_gs_peiou_linghua_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.c
+
+        trigger = {
+			has_country_modifier = gs_leader_zaoyou
+		}
+        
+        define_consort = {
+            name = "£anemo£Èe⁄g"
+            dynasty = "»u+gju"
+            #age = 12
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_zaoyou_personality
+        }
+        custom_tooltip = desc_gs_peiou_zaoyou_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.d
+
+        trigger = {
+			has_country_modifier = gs_leader_xiaogong
+		}
+        
+        define_consort = {
+            name = "µR´R"
+            dynasty = "ø£pyro£ïŒëüS"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xiaogong_personality
+        }
+        custom_tooltip = desc_gs_peiou_xiaogong_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.e
+
+        trigger = {
+			has_country_modifier = gs_leader_jiutiao
+		}
+        
+        define_consort = {
+            name = "ﬂàW"
+            dynasty = "ø£electro£kNag"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_jiutiao_personality
+        }
+        custom_tooltip = desc_gs_peiou_jiutiao_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.f
+
+        trigger = {
+			has_country_modifier = gs_leader_leishen
+		}
+        
+        define_consort = {
+            name = "qV"
+            dynasty = "ø£electro£˜ñ5u"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_leishen_personality
+        }
+        custom_tooltip = desc_gs_peiou_leishen_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.g
+
+        trigger = {
+			has_country_modifier = gs_leader_xinhai
+		}
+        
+        define_consort = {
+            name = "√Vwm"
+            dynasty = "ø£hydro£ sZt´R"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xinhai_personality
+        }
+        custom_tooltip = desc_gs_peiou_xinhai_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.h
+
+        trigger = {
+			has_country_modifier = gs_leader_tuoma
+		}
+        
+        define_consort = {
+            name = "£pyro£Xblö"
+            dynasty = ">yIYLà"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_tuoma_personality
+        }
+        custom_tooltip = desc_gs_peiou_tuoma_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.i
+
+        trigger = {
+			has_country_modifier = gs_leader_wulang
+		}
+        
+        define_consort = {
+            name = "£geo£îNŒê"
+            dynasty = "wmGy"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_wulang_personality
+        }
+        custom_tooltip = desc_gs_peiou_wulang_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.j
+
+        trigger = {
+			has_country_modifier = gs_leader_yidou
+		}
+        
+        define_consort = {
+            name = "Nóe"
+            dynasty = "ø£geo£RÉ˜l"
+            #age = 18
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yidou_personality
+        }
+        custom_tooltip = desc_gs_peiou_yidou_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.k
+
+        trigger = {
+			has_country_modifier = gs_leader_shenzi
+		}
+        
+        define_consort = {
+            name = "^yPR"
+            dynasty = "ø£electro£kQÕë"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_shenzi_personality
+        }
+        custom_tooltip = desc_gs_peiou_shenzi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.l
+
+        trigger = {
+			has_country_modifier = gs_leader_lingren
+		}
+        
+        define_consort = {
+            name = "Îu∫N"
+            dynasty = "ø£hydro£^yÃë"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_lingren_personality
+        }
+        custom_tooltip = desc_gs_peiou_lingren_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.m
+
+        trigger = {
+			has_country_modifier = gs_leader_jiuqiren
+		}
+        
+        define_consort = {
+            name = "ÕV"
+            dynasty = "ø£electro£ENêS"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_jiuqiren_personality
+        }
+        custom_tooltip = desc_gs_peiou_jiuqiren_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.n
+
+        trigger = {
+			has_country_modifier = gs_leader_pingzang
+		}
+        
+        define_consort = {
+            name = "s^œÖ"
+            dynasty = "ø£anemo£ûŒëbñ"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_pingzang_personality
+        }
+        custom_tooltip = desc_gs_peiou_pingzang_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.o
+
+        trigger = {
+			has_country_modifier = gs_leader_kirara
+		}
+        
+        define_consort = {
+            name = "£dendro£ÓuoÇoÇ"
+            dynasty = "€rwÉKS"
+            #age = 16
+            adm = 5
+            dip = 6
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kirara_personality
+        }
+        custom_tooltip = desc_gs_peiou_kirara_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.p
+
+        trigger = {
+			has_country_modifier = gs_leader_qianzhi
+		}
+        
+        define_consort = {
+            name = "£geo£CS«u"
+            dynasty = "CS«uKS"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_qianzhi_personality
+        }
+        custom_tooltip = desc_gs_peiou_qianzhi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.q
+
+        trigger = {
+			has_country_modifier = gs_leader_ruixi
+		}
+        
+        define_consort = {
+            name = "^t^"
+            dynasty = "ø£anemo£¶h¡âg"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ruixi_personality
+        }
+        custom_tooltip = desc_gs_peiou_ruixi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.12.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#âò%V
+country_event = {
+    id = gs_yuanshenpeiou_events.13
+    title = gs_yuanshenpeiou_events.13_title
+    desc = gs_yuanshenpeiou_events.13_desc
+    picture = gs_yuanshenpeiou_events.13_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.13.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kelai
+		}
+        
+        define_consort = {
+            name = "£dendro£Ôg±É"
+            dynasty = "·TógXT"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kelai_personality
+        }
+        custom_tooltip = desc_gs_peiou_kelai_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.b
+
+        trigger = {
+			has_country_modifier = gs_leader_tinali
+		}
+        
+        define_consort = {
+            name = "£dendro£–c≥uÃë"
+            dynasty = "?ñ%V)RY"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_tinali_personality
+        }
+        custom_tooltip = desc_gs_peiou_tinali_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.c
+
+        trigger = {
+			has_country_modifier = gs_leader_duoli
+		}
+        
+        define_consort = {
+            name = "£electro£YâÉ"
+            dynasty = "QhLkõs»TÙTùO"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_duoli_personality
+        }
+        custom_tooltip = desc_gs_peiou_duoli_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.d
+
+        trigger = {
+			has_country_modifier = gs_leader_kandisi
+		}
+        
+        define_consort = {
+            name = "£hydro£NWÇÑN"
+            dynasty = "?ñÇY"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kandisi_personality
+        }
+        custom_tooltip = desc_gs_peiou_kandisi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.e
+
+        trigger = {
+			has_country_modifier = gs_leader_sainuo
+		}
+        
+        define_consort = {
+            name = "£electro£iç˙ã"
+            dynasty = "â`,ÇYid"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_sainuo_personality
+        }
+        custom_tooltip = desc_gs_peiou_sainuo_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.f
+
+        trigger = {
+			has_country_modifier = gs_leader_nilu
+		}
+        
+        define_consort = {
+            name = "£hydro£ÆY2ó"
+            dynasty = "'YÙTNb"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_nilu_personality
+        }
+        custom_tooltip = desc_gs_peiou_nilu_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.g
+
+        trigger = {
+			has_country_modifier = gs_leader_naxida
+		}
+        
+        define_consort = {
+            name = "£dendro£≥uâ≤Y"
+            dynasty = "^6wS"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_naxida_personality
+        }
+        custom_tooltip = desc_gs_peiou_naxida_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.h
+
+        trigger = {
+			has_country_modifier = gs_leader_laiyila
+		}
+        
+        define_consort = {
+            name = "£cryo£±ÉùO…b"
+            dynasty = "®hYµhå"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_laiyila_personality
+        }
+        custom_tooltip = desc_gs_peiou_laiyila_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.i
+
+        trigger = {
+			has_country_modifier = gs_leader_falushan
+		}
+        
+        define_consort = {
+            name = "£anemo£–s2ó s"
+            dynasty = "≤RWFZKw"
+            #age = 20
+            adm = 6
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_falushan_personality
+        }
+        custom_tooltip = desc_gs_peiou_falushan_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.j
+
+        trigger = {
+			has_country_modifier = gs_leader_bengbeng
+		}
+        
+        define_consort = {
+            name = "£anemo£Amjmw"
+            dynasty = "O≤b+g±ê"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_bengbeng_personality
+        }
+        custom_tooltip = desc_gs_peiou_bengbeng_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.k
+
+        trigger = {
+			has_country_modifier = gs_leader_aierhaisen
+		}
+        
+        define_consort = {
+            name = "£dendro£åÇSwmÓh"
+            dynasty = "≤RWFZKw"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_aierhaisen_personality
+        }
+        custom_tooltip = desc_gs_peiou_aierhaisen_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.l
+
+        trigger = {
+			has_country_modifier = gs_leader_dixiya
+		}
+        
+        define_consort = {
+            name = "£pyro£Íè^≈ñ"
+            dynasty = "Nï—ë"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_dixiya_personality
+        }
+        custom_tooltip = desc_gs_peiou_dixiya_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.m
+
+        trigger = {
+			has_country_modifier = gs_leader_kawei
+		}
+        
+        define_consort = {
+            name = "£dendro£aSÙu"
+            dynasty = "9R√ãOW"
+            #age = 20
+            adm = 6
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kawei_personality
+        }
+        custom_tooltip = desc_gs_peiou_kawei_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.n
+
+        trigger = {
+			has_country_modifier = gs_leader_saisuosi
+		}
+        
+        define_consort = {
+            name = "£electro£iç0tØe"
+            dynasty = "kç¸f™R‘kØe"
+            #age = 20
+            adm = 6
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_saisuosi_personality
+        }
+        custom_tooltip = desc_gs_peiou_saisuosi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.13.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#´g9N
+country_event = {
+    id = gs_yuanshenpeiou_events.14
+    title = gs_yuanshenpeiou_events.14_title
+    desc = gs_yuanshenpeiou_events.14_desc
+    picture = gs_yuanshenpeiou_events.14_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.14.a
+
+        trigger = {
+			has_country_modifier = gs_leader_linnite
+		}
+        
+        define_consort = {
+            name = "£anemo£3tÆYyr"
+            dynasty = "ÍñHY(ÉôÇZ"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_linnite_personality
+        }
+        custom_tooltip = desc_gs_peiou_linnite_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.b
+
+        trigger = {
+			has_country_modifier = gs_leader_linni
+		}
+        
+        define_consort = {
+            name = "£pyro£óg<S"
+            dynasty = "ÍñHY(ÉÙuGY"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_linni_personality
+        }
+        custom_tooltip = desc_gs_peiou_linni_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.c
+
+        trigger = {
+			has_country_modifier = gs_leader_feimini
+		}
+        
+        define_consort = {
+            name = "£cryo£ÚÉs|<S"
+            dynasty = "ÍñHY(ÉÙuGY"
+            #age = 16
+            adm = 5
+            dip = 4
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_feimini_personality
+        }
+        custom_tooltip = desc_gs_peiou_feimini_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.d
+
+        trigger = {
+			has_country_modifier = gs_leader_nawei
+		}
+        
+        define_consort = {
+            name = "£hydro£±êÙu±Éyr"
+            dynasty = "ôüãs"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_nawei_personality
+        }
+        custom_tooltip = desc_gs_peiou_nawei_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.e
+
+        trigger = {
+			has_country_modifier = gs_leader_laiou
+		}
+        
+        define_consort = {
+            name = "£cryo£±É'kØe)R"
+            dynasty = "Öhm|VóV"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_laiou_personality
+        }
+        custom_tooltip = desc_gs_peiou_laiou_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.f
+
+        trigger = {
+			has_country_modifier = gs_leader_xialuodi
+		}
+        
+        define_consort = {
+            name = "£cryo£YmÇÑ"
+            dynasty = "∏Ñãlû"
+            #age = 20
+            adm = 5
+            dip = 6
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xialuodi_personality
+        }
+        custom_tooltip = desc_gs_peiou_xialuodi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.g
+
+        trigger = {
+			has_country_modifier = gs_leader_funingna
+		}
+        
+        define_consort = {
+            name = "£hydro£ôÇÅRZ"
+            dynasty = "∑V ´g9N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_funingna_personality
+        }
+        custom_tooltip = desc_gs_peiou_funingna_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.h
+
+        trigger = {
+			has_country_modifier = gs_leader_naweiya
+		}
+        
+        define_consort = {
+            name = "£geo£ZÙuZ"
+            dynasty = "aS(Ñ^"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_naweiya_personality
+        }
+        custom_tooltip = desc_gs_peiou_naweiya_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.i
+
+        trigger = {
+			has_country_modifier = gs_leader_xiawolei
+		}
+        
+        define_consort = {
+            name = "£pyro£YÉlåÖ"
+            dynasty = "yr·Tñ"
+            #age = 20
+            adm = 5
+            dip = 5
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xiawolei_personality
+        }
+        custom_tooltip = desc_gs_peiou_xiawolei_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.j
+
+        trigger = {
+			has_country_modifier = gs_leader_keluolinde
+		}
+        
+        define_consort = {
+            name = "£electro£KQm3t∑V"
+            dynasty = "≥Qóe„Nt∫N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_keluolinde_personality
+        }
+        custom_tooltip = desc_gs_peiou_keluolinde_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.k
+
+        trigger = {
+			has_country_modifier = gs_leader_xigewen
+		}
+        
+        define_consort = {
+            name = "£hydro£^<hÔñ"
+            dynasty = "Öhm|VóV"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xigewen_personality
+        }
+        custom_tooltip = desc_gs_peiou_xigewen_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.l
+
+        trigger = {
+			has_country_modifier = gs_leader_aimeiliai
+		}
+        
+        define_consort = {
+            name = "£dendro£åÇÖhâÉ√W"
+            dynasty = "åôô^"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_aimeiliai_personality
+        }
+        custom_tooltip = desc_gs_peiou_aimeiliai_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.m
+
+        trigger = {
+			has_country_modifier = gs_leader_aikefei
+		}
+        
+        define_consort = {
+            name = "£cryo£1rÔSÚÉ"
+            dynasty = "∑V‚l"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_aikefei_personality
+        }
+        custom_tooltip = desc_gs_peiou_aikefei_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.14.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#≥uTX
+country_event = {
+    id = gs_yuanshenpeiou_events.15
+    title = gs_yuanshenpeiou_events.15_title
+    desc = gs_yuanshenpeiou_events.15_desc
+    picture = gs_yuanshenpeiou_events.15_eventPicture
+    is_triggered_only = yes
+	
+	
+
+    option = {
+        name = gs_yuanshenpeiou_events.15.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kaqina
+		}
+        
+        define_consort = {
+            name = "£geo£aSPüZ"
+            dynasty = "LNôlZSÇÑ"
+            #age = 12
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kaqina_personality
+        }
+        custom_tooltip = desc_gs_peiou_kaqina_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.b
+
+        trigger = {
+			has_country_modifier = gs_leader_malani
+		}
+        
+        define_consort = {
+            name = "£hydro£õs…bÆY"
+            dynasty = "Élidˆ^"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_malani_personality
+        }
+        custom_tooltip = desc_gs_peiou_malani_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.c
+
+        trigger = {
+			has_country_modifier = gs_leader_jiniqi
+		}
+        
+        define_consort = {
+            name = "£dendro£˙W<SPü"
+            dynasty = "löõRjS"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_jiniqi_personality
+        }
+        custom_tooltip = desc_gs_peiou_jiniqi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.d
+
+        trigger = {
+			has_country_modifier = gs_leader_xinuoning
+		}
+        
+        define_consort = {
+            name = "£geo£^˙ãÅR"
+            dynasty = "ÙT±ÉaS"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_xinuoning_personality
+        }
+        custom_tooltip = desc_gs_peiou_xinuoning_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.e
+
+        trigger = {
+			has_country_modifier = gs_leader_ouluolun
+		}
+        
+        define_consort = {
+            name = "£electro£'km&O"
+            dynasty = "á^r"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ouluolun_personality
+        }
+        custom_tooltip = desc_gs_peiou_ouluolun_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.f
+
+        trigger = {
+			has_country_modifier = gs_leader_qiasika
+		}
+        
+        define_consort = {
+            name = "£anemo£p`ØeaS"
+            dynasty = "fkaS"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_qiasika_personality
+        }
+        custom_tooltip = desc_gs_peiou_qiasika_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.g
+
+        trigger = {
+			has_country_modifier = gs_leader_maweika
+		}
+        
+        define_consort = {
+            name = "£pyro£õsáÖaS"
+            dynasty = "˙WlbbyQ"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_maweika_personality
+        }
+        custom_tooltip = desc_gs_peiou_maweika_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.h
+
+        trigger = {
+			has_country_modifier = gs_leader_nainai
+		}
+        
+        define_consort = {
+            name = "£cryo£Éyr»ÉâÉ"
+            dynasty = "LNfZSì^"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_nainai_personality
+        }
+        custom_tooltip = desc_gs_peiou_nainai_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.i
+
+        trigger = {
+			has_country_modifier = gs_leader_yianshan
+		}
+        
+        define_consort = {
+            name = "£electro£OâR s"
+            dynasty = "LNZPO"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yianshan_personality
+        }
+        custom_tooltip = desc_gs_peiou_yianshan_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.j
+
+        trigger = {
+			has_country_modifier = gs_leader_niuniu
+		}
+        
+        define_consort = {
+            name = "£electro£Êt˜ñéÉ"
+            dynasty = "ÚÉ6wÇÑZ"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_niuniu_personality
+        }
+        custom_tooltip = desc_gs_peiou_niuniu_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.k
+
+        trigger = {
+			has_country_modifier = gs_leader_yifa
+		}
+        
+        define_consort = {
+            name = "£anemo£O’l"
+            dynasty = "yr…bmNW"
+            #age = 16
+            adm = 5
+            dip = 5
+            mil = 5
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_yifa_personality
+        }
+        custom_tooltip = desc_gs_peiou_yifa_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.15.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#ÛÅ¨Q
+country_event = {
+    id = gs_yuanshenpeiou_events.16
+    title = gs_yuanshenpeiou_events.16_title
+    desc = gs_yuanshenpeiou_events.16_desc
+    picture = gs_yuanshenpeiou_events.16_eventPicture
+    is_triggered_only = yes
+
+
+    option = {
+        name = gs_yuanshenpeiou_events.16.a
+
+        trigger = {
+			has_country_modifier = gs_leader_gongzi
+		}
+        
+        define_consort = {
+            name = "£hydro£?ñ>çKQØe"
+            dynasty = "a∫NO gbLàòR"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_gongzi_personality
+        }
+        custom_tooltip = desc_gs_peiou_gongzi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.16.b
+
+        trigger = {
+			has_country_modifier = gs_leader_aleiqinuo
+		}
+        
+        define_consort = {
+            name = "£pyro£iO2óáÖ)R"
+            dynasty = "ÍñHY(ÉôÇZ"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_aleiqinuo_personality
+        }
+        custom_tooltip = desc_gs_peiou_aleiqinuo_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.16.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}
+#VLu
+country_event = {
+    id = gs_yuanshenpeiou_events.17
+    title = gs_yuanshenpeiou_events.17_title
+    desc = gs_yuanshenpeiou_events.17_desc
+    picture = gs_yuanshenpeiou_events.17_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenpeiou_events.17.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kong
+		}
+        
+        define_consort = {
+            name = "zz"
+            dynasty = "≈e∫N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            male = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_kong_personality
+        }
+        custom_tooltip = desc_gs_peiou_kong_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.17.b
+
+        trigger = {
+			has_country_modifier = gs_leader_ying
+		}
+        
+        define_consort = {
+            name = "gÉ"
+            dynasty = "≈e∫N"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ying_personality
+        }
+        custom_tooltip = desc_gs_peiou_ying_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.17.c
+
+        trigger = {
+			has_country_modifier = gs_leader_ailuoyi
+		}
+        
+        define_consort = {
+            name = "£cryo£√WmO"
+            dynasty = "˙ã…b"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_ailuoyi_personality
+        }
+        custom_tooltip = desc_gs_peiou_ailuoyi_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.17.d
+
+        trigger = {
+			has_country_modifier = gs_leader_skirk
+		}
+        
+        define_consort = {
+            name = "£cryo£NÔgKQ"
+            dynasty = "RáR´Rmp"
+            #age = 20
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_skirk_personality
+        }
+        custom_tooltip = desc_gs_peiou_skirk_personality
+    }
+    option = {
+        name = gs_yuanshenpeiou_events.17.quit
+        country_event = { id = gs_yuanshenpeiou_events.1 }
+    }
+}

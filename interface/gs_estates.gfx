@@ -1,0 +1,35 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_estate_genshin_vision_anemo"
+		texturefile = "gfx/interface/privileges/vision_anemo.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_geo"
+		texturefile = "gfx/interface/privileges/vision_geo.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_electro"
+		texturefile = "gfx/interface/privileges/vision_electro.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_dendro"
+		texturefile = "gfx/interface/privileges/vision_dendro.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_hydro"
+		texturefile = "gfx/interface/privileges/vision_hydro.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_pyro"
+		texturefile = "gfx/interface/privileges/vision_pyro.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_vision_cryo"
+		texturefile = "gfx/interface/privileges/vision_cryo.dds"
+	}
+	spriteType = {
+		name = "GFX_estate_genshin_element_idea"
+		texturefile = "gfx/interface/privileges/element_idea.dds"
+	}
+	
+}

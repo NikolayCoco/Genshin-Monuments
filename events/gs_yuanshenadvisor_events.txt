@@ -1,0 +1,5474 @@
+namespace = gs_yuanshenadvisor_events 
+country_event = {
+    id = gs_yuanshenadvisor_events.1000
+    title = gs_yuanshenadvisor_events.1000_title
+    desc = gs_yuanshenadvisor_events.1000_desc
+    picture = gs_yuanshenadvisor_events.1000_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = gs_yuanshenadvisor_events.1000.a
+        set_country_flag = gs_yuanshenadvisor_1_flag
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1000.b
+        set_country_flag = gs_yuanshenadvisor_2_flag
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1000.c
+        set_country_flag = gs_yuanshenadvisor_3_flag
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1000.d
+    }
+}
+#	êÈb˝V∂R
+country_event = {
+    id = gs_yuanshenadvisor_events.1
+    title = gs_yuanshenadvisor_events.1_title
+    desc = gs_yuanshenadvisor_events.1_desc
+    picture = gs_yuanshenadvisor_events.1_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.1.a
+
+        trigger = {
+            gs_has_gs_leader_MONDSTADT = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.10 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.b
+
+        trigger = {
+            gs_has_gs_leader_LIYUE = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.11 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.c
+
+        trigger = {
+            gs_has_gs_leader_INAZUMA = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.12 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.d
+
+        trigger = {
+            gs_has_gs_leader_SUMERU = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.13 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.e
+
+        trigger = {
+            gs_has_gs_leader_FONTAINE = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.14 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.f
+
+        trigger = {
+            gs_has_gs_leader_NATLAN = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.15 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.g
+
+        trigger = {
+            gs_has_gs_leader_SNEZHNAYA = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.16 }
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.1.h
+
+        trigger = {
+            gs_has_gs_leader_OTHER = yes
+		}
+
+        country_event = { id = gs_yuanshenadvisor_events.17 }
+    }
+    option = { 
+        name = gs_yuanshenadvisor_events.1.i
+
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+        country_event = { id = gs_yuanshenadvisor_events.1000 }
+    }
+}
+#ôÑ∑V
+country_event = {
+    id = gs_yuanshenadvisor_events.10
+    title = gs_yuanshenadvisor_events.10_title
+    desc = gs_yuanshenadvisor_events.10_desc
+    picture = gs_yuanshenadvisor_events.10_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.10.a
+        trigger = {
+			has_country_modifier = gs_leader_shatang
+		}
+
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_shatang
+                name = "£anemo£x÷|"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_shatang
+                name = "£anemo£x÷|"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_shatang
+                name = "£anemo£x÷|"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_shatang_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.b
+
+        trigger = {
+			has_country_modifier = gs_leader_lisha
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_lisha
+                name = "£electro£KNéÉ OeyQ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_lisha
+                name = "£electro£KNéÉ OeyQ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_lisha
+                name = "£electro£KNéÉ OeyQ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_lisha_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.c
+
+        trigger = {
+			has_country_modifier = gs_leader_fichel
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_fichel
+                name = "£electro£ÚÉ0åS ØQ 2óVÀemØe ±êÚÉYyr"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_fichel
+                name = "£electro£ÚÉ0åS ØQ 2óVÀemØe ±êÚÉYyr"
+                skill = 2
+                #age = 26
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_fichel
+                name = "£electro£ÚÉ0åS ØQ 2óVÀemØe ±êÚÉYyr"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_fichel_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.d
+
+        trigger = {
+			has_country_modifier = gs_leader_anbo
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_anbo
+                name = "£pyro£âRœg"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_anbo
+                name = "£pyro£âRœg"
+                skill = 2
+                #age = 26
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_anbo
+                name = "£pyro£âRœg"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_anbo_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.e
+
+        trigger = {
+			has_country_modifier = gs_leader_leize
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_leize
+                name = "£electro£˜ñ˝l"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_leize
+                name = "£electro£˜ñ˝l"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_leize
+                name = "£electro£˜ñ˝l"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_leize_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.f
+
+        trigger = {
+			has_country_modifier = gs_leader_babala
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_babala
+                name = "£hydro£≠Ç≠Ç…b iOGY"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_babala
+                name = "£hydro£≠Ç≠Ç…b iOGY"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_babala
+                name = "£hydro£≠Ç≠Ç…b iOGY"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_babala_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.g
+
+        trigger = {
+			has_country_modifier = gs_leader_bannite
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_bannite
+                name = "£pyro£Ìs<Syr"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_bannite
+                name = "£pyro£Ìs<Syr"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_bannite
+                name = "£pyro£Ìs<Syr"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_bannite_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.h
+
+        trigger = {
+			has_country_modifier = gs_leader_kaiya
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kaiya
+                name = "£cryo£ÔQöN öNS=OÃëGY"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kaiya
+                name = "£cryo£ÔQöN öNS=OÃëGY"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kaiya
+                name = "£cryo£ÔQöN öNS=OÃëGY"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kaiya_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.i
+
+        trigger = {
+			has_country_modifier = gs_leader_noel
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_noel
+                name = "£geo£˙ãåÇS"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_noel
+                name = "£geo£˙ãåÇS"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_noel
+                name = "£geo£˙ãåÇS"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_noel_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.j
+
+        trigger = {
+			has_country_modifier = gs_leader_qin
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_qin
+                name = "£anemo£4t ‰Si`^S∑V"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_qin
+                name = "£anemo£4t ‰Si`^S∑V"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_qin
+                name = "£anemo£4t ‰Si`^S∑V"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_qin_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.k
+
+        trigger = {
+			has_country_modifier = gs_leader_diluke
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_diluke
+                name = "£pyro£ÍèbSKQ ±ÉnÇ¨Ç∑V"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_diluke
+                name = "£pyro£ÍèbSKQ ±ÉnÇ¨Ç∑V"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_diluke
+                name = "£pyro£ÍèbSKQ ±ÉnÇ¨Ç∑V"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_diluke_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.l
+
+        trigger = {
+			has_country_modifier = gs_leader_mona
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_mona
+                name = "£hydro£?ñØeXbm	TØe ´ÉZ ÖhÏYØe˛VØe"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_mona
+                name = "£hydro£?ñØeXbm	TØe ´ÉZ ÖhÏYØe˛VØe"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_mona
+                name = "£hydro£?ñØeXbm	TØe ´ÉZ ÖhÏYØe˛VØe"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_mona_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.m
+
+        trigger = {
+			has_country_modifier = gs_leader_wendi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_wendi
+                name = "£anemo£)nÍè"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_wendi
+                name = "£anemo£)nÍè"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_wendi
+                name = "£anemo£)nÍè"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_wendi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.n
+
+        trigger = {
+			has_country_modifier = gs_leader_keli
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_keli
+                name = "£pyro£ÔSâÉ"
+                skill = 1
+                #age = 10
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_keli
+                name = "£pyro£ÔSâÉ"
+                skill = 2
+                #age = 10
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_keli
+                name = "£pyro£ÔSâÉ"
+                skill = 3
+                #age = 10
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_keli_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.o
+
+        trigger = {
+			has_country_modifier = gs_leader_diona
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_diona
+                name = "£cryo£ÍèeYZ ÔQ(É±É5É"
+                skill = 1
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_diona
+                name = "£cryo£ÍèeYZ ÔQ(É±É5É"
+                skill = 2
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_diona
+                name = "£cryo£ÍèeYZ ÔQ(É±É5É"
+                skill = 3
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_diona_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.p
+
+        trigger = {
+			has_country_modifier = gs_leader_abeiduo
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_abeiduo
+                name = "£geo£?ñçY"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_abeiduo
+                name = "£geo£?ñçY"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_abeiduo
+                name = "£geo£?ñçY"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_abeiduo_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.q
+
+        trigger = {
+			has_country_modifier = gs_leader_luosha
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_luosha
+                name = "£cryo£WéÉâÉöN"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_luosha
+                name = "£cryo£WéÉâÉöN"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_luosha
+                name = "£cryo£WéÉâÉöN"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_luosha_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.r
+
+        trigger = {
+			has_country_modifier = gs_leader_youla
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_youla
+                name = "£cryo£O»É ≥R&OØe"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_youla
+                name = "£cryo£O»É ≥R&OØe"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_youla
+                name = "£cryo£O»É ≥R&OØe"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_youla_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.s
+
+        trigger = {
+			has_country_modifier = gs_leader_mika
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_mika
+                name = "£cryo£s|aS Àe∆Ryr"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_mika
+                name = "£cryo£s|aS Àe∆Ryr"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_mika
+                name = "£cryo£s|aS Àe∆Ryr"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_mika_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.t
+
+        trigger = {
+			has_country_modifier = gs_leader_taliya
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_taliya
+                name = "£hydro£TX)R≈ñ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_taliya
+                name = "£hydro£TX)R≈ñ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_taliya
+                name = "£hydro£TX)R≈ñ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_taliya_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.10.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#Étg
+country_event = {
+    id = gs_yuanshenadvisor_events.11
+    title = gs_yuanshenadvisor_events.11_title
+    desc = gs_yuanshenadvisor_events.11_desc
+    picture = gs_yuanshenadvisor_events.11_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.11.a
+
+        trigger = {
+			has_country_modifier = gs_leader_ningguang
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ningguang
+                name = "£geo£›QIQ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ningguang
+                name = "£geo£›QIQ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ningguang
+                name = "£geo£›QIQ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ningguang_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.b
+
+        trigger = {
+			has_country_modifier = gs_leader_xingqiu
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xingqiu
+                name = "£hydro£LàÀy"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xingqiu
+                name = "£hydro£LàÀy"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xingqiu
+                name = "£hydro£LàÀy"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xingqiu_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.c
+
+        trigger = {
+			has_country_modifier = gs_leader_xiangling
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xiangling
+                name = "£pyro£oSôôÒÉ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xiangling
+                name = "£pyro£oSôôÒÉ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xiangling
+                name = "£pyro£oSôôÒÉ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xiangling_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.d
+
+        trigger = {
+			has_country_modifier = gs_leader_chongyun
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_chongyun
+                name = "£cryo£ÕëëN"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_chongyun
+                name = "£cryo£ÕëëN"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_chongyun
+                name = "£cryo£ÕëëN"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_chongyun_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.e
+
+        trigger = {
+			has_country_modifier = gs_leader_beidou
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_beidou
+                name = "£electro£Sóe"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_beidou
+                name = "£electro£Sóe"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_beidou
+                name = "£electro£Sóe"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_beidou_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.f
+
+        trigger = {
+			has_country_modifier = gs_leader_qiqi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_qiqi
+                name = "£cryo£NN"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_qiqi
+                name = "£cryo£NN"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_qiqi
+                name = "£cryo£NN"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_qiqi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.g
+
+        trigger = {
+			has_country_modifier = gs_leader_keqing
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_keqing
+                name = "£electro£IRtf"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_keqing
+                name = "£electro£IRtf"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_keqing
+                name = "£electro£IRtf"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_keqing_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.h
+
+        trigger = {
+			has_country_modifier = gs_leader_xinyan
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xinyan
+                name = "£pyro£õè1q"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xinyan
+                name = "£pyro£õè1q"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xinyan
+                name = "£pyro£õè1q"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xinyan_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.i
+
+        trigger = {
+			has_country_modifier = gs_leader_zhongli
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_zhongli
+                name = "£geo£üîªy"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_zhongli
+                name = "£geo£üîªy"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_zhongli
+                name = "£geo£üîªy"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_zhongli_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.j
+
+        trigger = {
+			has_country_modifier = gs_leader_ganyu
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ganyu
+                name = "£cryo£uËñ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ganyu
+                name = "£cryo£uËñ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ganyu
+                name = "£cryo£uËñ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ganyu_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.k
+
+        trigger = {
+			has_country_modifier = gs_leader_xiao
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xiao
+                name = "£anemo£Hõ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xiao
+                name = "£anemo£Hõ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xiao
+                name = "£anemo£Hõ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xiao_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.l
+
+        trigger = {
+			has_country_modifier = gs_leader_hutao
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_hutao
+                name = "£pyro£·wCh"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_hutao
+                name = "£pyro£·wCh"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_hutao
+                name = "£pyro£·wCh"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_hutao_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.m
+
+        trigger = {
+			has_country_modifier = gs_leader_yanfei
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yanfei
+                name = "£pyro£ﬂpÔu"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yanfei
+                name = "£pyro£ﬂpÔu"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yanfei
+                name = "£pyro£ﬂpÔu"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yanfei_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.n
+
+        trigger = {
+			has_country_modifier = gs_leader_yunjin
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yunjin
+                name = "£geo£ëNX"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yunjin
+                name = "£geo£ëNX"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yunjin
+                name = "£geo£ëNX"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yunjin_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.o
+
+        trigger = {
+			has_country_modifier = gs_leader_shenhe
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_shenhe
+                name = "£cryo£3udû"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_shenhe
+                name = "£cryo£3udû"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_shenhe
+                name = "£cryo£3udû"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_shenhe_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.p
+
+        trigger = {
+			has_country_modifier = gs_leader_yelan
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yelan
+                name = "£hydro£YpQ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yelan
+                name = "£hydro£YpQ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yelan
+                name = "£hydro£YpQ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yelan_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.q
+
+        trigger = {
+			has_country_modifier = gs_leader_yaoyao
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yaoyao
+                name = "£dendro£vtvt"
+                skill = 1
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yaoyao
+                name = "£dendro£vtvt"
+                skill = 2
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yaoyao
+                name = "£dendro£vtvt"
+                skill = 3
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yaoyao_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.r
+
+        trigger = {
+			has_country_modifier = gs_leader_baizhu
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_baizhu
+                name = "£dendro£ãv=g"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_baizhu
+                name = "£dendro£ãv=g"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_baizhu
+                name = "£dendro£ãv=g"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_baizhu_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.s
+
+        trigger = {
+			has_country_modifier = gs_leader_jiaming
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_jiaming
+                name = "£pyro£ˆS	Vf"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_jiaming
+                name = "£pyro£ˆS	Vf"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_jiaming
+                name = "£pyro£ˆS	Vf"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_jiaming_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.t
+
+        trigger = {
+			has_country_modifier = gs_leader_xianyun
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xianyun
+                name = "£anemo£ÚïëN"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xianyun
+                name = "£anemo£ÚïëN"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xianyun
+                name = "£anemo£ÚïëN"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xianyun_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.u
+
+        trigger = {
+			has_country_modifier = gs_leader_lanyan
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_lanyan
+                name = "£anemo£›Ñx"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_lanyan
+                name = "£anemo£›Ñx"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_lanyan
+                name = "£anemo£›Ñx"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_lanyan_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.11.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#IzªY
+country_event = {
+    id = gs_yuanshenadvisor_events.12
+    title = gs_yuanshenadvisor_events.12_title
+    desc = gs_yuanshenadvisor_events.12_desc
+    picture = gs_yuanshenadvisor_events.12_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.12.a
+
+        trigger = {
+			has_country_modifier = gs_leader_wanye
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_wanye
+                name = "£anemo£´güSNˆS"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_wanye
+                name = "£anemo£´güSNˆS"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_wanye
+                name = "£anemo£´güSNˆS"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_wanye_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.b
+
+        trigger = {
+			has_country_modifier = gs_leader_linghua
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_linghua
+                name = "£cryo£^yÃëÎuNS"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_linghua
+                name = "£cryo£^yÃëÎuNS"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_linghua
+                name = "£cryo£^yÃëÎuNS"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_linghua_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.c
+
+        trigger = {
+			has_country_modifier = gs_leader_zaoyou
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_zaoyou
+                name = "£anemo£Èe⁄g"
+                skill = 1
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_zaoyou
+                name = "£anemo£Èe⁄g"
+                skill = 2
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_zaoyou
+                name = "£anemo£Èe⁄g"
+                skill = 3
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_zaoyou_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.d
+
+        trigger = {
+			has_country_modifier = gs_leader_xiaogong
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xiaogong
+                name = "£pyro£ïŒëüSµR´R"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xiaogong
+                name = "£pyro£ïŒëüSµR´R"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xiaogong
+                name = "£pyro£ïŒëüSµR´R"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xiaogong_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.e
+
+        trigger = {
+			has_country_modifier = gs_leader_jiutiao
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_jiutiao
+                name = "£electro£kNagﬂàW"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_jiutiao
+                name = "£electro£kNagﬂàW"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_jiutiao
+                name = "£electro£kNagﬂàW"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_jiutiao_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.f
+
+        trigger = {
+			has_country_modifier = gs_leader_leishen
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_leishen
+                name = "£electro£˜ñ5uqV"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_leishen
+                name = "£electro£˜ñ5uqV"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_leishen
+                name = "£electro£˜ñ5uqV"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_leishen_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.g
+
+        trigger = {
+			has_country_modifier = gs_leader_xinhai
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xinhai
+                name = "£hydro£ sZt´R√Vwm"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xinhai
+                name = "£hydro£ sZt´R√Vwm"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xinhai
+                name = "£hydro£ sZt´R√Vwm"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xinhai_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.h
+
+        trigger = {
+			has_country_modifier = gs_leader_tuoma
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_tuoma
+                name = "£pyro£Xblö"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_tuoma
+                name = "£pyro£Xblö"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_tuoma
+                name = "£pyro£Xblö"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_tuoma_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.i
+
+        trigger = {
+			has_country_modifier = gs_leader_wulang
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_wulang
+                name = "£geo£îNŒê"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_wulang
+                name = "£geo£îNŒê"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_wulang
+                name = "£geo£îNŒê"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_wulang_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.j
+
+        trigger = {
+			has_country_modifier = gs_leader_yidou
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yidou
+                name = "£geo£RÉ˜lNóe"
+                skill = 1
+                #age = 18
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yidou
+                name = "£geo£RÉ˜lNóe"
+                skill = 2
+                #age = 18
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yidou
+                name = "£geo£RÉ˜lNóe"
+                skill = 3
+                #age = 18
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yidou_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.k
+
+        trigger = {
+			has_country_modifier = gs_leader_shenzi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_shenzi
+                name = "£electro£kQÕë^yPR"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_shenzi
+                name = "£electro£kQÕë^yPR"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_shenzi
+                name = "£electro£kQÕë^yPR"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_shenzi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.l
+
+        trigger = {
+			has_country_modifier = gs_leader_lingren
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_lingren
+                name = "£hydro£^yÃëÎu∫N"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_lingren
+                name = "£hydro£^yÃëÎu∫N"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_lingren
+                name = "£hydro£^yÃëÎu∫N"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_lingren_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.m
+
+        trigger = {
+			has_country_modifier = gs_leader_jiuqiren
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_jiuqiren
+                name = "£electro£ENêSÕV"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_jiuqiren
+                name = "£electro£ENêSÕV"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_jiuqiren
+                name = "£electro£ENêSÕV"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_jiuqiren_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.n
+
+        trigger = {
+			has_country_modifier = gs_leader_pingzang
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_pingzang
+                name = "£anemo£ûŒëbñs^œÖ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_pingzang
+                name = "£anemo£ûŒëbñs^œÖ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_pingzang
+                name = "£anemo£ûŒëbñs^œÖ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_pingzang_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.o
+
+        trigger = {
+			has_country_modifier = gs_leader_kirara
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kirara
+                name = "£dendro£ÓuoÇoÇ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kirara
+                name = "£dendro£ÓuoÇoÇ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kirara
+                name = "£dendro£ÓuoÇoÇ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kirara_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.p
+
+        trigger = {
+			has_country_modifier = gs_leader_qianzhi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_qianzhi
+                name = "£geo£CS«u"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_qianzhi
+                name = "£geo£CS«u"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_qianzhi
+                name = "£geo£CS«u"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_qianzhi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.q
+
+        trigger = {
+			has_country_modifier = gs_leader_ruixi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ruixi
+                name = "£anemo£¶h¡âg^t^"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ruixi
+                name = "£anemo£¶h¡âg^t^"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ruixi
+                name = "£anemo£¶h¡âg^t^"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ruixi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.12.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#âò%V
+country_event = {
+    id = gs_yuanshenadvisor_events.13
+    title = gs_yuanshenadvisor_events.13_title
+    desc = gs_yuanshenadvisor_events.13_desc
+    picture = gs_yuanshenadvisor_events.13_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.13.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kelai
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kelai
+                name = "£dendro£Ôg±É"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kelai
+                name = "£dendro£Ôg±É"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kelai
+                name = "£dendro£Ôg±É"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kelai_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.b
+
+        trigger = {
+			has_country_modifier = gs_leader_tinali
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_tinali
+                name = "£dendro£–c≥uÃë"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_tinali
+                name = "£dendro£–c≥uÃë"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_tinali
+                name = "£dendro£–c≥uÃë"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_tinali_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.c
+
+        trigger = {
+			has_country_modifier = gs_leader_duoli
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_duoli
+                name = "£electro£YâÉ QhLkõs»TÙTùO"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_duoli
+                name = "£electro£YâÉ QhLkõs»TÙTùO"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_duoli
+                name = "£electro£YâÉ QhLkõs»TÙTùO"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_duoli_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.d
+
+        trigger = {
+			has_country_modifier = gs_leader_kandisi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kandisi
+                name = "£hydro£NWÇÑN"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kandisi
+                name = "£hydro£NWÇÑN"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kandisi
+                name = "£hydro£NWÇÑN"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kandisi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.e
+
+        trigger = {
+			has_country_modifier = gs_leader_sainuo
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_sainuo
+                name = "£electro£iç˙ã"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_sainuo
+                name = "£electro£iç˙ã"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_sainuo
+                name = "£electro£iç˙ã"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_sainuo_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.f
+
+        trigger = {
+			has_country_modifier = gs_leader_nilu
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_nilu
+                name = "£hydro£ÆY2ó"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_nilu
+                name = "£hydro£ÆY2ó"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_nilu
+                name = "£hydro£ÆY2ó"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_nilu_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.g
+
+        trigger = {
+			has_country_modifier = gs_leader_naxida
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_naxida
+                name = "£dendro£≥uâ≤Y"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_naxida
+                name = "£dendro£≥uâ≤Y"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_naxida
+                name = "£dendro£≥uâ≤Y"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_naxida_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.h
+
+        trigger = {
+			has_country_modifier = gs_leader_laiyila
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_laiyila
+                name = "£cryo£±ÉùO…b"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_laiyila
+                name = "£cryo£±ÉùO…b"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_laiyila
+                name = "£cryo£±ÉùO…b"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_laiyila_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.i
+
+        trigger = {
+			has_country_modifier = gs_leader_falushan
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_falushan
+                name = "£anemo£–s2ó s"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_falushan
+                name = "£anemo£–s2ó s"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_falushan
+                name = "£anemo£–s2ó s"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_falushan_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.j
+
+        trigger = {
+			has_country_modifier = gs_leader_bengbeng
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_bengbeng
+                name = "£anemo£Amjmw"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_bengbeng
+                name = "£anemo£Amjmw"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_bengbeng
+                name = "£anemo£Amjmw"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_bengbeng_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.k
+
+        trigger = {
+			has_country_modifier = gs_leader_aierhaisen
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_aierhaisen
+                name = "£dendro£åÇSwmÓh"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_aierhaisen
+                name = "£dendro£åÇSwmÓh"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_aierhaisen
+                name = "£dendro£åÇSwmÓh"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_aierhaisen_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.l
+
+        trigger = {
+			has_country_modifier = gs_leader_dixiya
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_dixiya
+                name = "£pyro£Íè^≈ñ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_dixiya
+                name = "£pyro£Íè^≈ñ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_dixiya
+                name = "£pyro£Íè^≈ñ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_dixiya_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.m
+
+        trigger = {
+			has_country_modifier = gs_leader_kawei
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kawei
+                name = "£dendro£aSÙu"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kawei
+                name = "£dendro£aSÙu"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kawei
+                name = "£dendro£aSÙu"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kawei_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.n
+
+        trigger = {
+			has_country_modifier = gs_leader_saisuosi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_saisuosi
+                name = "£electro£iç0tØe"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_saisuosi
+                name = "£electro£iç0tØe"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_saisuosi
+                name = "£electro£iç0tØe"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_saisuosi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.13.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#´g9N
+country_event = {
+    id = gs_yuanshenadvisor_events.14
+    title = gs_yuanshenadvisor_events.14_title
+    desc = gs_yuanshenadvisor_events.14_desc
+    picture = gs_yuanshenadvisor_events.14_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.14.a
+
+        trigger = {
+			has_country_modifier = gs_leader_linnite
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_linnite
+                name = "£anemo£3tÆYyr ÍñHY(ÉôÇZ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_linnite
+                name = "£anemo£3tÆYyr ÍñHY(ÉôÇZ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_linnite
+                name = "£anemo£3tÆYyr ÍñHY(ÉôÇZ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_linnite_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.b
+
+        trigger = {
+			has_country_modifier = gs_leader_linni
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_linni
+                name = "£pyro£óg<S ÍñHY(ÉÙuGY"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_linni
+                name = "£pyro£óg<S ÍñHY(ÉÙuGY"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_linni
+                name = "£pyro£óg<S ÍñHY(ÉÙuGY"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_linni_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.c
+
+        trigger = {
+			has_country_modifier = gs_leader_feimini
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_feimini
+                name = "£cryo£ÚÉs|<S ÍñHY(ÉÙuGY"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_feimini
+                name = "£cryo£ÚÉs|<S ÍñHY(ÉÙuGY"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_feimini
+                name = "£cryo£ÚÉs|<S ÍñHY(ÉÙuGY"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_feimini_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.d
+
+        trigger = {
+			has_country_modifier = gs_leader_nawei
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_nawei
+                name = "£hydro£±êÙu±Éyr"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_nawei
+                name = "£hydro£±êÙu±Éyr"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_nawei
+                name = "£hydro£±êÙu±Éyr"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_nawei_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.e
+
+        trigger = {
+			has_country_modifier = gs_leader_laiou
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_laiou
+                name = "£cryo£±É'kØe)R"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_laiou
+                name = "£cryo£±É'kØe)R"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_laiou
+                name = "£cryo£±É'kØe)R"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_laiou_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.f
+
+        trigger = {
+			has_country_modifier = gs_leader_xialuodi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xialuodi
+                name = "£cryo£YmÇÑ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xialuodi
+                name = "£cryo£YmÇÑ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xialuodi
+                name = "£cryo£YmÇÑ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xialuodi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.g
+
+        trigger = {
+			has_country_modifier = gs_leader_funingna
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_funingna
+                name = "£hydro£ôÇÅRZ ∑V ´g9N"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_funingna
+                name = "£hydro£ôÇÅRZ ∑V ´g9N"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_funingna
+                name = "£hydro£ôÇÅRZ ∑V ´g9N"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_funingna_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.h
+
+        trigger = {
+			has_country_modifier = gs_leader_naweiya
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_naweiya
+                name = "£geo£ZÙuZ aS(Ñ^"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_naweiya
+                name = "£geo£ZÙuZ aS(Ñ^"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_naweiya
+                name = "£geo£ZÙuZ aS(Ñ^"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_naweiya_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.i
+
+        trigger = {
+			has_country_modifier = gs_leader_xiawolei
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xiawolei
+                name = "£pyro£YÉlåÖ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xiawolei
+                name = "£pyro£YÉlåÖ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xiawolei
+                name = "£pyro£YÉlåÖ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xiawolei_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.j
+
+        trigger = {
+			has_country_modifier = gs_leader_keluolinde
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_keluolinde
+                name = "£electro£KQm3t∑V"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_keluolinde
+                name = "£electro£KQm3t∑V"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_keluolinde
+                name = "£electro£KQm3t∑V"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_keluolinde_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.k
+
+        trigger = {
+			has_country_modifier = gs_leader_xigewen
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xigewen
+                name = "£hydro£^<hÔñ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xigewen
+                name = "£hydro£^<hÔñ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xigewen
+                name = "£hydro£^<hÔñ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xigewen_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.l
+
+        trigger = {
+			has_country_modifier = gs_leader_aimeiliai
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_aimeiliai
+                name = "£dendro£åÇÖhâÉ√W"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_aimeiliai
+                name = "£dendro£åÇÖhâÉ√W"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_aimeiliai
+                name = "£dendro£åÇÖhâÉ√W"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_aimeiliai_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.n
+
+        trigger = {
+			has_country_modifier = gs_leader_aikefei
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_aikefei
+                name = "£cryo£1rÔSÚÉ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_aikefei
+                name = "£cryo£1rÔSÚÉ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_aikefei
+                name = "£cryo£1rÔSÚÉ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_aikefei_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.14.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#≥uTX
+country_event = {
+    id = gs_yuanshenadvisor_events.15
+    title = gs_yuanshenadvisor_events.15_title
+    desc = gs_yuanshenadvisor_events.15_desc
+    picture = gs_yuanshenadvisor_events.15_eventPicture
+    is_triggered_only = yes
+	
+	
+
+    option = {
+        name = gs_yuanshenadvisor_events.15.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kaqina
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kaqina
+                name = "£geo£aSPüZ"
+                skill = 1
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kaqina
+                name = "£geo£aSPüZ"
+                skill = 2
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kaqina
+                name = "£geo£aSPüZ"
+                skill = 3
+                #age = 12
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kaqina_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.b
+
+        trigger = {
+			has_country_modifier = gs_leader_malani
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_malani
+                name = "£hydro£õs…bÆY"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_malani
+                name = "£hydro£õs…bÆY"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_malani
+                name = "£hydro£õs…bÆY"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_malani_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.c
+
+        trigger = {
+			has_country_modifier = gs_leader_jiniqi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_jiniqi
+                name = "£dendro£˙W<SPü"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_jiniqi
+                name = "£dendro£˙W<SPü"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_jiniqi
+                name = "£dendro£˙W<SPü"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_jiniqi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.d
+
+        trigger = {
+			has_country_modifier = gs_leader_xinuoning
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_xinuoning
+                name = "£geo£^˙ãÅR"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_xinuoning
+                name = "£geo£^˙ãÅR"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_xinuoning
+                name = "£geo£^˙ãÅR"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_xinuoning_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.e
+
+        trigger = {
+			has_country_modifier = gs_leader_ouluolun
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ouluolun
+                name = "£electro£'km&O"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ouluolun
+                name = "£electro£'km&O"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ouluolun
+                name = "£electro£'km&O"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ouluolun_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.f
+
+        trigger = {
+			has_country_modifier = gs_leader_qiasika
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_qiasika
+                name = "£anemo£p`ØeaS"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_qiasika
+                name = "£anemo£p`ØeaS"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_qiasika
+                name = "£anemo£p`ØeaS"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_qiasika_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.g
+
+        trigger = {
+			has_country_modifier = gs_leader_maweika
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_maweika
+                name = "£pyro£õsáÖaS"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_maweika
+                name = "£pyro£õsáÖaS"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_maweika
+                name = "£pyro£õsáÖaS"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_maweika_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.h
+
+        trigger = {
+			has_country_modifier = gs_leader_nainai
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_nainai
+                name = "£cryo£Éyr»ÉâÉ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_nainai
+                name = "£cryo£Éyr»ÉâÉ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_nainai
+                name = "£cryo£Éyr»ÉâÉ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_nainai_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.i
+
+        trigger = {
+			has_country_modifier = gs_leader_yianshan
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yianshan
+                name = "£electro£OâR s"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yianshan
+                name = "£electro£OâR s"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yianshan
+                name = "£electro£OâR s"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yianshan_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.j
+
+        trigger = {
+			has_country_modifier = gs_leader_niuniu
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_niuniu
+                name = "£electro£Êt˜ñéÉ"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_niuniu
+                name = "£electro£Êt˜ñéÉ"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_niuniu
+                name = "£electro£Êt˜ñéÉ"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_niuniu_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.k
+
+        trigger = {
+			has_country_modifier = gs_leader_yifa
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_yifa
+                name = "£anemo£O’l"
+                skill = 1
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_yifa
+                name = "£anemo£O’l"
+                skill = 2
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_yifa
+                name = "£anemo£O’l"
+                skill = 3
+                #age = 16
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_yifa_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.15.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#ÛÅ¨Q
+country_event = {
+    id = gs_yuanshenadvisor_events.16
+    title = gs_yuanshenadvisor_events.16_title
+    desc = gs_yuanshenadvisor_events.16_desc
+    picture = gs_yuanshenadvisor_events.16_eventPicture
+    is_triggered_only = yes
+
+
+    option = {
+        name = gs_yuanshenadvisor_events.16.a
+
+        trigger = {
+			has_country_modifier = gs_leader_gongzi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_gongzi
+                name = "£hydro£?ñ>çKQØe"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_gongzi
+                name = "£hydro£?ñ>çKQØe"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_gongzi
+                name = "£hydro£?ñ>çKQØe"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_gongzi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.16.b
+
+        trigger = {
+			has_country_modifier = gs_leader_aleiqinuo
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_aleiqinuo
+                name = "£pyro£iO2óáÖ)R ÍñHY(ÉôÇZ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_aleiqinuo
+                name = "£pyro£iO2óáÖ)R ÍñHY(ÉôÇZ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_aleiqinuo
+                name = "£pyro£iO2óáÖ)R ÍñHY(ÉôÇZ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_aleiqinuo_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.16.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+#VLu
+country_event = {
+    id = gs_yuanshenadvisor_events.17
+    title = gs_yuanshenadvisor_events.17_title
+    desc = gs_yuanshenadvisor_events.17_desc
+    picture = gs_yuanshenadvisor_events.17_eventPicture
+    is_triggered_only = yes
+	
+	
+    option = {
+        name = gs_yuanshenadvisor_events.17.a
+
+        trigger = {
+			has_country_modifier = gs_leader_kong
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_kong
+                name = "zz"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_kong
+                name = "zz"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_kong
+                name = "zz"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                male = yes
+            }
+        }
+        custom_tooltip = gs_advisor_kong_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.17.b
+
+        trigger = {
+			has_country_modifier = gs_leader_ying
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ying
+                name = "gÉ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ying
+                name = "gÉ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ying
+                name = "gÉ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ying_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.17.c
+
+        trigger = {
+			has_country_modifier = gs_leader_ailuoyi
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_ailuoyi
+                name = "£cryo£√WmO ˙ã…b"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_ailuoyi
+                name = "£cryo£√WmO ˙ã…b"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_ailuoyi
+                name = "£cryo£√WmO ˙ã…b"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_ailuoyi_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.17.d
+
+        trigger = {
+			has_country_modifier = gs_leader_skirk
+		}
+        
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_1_flag
+            }
+            add_years_of_income = -0.01
+            define_advisor = {
+                type = gs_advisor_skirk
+                name = "£cryo£NÔgKQ"
+                skill = 1
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_2_flag
+            }
+            add_years_of_income = -0.04
+            define_advisor = {
+                type = gs_advisor_skirk
+                name = "£cryo£NÔgKQ"
+                skill = 2
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        if = {
+            limit = {
+                has_country_flag = gs_yuanshenadvisor_3_flag
+            }
+            add_years_of_income = -0.09
+            define_advisor = {
+                type = gs_advisor_skirk
+                name = "£cryo£NÔgKQ"
+                skill = 3
+                #age = 20
+                cost_multiplier = 0.25
+                female = yes
+            }
+        }
+        custom_tooltip = gs_advisor_skirk_desc
+    }
+    option = {
+        name = gs_yuanshenadvisor_events.17.quit
+        country_event = { id = gs_yuanshenadvisor_events.1 }
+    }
+    after = {
+        clr_country_flag = gs_yuanshenadvisor_1_flag
+        clr_country_flag = gs_yuanshenadvisor_2_flag
+        clr_country_flag = gs_yuanshenadvisor_3_flag
+    }
+}
+
+

@@ -1,0 +1,5689 @@
+country_decisions = {
+	#刷新原神奇观奖励
+	gs_refresh_reward = {
+		major = yes
+		potential = {
+			any_owned_province = {
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				OR = {
+					AND = {
+						has_great_project = {
+							type = xifengqishi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_noel } }
+					}
+					AND = {
+						has_great_project = {
+							type = xifengqishi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
+					}
+					AND = {
+						has_great_project = {
+							type = bbts
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wendi } }
+					}
+					AND = {
+						has_great_project = {
+							type = jingfu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_youla } }
+					}
+					AND = {
+						has_great_project = {
+							type = xifengchurch
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
+					}
+					AND = {
+						has_great_project = {
+							type = xifengchurch
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_babala } }
+					}
+					AND = {
+						has_great_project = {
+							type = chenxi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { trade_goods = wine }
+					}
+					AND = {
+						has_great_project = {
+							type = chenxi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kaiya } }
+					}
+					AND = {
+						has_great_project = {
+							type = chenxi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_diluke } }
+					}
+					AND = {
+						has_great_project = {
+							type = qianfeng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion = hussite
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bannite } }
+					}
+					AND = {
+						has_great_project = {
+							type = xingluo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kong } }
+					}
+					AND = {
+						has_great_project = {
+							type = xingluo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kong } }
+					}
+					AND = {
+						has_great_project = {
+							type = shiyan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mika } }
+					}
+					AND = {
+						has_great_project = {
+							type = fengqidi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qin } }
+					}
+					AND = {
+						has_great_project = {
+							type = tushuguan
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mona } }
+					}
+					AND = {
+						has_great_project = {
+							type = tushuguan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lisha } }
+					}
+					AND = {
+						has_great_project = {
+							type = benlang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leize } }
+					}
+					AND = {
+						has_great_project = {
+							type = diyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_anbo } }
+					}
+					AND = {
+						has_great_project = {
+							type = qingquan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_diona } }
+					}
+					AND = {
+						has_great_project = {
+							type = xuezang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_shatang } }
+					}
+					AND = {
+						has_great_project = {
+							type = xuezang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_abeiduo } }
+					}
+					########________璃月________################________璃月________################________璃月________########
+					########________璃月________################________璃月________################________璃月________########
+					########________璃月________################________璃月________################________璃月________########
+					########________璃月________################________璃月________################________璃月________########
+					########________璃月________################________璃月________################________璃月________########
+					########________璃月________################________璃月________################________璃月________########
+					AND = {
+						has_great_project = {
+							type = qunyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									is_female = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ningguang } }
+					}
+					AND = {
+						has_great_project = {
+							type = qunyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									is_female = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_refund_banner_corruption } }
+					}
+					AND = {
+						has_great_project = {
+							type = yiyan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								is_capital = yes
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keqing } }
+					}
+					AND = {
+						has_great_project = {
+							type = yuehai
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { employed_advisor = { is_male = no } }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ganyu } }
+					}
+					AND = {
+						has_great_project = {
+							type = yujing
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinyan } }
+					}
+					AND = {
+						has_great_project = {
+							type = yujing
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yunjin } }
+					}
+					AND = {
+						has_great_project = {
+							type = thegoldenhouse
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					AND = {
+						has_great_project = {
+							type = thegoldenhouse
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zhongli } }
+					}
+					AND = {
+						has_great_project = {
+							type = jueyun
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { harmony = 45 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yaoyao } }
+					}
+					AND = {
+						has_great_project = {
+							type = jueyun
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { harmony = 45 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yanfei } }
+					}
+					AND = {
+						has_great_project = {
+							type = qingce
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_chongyun } }
+					}
+					AND = {
+						has_great_project = {
+							type = wangshu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								owner = { is_emperor_of_china = yes }
+								imperial_mandate = 60 
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiao } }
+					}
+					AND = {
+						has_great_project = {
+							type = yaoguang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion = confucianism
+								has_owner_religion = yes
+								owner = { harmony = 40 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wanye } }
+					}
+					AND = {
+						has_great_project = {
+							type = yaoguang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion = confucianism
+								has_owner_religion = yes
+								owner = { harmony = 40 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_beidou } }
+					}
+					AND = {
+						has_great_project = {
+							type = hulao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 7 }
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xianyun } }
+					}
+					AND = {
+						has_great_project = {
+							type = wanmin
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiangling } }
+					}
+					AND = {
+						has_great_project = {
+							type = wangsheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_hutao } }
+					}
+					AND = {
+						has_great_project = {
+							type = bubulu
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiqi } }
+					}
+					AND = {
+						has_great_project = {
+							type = bubulu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_baizhu } }
+					}
+					AND = {
+						has_great_project = {
+							type = dizhong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture = sichuanese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = salt }
+					}
+					AND = {
+						has_great_project = {
+							type = shimen
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture = xibei
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_shimen_modifier } }
+					}
+					AND = {
+						has_great_project = {
+							type = yanceng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								owner = {
+									is_emperor_of_china = yes
+									adm_tech = 15
+									any_owned_province = {
+										has_great_project = {
+											type = heiyan
+											tier = 1
+										}
+									}
+								}
+							}
+						}
+						NOT = { trade_goods = copper }
+					}
+					AND = {
+						has_great_project = {
+							type = dansha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}	
+								}
+							}
+						}
+						NOT = { trade_goods = gems }
+					}
+					AND = {
+						has_great_project = {
+							type = juyuanzhikou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}
+								}
+								artillery_in_province = 3
+							}
+						}
+						NOT = { trade_goods = iron }
+					}
+					AND = {
+						has_great_project = {
+							type = juyuanzhikou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}
+								}
+								artillery_in_province = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yelan } }
+					}
+					AND = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+					AND = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lanyan } }
+					}
+					AND = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = tea }
+					}
+					AND = {
+						has_great_project = {
+							type = yiloong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiaming } }
+					}
+					AND = {
+						has_great_project = {
+							type = baojue
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_baojue_fanghong } }
+					}
+					AND = {
+						has_great_project = {
+							type = chiwang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_chiwang_hexiedu } }
+					}
+					AND = {
+						has_great_project = {
+							type = guhua
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xingqiu } }
+					}
+					########________稻妻________################________稻妻________################________稻妻________########
+					########________稻妻________################________稻妻________################________稻妻________########
+					########________稻妻________################________稻妻________################________稻妻________########
+					########________稻妻________################________稻妻________################________稻妻________########
+					########________稻妻________################________稻妻________################________稻妻________########
+					AND = {
+						has_great_project = {
+							type = tianshou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiutiao } }
+					}
+					AND = {
+						has_great_project = {
+							type = leishenxiang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+								religion = shinto
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leishen } }
+					}
+					AND = {
+						has_great_project = {
+							type = shenying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_shenzi } }
+					}
+					AND = {
+						has_great_project = {
+							type = yingxiang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_modifier_huasanli } }
+					}
+					AND = {
+						has_great_project = {
+							type = changyeyuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiaogong } }
+					}
+					AND = {
+						has_great_project = {
+							type = tianling
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_pingzang } }
+					}
+					AND = {
+						has_great_project = {
+							type = mulou
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zaoyou } }
+					}
+					AND = {
+						has_great_project = {
+							type = mulou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linghua } }
+					}
+					AND = {
+						has_great_project = {
+							type = zhenshou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kirara } }
+					}
+					AND = {
+						has_great_project = {
+							type = ganjin
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiuqiren } }
+					}
+					AND = {
+						has_great_project = {
+							type = ganjin
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yidou } }
+					}
+					AND = {
+						has_great_project = {
+							type = shegu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					AND = {
+						has_great_project = {
+							type = yuying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								owner = { dip_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zeweier } }
+					}
+					AND = {
+						has_great_project = {
+							type = shenli
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_tuoma } }
+					}
+					AND = {
+						has_great_project = {
+							type = shenli
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lingren } }
+					}
+					AND = {
+						has_great_project = {
+							type = qinglai
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								culture_group = japanese_g
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { has_reform = pirate_republic_reform }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_baimugui } }
+					}
+					AND = {
+						has_great_project = {
+							type = shanhu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture = kyushuan
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinhai } }
+					}
+					AND = {
+						has_great_project = {
+							type = tengdou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = { is_at_war = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wulang } }
+					}
+					AND = {
+						has_great_project = {
+							type = jianming
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = animism
+								culture = ainu
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_aliu_modifier } }
+					}
+					########________须弥________################________须弥________################________须弥________########
+					########________须弥________################________须弥________################________须弥________########
+					########________须弥________################________须弥________################________须弥________########
+					########________须弥________################________须弥________################________须弥________########
+					########________须弥________################________须弥________################________须弥________########
+					AND = {
+						has_great_project = {
+							type = jingshan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naxida } }
+					}
+					AND = {
+						has_great_project = {
+							type = jiaoling
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									AND = {
+										religion_group = dharmic
+										OR = {
+											has_owner_religion = yes
+											owner = { has_reform = indian_sultanate_reform }
+										}
+									}
+									AND = {
+										religion_group = muslim
+										has_owner_religion = yes
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bengbeng } }
+					}
+					AND = {
+						has_great_project = {
+							type = jiaoling
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									AND = {
+										religion_group = dharmic
+										OR = {
+											has_owner_religion = yes
+											owner = { has_reform = indian_sultanate_reform }
+										}
+									}
+									AND = {
+										religion_group = muslim
+										has_owner_religion = yes
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_sainuo } }
+					}
+					AND = {
+						has_great_project = {
+							type = zhihuigong
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { technology_group = indian }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_laiyila } }
+					}
+					AND = {
+						has_great_project = {
+							type = zhihuigong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { technology_group = indian }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_falushan } }
+					}
+					AND = {
+						has_great_project = {
+							type = dabazha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nilu } }
+					}
+					AND = {
+						has_great_project = {
+							type = Gandharva
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kelai } }
+					}
+					AND = {
+						has_great_project = {
+							type = Gandharva
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_tinali } }
+					}
+					AND = {
+						has_great_project = {
+							type = Alcazarzaray
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kawei } }
+					}
+					AND = {
+						has_great_project = {
+							type = Alcazarzaray
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_duoli } }
+					}
+					AND = {
+						has_great_project = {
+							type = Ormos
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aierhaisen } }
+					}
+					AND = {
+						has_great_project = {
+							type = Vimala
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lana } }
+					}
+					AND = {
+						has_great_project = {
+							type = Vanarana
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { has_country_modifier = gs_leader_lana }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lanluomo } }
+					}
+					AND = {
+						has_great_project = {
+							type = Caravan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_dixiya } }
+					}
+					AND = {
+						has_great_project = {
+							type = Aru
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kandisi } }
+					}
+					AND = {
+						has_great_project = {
+							type = jianmo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								culture_group = turko_semitic
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion_group = muslim
+								NOT = { religion = sunni }
+								NOT = { has_owner_religion = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_saisuosi } }
+					}
+					AND = {
+						has_great_project = {
+							type = Gurabad
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								culture_group = iranian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_Gurabad_modifier } }
+					}
+					AND = {
+						has_great_project = {
+							type = Tanit
+							tier = 3
+						}
+						NOT = { owner = { has_country_modifier = gs_jiede_fuchou_end } }
+					}
+					AND = {
+						has_great_project = {
+							type = Apaosha
+							tier = 3
+						}
+						OR = {
+							AND = {
+								gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+								owner = { NOT = { has_country_modifier = gs_silusha_end } }
+							}
+							AND =  {
+								owner = {
+									religion = zoroastrian
+									NOT = { has_country_modifier = gs_silusha_end }
+								}
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_silusha_end } }
+					}
+					AND = {
+						has_great_project = {
+							type = Vourukasha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								religion = zoroastrian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_silusha_end } }
+					}
+					########________枫丹________################________枫丹________################________枫丹________########
+					########________枫丹________################________枫丹________################________枫丹________########
+					########________枫丹________################________枫丹________################________枫丹________########
+					########________枫丹________################________枫丹________################________枫丹________########
+					########________枫丹________################________枫丹________################________枫丹________########
+					AND = {
+						has_great_project = {
+							type = momang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_female = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keluolinde } }
+					}
+					AND = {
+						has_great_project = {
+							type = momang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_female = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nawei } }
+					}
+					AND = {
+						has_great_project = {
+							type = zhengqi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { employed_advisor = { is_male = no } }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xialuodi } }
+					}
+					AND = {
+						has_great_project = {
+							type = Debord
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aikefei } }
+					}
+					AND = {
+						has_great_project = {
+							type = qianzhi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qianzhi } }
+					}
+					AND = {
+						has_great_project = {
+							type = Lucine
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								owner = { culture_group = french }
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_funingna } }
+					}
+					AND = {
+						has_great_project = {
+							type = Epiclese
+							tier = 1
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_feimini } }
+					}
+					AND = {
+						has_great_project = {
+							type = Epiclese
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linnite } }
+					}
+					AND = {
+						has_great_project = {
+							type = Epiclese
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linni } }
+					}
+					AND = {
+						has_great_project = {
+							type = Poisson
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture = occitain
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naweiya } }
+					}
+					AND = {
+						has_great_project = {
+							type = highmore
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture = breton
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mameihe } }
+					}
+					AND = {
+						has_great_project = {
+							type = Meropide
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xigewen } }
+					}
+					AND = {
+						has_great_project = {
+							type = Meropide
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_laiou } }
+					}
+					AND = {
+						has_great_project = {
+							type = dixaicheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									culture = english
+									culture = anglois
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiawolei } }
+					}
+					AND = {
+						has_great_project = {
+							type = Urania
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_paxifu } }
+					}
+					AND = {
+						has_great_project = {
+							type = willow
+							tier = 3
+						}
+						culture = wallonian
+						OR = {
+							has_owner_culture = yes
+							has_owner_accepted_culture = yes
+						}
+						NOT = { owner = { has_country_modifier = gs_willow_modifier } }
+					}
+					AND = {
+						has_great_project = {
+							type = Lumidouce
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aimeiliai } }
+					}
+					AND = {
+						has_great_project = {
+							type = Narzissenkreuz
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yagebu } }
+					}
+					AND = {
+						has_great_project = {
+							type = Ipsissimus
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leinei } }
+					}
+					AND = {
+						has_great_project = {
+							type = Ipsissimus
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_chaoyue } }
+					}
+					AND = {
+						has_great_project = {
+							type = Aurea
+							tier = 3
+						}
+						owner = { tag = ROM }
+						NOT = { owner = { has_country_modifier = gs_Remuria_modifier } }
+					}
+					########________纳塔________################________纳塔________################________纳塔________########
+					########________纳塔________################________纳塔________################________纳塔________########
+					########________纳塔________################________纳塔________################________纳塔________########
+					########________纳塔________################________纳塔________################________纳塔________########
+					########________纳塔________################________纳塔________################________纳塔________########
+					AND = {
+						has_great_project = {
+							type = huashi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = nahuatl
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_maweika } }
+					}
+					AND = {
+						has_great_project = {
+							type = huisheng
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kaqina } }
+					}
+					AND = {
+						has_great_project = {
+							type = huisheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinuoning } }
+					}
+					AND = {
+						has_great_project = {
+							type = huisheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { trade_goods = gems }
+					}
+					AND = {
+						has_great_project = {
+							type = liujing
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					AND = {
+						has_great_project = {
+							type = xuanmu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = inti
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiniqi } }
+					}
+					AND = {
+						has_great_project = {
+							type = malanidian
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								OR = {
+									AND = {
+										OR = {
+											culture_group = pacific
+											culture_group = aboriginal_australian
+										}
+										OR = {
+											has_owner_culture = yes
+											has_owner_accepted_culture = yes
+										}
+									}
+									AND = {
+										religion = dreamtime
+										has_owner_religion = yes
+									}
+									AND = {
+										owner = { technology_group = polynesian_tech }
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_malani } }
+					}
+					AND = {
+						has_great_project = {
+							type = yanmi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ouluolun } }
+					}
+					AND = {
+						has_great_project = {
+							type = yanmi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nainai } }
+					}
+					AND = {
+						has_great_project = {
+							type = huayu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiasika } }
+					}
+					AND = {
+						has_great_project = {
+							type = qiaozhi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yifa } }
+					}
+					AND = {
+						has_great_project = {
+							type = jianshenjule
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = totemism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yianshan } }
+					}
+					AND = {
+						has_great_project = {
+							type = waleishaguoyuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = totemism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_niuniu } }
+					}
+					########________其他________################________其他________################________其他________########
+					########________其他________################________其他________################________其他________########
+					########________其他________################________其他________################________其他________########
+					########________其他________################________其他________################________其他________########
+					########________其他________################________其他________################________其他________########
+					AND = {
+						has_great_project = {
+							type = masike
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								owner = { num_of_colonists = 1 } 
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ying } }
+					}
+					######限时地图######
+					AND = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_fichel } }
+					}
+					AND = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keli } }
+					}
+					AND = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+				}
+			}
+		}
+		allow = {
+			splendor = 5
+			adm_power = 50
+		}
+		effect = {
+			add_splendor = -5
+			add_adm_power = -50
+			every_owned_province = {
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				########________蒙德________################________蒙德________################________蒙德________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengqishi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_noel } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_noel
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_noel
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengqishi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_faerjia
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bbts
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wendi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_wendi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_wendi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingfu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_youla } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_youla
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_youla
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengchurch
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_luosha
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_luosha
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengchurch
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_babala } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_babala
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chenxi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { trade_goods = wine }
+					}
+					change_trade_goods = wine
+					if = {
+						limit = {
+							has_global_flag = gs_chenxi_changed_price
+						}
+						change_price = {
+							trade_goods = wine
+							key = chenxi
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_chenxi_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chenxi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kaiya } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kaiya
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kaiya
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chenxi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_diluke } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_diluke
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_diluke
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qianfeng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion = hussite
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bannite } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_bannite
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_bannite
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xingluo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kong } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kong
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kong
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shiyan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mika } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_mika
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_mika
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fengqidi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								religion_group = christian
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qin } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_qin
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_qin
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tushuguan
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mona } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_mona
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_mona
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tushuguan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lisha } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_lisha
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_lisha
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = benlang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leize } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_leize
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_leize
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = diyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_anbo } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_anbo
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_anbo
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qingquan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_diona } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_diona
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_diona
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuezang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_shatang } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_shatang
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_shatang
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuezang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_abeiduo } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_abeiduo
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_abeiduo
+					}
+				}
+				########________璃月________################________璃月________################________璃月________########
+				########________璃月________################________璃月________################________璃月________########
+				########________璃月________################________璃月________################________璃月________########
+				########________璃月________################________璃月________################________璃月________########
+				########________璃月________################________璃月________################________璃月________########
+				########________璃月________################________璃月________################________璃月________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = qunyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									is_female = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ningguang } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_ningguang
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_ningguang
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qunyu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									is_female = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_refund_banner_corruption } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_refund_banner_corruption
+							duration = -1
+						}
+						custom_tooltip = desc_gs_refund_banner_corruption
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yiyan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								is_capital = yes
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keqing } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_keqing
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_keqing
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuehai
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { employed_advisor = { is_male = no } }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ganyu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_ganyu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_ganyu
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yujing
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinyan } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xinyan
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xinyan
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yujing
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yunjin } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yunjin
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yunjin
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = thegoldenhouse
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					change_trade_goods = gold
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = thegoldenhouse
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zhongli } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_zhongli
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_zhongli
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jueyun
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { harmony = 45 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yaoyao } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yaoyao
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yaoyao
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jueyun
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { harmony = 45 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yanfei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yanfei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yanfei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qingce
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND = {
+								religion = confucianism
+								has_owner_religion = yes
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_chongyun } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_chongyun
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_chongyun
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wangshu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								owner = { is_emperor_of_china = yes }
+								imperial_mandate = 60 
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiao } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xiao
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xiao
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yaoguang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion = confucianism
+								has_owner_religion = yes
+								owner = { harmony = 40 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wanye } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_wanye
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_wanye
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yaoguang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion = confucianism
+								has_owner_religion = yes
+								owner = { harmony = 40 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_beidou } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_beidou
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_beidou
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hulao
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 7 }
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_shenhe } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_shenhe
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_shenhe
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = hulao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 7 }
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xianyun } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xianyun
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xianyun
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wanmin
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiangling } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xiangling
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xiangling
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bubulu
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiqi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_qiqi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_qiqi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = bubulu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_baizhu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_baizhu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_baizhu
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wangsheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture_group = east_asian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_hutao } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_hutao
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_hutao
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dizhong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture = sichuanese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = salt }
+					}
+					change_trade_goods = salt
+					if = {
+						limit = {
+							has_global_flag = gs_dizhong_changed_price
+						}
+						change_price = {
+							trade_goods = salt
+							key = dizhong
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_dizhong_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shimen
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								culture = xibei
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_shimen_modifier } }
+					}
+					owner = { country_event = { id = gs_monuments_events.60 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yanceng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								owner = {
+									is_emperor_of_china = yes
+									adm_tech = 15
+									any_owned_province = {
+										has_great_project = {
+											type = heiyan
+											tier = 1
+										}
+									}
+								}
+							}
+						}
+						NOT = { trade_goods = copper }
+					}
+					change_trade_goods = copper
+					if = {
+						limit = {
+							has_global_flag = gs_yanceng_changed_price
+						}
+						change_price = {
+							trade_goods = copper
+							key = yanceng
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_yanceng_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dansha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}	
+								}
+							}
+						}
+						NOT = { trade_goods = gems }
+					}
+					change_trade_goods = gems
+					if = {
+						limit = {
+							has_global_flag = gs_dansha_changed_price
+						}
+						change_price = {
+							trade_goods = gems
+							key = dansha
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_dansha_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = juyuanzhikou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}
+								}
+								artillery_in_province = 3
+							}
+						}
+						NOT = { trade_goods = iron }
+					}
+					change_trade_goods = iron
+					if = {
+						limit = {
+							has_global_flag = gs_juyuanzhikou_changed_price
+						}
+						change_price = {
+							trade_goods = iron
+							key = juyuanzhikou
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_juyuanzhikou_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = juyuanzhikou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  { 
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = {
+									is_emperor_of_china = yes
+									any_owned_province = {
+										has_great_project = {
+											type = yanceng
+											tier = 1
+										}
+									}
+								}
+								artillery_in_province = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yelan } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yelan
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yelan
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lanyan } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_lanyan
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_lanyan
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+					center_of_trade = 3
+					add_center_of_trade_level = 3
+					create_or_add_center_of_trade_level = 3
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiao
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = jianghuai
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { trade_goods = tea }
+					}
+					change_trade_goods = tea
+					if = {
+						limit = {
+							has_global_flag = gs_qiao_changed_price
+						}
+						change_price = {
+							trade_goods = tea
+							key = qiao
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_qiao_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yiloong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiaming } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_jiaming
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_jiaming
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = baojue
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_baojue_fanghong } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_baojue_fanghong
+							duration = -1
+						}
+						custom_tooltip = desc_gs_baojue_fanghong
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = chiwang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								culture = cantonese
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_emperor_of_china = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_chiwang_hexiedu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_chiwang_hexiedu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_chiwang_hexiedu
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = guhua
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_zhongli }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xingqiu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xingqiu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xingqiu
+					}
+				}
+				########________稻妻________################________稻妻________################________稻妻________########
+				########________稻妻________################________稻妻________################________稻妻________########
+				########________稻妻________################________稻妻________################________稻妻________########
+				########________稻妻________################________稻妻________################________稻妻________########
+				########________稻妻________################________稻妻________################________稻妻________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianshou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiutiao } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_jiutiao
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_jiutiao
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = leishenxiang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+								religion = shinto
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leishen } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_leishen
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_leishen
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_shenzi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_shenzi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_shenzi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yingxiang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_modifier_huasanli } }
+					}
+					owner = { country_event = { id = gs_monuments_events.41 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = changyeyuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiaogong } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xiaogong
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xiaogong
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tianling
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_pingzang } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_pingzang
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_pingzang
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mulou
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zaoyou } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_zaoyou
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_zaoyou
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = mulou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture_group = japanese_g
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linghua } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_linghua
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_linghua
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhenshou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kirara } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kirara
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kirara
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = ganjin
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiuqiren } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_jiuqiren
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_jiuqiren
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = ganjin
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yidou } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yidou
+							 duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yidou
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shegu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					change_trade_goods = gold
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yuying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								owner = { dip_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_zeweier } }
+					}
+					owner = { country_event = { id = gs_monuments_events.42 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenli
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_tuoma } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_tuoma
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_tuoma
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shenli
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = {
+									estate_loyalty = {
+										estate = estate_church
+										loyalty = 35
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lingren } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_lingren
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_lingren
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qinglai
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								culture_group = japanese_g
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { has_reform = pirate_republic_reform }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_baimugui } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_baimugui
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shanhu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								culture = kyushuan
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinhai } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xinhai
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xinhai
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = tengdou
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = shinto
+								has_owner_religion = yes
+								owner = { is_at_war = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_wulang } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_wulang
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_wulang
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jianming
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_leishen }
+							AND =  {
+								religion = animism
+								culture = ainu
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_aliu_modifier } }
+					}
+					owner = { country_event = { id = gs_monuments_events.44 } }
+				}
+				########________须弥________################________须弥________################________须弥________########
+				########________须弥________################________须弥________################________须弥________########
+				########________须弥________################________须弥________################________须弥________########
+				########________须弥________################________须弥________################________须弥________########
+				########________须弥________################________须弥________################________须弥________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingshan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naxida } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_naxida
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_naxida
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jiaoling
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									AND = {
+										religion_group = dharmic
+										OR = {
+											has_owner_religion = yes
+											owner = { has_reform = indian_sultanate_reform } 
+										}
+									}
+									AND = {
+										religion_group = muslim
+										has_owner_religion = yes
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bengbeng } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_bengbeng
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_bengbeng
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jiaoling
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									AND = {
+										religion_group = dharmic
+										OR = {
+											has_owner_religion = yes
+											owner = { has_reform = indian_sultanate_reform } 
+										}
+									}
+									AND = {
+										religion_group = muslim
+										has_owner_religion = yes
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bengbeng } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_sainuo
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_sainuo
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhihuigong
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { technology_group = indian }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_laiyila } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_laiyila
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_laiyila
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhihuigong
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { technology_group = indian }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_falushan } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_falushan
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_falushan
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dabazha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nilu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_nilu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_nilu
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gandharva
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kelai } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kelai
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kelai
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gandharva
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_tinali } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_tinali
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_tinali
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Alcazarzaray
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kawei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kawei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kawei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Alcazarzaray
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_duoli } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_duoli
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_duoli
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Ormos
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aierhaisen } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_aierhaisen
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_aierhaisen
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Vimala
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lana } }
+					}
+					owner = { country_event = { id = gs_monuments_events.8 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Vanarana
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								owner = { has_country_modifier = gs_leader_lana }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lanluomo } }
+					}
+					owner = { country_event = { id = gs_monuments_events.9 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Caravan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_dixiya } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_dixiya
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_dixiya
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Aru
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kandisi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kandisi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kandisi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jianmo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								culture_group = turko_semitic
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								religion_group = muslim
+								NOT = { religion = sunni }
+								NOT = { has_owner_religion = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_saisuosi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_saisuosi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_saisuosi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Gurabad
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+							AND =  {
+								culture_group = iranian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_Gurabad_modifier } }
+					}
+					owner = { country_event = { id = gs_monuments_events.2 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Tanit
+							tier = 3
+						}
+						NOT = { owner = { has_country_modifier = gs_jiede_fuchou_end } }
+					}
+					save_global_event_target_as = jiede_fuchou_target
+					owner = {
+						country_event = { id = gs_monuments_events.10 }
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Apaosha
+							tier = 3
+						}
+						OR = {
+							AND = {
+								gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_naxida }
+								owner = { NOT = { has_country_modifier = gs_silusha_end } }
+							}
+							AND =  {
+								owner = {
+									religion = zoroastrian
+									NOT = { has_country_modifier = gs_silusha_end }
+								}
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_silusha_end } }
+					}
+					save_global_event_target_as = jishui_zhiyi_target
+					owner = { country_event = { id = gs_monuments_events.50 } }
+				}
+				########________枫丹________################________枫丹________################________枫丹________########
+				########________枫丹________################________枫丹________################________枫丹________########
+				########________枫丹________################________枫丹________################________枫丹________########
+				########________枫丹________################________枫丹________################________枫丹________########
+				########________枫丹________################________枫丹________################________枫丹________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = momang
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_female = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keluolinde } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_keluolinde
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_keluolinde
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = momang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { is_female = yes }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nawei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_nawei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_nawei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhengqi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { employed_advisor = { is_male = no } }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xialuodi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xialuodi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xialuodi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Debord
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aikefei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_aikefei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_aikefei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qianzhi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qianzhi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_qianzhi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_qianzhi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Lucine
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								owner = { culture_group = french }
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_funingna } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_funingna
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_funingna
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Epiclese
+							tier = 1
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_feimini } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_feimini
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_feimini
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Epiclese
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linnite } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_linnite
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_linnite
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Epiclese
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { adm_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linni } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_linni
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_linni
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Poisson
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture = occitain
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naweiya } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_naweiya
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_naweiya
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = highmore
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture = breton
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_mameihe } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_mameihe
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_mameihe
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Meropide
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xigewen } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xigewen
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xigewen
+					}
+				}				if = {
+					limit = {
+						has_great_project = {
+							type = Meropide
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								owner = { mil_tech = 8 }
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_laiou } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_laiou
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_laiou
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dixaicheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									culture = english
+									culture = anglois
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xiawolei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xiawolei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xiawolei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Urania
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								culture_group = french
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_paxifu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_paxifu
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = willow
+							tier = 3
+						}
+						culture = wallonian
+						OR = {
+							has_owner_culture = yes
+							has_owner_accepted_culture = yes
+						}
+						NOT = { owner = { has_country_modifier = gs_willow_modifier } }
+					}
+					owner = { country_event = { id = gs_monuments_events.40 } }
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Lumidouce
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_aimeiliai } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_aimeiliai
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_aimeiliai
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Narzissenkreuz
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yagebu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yagebu
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Ipsissimus
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_leinei } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_leinei
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_leinei
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Ipsissimus
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_funingna }
+							AND =  {
+								
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_chaoyue } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_chaoyue
+							duration = -1
+						}
+						custom_tooltip = desc_gs_chaoyue
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = Aurea
+							tier = 3
+						}
+						owner = { tag = ROM }
+						NOT = { owner = { has_country_modifier = gs_Remuria_modifier } }
+					}
+					owner = {
+						country_event = { id = gs_monuments_events.45 }
+					}
+				}
+				########________纳塔________################________纳塔________################________纳塔________########
+				########________纳塔________################________纳塔________################________纳塔________########
+				########________纳塔________################________纳塔________################________纳塔________########
+				########________纳塔________################________纳塔________################________纳塔________########
+				########________纳塔________################________纳塔________################________纳塔________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = huashi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = nahuatl
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_maweika } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_maweika
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_maweika
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huisheng
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_kaqina } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_kaqina
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_kaqina
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huisheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_xinuoning } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_xinuoning
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_xinuoning
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huisheng
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { trade_goods = gems }
+					}
+					change_trade_goods = gems
+					if = {
+						limit = {
+							has_global_flag = gs_huisheng_changed_price
+						}
+						change_price = {
+							trade_goods = gems
+							key = huisheng
+							value = 1
+							duration = -1
+						}
+						set_global_flag = gs_huisheng_changed_price
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = liujing
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = mesoamerican_religion
+								has_owner_religion = yes
+							}
+						}
+						NOT = { trade_goods = gold }
+					}
+					change_trade_goods = gold
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xuanmu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = inti
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_jiniqi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_jiniqi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_jiniqi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = malanidian
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								OR = {
+									AND = {
+										OR = {
+											culture_group = pacific
+											culture_group = aboriginal_australian
+										}
+										OR = {
+											has_owner_culture = yes
+											has_owner_accepted_culture = yes
+										}
+									}
+									AND = {
+										religion = dreamtime
+										has_owner_religion = yes
+									}
+									AND = {
+										owner = { technology_group = polynesian_tech }
+									}
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_malani } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_malani
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_malani
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yanmi
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ouluolun } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_ouluolun
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_ouluolun
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = yanmi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nainai } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_nainai
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_nainai
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = huayu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiasika } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_qiasika
+							duration = -1
+						}
+						custom_tooltip = gs_leader_qiasika
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = qiaozhi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = shamanism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yifa } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yifa
+							duration = -1
+						}
+						custom_tooltip = gs_leader_yifa
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jianshenjule
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = totemism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiasika } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yianshan
+							duration = -1
+						}
+						custom_tooltip = gs_leader_yianshan
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = waleishaguoyuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_maweika }
+							AND =  {
+								religion = totemism
+								has_owner_religion = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_qiasika } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_niuniu
+							duration = -1
+						}
+						custom_tooltip = gs_leader_niuniu
+					}
+				}
+				########________其他________################________其他________################________其他________########
+				########________其他________################________其他________################________其他________########
+				########________其他________################________其他________################________其他________########
+				########________其他________################________其他________################________其他________########
+				########________其他________################________其他________################________其他________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = masike
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								owner = { num_of_colonists = 1 } 
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ying } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_ying
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_ying
+					}
+				}
+				######限时地图######
+				if = {
+					limit = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_fichel } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_fichel
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_fichel
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_keli } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_keli
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_keli
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jinpingguo
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_discovery
+							}
+							NOT = {
+								current_age = age_of_discovery
+							}
+						}
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+					center_of_trade = 3
+					add_center_of_trade_level = 3
+					create_or_add_center_of_trade_level = 3
+				}
+
+
+
+			}
+			custom_tooltip = gs_refresh_reward_end_tt
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

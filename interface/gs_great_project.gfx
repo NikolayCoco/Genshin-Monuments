@@ -1,0 +1,816 @@
+spriteTypes = {
+	########————————蒙德————————########
+	spriteType = {#西风骑士团
+		name = "GFX_great_project_xifengqishi"
+		texturefile = "gfx//interface//great_projects//xifengqishi.dds"
+	}
+	spriteType = {#风神像
+		name = "GFX_great_project_bbts"
+		texturefile = "gfx//interface//great_projects//bbts.dds"
+	}
+	spriteType = {#西风大教堂
+		name = "GFX_great_project_xifengchurch"
+		texturefile = "gfx//interface//great_projects//xifengchurch.dds"
+	}
+	spriteType = {#风龙废墟
+		name = "GFX_great_project_feixu"
+		texturefile = "gfx//interface//great_projects//feixu.dds"
+	}
+	spriteType = {#晨曦酒庄
+		name = "GFX_great_project_chenxi"
+		texturefile = "gfx//interface//great_projects//chenxi.dds"
+	}
+	spriteType = {#千风神殿
+		name = "GFX_great_project_qianfeng"
+		texturefile = "gfx//interface//great_projects//qianfeng.dds"
+	}
+	spriteType = {#鹰翔海滩
+		name = "GFX_great_project_haitan"
+		texturefile = "gfx//interface//great_projects//haitan.dds"
+	}
+	spriteType = {#金苹果群岛
+		name = "GFX_great_project_jinpingguo"
+		texturefile = "gfx//interface//great_projects//jinpingguo.dds"
+	}
+	spriteType = {#荆夫港
+		name = "GFX_great_project_jingfu"
+		texturefile = "gfx//interface//great_projects//jingfu.dds"
+	}
+	spriteType = {#风起地
+		name = "GFX_great_project_fengqidi"
+		texturefile = "gfx//interface//great_projects//fengqidi.dds"
+	}
+	spriteType = {#蒙德图书馆
+		name = "GFX_great_project_tushuguan"
+		texturefile = "gfx//interface//great_projects//tushuguan.dds"
+	}
+	spriteType = {#奔狼领
+		name = "GFX_great_project_benlang"
+		texturefile = "gfx//interface//great_projects//benlang.dds"
+	}
+	spriteType = {#大风机关
+		name = "GFX_great_project_dafengjiguan"
+		texturefile = "gfx//interface//great_projects//dafengjiguan.dds"
+	}
+	spriteType = {#低语森林
+		name = "GFX_great_project_diyu"
+		texturefile = "gfx//interface//great_projects//diyu.dds"
+	}
+	spriteType = {#清泉镇
+		name = "GFX_great_project_qingquan"
+		texturefile = "gfx//interface//great_projects//qingquan.dds"
+	}
+	spriteType = {#星落湖
+		name = "GFX_great_project_xingluo"
+		texturefile = "gfx//interface//great_projects//xingluo.dds"
+	}
+	spriteType = {#摘星崖
+		name = "GFX_great_project_zhaixing"
+		texturefile = "gfx//interface//great_projects//zhaixing.dds"
+	}
+	spriteType = {#蒲公英海
+		name = "GFX_great_project_pugongying"
+		texturefile = "gfx//interface//great_projects//pugongying.dds"
+	}
+	spriteType = {#誓言岬
+		name = "GFX_great_project_shiyan"
+		texturefile = "gfx//interface//great_projects//shiyan.dds"
+	}
+	####————龙脊雪山————####
+	spriteType = {#龙脊雪山·覆雪之路
+		name = "GFX_great_project_fuxue"
+		texturefile = "gfx//interface//great_projects//fuxue.dds"
+	}
+	spriteType = {#龙脊雪山·雪葬之都
+		name = "GFX_great_project_xuezang"
+		texturefile = "gfx//interface//great_projects//xuezang.dds"
+	}
+	spriteType = {#龙脊雪山·寒天之钉
+		name = "GFX_great_project_hantian"
+		texturefile = "gfx//interface//great_projects//hantian.dds"
+	}
+	########————————璃月————————########
+	spriteType = {#群玉阁
+		name = "GFX_great_project_qunyu"
+		texturefile = "gfx//interface//great_projects//qunyu.dds"
+	}
+	spriteType = {#倚岩殿
+		name = "GFX_great_project_yiyan"
+		texturefile = "gfx//interface//great_projects//yiyan.dds"
+	}
+	spriteType = {#月海亭
+		name = "GFX_great_project_yuehai"
+		texturefile = "gfx//interface//great_projects//yuehai.dds"
+	}
+	spriteType = {#玉京台
+		name = "GFX_great_project_yujing"
+		texturefile = "gfx//interface//great_projects//yujing.dds"
+	}
+	spriteType = {#黄金屋
+		name = "GFX_great_project_thegoldenhouse"
+		texturefile = "gfx//interface//great_projects//thegoldenhouse.dds"
+	}
+	spriteType = {#华光林
+		name = "GFX_great_project_fenglin"
+		texturefile = "gfx//interface//great_projects//fenglin.dds"
+	}
+	spriteType = {#绝云间
+		name = "GFX_great_project_jueyun"
+		texturefile = "gfx//interface//great_projects//jueyun.dds"
+	}
+	spriteType = {#轻策庄
+		name = "GFX_great_project_qingce"
+		texturefile = "gfx//interface//great_projects//qingce.dds"
+	}
+	spriteType = {#天衡山
+		name = "GFX_great_project_tianheng"
+		texturefile = "gfx//interface//great_projects//tianheng.dds"
+	}
+	spriteType = {#望舒客栈
+		name = "GFX_great_project_wangshu"
+		texturefile = "gfx//interface//great_projects//wangshu.dds"
+	}
+	spriteType = {#荻花洲
+		name = "GFX_great_project_dihua"
+		texturefile = "gfx//interface//great_projects//dihua.dds"
+	}
+	spriteType = {#瑶光滩
+		name = "GFX_great_project_yaoguang"
+		texturefile = "gfx//interface//great_projects//yaoguang.dds"
+	}
+	spriteType = {#孤云阁
+		name = "GFX_great_project_guyun"
+		texturefile = "gfx//interface//great_projects//guyun.dds"
+	}
+	spriteType = {#归终机
+		name = "GFX_great_project_guizhong"
+		texturefile = "gfx//interface//great_projects//guizhong.dds"
+	}
+	spriteType = {#灵矩关
+		name = "GFX_great_project_lingju"
+		texturefile = "gfx//interface//great_projects//lingju.dds"
+	}
+	spriteType = {#璃沙郊
+		name = "GFX_great_project_lisha"
+		texturefile = "gfx//interface//great_projects//lisha.dds"
+	}
+	spriteType = {#琥牢山
+		name = "GFX_great_project_hulao"
+		texturefile = "gfx//interface//great_projects//hulao.dds"
+	}
+	spriteType = {#万民堂
+		name = "GFX_great_project_wanmin"
+		texturefile = "gfx//interface//great_projects//wanmin.dds"
+	}
+	spriteType = {#往生堂
+		name = "GFX_great_project_wangsheng"
+		texturefile = "gfx//interface//great_projects//wangsheng.dds"
+	}
+	spriteType = {#不卜庐
+		name = "GFX_great_project_bubulu"
+		texturefile = "gfx//interface//great_projects//bubulu.dds"
+	}
+	spriteType = {#地中之盐
+		name = "GFX_great_project_dizhong"
+		texturefile = "gfx//interface//great_projects//dizhong.dds"
+	}
+	spriteType = {#地中之盐
+	name = "GFX_great_project_shimen"
+	texturefile = "gfx//interface//great_projects//shimen.dds"
+}
+	####————层岩巨渊————####
+	spriteType = {#黑岩厂
+		name = "GFX_great_project_heiyan"
+		texturefile = "gfx//interface//great_projects//heiyan.dds"
+	}
+	spriteType = {#层岩巨渊·地面矿区
+		name = "GFX_great_project_yanceng"
+		texturefile = "gfx//interface//great_projects//yanceng.dds"
+	}
+	spriteType = {#层岩巨渊·丹砂崖
+		name = "GFX_great_project_dansha"
+		texturefile = "gfx//interface//great_projects//dansha.dds"
+	}
+	spriteType = {#层岩巨渊·巨渊之口
+		name = "GFX_great_project_juyuanzhikou"
+		texturefile = "gfx//interface//great_projects//juyuanzhikou.dds"
+	}
+	####————沉玉谷————####
+	spriteType = {#翘英庄
+		name = "GFX_great_project_qiao"
+		texturefile = "gfx//interface//great_projects//qiao.dds"
+	}
+	spriteType = {#遗珑埠
+		name = "GFX_great_project_yiloong"
+		texturefile = "gfx//interface//great_projects//yiloong.dds"
+	}
+	spriteType = {#宝玦口
+		name = "GFX_great_project_baojue"
+		texturefile = "gfx//interface//great_projects//baojue.dds"
+	}
+	spriteType = {#赤望高丘
+		name = "GFX_great_project_chiwang"
+		texturefile = "gfx//interface//great_projects//chiwang.dds"
+	}
+	spriteType = {#古华派
+		name = "GFX_great_project_guhua"
+		texturefile = "gfx//interface//great_projects//guhua.dds"
+	}
+	spriteType = {#药蝶谷
+		name = "GFX_great_project_yaodie"
+		texturefile = "gfx//interface//great_projects//yaodie.dds"
+	}
+	spriteType = {#悬练山
+		name = "GFX_great_project_xuanlian"
+		texturefile = "gfx//interface//great_projects//xuanlian.dds"
+	}
+	########————————稻妻————————########
+	spriteType = {#天守阁
+		name = "GFX_great_project_tianshou"
+		texturefile = "gfx//interface//great_projects//tianshou.dds"
+	}
+	spriteType = {#千手百眼神像
+		name = "GFX_great_project_leishenxiang"
+		texturefile = "gfx//interface//great_projects//leishenxiang.dds"
+	}
+	spriteType = {#鸣神大社
+		name = "GFX_great_project_shenying"
+		texturefile = "gfx//interface//great_projects//shenying.dds"
+	}
+	spriteType = {#影向山
+		name = "GFX_great_project_yingxiang"
+		texturefile = "gfx//interface//great_projects//yingxiang.dds"
+	}
+	spriteType = {#长野原烟花店
+		name = "GFX_great_project_changyeyuan"
+		texturefile = "gfx//interface//great_projects//changyeyuan.dds"
+	}
+	spriteType = {#秋沙钱汤
+		name = "GFX_great_project_qiusha"
+		texturefile = "gfx//interface//great_projects//qiusha.dds"
+	}
+	spriteType = {#天领奉行
+		name = "GFX_great_project_tianling"
+		texturefile = "gfx//interface//great_projects//tianling.dds"
+	}
+	spriteType = {#勘定奉行
+		name = "GFX_great_project_kanding"
+		texturefile = "gfx//interface//great_projects//kanding.dds"
+	}
+	spriteType = {#木漏茶室
+		name = "GFX_great_project_mulou"
+		texturefile = "gfx//interface//great_projects//mulou.dds"
+	}
+	spriteType = {#镇守之森
+		name = "GFX_great_project_zhenshou"
+		texturefile = "gfx//interface//great_projects//zhenshou.dds"
+	}
+	spriteType = {#甘金岛
+		name = "GFX_great_project_ganjin"
+		texturefile = "gfx//interface//great_projects//ganjin.dds"
+	}
+	spriteType = {#离岛
+		name = "GFX_great_project_lidao"
+		texturefile = "gfx//interface//great_projects//lidao.dds"
+	}
+	spriteType = {#蛇骨矿洞
+		name = "GFX_great_project_shegu"
+		texturefile = "gfx//interface//great_projects//shegu.dds"
+	}
+	spriteType = {#踏鞴砂
+		name = "GFX_great_project_tabei"
+		texturefile = "gfx//interface//great_projects//tabei.dds"
+	}
+	spriteType = {#御影炉心
+		name = "GFX_great_project_yuying"
+		texturefile = "gfx//interface//great_projects//yuying.dds"
+	}
+	spriteType = {#无想刃狭间
+		name = "GFX_great_project_wuxiang"
+		texturefile = "gfx//interface//great_projects//wuxiang.dds"
+	}
+	spriteType = {#名椎滩
+		name = "GFX_great_project_mingzhui"
+		texturefile = "gfx//interface//great_projects//mingzhui.dds"
+	}
+	spriteType = {#九条阵屋
+		name = "GFX_great_project_jiutiao"
+		texturefile = "gfx//interface//great_projects//jiutiao.dds"
+	}
+	spriteType = {#神里屋敷
+		name = "GFX_great_project_shenli"
+		texturefile = "gfx//interface//great_projects//shenli.dds"
+	}
+	spriteType = {#清籁岛
+		name = "GFX_great_project_qinglai"
+		texturefile = "gfx//interface//great_projects//qinglai.dds"
+	}
+	####————珊瑚宫————####
+	spriteType = {#珊瑚宫
+		name = "GFX_great_project_shanhu"
+		texturefile = "gfx//interface//great_projects//shanhu.dds"
+	}
+	spriteType = {#藤兜砦
+		name = "GFX_great_project_tengdou"
+		texturefile = "gfx//interface//great_projects//tengdou.dds"
+	}
+	spriteType = {#曚云神社
+		name = "GFX_great_project_mengyun"
+		texturefile = "gfx//interface//great_projects//mengyun.dds"
+	}
+	spriteType = {#渊下宫
+		name = "GFX_great_project_baiye"
+		texturefile = "gfx//interface//great_projects//baiye.dds"
+	}
+	####————鹤观————####
+	spriteType = {#菅名山
+		name = "GFX_great_project_jianming"
+		texturefile = "gfx//interface//great_projects//jianming.dds"
+	}
+	########————————须弥————————########
+	####————雨林————####
+	spriteType = {#净善宫
+		name = "GFX_great_project_jingshan"
+		texturefile = "gfx//interface//great_projects//jingshan.dds"
+	}
+	spriteType = {#教令院
+		name = "GFX_great_project_jiaoling"
+		texturefile = "gfx//interface//great_projects//jiaoling.dds"
+	}
+	spriteType = {#智慧宫
+		name = "GFX_great_project_zhihuigong"
+		texturefile = "gfx//interface//great_projects//zhihuigong.dds"
+	}
+	spriteType = {#大巴扎
+		name = "GFX_great_project_dabazha"
+		texturefile = "gfx//interface//great_projects//dabazha.dds"
+	}
+	spriteType = {#聚沙厅
+		name = "GFX_great_project_jusha"
+		texturefile = "gfx//interface//great_projects//jusha.dds"
+	}
+	spriteType = {#化城郭
+		name = "GFX_great_project_Gandharva"
+		texturefile = "gfx//interface//great_projects//Gandharva.dds"
+	}
+	spriteType = {#香醉坡
+		name = "GFX_great_project_Gandhahill"
+		texturefile = "gfx//interface//great_projects//Gandhahill.dds"
+	}
+	spriteType = {#天臂池
+		name = "GFX_great_project_Devadaha"
+		texturefile = "gfx//interface//great_projects//Devadaha.dds"
+	}
+	spriteType = {#卡萨扎莱宫
+		name = "GFX_great_project_Alcazarzaray"
+		texturefile = "gfx//interface//great_projects//Alcazarzaray.dds"
+	}
+	spriteType = {#奥摩斯港
+		name = "GFX_great_project_Ormos"
+		texturefile = "gfx//interface//great_projects//Ormos.dds"
+	}
+	spriteType = {#拜达港
+		name = "GFX_great_project_Bayda"
+		texturefile = "gfx//interface//great_projects//Bayda.dds"
+	}
+	spriteType = {#维摩庄
+		name = "GFX_great_project_Vimala"
+		texturefile = "gfx//interface//great_projects//Vimala.dds"
+	}
+	spriteType = {#桓那兰那
+		name = "GFX_great_project_Vanarana"
+		texturefile = "gfx//interface//great_projects//Vanarana.dds"
+	}
+	spriteType = {#禅那园
+		name = "GFX_great_project_Dhyai"
+		texturefile = "gfx//interface//great_projects//Dhyai.dds"
+	}
+	spriteType = {#水天丛林
+		name = "GFX_great_project_Apam"
+		texturefile = "gfx//interface//great_projects//Apam.dds"
+	}
+	spriteType = {#荼诃之座
+		name = "GFX_great_project_Dahri"
+		texturefile = "gfx//interface//great_projects//Dahri.dds"
+	}
+	####————沙漠————####
+	spriteType = {#喀万驿
+		name = "GFX_great_project_Caravan"
+		texturefile = "gfx//interface//great_projects//Caravan.dds"
+	}
+	spriteType = {#阿如村
+		name = "GFX_great_project_Aru"
+		texturefile = "gfx//interface//great_projects//Aru.dds"
+	}
+	spriteType = {#赤王陵
+		name = "GFX_great_project_Chiwangling"
+		texturefile = "gfx//interface//great_projects//Chiwangling.dds"
+	}
+	spriteType = {#饱饮之丘
+		name = "GFX_great_project_Baoyin"
+		texturefile = "gfx//interface//great_projects//Baoyin.dds"
+	}
+	spriteType = {#铄石之丘
+		name = "GFX_great_project_Shuoshi"
+		texturefile = "gfx//interface//great_projects//Shuoshi.dds"
+	}
+	spriteType = {#避让之丘
+		name = "GFX_great_project_Birang"
+		texturefile = "gfx//interface//great_projects//Birang.dds"
+	}
+	spriteType = {#秘仪圣殿
+		name = "GFX_great_project_miyi"
+		texturefile = "gfx//interface//great_projects//miyi.dds"
+	}
+	spriteType = {#缄默之殿
+		name = "GFX_great_project_jianmo"
+		texturefile = "gfx//interface//great_projects//jianmo.dds"
+	}
+	spriteType = {#神之棋盘
+		name = "GFX_great_project_qipan"
+		texturefile = "gfx//interface//great_projects//qipan.dds"
+	}
+	spriteType = {#圣显厅
+		name = "GFX_great_project_shengxian"
+		texturefile = "gfx//interface//great_projects//shengxian.dds"
+	}
+	spriteType = {#活力之家
+		name = "GFX_great_project_huoli"
+		texturefile = "gfx//interface//great_projects//huoli.dds"
+	}
+	spriteType = {#达马山
+		name = "GFX_great_project_Damavand"
+		texturefile = "gfx//interface//great_projects//Damavand.dds"
+	}
+	spriteType = {#永恒绿洲
+		name = "GFX_great_project_lvzhou"
+		texturefile = "gfx//interface//great_projects//lvzhou.dds"
+	}
+	spriteType = {#居尔城
+		name = "GFX_great_project_Gurabad"
+		texturefile = "gfx//interface//great_projects//Gurabad.dds"
+	}
+	spriteType = {#塔尼特部族
+		name = "GFX_great_project_Tanit"
+		texturefile = "gfx//interface//great_projects//Tanit.dds"
+	}
+	spriteType = {#千壑沙地
+		name = "GFX_great_project_Hadramaveth"
+		texturefile = "gfx//interface//great_projects//Hadramaveth.dds"
+	}
+	####————花灵————####
+	spriteType = {#焚真之天象
+		name = "GFX_great_project_Apaosha"
+		texturefile = "gfx//interface//great_projects//Apaosha.dds"
+	}
+	spriteType = {#万种母树
+		name = "GFX_great_project_Harvisptokhm"
+		texturefile = "gfx//interface//great_projects//Harvisptokhm.dds"
+	}
+	spriteType = {#甘露花海
+		name = "GFX_great_project_Vourukasha"
+		texturefile = "gfx//interface//great_projects//Vourukasha.dds"
+	}
+	spriteType = {#荼泥黑渊
+		name = "GFX_great_project_hollow"
+		texturefile = "gfx//interface//great_projects//hollow.dds"
+	}
+	spriteType = {#跋松顶
+		name = "GFX_great_project_basong"
+		texturefile = "gfx//interface//great_projects//basong.dds"
+	}
+	########————————枫丹————————########
+	spriteType = {#沫芒宫
+		name = "GFX_great_project_momang"
+		texturefile = "gfx//interface//great_projects//momang.dds"
+	}
+	spriteType = {#蒸汽鸟报社
+		name = "GFX_great_project_zhengqi"
+		texturefile = "gfx//interface//great_projects//zhengqi.dds"
+	}
+	spriteType = {#德波大饭店
+		name = "GFX_great_project_Debord"
+		texturefile = "gfx//interface//great_projects//Debord.dds"
+	}
+	spriteType = {#千织屋
+		name = "GFX_great_project_qianzhi"
+		texturefile = "gfx//interface//great_projects//qianzhi.dds"
+	}
+	spriteType = {#露景泉
+		name = "GFX_great_project_Lucine"
+		texturefile = "gfx//interface//great_projects//Lucine.dds"
+	}
+	spriteType = {#欧庇克莱歌剧院
+		name = "GFX_great_project_Epiclese"
+		texturefile = "gfx//interface//great_projects//Epiclese.dds"
+	}
+	spriteType = {#白淞镇
+		name = "GFX_great_project_Poisson"
+		texturefile = "gfx//interface//great_projects//Poisson.dds"
+	}
+	spriteType = {#枫丹动能工程科学研究院
+		name = "GFX_great_project_kexueyuan"
+		texturefile = "gfx//interface//great_projects//kexueyuan.dds"
+	}
+	spriteType = {#枫丹动能工程科学研究院
+		name = "GFX_great_project_kexueyuan"
+		texturefile = "gfx//interface//great_projects//kexueyuan.dds"
+	}
+	spriteType = {#海沫村
+		name = "GFX_great_project_highmore"
+		texturefile = "gfx//interface//great_projects//highmore.dds"
+	}
+	spriteType = {#梅洛彼得堡
+		name = "GFX_great_project_Meropide"
+		texturefile = "gfx//interface//great_projects//Meropide.dds"
+	}
+	spriteType = {#灰河
+		name = "GFX_great_project_dixaicheng"
+		texturefile = "gfx//interface//great_projects//dixaicheng.dds"
+	}
+	spriteType = {#优兰尼娅湖
+		name = "GFX_great_project_Urania"
+		texturefile = "gfx//interface//great_projects//Urania.dds"
+	}
+	spriteType = {#湖中垂柳
+		name = "GFX_great_project_willow"
+		texturefile = "gfx//interface//great_projects//willow.dds"
+	}
+	spriteType = {#柔灯港
+		name = "GFX_great_project_Lumidouce"
+		texturefile = "gfx//interface//great_projects//Lumidouce.dds"
+	}
+	spriteType = {#海露港
+		name = "GFX_great_project_Romaritime"
+		texturefile = "gfx//interface//great_projects//Romaritime.dds"
+	}
+	####————水仙十字————####
+	spriteType = {#自然哲学研究所
+		name = "GFX_great_project_Narzissenkreuz"
+		texturefile = "gfx//interface//great_projects//Narzissenkreuz.dds"
+	}
+	spriteType = {#自体自身之塔
+		name = "GFX_great_project_Ipsissimus"
+		texturefile = "gfx//interface//great_projects//Ipsissimus.dds"
+	}
+	spriteType = {#安眠处
+		name = "GFX_great_project_Annapausis"
+		texturefile = "gfx//interface//great_projects//Annapausis.dds"
+	}
+	spriteType = {#真正的安眠处
+		name = "GFX_great_project_RealAnnapausis"
+		texturefile = "gfx//interface//great_projects//RealAnnapausis.dds"
+	}
+	####————雷穆利亚————####
+	spriteType = {#佩特莉可镇
+		name = "GFX_great_project_Petrichor"
+		texturefile = "gfx//interface//great_projects//Petrichor.dds"
+	}
+	spriteType = {#黄金的大宫
+		name = "GFX_great_project_Aurea"
+		texturefile = "gfx//interface//great_projects//Aurea.dds"
+	}
+	########————————纳塔————————########
+	spriteType = {#圣火竞技场
+		name = "GFX_great_project_shenghuo"
+		texturefile = "gfx//interface//great_projects//shenghuo.dds"
+	}
+	spriteType = {#话事处
+		name = "GFX_great_project_huashi"
+		texturefile = "gfx//interface//great_projects//huashi.dds"
+	}
+	spriteType = {#神庙·锻石之轮
+		name = "GFX_great_project_duanshi"
+		texturefile = "gfx//interface//great_projects//duanshi.dds"
+	}
+	spriteType = {#皈礼熔炉
+		name = "GFX_great_project_guili"
+		texturefile = "gfx//interface//great_projects//guili.dds"
+	}
+	spriteType = {#「龙遗物研究学会」
+		name = "GFX_great_project_longyiwu"
+		texturefile = "gfx//interface//great_projects//longyiwu.dds"
+	}
+	spriteType = {#倦意之屋
+		name = "GFX_great_project_juanyi"
+		texturefile = "gfx//interface//great_projects//juanyi.dds"
+	}
+	####————回声之子————####
+	spriteType = {#回声之子
+		name = "GFX_great_project_huisheng"
+		texturefile = "gfx//interface//great_projects//huisheng.dds"
+	}
+	spriteType = {#硫晶支脉
+		name = "GFX_great_project_liujing"
+		texturefile = "gfx//interface//great_projects//liujing.dds"
+	}
+	spriteType = {#众岩之里
+		name = "GFX_great_project_zhongyan"
+		texturefile = "gfx//interface//great_projects//zhongyan.dds"
+	}
+	spriteType = {#分道誓约之厅
+		name = "GFX_great_project_fendao"
+		texturefile = "gfx//interface//great_projects//fendao.dds"
+	}
+	spriteType = {#始灾的边界
+		name = "GFX_great_project_shizai"
+		texturefile = "gfx//interface//great_projects//shizai.dds"
+	}
+	spriteType = {#族裔最后的净土
+		name = "GFX_great_project_jingtu"
+		texturefile = "gfx//interface//great_projects//jingtu.dds"
+	}
+	####————悬木人————####
+	spriteType = {#悬木人
+		name = "GFX_great_project_xuanmu"
+		texturefile = "gfx//interface//great_projects//xuanmu.dds"
+	}
+	spriteType = {#火榴树根系
+		name = "GFX_great_project_huoliu"
+		texturefile = "gfx//interface//great_projects//huoliu.dds"
+	}
+	spriteType = {#据石山
+		name = "GFX_great_project_jushi"
+		texturefile = "gfx//interface//great_projects//jushi.dds"
+	}
+	spriteType = {#祖遗庙宇
+		name = "GFX_great_project_zuyi"
+		texturefile = "gfx//interface//great_projects//zuyi.dds"
+	}
+	spriteType = {#燃素开采研究所
+		name = "GFX_great_project_ransu"
+		texturefile = "gfx//interface//great_projects//ransu.dds"
+	}
+	####————流泉之众————####
+	spriteType = {#流泉之众
+		name = "GFX_great_project_liuquan"
+		texturefile = "gfx//interface//great_projects//liuquan.dds"
+	}
+	spriteType = {#溶水域
+		name = "GFX_great_project_rongshui"
+		texturefile = "gfx//interface//great_projects//rongshui.dds"
+	}
+	spriteType = {#浮土静界
+		name = "GFX_great_project_futu"
+		texturefile = "gfx//interface//great_projects//futu.dds"
+	}
+	spriteType = {#玛拉妮的小店
+		name = "GFX_great_project_malanidian"
+		texturefile = "gfx//interface//great_projects//malanidian.dds"
+	}
+	spriteType = {#窃火者的密岛
+		name = "GFX_great_project_qiehuo"
+		texturefile = "gfx//interface//great_projects//qiehuo.dds"
+	}
+	####————烟迷主————####
+	spriteType = {#烟迷主
+		name = "GFX_great_project_yanmi"
+		texturefile = "gfx//interface//great_projects//yanmi.dds"
+	}
+	spriteType = {#镜壁山
+		name = "GFX_great_project_jingbi"
+		texturefile = "gfx//interface//great_projects//jingbi.dds"
+	}
+	spriteType = {#谜土祭祀场
+		name = "GFX_great_project_mitu"
+		texturefile = "gfx//interface//great_projects//mitu.dds"
+	}
+	spriteType = {#编织处
+		name = "GFX_great_project_bianzhi"
+		texturefile = "gfx//interface//great_projects//bianzhi.dds"
+	}
+	spriteType = {#漫曛谷
+		name = "GFX_great_project_manxun"
+		texturefile = "gfx//interface//great_projects//manxun.dds"
+	}
+	spriteType = {#浮羽之湾
+		name = "GFX_great_project_fuyu"
+		texturefile = "gfx//interface//great_projects//fuyu.dds"
+	}
+	####————花羽会————####
+	spriteType = {#花羽会
+		name = "GFX_great_project_huayu"
+		texturefile = "gfx//interface//great_projects//huayu.dds"
+	}
+	spriteType = {#飞行试炼场
+		name = "GFX_great_project_feixing"
+		texturefile = "gfx//interface//great_projects//feixing.dds"
+	}
+	spriteType = {#翘枝崖
+		name = "GFX_great_project_qiaozhi"
+		texturefile = "gfx//interface//great_projects//qiaozhi.dds"
+	}
+	spriteType = {#柴薪之丘
+		name = "GFX_great_project_chaixin"
+		texturefile = "gfx//interface//great_projects//chaixin.dds"
+	}
+	####————沃陆之邦————####
+	spriteType = {#沃陆之邦
+		name = "GFX_great_project_wolu"
+		texturefile = "gfx//interface//great_projects//wolu.dds"
+	}
+	spriteType = {#伊安珊的健身俱乐部
+		name = "GFX_great_project_jianshenjule"
+		texturefile = "gfx//interface//great_projects//jianshenjule.dds"
+	}
+	spriteType = {#瓦雷莎的果园
+		name = "GFX_great_project_waleishaguoyuan"
+		texturefile = "gfx//interface//great_projects//waleishaguoyuan.dds"
+	}
+	spriteType = {#摔跤竞技场
+		name = "GFX_great_project_shuaijiao"
+		texturefile = "gfx//interface//great_projects//shuaijiao.dds"
+	}
+	spriteType = {#孑遗的留迹
+		name = "GFX_great_project_jieyiyiji"
+		texturefile = "gfx//interface//great_projects//jieyiyiji.dds"
+	}
+	spriteType = {#孑遗的留迹
+		name = "GFX_great_project_jieyiyiji"
+		texturefile = "gfx//interface//great_projects//jieyiyiji.dds"
+	}
+	####————奥奇卡纳塔————####
+	spriteType = {#奥奇卡纳塔
+		name = "GFX_great_project_aoqika"
+		texturefile = "gfx//interface//great_projects//aoqika.dds"
+	}
+	spriteType = {#传说中的天蛇船
+		name = "GFX_great_project_tianshe"
+		texturefile = "gfx//interface//great_projects//tianshe.dds"
+	}
+	spriteType = {#旧日的统御之心
+		name = "GFX_great_project_tongyu"
+		texturefile = "gfx//interface//great_projects//tongyu.dds"
+	}
+	spriteType = {#托佐兹之岛
+		name = "GFX_great_project_tuozuozi"
+		texturefile = "gfx//interface//great_projects//tuozuozi.dds"
+	}
+	spriteType = {#源火圣座
+		name = "GFX_great_project_yuanhuo"
+		texturefile = "gfx//interface//great_projects//yuanhuo.dds"
+	}
+	####————图兰大火山————####
+	spriteType = {#永蕴常火的圣山
+		name = "GFX_great_project_tulanhuoshan"
+		texturefile = "gfx//interface//great_projects//tulanhuoshan.dds"
+	}
+	spriteType = {#天火之冠
+		name = "GFX_great_project_tianhuoguan"
+		texturefile = "gfx//interface//great_projects//tianhuoguan.dds"
+	}
+	spriteType = {#图兰圣城
+		name = "GFX_great_project_tulanshengcheng"
+		texturefile = "gfx//interface//great_projects//tulanshengcheng.dds"
+	}
+	spriteType = {#分流识海
+		name = "GFX_great_project_fenliushihai"
+		texturefile = "gfx//interface//great_projects//fenliushihai.dds"
+	}
+	spriteType = {#聚火祭研所
+		name = "GFX_great_project_juhuo"
+		texturefile = "gfx//interface//great_projects//juhuo.dds"
+	}
+	spriteType = {#审议之庭
+		name = "GFX_great_project_shenyizhiting"
+		texturefile = "gfx//interface//great_projects//shenyizhiting.dds"
+	}
+	spriteType = {#圣山之心
+		name = "GFX_great_project_shengshanzhixin"
+		texturefile = "gfx//interface//great_projects//shengshanzhixin.dds"
+	}
+	########————————其他————————########
+	spriteType = {#马斯克礁
+		name = "GFX_great_project_masike"
+		texturefile = "gfx//interface//great_projects//masike.dds"
+	}
+	spriteType = {#琉形蜃境
+		name = "GFX_great_project_Bottleland"
+		texturefile = "gfx//interface//great_projects//Bottleland.dds"
+	}
+	spriteType = {#希穆兰卡
+		name = "GFX_great_project_Simulanka"
+		texturefile = "gfx//interface//great_projects//Simulanka.dds"
+	}
+	########————————彩蛋————————########
+	spriteType = {#太虚山
+		name = "GFX_great_project_taixu"
+		texturefile = "gfx//interface//great_projects//taixu.dds"
+	}
+	spriteType = {#永世乐土
+		name = "GFX_great_project_letu"
+		texturefile = "gfx//interface//great_projects//letu.dds"
+	}
+	spriteType = {#NXX基地
+		name = "GFX_great_project_NXX"
+		texturefile = "gfx//interface//great_projects//NXX.dds"
+	}
+	spriteType = {#星穹列车
+		name = "GFX_great_project_Star"
+		texturefile = "gfx//interface//great_projects//Star.dds"
+	}
+	spriteType = {#ZZZ
+		name = "GFX_great_project_ZZZnew"
+		texturefile = "gfx//interface//great_projects//ZZZnew.dds"
+	}
+}

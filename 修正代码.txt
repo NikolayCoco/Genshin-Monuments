@@ -1,0 +1,175 @@
+#名字 「」-特质名字
+gs_Leader_名字_personality = {
+	allow = { always = no }
+}
+ :0 ""
+ gs_Leader_某:0 "属性图片 将领名字 「将领称号」"
+ gs_Leader_某_personality:0 "属性图片 特质名字\n\n\n\n\n\n\n\n\n\n£图片名字£\n\n\n\n\n\n\n\n\n"
+ £anemo£ 风元素
+ £geo£ 岩元素
+ £electro£ 雷元素
+ £dendro£ 草元素
+ £hydro£ 水元素
+ £pyro£ 火元素
+ £cryo£ 冰元素
+ AND = {
+	has_country_modifier = gs_Leader_某
+	NOT = { has_leader = "元素图片 名字" }
+}
+		if = {
+			limit = {
+				has_country_modifier = gs_Leader_某
+				NOT = { has_leader = "属性图片 名字" }
+			}
+			define_general = {
+				shock = 6
+				fire = 6
+				manuever = 6
+				siege = 6
+				name = "属性图片 名字"
+				female = yes
+				trait = gs_Leader_某_personality
+			}
+		}
+	spriteType = { #名字
+		name = "GFX_text_gs_leader_名字_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_名字_pic.png"
+		legacy_lazy_load = no
+	}
+
+
+奇观代码 = {	#奇观名字
+	start = 地块代码 #地名
+	date = -1426.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = yes
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+	build_trigger = {
+		if = {
+			limit = { gs_monuments_unlimit_trigger = yes }
+			always = yes
+		}
+		else = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		}
+	}
+	on_built = { show_ambient_object = 奇观代码 }
+	on_destroyed = { hide_ambient_object = 奇观代码 }
+	can_use_modifiers_trigger = {
+		if = {
+			limit = { gs_monuments_unlimit_trigger = yes }
+			always = yes
+		}
+		else = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		if = {
+			limit = { gs_monuments_unlimit_trigger = yes }
+			always = yes
+		}
+		else = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0}
+		cost_to_upgrade = { factor =  0 }
+		province_modifiers = {
+			地块修正
+		}
+		area_modifier = {
+			地区修正
+		}
+		country_modifiers = {
+			全国修正
+		}
+		on_upgraded = {
+			升级时修正
+		}
+	}
+	tier_1 = {
+		upgrade_time = { months = 100}
+		cost_to_upgrade = { factor =  500 }
+		province_modifiers = {
+			地块修正
+		}
+		area_modifier = {
+			地区修正
+		}
+		country_modifiers = {
+			全国修正
+		}
+		on_upgraded = {
+			升级时修正
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 200}
+		cost_to_upgrade = { factor =  1000 }
+		province_modifiers = {
+			地块修正
+		}
+		area_modifier = {
+			地区修正
+		}
+		country_modifiers = {
+			全国修正
+		}
+		on_upgraded = {
+			升级时修正
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 300}
+		cost_to_upgrade = { factor =  1500 }
+		province_modifiers = {
+			地块修正
+		}
+		area_modifier = {
+			地区修正
+		}
+		country_modifiers = {
+			全国修正
+		}
+		on_upgraded = {
+			升级时修正
+		}
+	}
+}
+
+
+
+		if = {
+			limit = { gs_monuments_unlimit_trigger = yes }
+			always = yes
+		}
+		else = {
+			OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		}
+		    owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_将领代码 } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_将领代码
+			    	    duration = -1
+			    	}
+			    }
+		    }

@@ -1,0 +1,1389 @@
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+gs_peiou_shatang_personality = {#砂糖
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_tax_modifier = 0.2
+}
+gs_peiou_lisha_personality = {#丽莎
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	technology_cost = -0.1
+}
+gs_peiou_fichel_personality = {#菲谢尔
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	idea_cost = -0.1
+}
+gs_peiou_anbo_personality = {#安柏
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	reinforce_speed = 0.2
+}
+gs_peiou_leize_personality = {#雷泽
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	colonists = 1
+	#colonist_placement_chance = 0.05
+	#global_colonial_growth = 5
+}
+gs_peiou_babala_personality = {#芭芭拉
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_missionary_strength = 0.03
+}
+gs_peiou_bannite_personality = {#班尼特
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	monarch_lifespan = 0.5
+}
+gs_peiou_kaiya_personality = {#凯亚
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	spy_offence = 0.2
+}
+gs_peiou_noel_personality = {#诺艾尔
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	siege_ability = 0.2
+}
+gs_peiou_qin_personality = {#琴
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	administrative_efficiency = 0.1
+}
+gs_peiou_diluke_personality = {#迪卢克
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	production_efficiency = 0.2
+}
+gs_peiou_mona_personality = {#莫娜
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+	global_rebel_suppression_efficiency = 0.2
+}
+gs_peiou_wendi_personality = {#温迪
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	immortal = 1
+	monarch_lifespan = 10000
+	liberty_desire = 10
+	idea_cost = -0.1
+	diplomatic_reputation = 1
+}
+gs_peiou_keli_personality = {#可莉
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	# = 1
+	#monarch_lifespan = 10000
+	fire_damage = 0.1
+}
+gs_peiou_diona_personality = {#迪奥娜
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	manpower_recovery_speed = 0.1
+}
+gs_peiou_abeiduo_personality = {#阿贝多
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	technology_cost = -0.1
+}
+gs_peiou_luosha_personality = {#罗莎莉亚
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_spy_defence = 0.25
+}
+gs_peiou_youla_personality = {#优菈
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.2
+}
+gs_peiou_mika_personality = {#米卡
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	range = 0.5
+}
+gs_peiou_taliya_personality = {#塔利雅
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    missionary_maintenance_cost = -0.75
+}
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+gs_peiou_ningguang_personality = {#凝光
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	merchants = 1
+	global_trade_power = 0.1
+	trade_efficiency = 0.1
+}
+gs_peiou_xingqiu_personality = {#行秋
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	merchants = 1
+	global_trade_goods_size_modifier = 0.1
+	trade_efficiency = 0.1
+}
+gs_peiou_xiangling_personality = {#香菱
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	yearly_innovativeness = 0.25
+	production_efficiency = 0.2
+}
+gs_peiou_chongyun_personality = {#重云
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+gs_peiou_beidou_personality = {#北斗
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	naval_morale = 0.1
+	sea_repair = yes
+	heavy_ship_power = 0.1
+	number_of_cannons_flagship_modifier = 1
+	flagship_durability = 1
+}
+
+gs_peiou_qiqi_personality = {#七七
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	manpower_recovery_speed = 0.1
+	reinforce_speed = 0.1
+}
+gs_peiou_keqing_personality = {#刻晴
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	build_cost = -0.1
+	build_time = -0.2
+	global_allowed_num_of_buildings = 1
+}
+gs_peiou_xinyan_personality = {#辛焱
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+	stability_cost_modifier = -0.1
+}
+gs_peiou_zhongli_personality = {#钟离
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	imperial_mandate = 0.05
+	reduced_liberty_desire = 5
+    build_cost = -0.2
+    build_time = -0.5
+}
+gs_peiou_ganyu_personality = {#甘雨
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	administrative_efficiency = 0.2
+}
+gs_peiou_xiao_personality = {#魈
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	governing_cost = -0.3
+	land_morale = 0.2
+}
+gs_peiou_hutao_personality = {#胡桃
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	production_efficiency = 0.1
+	global_trade_goods_size_modifier = 0.1
+}
+gs_peiou_yanfei_personality = {#烟绯
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	global_unrest = -2
+	global_autonomy = -0.05
+}
+gs_peiou_yunjin_personality = {#云堇
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	culture_conversion_time = -0.1
+	relation_with_same_culture = 25
+	relation_with_same_culture_group = 25
+	relation_with_other_culture = 25
+	relation_with_accepted_culture = 25
+}
+gs_peiou_shenhe_personality = {#申鹤
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	morale_damage = 0.1
+	may_recruit_female_generals = yes
+}
+gs_peiou_yelan_personality = {#夜兰
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	spy_offence = 0.15
+	global_spy_defence = 0.1
+}
+gs_peiou_yaoyao_personality = {#瑶瑶
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	state_governing_cost = -0.1
+}
+gs_peiou_baizhu_personality = {#白术
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	manpower_recovery_speed = 0.1
+	reinforce_speed = 0.1
+	global_manpower_modifier = 0.1
+	land_attrition = -0.1
+}
+gs_peiou_jiaming_personality = {#嘉明
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_ship_trade_power = 0.15
+	num_accepted_cultures = 1
+}
+gs_peiou_xianyun_personality = {#闲云
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	technology_cost = -0.1
+	idea_cost = -0.1
+}
+gs_peiou_lanyan_personality = {#蓝砚
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	culture_conversion_cost = -0.1
+}
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+gs_peiou_wanye_personality = {#万叶
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	range = 0.5
+	naval_morale = 0.1
+	sea_repair = yes
+}
+gs_peiou_linghua_personality = {#绫华
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	culture_conversion_time = -0.1
+	num_accepted_cultures = 1
+}
+gs_peiou_zaoyou_personality = {#早柚
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.3
+}
+gs_peiou_xiaogong_personality = {#宵宫
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	production_efficiency = 0.05
+	global_trade_goods_size_modifier = 0.05
+	fire_damage = 0.1
+}
+gs_peiou_jiutiao_personality = {#九条
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	land_morale = 0.1
+	discipline = 0.05
+}
+gs_peiou_leishen_personality = {#将军
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	legitimacy = 1
+	republican_tradition = 0.5
+	devotion = 1
+	horde_unity = 1
+	meritocracy = 1
+	global_autonomy = -0.05
+	yearly_absolutism = 0.1
+	shock_damage = 0.1
+	years_of_nationalism = -5
+}
+gs_peiou_xinhai_personality = {#心海
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	drill_gain_modifier = 0.15
+	drill_decay_modifier = -0.15
+	land_morale = 0.05
+}
+gs_peiou_tuoma_personality = {#托马
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	improve_relation_modifier = 0.2
+}
+gs_peiou_wulang_personality = {#五郎
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	drill_gain_modifier = 0.1
+	drill_decay_modifier = -0.1
+	land_morale = 0.1
+}
+gs_peiou_yidou_personality = {#一斗
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	infantry_power = 0.2
+}
+gs_peiou_shenzi_personality = {#神子
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	administrative_efficiency = 0.1
+	global_missionary_strength = 0.03
+}
+gs_peiou_lingren_personality = {#绫人
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -1
+	spy_offence = 0.1
+	global_spy_defence = 0.15
+}
+gs_peiou_jiuqiren_personality = {#久岐忍
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -1
+	global_autonomy = -0.05
+}
+gs_peiou_pingzang_personality = {#平藏
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	shock_damage = 0.1
+}
+gs_peiou_kirara_personality = {#绮良良
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.2
+}
+gs_peiou_qianzhi_personality = {#千织
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_trade_goods_size_modifier = 0.2
+}
+gs_peiou_ruixi_personality = {#梦见月瑞希
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+gs_peiou_kelai_personality = {#柯莱
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.2
+}
+gs_peiou_tinali_personality = {#提纳里
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	embracement_cost = -0.1
+	global_institution_spread = 0.5
+}
+gs_peiou_duoli_personality = {#多莉
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	merchants = 1
+	trade_efficiency = 0.1
+}
+gs_peiou_kandisi_personality = {#坎蒂丝
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	defensiveness = 0.1
+}
+gs_peiou_sainuo_personality = {#赛诺
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	cavalry_power = 0.2
+}
+gs_peiou_nilu_personality = {#妮露
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	stability_cost_modifier = -0.1
+}
+gs_peiou_naxida_personality = {#纳西妲
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	technology_cost = -0.1
+	idea_cost = -0.1
+}
+gs_peiou_laiyila_personality = {#莱依拉
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	idea_cost = -0.1
+}
+gs_peiou_falushan_personality = {#珐露珊
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	technology_cost = -0.1
+	idea_cost = -0.1
+}
+gs_peiou_bengbeng_personality = {#流浪者
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	can_bypass_forts = yes
+	army_tradition = 0.1
+}
+gs_peiou_aierhaisen_personality = {#艾尔海森
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	administrative_efficiency = 0.1
+}
+gs_peiou_dixiya_personality = {#迪希雅
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	morale_damage = 0.1
+}
+gs_peiou_kawei_personality = {#卡维
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	build_cost = -0.1
+	build_time = -0.25
+}
+gs_peiou_saisuosi_personality = {#赛索斯
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	infantry_power = 0.2
+}
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+gs_peiou_linnite_personality = {#琳妮特
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.1
+}
+gs_peiou_linni_personality = {#林尼
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	idea_cost = -0.1
+}
+gs_peiou_feimini_personality = {#菲米尼
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_autonomy = -0.1
+}
+gs_peiou_nawei_personality = {#那维莱特
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	administrative_efficiency = 0.1
+	yearly_corruption = -0.2
+	governing_capacity_modifier = 0.25
+	all_estate_influence_modifier = -0.1
+	global_unrest = -2
+}
+gs_peiou_laiou_personality = {#莱欧斯利
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+gs_peiou_xialuodi_personality = {#夏洛蒂
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	movement_speed = 0.1
+}
+gs_peiou_funingna_personality = {#芙宁娜
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	global_unrest = -2
+	war_exhaustion = -0.05
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+gs_peiou_naweiya_personality = {#娜维娅
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	fire_damage = 0.1
+}
+gs_peiou_xiawolei_personality = {#夏沃蕾
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_autonomy = -0.05
+}
+gs_peiou_keluolinde_personality = {#克洛琳德
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+gs_peiou_xigewen_personality = {#希格雯
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	manpower_recovery_speed = 0.1
+	reinforce_speed = 0.1
+	global_manpower_modifier = 0.1
+	land_attrition = -0.1
+}
+gs_peiou_aimeiliai_personality = {#艾梅莉埃
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_trade_goods_size_modifier = 0.2
+}
+gs_peiou_aikefei_personality = {#爱可菲
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+gs_peiou_kaqina_personality = {#卡齐娜
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	development_cost = -0.1
+}
+gs_peiou_malani_personality = {#玛拉妮
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	trade_efficiency = 0.2
+}
+gs_peiou_jiniqi_personality = {#基尼奇
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	trade_efficiency = 0.2
+}
+gs_peiou_xinuoning_personality = {#希诺宁
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	production_efficiency = 0.2
+}
+gs_peiou_ouluolun_personality = {#欧洛伦
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	spy_offence = 0.1
+	global_spy_defence = 0.15
+}
+gs_peiou_qiasika_personality = {#恰斯卡
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	fire_damage = 0.1
+}
+gs_peiou_maweika_personality = {#玛薇卡
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	discipline = 0.05
+	land_morale = 0.1
+	morale_damage = 0.1
+}
+gs_peiou_nainai_personality = {#茜特菈莉
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+}
+gs_peiou_yianshan_personality = {#伊安珊
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	discipline = 0.05
+}
+gs_peiou_niuniu_personality = {#瓦雷莎
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	land_morale = 0.1
+}
+gs_peiou_yifa_personality = {#伊法
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	land_attrition = -0.1
+}
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+gs_peiou_gongzi_personality = {#公子
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	fire_damage = 0.2
+	fire_damage_received = 0.05
+	shock_damage = 0.2
+	shock_damage_received  = 0.05
+}
+gs_peiou_aleiqinuo_personality = {#仆人
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+	global_autonomy = -0.05
+	core_creation = -0.2
+}
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+gs_peiou_kong_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	administrative_efficiency = 0.1
+	yearly_corruption = -0.2
+	governing_capacity_modifier = 0.25
+	all_estate_influence_modifier = -0.1
+	global_unrest = -2
+}
+gs_peiou_ying_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	#immortal = 1
+	#monarch_lifespan = 10000
+	administrative_efficiency = 0.1
+	yearly_corruption = -0.2
+	governing_capacity_modifier = 0.25
+	all_estate_influence_modifier = -0.1
+	global_unrest = -2
+}
+gs_peiou_ailuoyi_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	fire_damage = 0.1
+	shock_damage = 0.1
+}
+gs_peiou_skirk_personality = {#丝柯克
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    range = 0.5
+}

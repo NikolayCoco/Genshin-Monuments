@@ -1,0 +1,667 @@
+gs_monuments_unlimit_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = gs_monuments_unlimit_trigger_tt
+		OR = {
+			owner = {
+				ai = no
+				has_country_modifier = gs_monuments_unlimit_open
+			}
+			AND = {
+				owner = { ai = yes }
+				has_global_flag = gs_allow_ai_unlimit
+			}
+		}
+	}
+}
+
+gs_happy_mod_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = gs_happy_mod_trigger_tt
+		has_global_flag = gs_happy_mod_open
+		OR = {
+			ai = no
+			has_global_flag = gs_allow_ai_happy
+		}
+	}
+}
+
+gs_has_OnlyFans_monuments = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_OnlyFans_monuments_tt
+		any_owned_province = {
+			OR = {
+				has_great_project = { type = taixu }
+				has_great_project = { type = letu }
+				has_great_project = { type = NXX }
+				has_great_project = { type = Star }
+				has_great_project = { type = ZZZnew }
+			}
+		}
+	}
+}
+
+gs_has_OnlyFans_leader = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_OnlyFans_leader_tt
+		OR = {
+			has_country_modifier = gs_leader_fuhua
+			has_country_modifier = gs_leader_ailixiya
+			has_country_modifier = gs_leader_kaiwen
+			has_country_modifier = gs_leader_aboniya
+			has_country_modifier = gs_leader_yidian
+			has_country_modifier = gs_leader_weierwei
+			has_country_modifier = gs_leader_qianjie
+			has_country_modifier = gs_leader_su
+			has_country_modifier = gs_leader_ying2
+			has_country_modifier = gs_leader_kesimo
+			has_country_modifier = gs_leader_meibiwusi
+			has_country_modifier = gs_leader_geleixiu
+			has_country_modifier = gs_leader_hua
+			has_country_modifier = gs_leader_paduo
+		}
+	}
+}
+
+
+gs_is_gs_nation = {
+	OR = {
+		has_ruler_flag = gs_ruler_wendi
+		has_ruler_flag = gs_ruler_zhongli
+		has_ruler_flag = gs_ruler_leishen
+		has_ruler_flag = gs_ruler_naxida
+		has_ruler_flag = gs_ruler_funingna
+		has_ruler_flag = gs_ruler_maweika
+	}
+}
+
+gs_is_gs_nation_ai_set = {
+	OR = {
+		has_country_flag = gs_ruler_wendi_ai_set
+		has_country_flag = gs_ruler_zhongli_ai_set
+		has_country_flag = gs_ruler_leishen_ai_set
+		has_country_flag = gs_ruler_naxida_ai_set
+		has_country_flag = gs_ruler_funingna_ai_set
+		has_country_flag = gs_ruler_maweika_ai_set
+	}
+}
+
+gs_has_gs_leader_with_vision_anemo = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_anemo_tt
+		OR = {
+			#has_country_modifier = gs_leader_wendi
+
+			has_country_modifier = gs_leader_shatang
+			has_country_modifier = gs_leader_qin
+			has_country_modifier = gs_leader_xiao
+			has_country_modifier = gs_leader_xianyun
+			has_country_modifier = gs_leader_lanyan
+			has_country_modifier = gs_leader_wanye
+			has_country_modifier = gs_leader_zaoyou
+			has_country_modifier = gs_leader_pingzang
+			has_country_modifier = gs_leader_ruixi
+			has_country_modifier = gs_leader_falushan
+			has_country_modifier = gs_leader_bengbeng
+			has_country_modifier = gs_leader_linnite
+			has_country_modifier = gs_leader_qiasika
+			has_country_modifier = gs_leader_yifa
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_geo = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_geo_tt
+		OR = {
+			#has_country_modifier = gs_leader_zhongli
+
+			has_country_modifier = gs_leader_noel
+			has_country_modifier = gs_leader_abeiduo
+			has_country_modifier = gs_leader_ningguang
+			has_country_modifier = gs_leader_yunjin
+			has_country_modifier = gs_leader_wulang
+			has_country_modifier = gs_leader_yidou
+			has_country_modifier = gs_leader_qianzhi
+			has_country_modifier = gs_leader_naweiya
+			has_country_modifier = gs_leader_kaqina
+			has_country_modifier = gs_leader_xinuoning
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_electro = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_electro_tt
+		OR = {
+			#has_country_modifier = gs_leader_leishen
+			
+			has_country_modifier = gs_leader_lisha
+			has_country_modifier = gs_leader_fichel
+			has_country_modifier = gs_leader_leize
+			has_country_modifier = gs_leader_beidou
+			has_country_modifier = gs_leader_keqing
+			has_country_modifier = gs_leader_jiutiao
+			has_country_modifier = gs_leader_shenzi
+			has_country_modifier = gs_leader_jiuqiren
+			has_country_modifier = gs_leader_duoli
+			has_country_modifier = gs_leader_sainuo
+			has_country_modifier = gs_leader_saisuosi
+			has_country_modifier = gs_leader_keluolinde
+			has_country_modifier = gs_leader_ouluolun
+			has_country_modifier = gs_leader_yianshan
+			has_country_modifier = gs_leader_niuniu
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_dendro = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_dendro_tt
+		OR = {
+			#has_country_modifier = gs_leader_naxida
+	
+			has_country_modifier = gs_leader_yaoyao
+			has_country_modifier = gs_leader_baizhu
+			has_country_modifier = gs_leader_kirara
+			has_country_modifier = gs_leader_kelai
+			has_country_modifier = gs_leader_tinali
+			has_country_modifier = gs_leader_aierhaisen
+			has_country_modifier = gs_leader_kawei
+			has_country_modifier = gs_leader_aimeiliai
+			has_country_modifier = gs_leader_jiniqi
+
+			has_country_modifier = gs_leader_lana
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_hydro = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_hydro_tt
+		OR = {
+			#has_country_modifier = gs_leader_nawei
+			has_country_modifier = gs_leader_funingna
+
+			has_country_modifier = gs_leader_babala
+			has_country_modifier = gs_leader_mona
+			has_country_modifier = gs_leader_xingqiu
+			has_country_modifier = gs_leader_yelan
+			has_country_modifier = gs_leader_xinhai
+			has_country_modifier = gs_leader_lingren
+			has_country_modifier = gs_leader_kandisi
+			has_country_modifier = gs_leader_nilu
+			has_country_modifier = gs_leader_xigewen
+			has_country_modifier = gs_leader_malani
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_pyro = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_pyro_tt
+		OR = {
+			#has_country_modifier = gs_leader_maweika
+
+			has_country_modifier = gs_leader_anbo
+			has_country_modifier = gs_leader_bannite
+			has_country_modifier = gs_leader_diluke
+			has_country_modifier = gs_leader_keli
+			has_country_modifier = gs_leader_xiangling
+			has_country_modifier = gs_leader_xinyan
+			has_country_modifier = gs_leader_hutao
+			has_country_modifier = gs_leader_yanfei
+			has_country_modifier = gs_leader_jiaming
+			has_country_modifier = gs_leader_xiaogong
+			has_country_modifier = gs_leader_tuoma
+			has_country_modifier = gs_leader_dixiya
+			has_country_modifier = gs_leader_linni
+			has_country_modifier = gs_leader_xiawolei
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision_cryo = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_cryo_tt
+		OR = {
+
+
+			has_country_modifier = gs_leader_kaiya
+			has_country_modifier = gs_leader_diona
+			has_country_modifier = gs_leader_luosha
+			has_country_modifier = gs_leader_youla
+			has_country_modifier = gs_leader_mika
+			has_country_modifier = gs_leader_chongyun
+			has_country_modifier = gs_leader_qiqi
+			has_country_modifier = gs_leader_ganyu
+			has_country_modifier = gs_leader_shenhe
+			has_country_modifier = gs_leader_linghua
+			has_country_modifier = gs_leader_laiyila
+			has_country_modifier = gs_leader_feimini
+			has_country_modifier = gs_leader_laiou
+			has_country_modifier = gs_leader_xialuodi
+			has_country_modifier = gs_leader_aikefei
+			has_country_modifier = gs_leader_nainai
+		}
+	}
+}
+
+gs_has_gs_leader_with_vision = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_vision_tt
+		OR = {
+			has_country_modifier = gs_leader_faerjia
+			gs_has_gs_leader_with_vision_anemo = yes
+			gs_has_gs_leader_with_vision_geo = yes
+			gs_has_gs_leader_with_vision_electro = yes
+			gs_has_gs_leader_with_vision_dendro = yes
+			gs_has_gs_leader_with_vision_hydro = yes
+			gs_has_gs_leader_with_vision_pyro = yes
+			gs_has_gs_leader_with_vision_cryo = yes
+		}
+	}
+}
+
+gs_has_gs_leader_with_element = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_with_element_tt
+		OR = {
+			gs_has_gs_leader_with_vision = yes
+			has_country_modifier = gs_leader_wendi
+			has_country_modifier = gs_leader_zhongli
+			has_country_modifier = gs_leader_leishen
+			has_country_modifier = gs_leader_naxida
+			has_country_modifier = gs_leader_maweika
+	
+			has_country_modifier = gs_leader_nawei
+	
+			has_country_modifier = gs_leader_kong
+			has_country_modifier = gs_leader_ying
+		}
+	}
+}
+
+gs_has_gs_leader_MONDSTADT = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_MONDSTADT_tt
+		OR = {
+			has_country_modifier = gs_leader_shatang
+			has_country_modifier = gs_leader_lisha
+			has_country_modifier = gs_leader_fichel
+			has_country_modifier = gs_leader_anbo
+			has_country_modifier = gs_leader_leize
+			has_country_modifier = gs_leader_babala
+			has_country_modifier = gs_leader_bannite
+			has_country_modifier = gs_leader_kaiya
+			has_country_modifier = gs_leader_noel
+			has_country_modifier = gs_leader_qin
+			has_country_modifier = gs_leader_diluke
+			has_country_modifier = gs_leader_mona
+			has_country_modifier = gs_leader_wendi
+			has_country_modifier = gs_leader_keli
+			has_country_modifier = gs_leader_diona
+			has_country_modifier = gs_leader_abeiduo
+			has_country_modifier = gs_leader_luosha
+			has_country_modifier = gs_leader_youla
+			has_country_modifier = gs_leader_mika
+		}
+	}
+}
+gs_has_gs_leader_LIYUE = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_LIYUE_tt
+		OR = {
+			has_country_modifier = gs_leader_ningguang
+			has_country_modifier = gs_leader_xingqiu
+			has_country_modifier = gs_leader_xiangling
+			has_country_modifier = gs_leader_chongyun
+			has_country_modifier = gs_leader_beidou
+			has_country_modifier = gs_leader_qiqi
+			has_country_modifier = gs_leader_keqing
+			has_country_modifier = gs_leader_xinyan
+			has_country_modifier = gs_leader_zhongli
+			has_country_modifier = gs_leader_ganyu
+			has_country_modifier = gs_leader_xiao
+			has_country_modifier = gs_leader_hutao
+			has_country_modifier = gs_leader_yanfei
+			has_country_modifier = gs_leader_yunjin
+			has_country_modifier = gs_leader_shenhe
+			has_country_modifier = gs_leader_yelan
+			has_country_modifier = gs_leader_yaoyao
+			has_country_modifier = gs_leader_baizhu
+			has_country_modifier = gs_leader_jiaming
+			has_country_modifier = gs_leader_xianyun
+			has_country_modifier = gs_leader_lanyan
+		}
+	}
+}
+gs_has_gs_leader_INAZUMA = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_INAZUMA_tt
+		OR = {
+			has_country_modifier = gs_leader_wanye
+			has_country_modifier = gs_leader_linghua
+			has_country_modifier = gs_leader_zaoyou
+			has_country_modifier = gs_leader_xiaogong
+			has_country_modifier = gs_leader_jiutiao
+			has_country_modifier = gs_leader_leishen
+			has_country_modifier = gs_leader_xinhai
+			has_country_modifier = gs_leader_tuoma
+			has_country_modifier = gs_leader_wulang
+			has_country_modifier = gs_leader_yidou
+			has_country_modifier = gs_leader_shenzi
+			has_country_modifier = gs_leader_lingren
+			has_country_modifier = gs_leader_jiuqiren
+			has_country_modifier = gs_leader_pingzang
+			has_country_modifier = gs_leader_kirara
+			has_country_modifier = gs_leader_qianzhi
+			has_country_modifier = gs_leader_ruixi
+		}
+	}
+}
+gs_has_gs_leader_SUMERU = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_SUMERU_tt
+		OR = {
+			has_country_modifier = gs_leader_kelai
+			has_country_modifier = gs_leader_tinali
+			has_country_modifier = gs_leader_duoli
+			has_country_modifier = gs_leader_kandisi
+			has_country_modifier = gs_leader_sainuo
+			has_country_modifier = gs_leader_nilu
+			has_country_modifier = gs_leader_naxida
+			has_country_modifier = gs_leader_laiyila
+			has_country_modifier = gs_leader_falushan
+			has_country_modifier = gs_leader_bengbeng
+			has_country_modifier = gs_leader_aierhaisen
+			has_country_modifier = gs_leader_dixiya
+			has_country_modifier = gs_leader_kawei
+			has_country_modifier = gs_leader_saisuosi
+		}
+	}
+}
+gs_has_gs_leader_FONTAINE = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_FONTAINE_tt
+		OR = {
+			has_country_modifier = gs_leader_linnite
+			has_country_modifier = gs_leader_linni
+			has_country_modifier = gs_leader_feimini
+			has_country_modifier = gs_leader_nawei
+			has_country_modifier = gs_leader_laiou
+			has_country_modifier = gs_leader_xialuodi
+			has_country_modifier = gs_leader_funingna
+			has_country_modifier = gs_leader_naweiya
+			has_country_modifier = gs_leader_xiawolei
+			has_country_modifier = gs_leader_keluolinde
+			has_country_modifier = gs_leader_xigewen
+			has_country_modifier = gs_leader_aimeiliai
+			has_country_modifier = gs_leader_aikefei
+		}
+	}
+}
+gs_has_gs_leader_NATLAN = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_NATLAN_tt
+		OR = {
+			has_country_modifier = gs_leader_kaqina
+			has_country_modifier = gs_leader_malani
+			has_country_modifier = gs_leader_jiniqi
+			has_country_modifier = gs_leader_xinuoning
+			has_country_modifier = gs_leader_ouluolun
+			has_country_modifier = gs_leader_qiasika
+			has_country_modifier = gs_leader_maweika
+			has_country_modifier = gs_leader_nainai
+			has_country_modifier = gs_leader_yianshan
+			has_country_modifier = gs_leader_niuniu
+			has_country_modifier = gs_leader_yifa
+		}
+	}
+}
+gs_has_gs_leader_SNEZHNAYA = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_SNEZHNAYA_tt
+		OR = {
+			has_country_modifier = gs_leader_gongzi
+			has_country_modifier = gs_leader_aleiqinuo
+		}
+	}
+}
+gs_has_gs_leader_OTHER = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_OTHER_tt
+		OR = {
+			has_country_modifier = gs_leader_kong
+			has_country_modifier = gs_leader_ying
+			has_country_modifier = gs_leader_ailuoyi
+		}
+	}
+}
+gs_has_gs_leader_country = {
+	OR = {
+		gs_has_gs_leader_MONDSTADT = yes
+		gs_has_gs_leader_LIYUE = yes
+		gs_has_gs_leader_INAZUMA = yes
+		gs_has_gs_leader_SUMERU = yes
+		gs_has_gs_leader_FONTAINE = yes
+		gs_has_gs_leader_NATLAN = yes
+		gs_has_gs_leader_SNEZHNAYA = yes
+		gs_has_gs_leader_OTHER = yes
+	}
+}
+
+gs_has_gs_leader = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_tt
+		OR = {
+			gs_has_gs_leader_with_element = yes
+			has_country_modifier = gs_leader_zeweier
+			has_country_modifier = gs_leader_baimugui
+			has_country_modifier = gs_leader_lanluomo
+			has_country_modifier = gs_leader_jiede
+			has_country_modifier = gs_leader_silusha
+			has_country_modifier = gs_leader_mameihe
+			has_country_modifier = gs_leader_paxifu
+			has_country_modifier = gs_leader_yagebu
+			has_country_modifier = gs_leader_leinei
+			has_country_modifier = gs_leader_kong
+			has_country_modifier = gs_leader_ying
+		}
+	}
+}
+
+gs_eu4_MONDSTADT = {
+	OR = {
+		culture_group = germanic
+	}
+}
+
+gs_eu4_LIYUE = {
+	OR = {
+		culture_group = east_asian
+		technology_group = chinese
+	}
+}
+
+gs_eu4_INAZUMA_shanhu = {
+	OR = {
+		culture = kyushuan
+	}
+}
+
+gs_eu4_INAZUMA = {
+	OR = {
+		gs_eu4_INAZUMA_shanhu = yes
+		culture_group = japanese_g
+	}
+}
+
+gs_eu4_SUMERU_shu = {
+	OR = {
+		religion_group = dharmic
+		culture_group = eastern_aryan
+		culture_group = hindusthani
+		culture_group = western_aryan
+		culture_group = dravidian
+		culture_group = central_indic
+		technology_group = indian
+	}
+}
+
+gs_eu4_SUMERU_hua = {
+	OR = {
+		religion = coptic
+		culture_group = cushitic
+	}
+}
+
+gs_eu4_SUMERU_chi = {
+	OR = {
+		culture_group = turko_semitic
+		culture_group = maghrebi
+		culture_group = sudanese
+	}
+}
+
+gs_eu4_SUMERU_ganlu = {
+	OR = {
+		religion_group = zoroastrian_group
+		culture_group = iranian
+	}
+}
+
+gs_eu4_SUMERU = {
+	OR = {
+		gs_eu4_SUMERU_shu = yes
+		gs_eu4_SUMERU_hua = yes
+		gs_eu4_SUMERU_chi = yes
+		gs_eu4_SUMERU_ganlu = yes
+		religion_group = muslim
+		technology_group = ottoman
+		technology_group = muslim
+	}
+}
+
+gs_eu4_FONTAINE_leimu = {
+	OR = {
+		culture_group = latin
+	}
+}
+
+gs_eu4_FONTAINE = {
+	OR = {
+		gs_eu4_FONTAINE_leimu = yes
+		culture_group = french
+		technology_group = western
+	}
+}
+
+gs_eu4_NATLAN_shenghuo = {
+	OR = {
+		religion = nahuatl
+		culture_group = central_american
+		culture_group = aridoamerican
+		culture_group = otomanguean
+	}
+}
+
+gs_eu4_NATLAN_huisheng = {
+	OR = {
+		religion = mesoamerican_religion
+		culture_group = maya
+	}
+}
+
+gs_eu4_NATLAN_xuanmu = {
+	OR = {
+		religion = inti
+		culture_group = andean_group
+		technology_group = andean
+	}
+}
+
+gs_eu4_NATLAN_liuquan = {
+	OR = {
+		religion = dreamtime
+		culture_group = pacific
+		culture_group = aboriginal_australian
+		technology_group = aboriginal_tech
+		technology_group = polynesian_tech
+	}
+}
+
+gs_eu4_NATLAN_yanmi = {
+	OR = {
+		culture_group = mande
+		culture_group = west_african
+		culture_group = kongo_group
+		technology_group = sub_saharan
+	}
+}
+
+gs_eu4_NATLAN_huayu = {
+	OR = {
+		culture_group = great_lakes_group
+		culture_group = african
+		culture_group = southern_african
+		technology_group = east_african
+	}
+}
+
+gs_eu4_NATLAN_wolu = {
+	OR = {
+		religion = totemism
+		culture_group = eskaleut
+		culture_group = central_algonquian
+		culture_group = plains_algonquian
+		culture_group = eastern_algonquian
+		culture_group = iroquoian
+		culture_group = siouan
+		culture_group = caddoan
+		culture_group = muskogean
+		culture_group = sonoran
+		culture_group = apachean
+		culture_group = na_dene
+		culture_group = penutian
+		technology_group = north_american
+	}
+}
+
+gs_eu4_NATLAN = {
+	OR = {
+		gs_eu4_NATLAN_shenghuo = yes
+		gs_eu4_NATLAN_huisheng = yes
+		gs_eu4_NATLAN_xuanmu = yes
+		gs_eu4_NATLAN_liuquan = yes
+		gs_eu4_NATLAN_yanmi = yes
+		gs_eu4_NATLAN_huayu = yes
+		gs_eu4_NATLAN_wolu = yes
+		AND = {
+			religion_group = pagan
+			NOT = { religion = norse_pagan_reformed }
+			NOT = { religion = tengri_pagan_reformed }
+		}
+		culture_group = je_tupi
+		culture_group = je
+		culture_group = maranon
+		culture_group = chibchan
+		culture_group = mataco
+		culture_group = araucanian
+		culture_group = carribean
+		culture_group = sahelian
+		technology_group = mesoamerican
+		technology_group = central_african
+		technology_group = south_american
+		technology_group = high_american
+	}
+}
+
+gs_eu4_SNEZHNAYA = {
+	OR = {
+		religion = orthodox
+		religion = norse_pagan_reformed
+		culture_group = scandinavian
+		culture_group = east_slavic
+		technology_group = eastern
+	}
+}

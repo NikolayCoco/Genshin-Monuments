@@ -1,0 +1,75 @@
+gs_element_policy_Teyvat = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = gs_element_adm_ideas
+		has_idea_group = gs_element_dip_ideas
+	}
+ 	allow = {
+ 		full_idea_group = gs_element_adm_ideas
+ 		full_idea_group = gs_element_dip_ideas
+ 	}
+
+ 	trade_efficiency = 0.15
+    diplomatic_reputation = 2
+    improve_relation_modifier = 0.3
+	#province_warscore_cost = 0.2
+
+ 	effect = {}
+ 	removed_effect = {}
+ 	ai_will_do = { factor = 0 }
+}
+
+gs_element_policy_Celestia = {
+ 	monarch_power = ADM
+
+ 	potential = {
+ 		has_idea_group = gs_element_adm_ideas
+ 		has_idea_group = gs_element_mil_ideas
+ 	}
+ 	allow = {
+ 		full_idea_group = gs_element_adm_ideas
+ 		full_idea_group = gs_element_mil_ideas
+ 	}
+
+	global_unrest = -3
+    legitimacy = 2
+    republican_tradition = 1
+    devotion = 2
+    horde_unity = 2
+    meritocracy = 2
+    culture_conversion_cost = -0.25
+    culture_conversion_time = -0.25
+	#core_creation = 0.2
+    technology_cost = 0.15
+
+ 	effect = {}
+ 	removed_effect = {}
+ 	ai_will_do = { factor = 0 }
+}
+
+gs_element_policy_Abyss = {
+ 	monarch_power = MIL
+
+ 	potential = {
+ 		has_idea_group = gs_element_dip_ideas
+ 		has_idea_group = gs_element_mil_ideas
+ 	}
+ 	allow = {
+ 		full_idea_group = gs_element_dip_ideas
+ 		full_idea_group = gs_element_mil_ideas
+ 	}
+	
+ 	land_morale = 0.2
+    discipline = 0.1
+    fire_damage = 0.1
+    shock_damage = 0.1
+    #ae_impact = 0.2
+	prestige = -1
+    diplomatic_reputation = -2
+    
+
+ 	effect = {}
+ 	removed_effect = {}
+ 	ai_will_do = { factor = 0 }
+}
