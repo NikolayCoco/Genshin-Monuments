@@ -60,10 +60,7 @@ shenghuo = {	#圣火竞技场
 			has_owner_religion = yes
 		}
 	}
-	keep_trigger = {
-		#gs_happy_mod_trigger = yes
-		#owner = { ai = yes }
-	}
+	keep_trigger = { }
 	tier_0 = {
 		upgrade_time = { months = 0}
 		cost_to_upgrade = { factor =  0 }
@@ -238,7 +235,10 @@ huashi = {	#话事处
 			has_owner_religion = yes
 		}
 	}
-	keep_trigger = { }
+	keep_trigger = {
+		#gs_happy_mod_trigger = yes
+		#owner = { ai = yes }
+	}
 	tier_0 = {
 		upgrade_time = { months = 0}
 		cost_to_upgrade = { factor =  0 }

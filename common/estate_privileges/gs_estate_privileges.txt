@@ -41,7 +41,7 @@ estate_genshin_base = {
 		global_tax_modifier = 0.1
 		trade_efficiency = 0.1
 		global_manpower_modifier = 0.1
-		estate_genshin_privilege_slots = 49
+		estate_genshin_privilege_slots = 14
 	}      #特权激活时的正面修正
 	#conditional_modifier = { 		
 	#	#如果指令为真，应用的修正
