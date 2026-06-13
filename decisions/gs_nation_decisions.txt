@@ -39,6 +39,7 @@ country_decisions = {
 	#≥uTX	NATLAN		kp	255 102 64
 	#ÛÅ¨Q	SNEZHNAYA	∞Q	128 255 255
 	#PNW	YONGSHILETU	wb	255 204 251
+	#tïs	LANGGAN	    âs	127 255 212
 	#					‡e	147 147 147
 	gs_set_ruler_wendi = {
 		color = { 50 215 160 }
@@ -456,6 +457,46 @@ country_decisions = {
 				add_ruler_personality = god_of_zhenwo2_personality
 				add_ruler_personality = god_of_zhenwo3_personality
 				set_ruler_flag = gs_ruler_ailixiya
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	gs_set_ruler_zibai = {
+		color = { 127 255 212 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			ai = no
+			has_country_modifier = gs_leader_zibai
+			NOT = { has_ruler_flag = gs_ruler_zibai }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£geo£ yQãv"
+				dynasty = ")YO"
+				#culture = 
+				#religion = 
+				adm = 6
+				dip = 6
+				mil = 6
+				#age = 
+				#birth_date = 
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_zibai_personality
+				set_ruler_flag = gs_ruler_zibai
 				set_ai_personality ={
 					personality = ai_balanced
 					locked = yes
@@ -991,6 +1032,41 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	gs_country_LANGGAN = {
+		color = { 127 255 212 }
+		major = no
+		potential = {
+			ai = no
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_zibai
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_LANGGAN }
+				NOT = { has_country_flag = gs_set_country_color_LANGGAN }
+				NOT = { has_country_flag = gs_set_country_idea_LANGGAN }
+			}
+		}
+		allow = {
+			is_lesser_in_union = no
+		}
+		effect = {
+			set_country_flag = gs_set_country_name_LANGGAN
+			set_country_flag = gs_set_country_color_LANGGAN
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_LANGGAN
+			}
+			else = { override_country_name = THE_LANGGAN }
+			change_country_color = { color = { 127 255 212 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_LANGGAN } }
+				set_country_flag = gs_set_country_idea_LANGGAN
+				country_event = { id = ideagroups.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	# b`YRÀY˝VT
 	gs_country_name_Rever = {
 		color = { 147 147 147 }
@@ -1005,6 +1081,7 @@ country_decisions = {
 				has_country_flag = gs_set_country_name_NATLAN
 				has_country_flag = gs_set_country_name_Remuria
 				has_country_flag = gs_set_country_name_YONGSHILETU
+				has_country_flag = gs_set_country_name_LANGGAN
 			}
 		}
 		allow = {
@@ -1020,6 +1097,7 @@ country_decisions = {
 			clr_country_flag = gs_set_country_name_NATLAN
 			clr_country_flag = gs_set_country_name_Remuria
 			clr_country_flag = gs_set_country_name_YONGSHILETU
+			clr_country_flag = gs_set_country_name_LANGGAN
 		}
 		ai_will_do = {
 			factor = 0
@@ -1038,6 +1116,7 @@ country_decisions = {
 				has_country_flag = gs_set_country_color_FONTAINE
 				has_country_flag = gs_set_country_color_NATLAN
 				has_country_flag = gs_set_country_color_YONGSHILETU
+				has_country_flag = gs_set_country_color_LANGGAN
 			}
 		}
 		allow = {
@@ -1052,6 +1131,7 @@ country_decisions = {
 			clr_country_flag = gs_set_country_color_FONTAINE
 			clr_country_flag = gs_set_country_color_NATLAN
 			clr_country_flag = gs_set_country_color_YONGSHILETU
+			clr_country_flag = gs_set_country_color_LANGGAN
 		}
 		ai_will_do = {
 			factor = 0
@@ -1069,7 +1149,8 @@ country_decisions = {
 				has_country_flag = gs_set_country_idea_SUMERU
 				has_country_flag = gs_set_country_idea_FONTAINE
 				has_country_flag = gs_set_country_idea_NATLAN
-				has_country_flag = gs_set_country_color_YONGSHILETU
+				has_country_flag = gs_set_country_idea_YONGSHILETU
+				has_country_flag = gs_set_country_idea_LANGGAN
 			}
 		}
 		allow = {
@@ -1082,7 +1163,8 @@ country_decisions = {
 			clr_country_flag = gs_set_country_idea_SUMERU
 			clr_country_flag = gs_set_country_idea_FONTAINE
 			clr_country_flag = gs_set_country_idea_NATLAN
-			clr_country_flag = gs_set_country_color_YONGSHILETU
+			clr_country_flag = gs_set_country_idea_YONGSHILETU
+			clr_country_flag = gs_set_country_idea_LANGGAN
 			country_event = { id = ideagroups.1 }
 		}
 		ai_will_do = {

@@ -399,6 +399,58 @@ NATLAN_ideas = {
 	}
 }
 
+LANGGAN_ideas = {
+	start = {
+		production_efficiency = 0.3
+		global_trade_goods_size_modifier = 0.2
+	}
+	
+	bonus = {
+		infantry_fire = 1
+		ae_impact = -0.2
+		morale_damage_received = -0.2
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_LANGGAN
+	}
+	free = yes
+	
+	LANGGAN_ideas_1 = {
+		land_morale = 0.3
+		morale_damage = 0.2
+		discipline = 0.1
+	}
+	LANGGAN_ideas_2 = {
+		trade_efficiency = 0.3
+		trade_steering = 0.3
+		merchants = 1
+	}
+	LANGGAN_ideas_3 = {
+		global_unrest = -3
+		stability_cost_modifier = -0.3
+
+	}
+	LANGGAN_ideas_4 = {
+		global_manpower_modifier = 0.3
+		land_attrition = -0.3
+		manpower_recovery_speed = 0.3
+	}
+	LANGGAN_ideas_5 = {
+		all_power_cost = -0.1
+		idea_cost = -0.2
+	}
+	LANGGAN_ideas_6 = {
+		global_missionary_strength = 0.03
+		missionary_maintenance_cost = -0.3
+		missionaries = 2
+	}
+	LANGGAN_ideas_7 = {
+		administrative_efficiency = 0.1
+		build_cost = -0.3
+		global_prosperity_growth = 0.2
+	}
+}
 
 
 
