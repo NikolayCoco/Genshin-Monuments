@@ -338,6 +338,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/leader/gs_leader_lanyan_pic.png"
 		legacy_lazy_load = no
 	}
+	spriteType = { #兹白
+		name = "GFX_text_gs_leader_zibai_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_zibai_pic.png"
+		legacy_lazy_load = no
+	}
 	#稻妻
 	spriteType = { #枫原万叶
 		name = "GFX_text_gs_leader_wanye_tooltip_pic"

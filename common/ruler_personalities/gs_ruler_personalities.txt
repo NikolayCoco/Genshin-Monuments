@@ -227,3 +227,23 @@ god_of_zhenwo3_personality = {
 	#AI行为
 
 }
+god_of_zibai_personality = {
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+
+	#修正
+	#immortal = 1 # dummy modifier only used to get the right icon
+	global_unrest = -2
+	development_cost = -0.3
+	institution_growth = 1
+
+	#AI行为
+	#easy_war_chance_multiplier = 0.5
+	#gift_chance = 65
+	#alliance_acceptance = 10
+}

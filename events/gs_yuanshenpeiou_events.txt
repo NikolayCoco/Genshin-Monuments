@@ -968,6 +968,27 @@ country_event = {
         custom_tooltip = desc_gs_peiou_lanyan_personality
     }
     option = {
+        name = gs_yuanshenpeiou_events.11.v
+
+        trigger = {
+			has_country_modifier = gs_leader_zibai
+		}
+        
+        define_consort = {
+            name = "£geo£yQ‹v"
+            dynasty = "gO"
+            #age = 16
+            adm = 6
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        hidden_effect = {
+            add_queen_personality = gs_peiou_zibai_personality
+        }
+        custom_tooltip = desc_gs_peiou_zibai_personality
+    }
+    option = {
         name = gs_yuanshenpeiou_events.11.quit
         country_event = { id = gs_yuanshenpeiou_events.1 }
     }

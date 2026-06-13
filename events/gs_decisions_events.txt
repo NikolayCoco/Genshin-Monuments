@@ -30,25 +30,8 @@ country_event = {
 				name = gs_start
 				duration = -1
 			}
-			add_treasury = 648
 		}
 		custom_tooltip = desc_gs_start
-		if = {
-			limit = { NOT = { has_country_modifier = gs_leader_kong } }
-			add_country_modifier = {
-				name = gs_leader_kong
-				duration = -1
-			}
-			custom_tooltip = desc_gs_leader_kong
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = gs_leader_ying } }	
-			add_country_modifier = {
-				name = gs_leader_ying
-				duration = -1
-			}
-			custom_tooltip = desc_gs_leader_ying
-		}
 	}
 
 	option = {
@@ -62,33 +45,16 @@ country_event = {
 				name = gs_start
 				duration = -1
 			}
-			add_treasury = 648
 		}
 		custom_tooltip = desc_gs_start
-		if = {
-			limit = { NOT = { has_country_modifier = gs_leader_kong } }
-			add_country_modifier = {
-				name = gs_leader_kong
-				duration = -1
-			}
-			custom_tooltip = desc_gs_leader_kong
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = gs_leader_ying } }	
-			add_country_modifier = {
-				name = gs_leader_ying
-				duration = -1
-			}
-			custom_tooltip = desc_gs_leader_ying
-		}
 		if = {
 			limit = { NOT = { has_country_modifier = gs_Paimon } }
 			add_country_modifier = {
 				name = gs_Paimon
 				duration = -1
 			}
-			custom_tooltip = gs_Paimon_start
 		}
+		custom_tooltip = gs_Paimon_start
 	}
 }
 country_event = {
@@ -4556,6 +4522,120 @@ country_event = {#åNb:NËYÿåNb:NÈu
 	}
 	option = {
 		name = gs_decisions_events.1111.n
+	}
+}
+
+country_event = {#t•s
+	id = gs_decisions_events.2222
+	title = gs_decisions_events.2222_title
+	desc = gs_decisions_events.2222_desc
+	picture = gs_decisions_events.2222_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {  }
+
+	option = { 
+		name = gs_decisions_events.2222.a 
+		681 = {
+			add_permanent_province_modifier = { 
+                name = gs_langgan_xiansuo_1
+                duration = -1
+            }
+		}
+		1821 = {
+			add_permanent_province_modifier = { 
+                name = gs_langgan_xiansuo_2
+                duration = -1
+            }
+		}
+	}
+}
+country_event = {#t•s2
+	id = gs_decisions_events.2223
+	title = gs_decisions_events.2223_title
+	desc = gs_decisions_events.2223_desc
+	picture = gs_decisions_events.2223_eventPicture
+
+	trigger = {
+		has_country_flag = gs_langgan_build_end
+		NOT = {
+			has_country_flag = gs_langgan_xuansuo_yi
+		}
+		681 = {
+			has_province_modifier = gs_langgan_xiansuo_1
+			infantry_in_province = 1
+			NOT = { infantry_in_province = 2 }
+			cavalry_in_province = 2
+			NOT = { cavalry_in_province = 3 }
+		}
+	}
+	goto = 681
+	immediate = {  }
+
+	option = { 
+		name = gs_decisions_events.2223.a 
+		set_country_flag = gs_langgan_xuansuo_yi
+	}
+	after = {
+        681 = { remove_province_modifier = gs_langgan_xiansuo_1 }
+    }
+}
+country_event = {#t•s3
+	id = gs_decisions_events.2224
+	title = gs_decisions_events.2224_title
+	desc = gs_decisions_events.2224_desc
+	picture = gs_decisions_events.2224_eventPicture
+
+	trigger = {
+		has_country_flag = gs_langgan_build_end
+		NOT = {
+			has_country_flag = gs_langgan_xuansuo_er
+		}
+		1821 = {
+			has_province_modifier = gs_langgan_xiansuo_2
+			infantry_in_province = 1
+			NOT = { infantry_in_province = 2 }
+			cavalry_in_province = 2
+			NOT = { cavalry_in_province = 3 }
+		}
+	}
+	goto = 1821
+	immediate = {  }
+
+	option = { 
+		name = gs_decisions_events.2224.a 
+		set_country_flag = gs_langgan_xuansuo_er
+	}
+	after = {
+        1821 = { remove_province_modifier = gs_langgan_xiansuo_2 }
+    }
+}
+country_event = {#t•s4
+	id = gs_decisions_events.2225
+	title = gs_decisions_events.2225_title
+	desc = gs_decisions_events.2225_desc
+	picture = gs_decisions_events.2225_eventPicture
+
+	trigger = {
+		has_country_flag = gs_langgan_build_end
+		has_country_flag = gs_langgan_xuansuo_yi
+		has_country_flag = gs_langgan_xuansuo_er
+	}
+	immediate = {  }
+
+	option = { 
+		name = gs_decisions_events.2225.a
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_zibai } }
+			add_country_modifier = {
+				name = gs_leader_zibai
+				duration = -1
+			}
+			custom_tooltip = desc_gs_leader_zibai
+		}
+		clr_country_flag = gs_langgan_xuansuo_yi
+		clr_country_flag = gs_langgan_xuansuo_er
 	}
 }
 

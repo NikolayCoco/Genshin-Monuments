@@ -435,4 +435,35 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	#t•s
+	gs_langgan_build = {
+		color = { 255 204 251 }
+		major = no
+		potential = {
+			has_global_flag = gs_OnlyFans_mod_open
+			NOT = { has_country_flag = gs_langgan_build_end }
+			ai = no
+			capital_scope = {
+				or = {
+					region = xinan_region
+					region = sichuan_region
+				}
+			}
+		}
+		allow = {
+			capital_scope = {
+				or = {
+					region = xinan_region
+					region = sichuan_region
+				}
+			}
+		}
+		effect = {
+			country_event = { id = gs_decisions_events.2222 }
+			set_country_flag = gs_langgan_build_end
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

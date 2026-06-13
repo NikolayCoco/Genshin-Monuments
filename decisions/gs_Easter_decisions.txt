@@ -189,6 +189,10 @@ country_decisions = {
 					has_country_modifier = gs_leader_lanyan
 					NOT = { has_leader = "£anemo£ ›Ñx 0Êâs%f0" }
 				}
+				AND = {
+					has_country_modifier = gs_leader_zibai
+					NOT = { has_leader = "£geo£ yQãv 0yöôñêñ…l0" }
+				}
 				########________IzªY________################________IzªY________################________IzªY________########
 				########________IzªY________################________IzªY________################________IzªY________########
 				########________IzªY________################________IzªY________################________IzªY________########
@@ -1256,6 +1260,22 @@ country_decisions = {
 					trait = gs_leader_lanyan_personality
 				}
 				custom_tooltip = gs_leader_lanyan_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_zibai
+					NOT = { has_leader = "£geo£ yQãv 0yöôñêñ…l0" }
+				}
+				define_general = {
+					shock = 8
+					fire = 7
+					manuever = 8
+					siege = 7
+					name = "£geo£ yQãv 0yöôñêñ…l0"
+					female = yes
+					trait = gs_leader_zibai_personality
+				}
+				custom_tooltip = gs_leader_zibai_personality
 			}
 			########________IzªY________################________IzªY________################________IzªY________########
 			########________IzªY________################________IzªY________################________IzªY________########

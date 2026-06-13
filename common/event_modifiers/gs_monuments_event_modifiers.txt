@@ -266,4 +266,10 @@ gs_Star_location = {
 gs_ZZZ_location = {
 	local_hostile_attrition = 1
 }
+gs_langgan_xiansuo_1 = {
+	prestige = 0.1
+}
+gs_langgan_xiansuo_2 = {
+	prestige = 0.1
+}
 
