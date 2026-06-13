@@ -30,8 +30,25 @@ country_event = {
 				name = gs_start
 				duration = -1
 			}
+			add_treasury = 648
 		}
 		custom_tooltip = desc_gs_start
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_kong } }
+			add_country_modifier = {
+				name = gs_leader_kong
+				duration = -1
+			}
+			custom_tooltip = desc_gs_leader_kong
+		}
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_ying } }	
+			add_country_modifier = {
+				name = gs_leader_ying
+				duration = -1
+			}
+			custom_tooltip = desc_gs_leader_ying
+		}
 	}
 
 	option = {
@@ -45,16 +62,33 @@ country_event = {
 				name = gs_start
 				duration = -1
 			}
+			add_treasury = 648
 		}
 		custom_tooltip = desc_gs_start
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_kong } }
+			add_country_modifier = {
+				name = gs_leader_kong
+				duration = -1
+			}
+			custom_tooltip = desc_gs_leader_kong
+		}
+		if = {
+			limit = { NOT = { has_country_modifier = gs_leader_ying } }	
+			add_country_modifier = {
+				name = gs_leader_ying
+				duration = -1
+			}
+			custom_tooltip = desc_gs_leader_ying
+		}
 		if = {
 			limit = { NOT = { has_country_modifier = gs_Paimon } }
 			add_country_modifier = {
 				name = gs_Paimon
 				duration = -1
 			}
+			custom_tooltip = gs_Paimon_start
 		}
-		custom_tooltip = gs_Paimon_start
 	}
 }
 country_event = {
