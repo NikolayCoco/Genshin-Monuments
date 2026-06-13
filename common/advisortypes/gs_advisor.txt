@@ -606,10 +606,10 @@ gs_advisor_leishen = { #影
 	allow_only_female = yes
 
 	discipline = 0.1
+	land_morale = 0.05
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
-			land_morale = 0.05
         }
 	}
 	chance = { factor = 0 }

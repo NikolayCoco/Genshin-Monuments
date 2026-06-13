@@ -127,13 +127,6 @@ xifengqishi = {	#西风骑士团
 		on_upgraded = {
 			owner = {
 				add_stability = 1
-				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_faerjia } }
-					add_country_modifier = {
-						name = gs_leader_faerjia
-						duration = -1
-					}
-				}
 			}
 			if = {
 				limit = {
