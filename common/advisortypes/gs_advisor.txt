@@ -260,6 +260,58 @@ gs_advisor_taliya = { #塔利雅
     chance = { factor = 0 }
     ai_will_do = { factor = 0 }
 }
+gs_advisor_dulin = { #杜林
+    monarch_power = ADM
+    allow_only_male = yes
+    
+    technology_cost = -0.05
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
+gs_advisor_faerjia = { #法尔伽
+    monarch_power = MIL
+    allow_only_male = yes
+    
+	discipline = 0.1
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
+gs_advisor_bulunni = { #布伦妮
+    monarch_power = ADM
+    allow_only_female = yes
+    
+    all_power_cost = -0.05
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
+gs_advisor_luoen = { #洛恩
+    monarch_power = MIL
+    allow_only_male = yes
+    
+    military_tactics = 0.1
+    skill_scaled_modifier = {
+        modifier = {
+            meritocracy = 0.5
+        }
+    }
+    chance = { factor = 0 }
+    ai_will_do = { factor = 0 }
+}
 ######################璃月
 gs_advisor_ningguang = { #凝光
 	monarch_power = ADM
@@ -527,6 +579,19 @@ gs_advisor_lanyan = { #蓝砚
 	allow_only_female = yes
 
 	development_cost_in_primary_culture = -0.25
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_zibai = { #兹白
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_trade_goods_size_modifier = 0.2
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
@@ -1282,6 +1347,124 @@ gs_advisor_aleiqinuo = { #佩露薇利
 
 	spy_offence = 0.2
 	global_spy_defence = 0.33
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################挪德卡莱
+gs_advisor_yiniefu = { #伊涅芙
+	monarch_power = ADM
+	allow_only_female = yes
+
+	administrative_efficiency = 0.03
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_ainuo = { #爱诺
+	monarch_power = MIL
+	allow_only_female = yes
+
+	global_manpower = 0.333
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_lawuma = { #菈乌玛
+	monarch_power = ADM
+	allow_only_female = yes
+
+	global_missionary_strength = 0.03
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_feilinsi = { #菲林斯
+	monarch_power = DIP
+	allow_only_male = yes
+
+	diplomatic_reputation = 1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_naifuer = { #奈芙尔
+	monarch_power = DIP
+	allow_only_female = yes
+
+	spy_offence = 0.5
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yakeda = { #雅珂达
+	monarch_power = DIP
+	allow_only_female = yes
+
+	global_spy_defence = 0.66
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_columbina = { #哥伦比娅
+	monarch_power = ADM
+	allow_only_female = yes
+
+	all_power_cost = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_yeluoya = { #叶洛亚
+	monarch_power = DIP
+	allow_only_male = yes
+
+	global_prosperity_growth = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_nike = { #尼可
+	monarch_power = ADM
+	allow_only_female = yes
+
+	all_power_cost = 0.1
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
