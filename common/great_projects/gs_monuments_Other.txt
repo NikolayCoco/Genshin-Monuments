@@ -458,7 +458,18 @@ Simulanka = {	#希穆兰卡
 			max_absolutism = 20
 			yearly_absolutism = 0.2
 		}
-		on_upgraded = { 
+		on_upgraded = {
+			owner = {
+				add_stability = 1
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_dulin } }
+					add_country_modifier = {
+						name = gs_leader_dulin
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_dulin
+				}
+			}
 			if = {
 				limit = {
                     OR = {

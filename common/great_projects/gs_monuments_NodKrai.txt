@@ -290,7 +290,16 @@ miwenguan = {	# 秘闻馆
 			
 		}
 		on_upgraded = {
-			 
+            owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_yakeda } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_yakeda
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_yakeda
+			    }
+		    }
 		}
 	}
 	tier_3 = {
@@ -313,7 +322,16 @@ miwenguan = {	# 秘闻馆
 			
 		}
 		on_upgraded = {
-            
+            owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_naifuer } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_naifuer
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_naifuer
+			    }
+		    }
 		}
 	}
 }
@@ -880,16 +898,7 @@ ainuodejia = {	# 爱诺的家
 			
 		}
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_ainuo } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_ainuo
-			    	    duration = -1
-			    	}
-					custom_tooltip = desc_gs_leader_ainuo
-			    }
-		    }
+
 		}
 	}
 	tier_3 = {
@@ -911,12 +920,12 @@ ainuodejia = {	# 爱诺的家
 		on_upgraded = {
             owner = {
 			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_yiniefu } }
+				    limit = { NOT = { has_country_modifier = gs_leader_ainuo } }
 			    	add_country_modifier = {
-			    	    name = gs_leader_yiniefu
+			    	    name = gs_leader_ainuo
 			    	    duration = -1
 			    	}
-					custom_tooltip = desc_gs_leader_yiniefu
+					custom_tooltip = desc_gs_leader_ainuo
 			    }
 		    }
 		}
@@ -1056,7 +1065,16 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			
 		}
 		on_upgraded = {
-            
+            owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_yiniefu } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_yiniefu
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_yiniefu
+			    }
+		    }
 		}
 	}
 }
@@ -2237,16 +2255,7 @@ pilamida = {	# 皮拉米达城
 			
 		}
 		on_upgraded = {
-			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_yeluoya } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_yeluoya
-			    	    duration = -1
-			    	}
-					custom_tooltip = desc_gs_leader_yeluoya
-			    }
-		    }
+
 		}
 	}
 }
@@ -3306,7 +3315,16 @@ wangyayingbi = {	# 望崖营壁
 			
 		}
 		on_upgraded = {
-			
+			owner = {
+			    if = {
+				    limit = { NOT = { has_country_modifier = gs_leader_yeluoya } }
+			    	add_country_modifier = {
+			    	    name = gs_leader_yeluoya
+			    	    duration = -1
+			    	}
+					custom_tooltip = desc_gs_leader_yeluoya
+			    }
+		    }
 		}
 	}
 }
@@ -3480,6 +3498,7 @@ xifengshulei = {	# 西风戍垒
 						name = gs_leader_faerjia
 						duration = -1
 					}
+					custom_tooltip = desc_gs_leader_faerjia
 				}
 			}
 		}

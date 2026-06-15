@@ -364,7 +364,18 @@ jingfu = {	#荆夫港
 		province_modifiers = { trade_goods_size = 1 local_ship_cost = -0.3 ship_recruit_speed = -0.3 }
 		area_modifier = { local_production_efficiency = 0.2 province_trade_power_value = 3 }
 		country_modifiers = { trade_efficiency = 0.2 global_trade_goods_size_modifier = 0.1 merchants = 1 }
-		on_upgraded = {  }
+		on_upgraded = {
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_luoen } }
+					add_country_modifier = {
+						name = gs_leader_luoen
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_luoen
+				}
+			}
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 300 }
@@ -373,17 +384,17 @@ jingfu = {	#荆夫港
 		area_modifier = { local_production_efficiency = 0.3 province_trade_power_value = 5 }
 		country_modifiers = { trade_efficiency = 0.3 global_trade_goods_size_modifier = 0.2 merchants = 2 }
 		on_upgraded = {
-    owner = {
-        if = {
-            limit = { NOT = { has_country_modifier = gs_leader_youla } }
-            add_country_modifier = {
-                name = gs_leader_youla
-                duration = -1
-            }
-			custom_tooltip = desc_gs_leader_youla
-        }
-    }
-	if = {
+			owner = {
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_youla } }
+					add_country_modifier = {
+						name = gs_leader_youla
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_youla
+				}
+			}
+			if = {
 				limit = {
                     OR = {
                         AND = {
@@ -399,7 +410,7 @@ jingfu = {	#荆夫港
                 }
 				province_event = { id = gs_qiguan_shengfen_mengde_mingzi_events.3 }
 			}
-}
+		}
 	}
 }
 
@@ -517,17 +528,7 @@ xifengchurch = {	#西风大教堂
 			missionaries = 1
 		}
 		on_upgraded = {
-			owner = {
-				add_stability = 1
-				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_luosha } }
-					add_country_modifier = {
-						name = gs_leader_luosha
-						duration = -1
-					}
-					custom_tooltip = desc_gs_leader_luosha
-				}
-			}
+
 		}
 	}
 	tier_3 = {
@@ -2397,7 +2398,18 @@ fuxue = {	#龙脊雪山 覆雪之路
 		}
 		area_modifier = {local_defensiveness = 1}
 		country_modifiers = {governing_capacity_modifier = 0.05}
-		on_upgraded = { 
+		on_upgraded = {
+			owner = {
+				add_stability = 1
+				if = {
+					limit = { NOT = { has_country_modifier = gs_leader_luosha } }
+					add_country_modifier = {
+						name = gs_leader_luosha
+						duration = -1
+					}
+					custom_tooltip = desc_gs_leader_luosha
+				}
+			}
 			if = {
 				limit = {
                     OR = {
