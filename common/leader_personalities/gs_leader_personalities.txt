@@ -107,15 +107,31 @@ gs_leader_mika_personality = {
 	movement_speed = 0.05
 	land_attrition = -0.1
 }
-#塔利雅 西风教会 「颂礼祝祭」-黠巧欢愉的祈颂
+#塔利雅 「颂礼祝祭」-黠巧欢愉的祈颂
 gs_leader_taliya_personality = {
     allow = { always = no }
     shock_damage_received = -0.1
 }
-#法尔伽「大团长」-*北风骑士*
+#杜林 「『不熄灭的火』」-光灵遵神数显现
+gs_leader_dulin_personality = {
+    allow = { always = no }
+	fire_damage = 0.05
+    shock_damage = 0.05
+}
+#法尔伽「大团长」-晓风的行军
 gs_leader_faerjia_personality = {
 	allow = { always = no }
 	siege_ability = 0.15
+}
+#布伦妮「魔女猎人」-裁断追惩
+gs_leader_bulunni_personality = {
+	allow = { always = no }
+	morale_damage = 0.05
+}
+#洛恩「『仁蔼骑士』」-禁问的训诫
+gs_leader_luoen_personality = {
+	allow = { always = no }
+	shock_damage = 0.1
 }
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
@@ -628,6 +644,52 @@ gs_leader_aleiqinuo_personality = {
 	allow = { always = no }
 	siege_ability = 0.1
 	fire_damage = 0.1
+}
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+gs_leader_yiniefu_personality = {
+	allow = { always = no }
+	shock_damage_received = 0.05
+	fire_damage = 0.2
+}
+gs_leader_ainuo_personality = {
+	allow = { always = no }
+	reinforce_speed = 0.5
+}
+gs_leader_lawuma_personality = {
+	allow = { always = no }
+	morale_damage_received = -0.1
+}
+gs_leader_feilinsi_personality = {
+	allow = { always = no }
+	fire_damage = 0.1
+}
+gs_leader_naifuer_personality = {
+	allow = { always = no }
+	fire_damage_received = 0.05
+	shock_damage = 0.2
+}
+gs_leader_yakeda_personality = {
+	allow = { always = no }
+	reinforce_cost_modifier = -0.2
+}
+gs_leader_columbina_personality = {
+	allow = { always = no }
+	fire_damage = 0.075
+	shock_damage = 0.075
+	morale_damage = 0.075
+}
+gs_leader_yeluoya_personality = {
+	allow = { always = no }
+	drill_gain_modifier = 0.2
+}
+gs_leader_linnea_personality = {
+	allow = { always = no }
+	land_attrition = -0.2
+}
+gs_leader_linnea_personality = {
+	allow = { always = no }
+	morale_damage = 0.15
 }
 ########________异界________################________异界________################________异界________########
 ########________异界________################________异界________################________异界________########
