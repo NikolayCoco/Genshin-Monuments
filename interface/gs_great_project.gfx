@@ -28,14 +28,6 @@ spriteTypes = {
 		name = "GFX_great_project_haitan"
 		texturefile = "gfx//interface//great_projects//haitan.dds"
 	}
-	spriteType = {#金苹果群岛
-		name = "GFX_great_project_jinpingguo"
-		texturefile = "gfx//interface//great_projects//jinpingguo.dds"
-	}
-	spriteType = {#荆夫港
-		name = "GFX_great_project_jingfu"
-		texturefile = "gfx//interface//great_projects//jingfu.dds"
-	}
 	spriteType = {#风起地
 		name = "GFX_great_project_fengqidi"
 		texturefile = "gfx//interface//great_projects//fengqidi.dds"
@@ -75,6 +67,14 @@ spriteTypes = {
 	spriteType = {#誓言岬
 		name = "GFX_great_project_shiyan"
 		texturefile = "gfx//interface//great_projects//shiyan.dds"
+	}
+	spriteType = {#荆夫港
+		name = "GFX_great_project_jingfu"
+		texturefile = "gfx//interface//great_projects//jingfu.dds"
+	}
+	spriteType = {#风车镇
+		name = "GFX_great_project_fengche"
+		texturefile = "gfx//interface//great_projects//fengche.dds"
 	}
 	####————龙脊雪山————####
 	spriteType = {#龙脊雪山·覆雪之路
@@ -880,6 +880,10 @@ spriteTypes = {
 	spriteType = {#马斯克礁
 		name = "GFX_great_project_masike"
 		texturefile = "gfx//interface//great_projects//masike.dds"
+	}
+	spriteType = {#金苹果群岛
+		name = "GFX_great_project_jinpingguo"
+		texturefile = "gfx//interface//great_projects//jinpingguo.dds"
 	}
 	spriteType = {#琉形蜃境
 		name = "GFX_great_project_Bottleland"
