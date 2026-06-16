@@ -1451,6 +1451,7 @@ gs_advisor_yeluoya = { #叶洛亚
 	monarch_power = DIP
 	allow_only_male = yes
 
+	global_monthly_devastation = -0.1
 	global_prosperity_growth = 0.1
 	skill_scaled_modifier = {
 		modifier = {

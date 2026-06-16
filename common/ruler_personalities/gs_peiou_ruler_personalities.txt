@@ -252,6 +252,54 @@ gs_peiou_taliya_personality = {#塔利雅
     #修正
     missionary_maintenance_cost = -0.75
 }
+gs_peiou_dulin_personality = { # 杜林
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    monarch_lifespan = 0.5
+}
+gs_peiou_faerjia_personality = { # 法尔伽
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    army_tradition = 0.1
+}
+gs_peiou_bulunni_personality = { # 布伦妮
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    global_unrest = -2
+}
+gs_peiou_luoen_personality = { # 洛恩
+    allow = { always = no }
+    
+    chance = {
+        modifier = {
+            factor = -2
+        }
+    }
+
+    #修正
+    global_spy_defence = 0.33
+}
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
@@ -1334,6 +1382,130 @@ gs_peiou_aleiqinuo_personality = {#仆人
 	global_unrest = -2
 	global_autonomy = -0.05
 	core_creation = -0.2
+}
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+gs_peiou_yiniefu_personality = {#伊涅芙
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	idea_cost = -0.1
+}
+gs_peiou_ainuo_personality = {#爱诺
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	technology_cost = -0.1
+}
+gs_peiou_lawuma_personality = {#菈乌玛
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	tolerance_own = 2
+}
+gs_peiou_feilinsi_personality = {#菲林斯
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	improve_relation_modifier = 0.2
+}
+gs_peiou_naifuer_personality = {#奈芙尔
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_unrest = -2
+}
+gs_peiou_yakeda_personality = {#雅珂达
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_tax_modifier = 0.2
+}
+gs_peiou_columbina_personality = {#哥伦比娅
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	global_monthly_devastation = -0.2
+	global_prosperity_growth = 0.2
+}
+gs_peiou_yeluoya_personality = {#叶洛亚
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	stability_cost_modifier = -0.1
+}
+gs_peiou_linnea_personality = {#莉奈娅
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	idea_cost = -0.5
+	technology_cost = -0.5
+}
+gs_peiou_nike_personality = {#尼可
+	allow = { always = no }
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+
+	#修正
+	development_cost = -0.2
 }
 ########________异界________################________异界________################________异界________########
 ########________异界________################________异界________################________异界________########
