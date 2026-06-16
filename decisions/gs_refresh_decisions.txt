@@ -26,20 +26,6 @@ country_decisions = {
 					}
 					AND = {
 						has_great_project = {
-							type = xifengqishi
-							tier = 3
-						}
-						OR = {
-							gs_monuments_unlimit_trigger = yes
-							owner = { has_ruler_flag = gs_ruler_wendi }
-							AND = {
-								religion_group = christian
-							}
-						}
-						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
-					}
-					AND = {
-						has_great_project = {
 							type = bbts
 							tier = 3
 						}
@@ -51,6 +37,24 @@ country_decisions = {
 							}
 						}
 						NOT = { owner = { has_country_modifier = gs_leader_wendi } }
+					}
+					AND = {
+						has_great_project = {
+							type = jingfu
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_luoen } }
 					}
 					AND = {
 						has_great_project = {
@@ -69,26 +73,6 @@ country_decisions = {
 							}
 						}
 						NOT = { owner = { has_country_modifier = gs_leader_youla } }
-					}
-					AND = {
-						has_great_project = {
-							type = xifengchurch
-							tier = 2
-						}
-						OR = {
-							gs_monuments_unlimit_trigger = yes
-							owner = { has_ruler_flag = gs_ruler_wendi }
-							AND = {
-								religion_group = christian
-								owner = {
-									estate_loyalty = {
-										estate = estate_church
-										loyalty = 35
-									}
-								}
-							}
-						}
-						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
 					}
 					AND = {
 						has_great_project = {
@@ -301,6 +285,37 @@ country_decisions = {
 							}
 						}
 						NOT = { owner = { has_country_modifier = gs_leader_diona } }
+					}
+					AND = {
+						has_great_project = {
+							type = fengche
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bulunni } }
+					}
+					AND = {
+						has_great_project = {
+							type = fuxue
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
 					}
 					AND = {
 						has_great_project = {
@@ -2220,6 +2235,190 @@ country_decisions = {
 						}
 						NOT = { owner = { has_country_modifier = gs_leader_niuniu } }
 					}
+					########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+					########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+					########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+					########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+					########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+					AND = {
+						has_great_project = {
+							type = yinyuezhiting
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_columbina } }
+					}
+					AND = {
+						has_great_project = {
+							type = miwenguan
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yakeda } }
+					}
+					AND = {
+						has_great_project = {
+							type = miwenguan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naifuer } }
+					}
+					AND = {
+						has_great_project = {
+							type = sipeilanzha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								culture_group = scandinavian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linnea } }
+					}
+					AND = {
+						has_great_project = {
+							type = ainuodejia
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ainuo } }
+					}
+					AND = {
+						has_great_project = {
+							type = dinglingkuanglang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yiniefu } }
+					}
+					AND = {
+						has_great_project = {
+							type = shuangyuezhifang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								religion = norse_pagan_reformed
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lawuma } }
+					}
+					AND = {
+						has_great_project = {
+							type = zhongyechangying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								culture = sapmi
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_feilinsi } }
+					}
+					AND = {
+						has_great_project = {
+							type = monvdehuayuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								custom_trigger_tooltip = {
+									tooltip = monvdehuayuan_nike_help
+									always = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nike } }
+					}
+					AND = {
+						has_great_project = {
+							type = wangyayingbi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								OR = {
+									culture_group = baltic
+									culture = baltic_german
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yeluoya } }
+					}
+					AND = {
+						has_great_project = {
+							type = xifengshulei
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								OR = {
+									culture = prussian
+									culture = baltic_german
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
+					}
 					########________其他________################________其他________################________其他________########
 					########________其他________################________其他________################________其他________########
 					########________其他________################________其他________################________其他________########
@@ -2287,6 +2486,22 @@ country_decisions = {
 						}
 						NOT = { province_has_center_of_trade_of_level = 3 }
 					}
+					AND = {
+						has_great_project = {
+							type = Simulanka
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_absolutism
+							}
+							NOT = {
+								current_age = age_of_absolutism
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_dulin } }
+					}
 				}
 			}
 		}
@@ -2329,28 +2544,6 @@ country_decisions = {
 				if = {
 					limit = {
 						has_great_project = {
-							type = xifengqishi
-							tier = 3
-						}
-						OR = {
-							gs_monuments_unlimit_trigger = yes
-							owner = { has_ruler_flag = gs_ruler_wendi }
-							AND = {
-								religion_group = christian
-							}
-						}
-						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
-					}
-					owner = {
-						add_country_modifier = {
-							name = gs_leader_faerjia
-							duration = -1
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_great_project = {
 							type = bbts
 							tier = 3
 						}
@@ -2369,62 +2562,6 @@ country_decisions = {
 							duration = -1
 						}
 						custom_tooltip = desc_gs_leader_wendi
-					}
-				}
-				if = {
-					limit = {
-						has_great_project = {
-							type = jingfu
-							tier = 3
-						}
-						OR = {
-							gs_monuments_unlimit_trigger = yes
-							owner = { has_ruler_flag = gs_ruler_wendi }
-							AND = {
-								OR = {
-									has_owner_culture = yes
-									has_owner_accepted_culture = yes
-								}
-								province_has_center_of_trade_of_level = 3
-							}
-						}
-						NOT = { owner = { has_country_modifier = gs_leader_youla } }
-					}
-					owner = {
-						add_country_modifier = {
-							name = gs_leader_youla
-							duration = -1
-						}
-						custom_tooltip = desc_gs_leader_youla
-					}
-				}
-				if = {
-					limit = {
-						has_great_project = {
-							type = xifengchurch
-							tier = 2
-						}
-						OR = {
-							gs_monuments_unlimit_trigger = yes
-							owner = { has_ruler_flag = gs_ruler_wendi }
-							AND = {
-								religion_group = christian
-								owner = {
-									estate_loyalty = {
-										estate = estate_church
-										loyalty = 35
-									}
-								}
-							}
-						}
-						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
-					}
-					owner = {
-						add_country_modifier = {
-							name = gs_leader_luosha
-							duration = -1
-						}
-						custom_tooltip = desc_gs_leader_luosha
 					}
 				}
 				if = {
@@ -2742,6 +2879,109 @@ country_decisions = {
 							duration = -1
 						}
 						custom_tooltip = desc_gs_leader_diona
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingfu
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_youla } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_luoen
+							duration = -1
+						}
+						custom_tooltip = gs_leader_luoen
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = jingfu
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+								province_has_center_of_trade_of_level = 3
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_youla } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_youla
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_youla
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fengche
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_bulunni } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_bulunni
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_bulunni
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = fuxue
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_wendi }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_luosha } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_luosha
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_luosha
 					}
 				}
 				if = {
@@ -5577,6 +5817,289 @@ country_decisions = {
 						custom_tooltip = gs_leader_niuniu
 					}
 				}
+				########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+				########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+				########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+				########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+				########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+				if = {
+					limit = {
+						has_great_project = {
+							type = yinyuezhiting
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_columbina } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_columbina
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_columbina
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = miwenguan
+							tier = 2
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yakeda } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yakeda
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yakeda
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = miwenguan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_naifuer } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_naifuer
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_naifuer
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = sipeilanzha
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								culture_group = scandinavian
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_linnea } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_linnea
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_linnea
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = ainuodejia
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_ainuo } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_ainuo
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_ainuo
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = dinglingkuanglang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								always = yes
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yiniefu } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yiniefu
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yiniefu
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = shuangyuezhifang
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								religion = norse_pagan_reformed
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_lawuma } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_lawuma
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_lawuma
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = zhongyechangying
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								culture = sapmi
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_feilinsi } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_feilinsi
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_feilinsi
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = monvdehuayuan
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								custom_trigger_tooltip = {
+									tooltip = monvdehuayuan_nike_help
+									always = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_nike } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_nike
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_nike
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = wangyayingbi
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								OR = {
+									culture_group = baltic
+									culture = baltic_german
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_yeluoya } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_yeluoya
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_yeluoya
+					}
+				}
+				if = {
+					limit = {
+						has_great_project = {
+							type = xifengshulei
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							owner = { has_ruler_flag = gs_ruler_columbina }
+							AND = {
+								OR = {
+									culture = prussian
+									culture = baltic_german
+								}
+								OR = {
+									has_owner_culture = yes
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_faerjia } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_faerjia
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_faerjia
+					}
+				}
 				########________其他________################________其他________################________其他________########
 				########________其他________################________其他________################________其他________########
 				########________其他________################________其他________################________其他________########
@@ -5676,7 +6199,31 @@ country_decisions = {
 					add_center_of_trade_level = 3
 					create_or_add_center_of_trade_level = 3
 				}
-
+				if = {
+					limit = {
+						has_great_project = {
+							type = Simulanka
+							tier = 3
+						}
+						OR = {
+							gs_monuments_unlimit_trigger = yes
+							AND =  {
+								current_age = age_of_absolutism
+							}
+							NOT = {
+								current_age = age_of_absolutism
+							}
+						}
+						NOT = { owner = { has_country_modifier = gs_leader_dulin } }
+					}
+					owner = {
+						add_country_modifier = {
+							name = gs_leader_dulin
+							duration = -1
+						}
+						custom_tooltip = desc_gs_leader_dulin
+					}
+				}
 
 
 			}

@@ -461,6 +461,8 @@ Simulanka = {	#希穆兰卡
 		on_upgraded = {
 			owner = {
 				add_stability = 1
+			}
+			owner = {
 				if = {
 					limit = { NOT = { has_country_modifier = gs_leader_dulin } }
 					add_country_modifier = {
