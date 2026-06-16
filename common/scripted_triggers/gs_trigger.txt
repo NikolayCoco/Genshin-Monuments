@@ -108,6 +108,7 @@ gs_has_gs_leader_with_vision_anemo = {
 			has_country_modifier = gs_leader_qiasika
 			has_country_modifier = gs_leader_yifa
 			has_country_modifier = gs_leader_yakeda
+			has_country_modifier = gs_leader_faerjia
 			has_country_modifier = gs_leader_bulunni
 		}
 	}
@@ -192,6 +193,7 @@ gs_has_gs_leader_with_vision_hydro = {
 		OR = {
 			#has_country_modifier = gs_leader_nawei
 			has_country_modifier = gs_leader_funingna
+			#has_country_modifier = gs_leader_columbina
 
 			has_country_modifier = gs_leader_babala
 			has_country_modifier = gs_leader_mona
@@ -204,7 +206,6 @@ gs_has_gs_leader_with_vision_hydro = {
 			has_country_modifier = gs_leader_xigewen
 			has_country_modifier = gs_leader_malani
 			has_country_modifier = gs_leader_ainuo
-			has_country_modifier = gs_leader_columbina
 		}
 	}
 }
@@ -257,6 +258,7 @@ gs_has_gs_leader_with_vision_cryo = {
 			has_country_modifier = gs_leader_xialuodi
 			has_country_modifier = gs_leader_aikefei
 			has_country_modifier = gs_leader_nainai
+			#has_country_modifier = gs_leader_skirk
 			has_country_modifier = gs_leader_luoen
 		}
 	}
@@ -266,7 +268,6 @@ gs_has_gs_leader_with_vision = {
 	custom_trigger_tooltip = {
 		tooltip = gs_has_gs_leader_with_vision_tt
 		OR = {
-			has_country_modifier = gs_leader_faerjia
 			gs_has_gs_leader_with_vision_anemo = yes
 			gs_has_gs_leader_with_vision_geo = yes
 			gs_has_gs_leader_with_vision_electro = yes
@@ -290,6 +291,8 @@ gs_has_gs_leader_with_element = {
 			has_country_modifier = gs_leader_maweika
 	
 			has_country_modifier = gs_leader_nawei
+			has_country_modifier = gs_leader_skirk
+			has_country_modifier = gs_leader_columbina
 	
 			has_country_modifier = gs_leader_kong
 			has_country_modifier = gs_leader_ying
@@ -320,6 +323,10 @@ gs_has_gs_leader_MONDSTADT = {
 			has_country_modifier = gs_leader_luosha
 			has_country_modifier = gs_leader_youla
 			has_country_modifier = gs_leader_mika
+			has_country_modifier = gs_leader_dulin
+			has_country_modifier = gs_leader_faerjia
+			has_country_modifier = gs_leader_bulunni
+			has_country_modifier = gs_leader_luoen
 		}
 	}
 }
@@ -348,6 +355,7 @@ gs_has_gs_leader_LIYUE = {
 			has_country_modifier = gs_leader_jiaming
 			has_country_modifier = gs_leader_xianyun
 			has_country_modifier = gs_leader_lanyan
+			has_country_modifier = gs_leader_zibai
 		}
 	}
 }
@@ -434,10 +442,29 @@ gs_has_gs_leader_NATLAN = {
 		}
 	}
 }
+gs_has_gs_leader_NodKrai = {
+	custom_trigger_tooltip = {
+		tooltip = gs_has_gs_leader_NodKrai_tt
+		OR = {
+			has_country_modifier = gs_leader_yiniefu
+			has_country_modifier = gs_leader_ainuo
+			has_country_modifier = gs_leader_lawuma
+			has_country_modifier = gs_leader_feilinsi
+			has_country_modifier = gs_leader_naifuer
+			has_country_modifier = gs_leader_yakeda
+			has_country_modifier = gs_leader_columbina
+			has_country_modifier = gs_leader_yeluoya
+			has_country_modifier = gs_leader_linnea
+			has_country_modifier = gs_leader_nike
+			#has_country_modifier = gs_leader_sagnduonie
+		}
+	}
+}
 gs_has_gs_leader_SNEZHNAYA = {
 	custom_trigger_tooltip = {
 		tooltip = gs_has_gs_leader_SNEZHNAYA_tt
 		OR = {
+			#gs_has_gs_leader_NodKrai = yes
 			has_country_modifier = gs_leader_gongzi
 			has_country_modifier = gs_leader_aleiqinuo
 		}

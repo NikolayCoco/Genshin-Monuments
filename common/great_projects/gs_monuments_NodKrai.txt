@@ -1792,16 +1792,16 @@ shiyanshejiju = {	# 月矩力实验设计局
 			
 		}
 		on_upgraded = {
-			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_sangduonie } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_sangduonie
-			    	    duration = -1
-			    	}
-					custom_tooltip = desc_gs_leader_sangduonie
-			    }
-		    }
+			#owner = {
+			#    if = {
+			#	    limit = { NOT = { has_country_modifier = gs_leader_sangduonie } }
+			#    	add_country_modifier = {
+			#    	    name = gs_leader_sangduonie
+			#    	    duration = -1
+			#    	}
+			#		custom_tooltip = desc_gs_leader_sangduonie
+			#    }
+		    #}
 		}
 	}
 }
