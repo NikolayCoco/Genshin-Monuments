@@ -71,6 +71,7 @@ gs_is_gs_nation = {
 		has_ruler_flag = gs_ruler_naxida
 		has_ruler_flag = gs_ruler_funingna
 		has_ruler_flag = gs_ruler_maweika
+		has_ruler_flag = gs_ruler_columbina
 	}
 }
 
@@ -82,6 +83,7 @@ gs_is_gs_nation_ai_set = {
 		has_country_flag = gs_ruler_naxida_ai_set
 		has_country_flag = gs_ruler_funingna_ai_set
 		has_country_flag = gs_ruler_maweika_ai_set
+		has_country_flag = gs_ruler_columbina_ai_set
 	}
 }
 
@@ -105,6 +107,8 @@ gs_has_gs_leader_with_vision_anemo = {
 			has_country_modifier = gs_leader_linnite
 			has_country_modifier = gs_leader_qiasika
 			has_country_modifier = gs_leader_yifa
+			has_country_modifier = gs_leader_yakeda
+			has_country_modifier = gs_leader_bulunni
 		}
 	}
 }
@@ -125,6 +129,9 @@ gs_has_gs_leader_with_vision_geo = {
 			has_country_modifier = gs_leader_naweiya
 			has_country_modifier = gs_leader_kaqina
 			has_country_modifier = gs_leader_xinuoning
+			has_country_modifier = gs_leader_zibai
+			has_country_modifier = gs_leader_yeluoya
+			has_country_modifier = gs_leader_linnea
 		}
 	}
 }
@@ -150,6 +157,8 @@ gs_has_gs_leader_with_vision_electro = {
 			has_country_modifier = gs_leader_ouluolun
 			has_country_modifier = gs_leader_yianshan
 			has_country_modifier = gs_leader_niuniu
+			has_country_modifier = gs_leader_yiniefu
+			has_country_modifier = gs_leader_feilinsi
 		}
 	}
 }
@@ -169,6 +178,8 @@ gs_has_gs_leader_with_vision_dendro = {
 			has_country_modifier = gs_leader_kawei
 			has_country_modifier = gs_leader_aimeiliai
 			has_country_modifier = gs_leader_jiniqi
+			has_country_modifier = gs_leader_lawuma
+			has_country_modifier = gs_leader_naifuer
 
 			has_country_modifier = gs_leader_lana
 		}
@@ -192,6 +203,8 @@ gs_has_gs_leader_with_vision_hydro = {
 			has_country_modifier = gs_leader_nilu
 			has_country_modifier = gs_leader_xigewen
 			has_country_modifier = gs_leader_malani
+			has_country_modifier = gs_leader_ainuo
+			has_country_modifier = gs_leader_columbina
 		}
 	}
 }
@@ -216,6 +229,8 @@ gs_has_gs_leader_with_vision_pyro = {
 			has_country_modifier = gs_leader_dixiya
 			has_country_modifier = gs_leader_linni
 			has_country_modifier = gs_leader_xiawolei
+			has_country_modifier = gs_leader_dulin
+			has_country_modifier = gs_leader_nike
 		}
 	}
 }
@@ -242,6 +257,7 @@ gs_has_gs_leader_with_vision_cryo = {
 			has_country_modifier = gs_leader_xialuodi
 			has_country_modifier = gs_leader_aikefei
 			has_country_modifier = gs_leader_nainai
+			has_country_modifier = gs_leader_luoen
 		}
 	}
 }
