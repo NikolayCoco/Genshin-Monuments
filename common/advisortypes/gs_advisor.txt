@@ -1326,35 +1326,6 @@ gs_advisor_yifa = { #伊法
 	chance = { factor = 0 }
 	ai_will_do = { factor = 0 }
 }
-######################至冬
-gs_advisor_dadaliya = { #达达利亚
-	monarch_power = MIL
-	allow_only_male = yes
-	
-	has_streltsy = yes
-	allowed_streltsy_fraction = 0.2
-	skill_scaled_modifier = {
-		modifier = {
-			meritocracy = 0.5
-        }
-	}
-	chance = { factor = 0 }
-	ai_will_do = { factor = 0 }
-}
-gs_advisor_aleiqinuo = { #佩露薇利
-	monarch_power = DIP
-	allow_only_female = yes
-
-	spy_offence = 0.2
-	global_spy_defence = 0.33
-	skill_scaled_modifier = {
-		modifier = {
-			meritocracy = 0.5
-        }
-	}
-	chance = { factor = 0 }
-	ai_will_do = { factor = 0 }
-}
 ######################挪德卡莱
 gs_advisor_yiniefu = { #伊涅芙
 	monarch_power = ADM
@@ -1466,6 +1437,35 @@ gs_advisor_nike = { #尼可
 	allow_only_female = yes
 
 	all_power_cost = 0.1
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+######################至冬
+gs_advisor_dadaliya = { #达达利亚
+	monarch_power = MIL
+	allow_only_male = yes
+	
+	has_streltsy = yes
+	allowed_streltsy_fraction = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+gs_advisor_aleiqinuo = { #佩露薇利
+	monarch_power = DIP
+	allow_only_female = yes
+
+	spy_offence = 0.2
+	global_spy_defence = 0.33
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
