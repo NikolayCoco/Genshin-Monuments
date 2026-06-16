@@ -96,8 +96,20 @@ country_decisions = {
 					NOT = { has_leader = "£cryo£ TX)RÅ– 0‚˜<ykymy0" }
 				}
 				AND = {
+					has_country_modifier = gs_leader_dulin
+					NOT = { has_leader = "£pyro£ jg—g 00N„qmp„vkp00" }
+				}
+				AND = {
 					has_country_modifier = gs_leader_faerjia
-					NOT = { has_leader = "ÕlSKO 0'YâV•0" }
+					NOT = { has_leader = "£anemo£ ÕlSKO 0'YâV•0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_bulunni
+					NOT = { has_leader = "£anemo£ ^&O®Y 0T›sYsºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_luoen
+					NOT = { has_leader = "£cryo£ mi` 00ÁN<…‘šëX00" }
 				}
 				########________ƒtg________################________ƒtg________################________ƒtg________########
 				########________ƒtg________################________ƒtg________################________ƒtg________########
@@ -485,6 +497,48 @@ country_decisions = {
 				AND = {
 					has_country_modifier = gs_leader_aleiqinuo
 					NOT = { has_leader = "£pyro£ iO2—‡…)R ê–HY(ƒ™‚Z 00ÆNºN0 ?–Œ…GYú‹0" }
+				}
+				########________*c·VaS±ƒ________################________*c·VaS±ƒ________################________*c·VaS±ƒ________########
+				########________*c·VaS±ƒ________################________*c·VaS±ƒ________################________*c·VaS±ƒ________########
+				AND = {
+					has_country_modifier = gs_leader_yiniefu
+					NOT = { has_leader = "£electro£ O…m™‚ 0hQýw‹W¶R(u:ghVºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_ainuo
+					NOT = { has_leader = "£hydro£ 1rú‹ 00åTJW0„vINºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_lawuma
+					NOT = { has_leader = "£dendro£ ÈƒLN›s 00—g0„vTgO0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_feilinsi
+					NOT = { has_leader = "£electro£ òƒ—g¯e KQÌ‘m Zi·Vs|môuGY 00gbop0„v–Y¾|0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_naifuer
+					NOT = { has_leader = "£dendro£ HY™‚S 00Øyû•0„vwg0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yakeda
+					NOT = { has_leader = "£anemo£ Å–Âs¾ 00Øyû•0„vSbåTºN0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_columbina
+					NOT = { has_leader = "£hydro£ åT&OÔkZ ^Às^X±ƒ<SZ 00SsY00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_yeluoya
+					NOT = { has_leader = "£geo£ öSmšN 00SS7r00" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_linnea
+					NOT = { has_leader = "£geo£ ‰ƒHYZ 0ZSû•VÅe0" }
+				}
+				AND = {
+					has_country_modifier = gs_leader_nike
+					NOT = { has_leader = "£pyro£ <SïS ±ƒi` 0T›sYN0" }
 				}
 				########________VLu________################________VLu________################________VLu________########
 				########________VLu________################________VLu________################________VLu________########
@@ -913,17 +967,63 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_country_modifier = gs_leader_faerjia
-					NOT = { has_leader = "ÕlSKO 0'YâV•0" }
+					has_country_modifier = gs_leader_dulin
+					NOT = { has_leader = "£pyro£ jg—g 00N„qmp„vkp00" }
 				}
 				define_general = {
 					shock = 7
 					fire = 7
 					manuever = 6
 					siege = 6
-					name = "ÕlSKO 0'YâV•0"
+					name = "£pyro£ jg—g 00N„qmp„vkp00"
+					trait = gs_leader_dulin_personality
+				}
+				custom_tooltip = gs_leader_dulin_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_faerjia
+					NOT = { has_leader = "£anemo£ ÕlSKO 0'YâV•0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					name = "£anemo£ ÕlSKO 0'YâV•0"
 					trait = gs_leader_faerjia_personality
 				}
+				custom_tooltip = gs_leader_faerjia_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_bulunni
+					NOT = { has_leader = "£anemo£ ^&O®Y 0T›sYsºN0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 5
+					siege = 6
+					name = "£anemo£ ^&O®Y 0T›sYsºN0"
+					trait = gs_leader_bulunni_personality
+				}
+				custom_tooltip = gs_leader_bulunni_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_luoen
+					NOT = { has_leader = "£cryo£ mi` 00ÁN<…‘šëX00" }
+				}
+				define_general = {
+					shock = 7
+					fire = 6
+					manuever = 7
+					siege = 6
+					name = "£cryo£ mi` 00ÁN<…‘šëX00"
+					trait = gs_leader_luoen_personality
+				}
+				custom_tooltip = gs_leader_luoen_personality
 			}
 			########________ƒtg________################________ƒtg________################________ƒtg________########
 			########________ƒtg________################________ƒtg________################________ƒtg________########
@@ -2340,13 +2440,175 @@ country_decisions = {
 				define_general = {
 					shock = 6
 					fire = 7
-					manuever = 6
+					manuever = 7
 					siege = 6
 					female = yes
 					name = "£pyro£ iO2—‡…)R ê–HY(ƒ™‚Z 00ÆNºN0 ?–Œ…GYú‹0"
 					trait = gs_leader_aleiqinuo_personality
 				}
 				custom_tooltip = gs_leader_aleiqinuo_personality
+			}
+			########________*c·VaS±ƒ________################________*c·VaS±ƒ________################________*c·VaS±ƒ________########
+			########________*c·VaS±ƒ________################________*c·VaS±ƒ________################________*c·VaS±ƒ________########
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yiniefu
+					NOT = { has_leader = "£electro£ O…m™‚ 0hQýw‹W¶R(u:ghVºN0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 6
+					siege = 7
+					female = yes
+					name = "£electro£ O…m™‚ 0hQýw‹W¶R(u:ghVºN0"
+					trait = gs_leader_yiniefu_personality
+				}
+				custom_tooltip = gs_leader_yiniefu_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_ainuo
+					NOT = { has_leader = "£hydro£ 1rú‹ 00åTJW0„vINºN0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 5
+					manuever = 6
+					siege = 5
+					female = yes
+					name = "£hydro£ 1rú‹ 00åTJW0„vINºN0"
+					trait = gs_leader_ainuo_personality
+				}
+				custom_tooltip = gs_leader_ainuo_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_lawuma
+					NOT = { has_leader = "£dendro£ ÈƒLN›s 00—g0„vTgO0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 7
+					manuever = 7
+					siege = 6
+					female = yes
+					name = "£dendro£ ÈƒLN›s 00—g0„vTgO0"
+					trait = gs_leader_lawuma_personality
+				}
+				custom_tooltip = gs_leader_lawuma_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_feilinsi
+					NOT = { has_leader = "£electro£ òƒ—g¯e KQÌ‘m Zi·Vs|môuGY 00gbop0„v–Y¾|0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					male = yes
+					name = "£electro£ òƒ—g¯e KQÌ‘m Zi·Vs|môuGY 00gbop0„v–Y¾|0"
+					trait = gs_leader_feilinsi_personality
+				}
+				custom_tooltip = gs_leader_feilinsi_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_naifuer
+					NOT = { has_leader = "£dendro£ HY™‚S 00Øyû•0„vwg0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					female = yes
+					name = "£dendro£ HY™‚S 00Øyû•0„vwg0"
+					trait = gs_leader_naifuer_personality
+				}
+				custom_tooltip = gs_leader_naifuer_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yakeda
+					NOT = { has_leader = "£anemo£ Å–Âs¾ 00Øyû•0„vSbåTºN0" }
+				}
+				define_general = {
+					shock = 5
+					fire = 5
+					manuever = 6
+					siege = 6
+					female = yes
+					name = "£anemo£ Å–Âs¾ 00Øyû•0„vSbåTºN0"
+					trait = gs_leader_yakeda_personality
+				}
+				custom_tooltip = gs_leader_yakeda_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_columbina
+					NOT = { has_leader = "£hydro£ åT&OÔkZ ^Às^X±ƒ<SZ 00SsY00" }
+				}
+				define_general = {
+					shock = 7
+					fire = 8
+					manuever = 7
+					siege = 8
+					female = yes
+					name = "£hydro£ åT&OÔkZ ^Às^X±ƒ<SZ 00SsY00"
+					trait = gs_leader_columbina_personality
+				}
+				custom_tooltip = gs_leader_columbina_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_yeluoya
+					NOT = { has_leader = "£geo£ öSmšN 00SS7r00" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 5
+					siege = 5
+					male = yes
+					name = "£geo£ öSmšN 00SS7r00"
+					trait = gs_leader_yeluoya_personality
+				}
+				custom_tooltip = gs_leader_yeluoya_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_linnea
+					NOT = { has_leader = "£geo£ ‰ƒHYZ 0ZSû•VÅe0" }
+				}
+				define_general = {
+					shock = 6
+					fire = 6
+					manuever = 7
+					siege = 7
+					female = yes
+					name = "£geo£ ‰ƒHYZ 0ZSû•VÅe0"
+					trait = gs_leader_linnea_personality
+				}
+				custom_tooltip = gs_leader_linnea_personality
+			}
+			if = {
+				limit = {
+					has_country_modifier = gs_leader_nike
+					NOT = { has_leader = "£pyro£ <SïS ±ƒi` 0T›sYN0" }
+				}
+				define_general = {
+					shock = 7
+					fire = 7
+					manuever = 6
+					siege = 6
+					female = yes
+					name = "£pyro£ <SïS ±ƒi` 0T›sYN0"
+					trait = gs_leader_nike_personality
+				}
+				custom_tooltip = gs_leader_nike_personality
 			}
 			########________VLu________################________VLu________################________VLu________########
 			########________VLu________################________VLu________################________VLu________########
