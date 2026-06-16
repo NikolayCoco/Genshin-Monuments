@@ -81,9 +81,9 @@
  gs_leader_bulunni:0 "£anemo£ ^&O®Y"
  desc_gs_leader_bulunni:0 "`O‹Yÿ^&O®YÿT›sYsºN0b„vLeºN=f±ÍyåNbw*gbt^ºN:NPN0)R(uÖNºN„v‰^ó`gËS.w–1–0¡RŽnm8YÈSœU0kiO4bB•zz'YK^PR„vªv`T›sYbwôfÆQnx0Wô‹ÿ=fëTFZÿ–öe0kÎ`OÐc›OøvsQÅ`¥b0\n\n\n\n\n\n\n\n\n\n£gs_leader_bulunni_tooltip_pic£\n\n\n\n\n\n\n\n\n\n"
  gs_leader_bulunni_personality:0 "£anemo£Áˆ­eýé`\n\n\n\n\n\n\n\n\n\n£gs_leader_bulunni_tooltip_pic£\n\n\n\n\n\n\n\n\n\nHQðXfÿbN©sÇ¶R¶RæT0"
- gs_leader_bulunni:0 "£cryo£ mi`"
- desc_gs_leader_bulunni:0 "R!kÁ‰b—ÿb=f,r”NS–„v°sûNoR–•mi`0‚Yœg	gûNUO—‰‰Î˜‘šëXâVOS©R„v‹N¡Rÿ÷‹ôv¥cMRŽV‘šëXâVBl©R0‚Yœg—‰b*NºN.^ÙVÿ±bìNØ—V‹Y‹YFUÏ‘NN0\n\n\n\n\n\n\n\n\n\n£gs_leader_bulunni_tooltip_pic£\n\n\n\n\n\n\n\n\n\n"
- gs_leader_bulunni_personality:0 "£cryo£yî•„v­‹ë‹\n\n\n\n\n\n\n\n\n\n£gs_leader_bulunni_tooltip_pic£\n\n\n\n\n\n\n\n\n\np'TÿIm¨RIm¨R0"
+ gs_leader_luoen:0 "£cryo£ mi`"
+ desc_gs_leader_luoen:0 "R!kÁ‰b—ÿb=f,r”NS–„v°sûNoR–•mi`0‚Yœg	gûNUO—‰‰Î˜‘šëXâVOS©R„v‹N¡Rÿ÷‹ôv¥cMRŽV‘šëXâVBl©R0‚Yœg—‰b*NºN.^ÙVÿ±bìNØ—V‹Y‹YFUÏ‘NN0\n\n\n\n\n\n\n\n\n\n£gs_leader_luoen_tooltip_pic£\n\n\n\n\n\n\n\n\n\n"
+ gs_leader_luoen_personality:0 "£cryo£yî•„v­‹ë‹\n\n\n\n\n\n\n\n\n\n£gs_leader_luoen_tooltip_pic£\n\n\n\n\n\n\n\n\n\np'TÿIm¨RIm¨R0"
  gs_leader_ningguang:0 "£geo£ ÝQIQ"
  desc_gs_leader_ningguang:0 "b=fNfKN0)YCg0ÿÝQIQ0‰ZP*N²NfTÿ`OegZPb„v4«ŽOkSÿwbÿOYeüR`O(WƒtgúQºN4Y0W„vŽbçT0\n\n\n\n\n\n\n\n\n\n£gs_leader_ningguang_tooltip_pic£\n\n\n\n\n\n\n\n\n\n"
  gs_leader_ningguang_personality:0 "£geo£¨PKNCSåeÿ(uKNNIR\n\n\n\n\n\n\n\n\n\n£gs_leader_ningguang_tooltip_pic£\n\n\n\n\n\n\n\n\n\n“b'töeô•'T0"
