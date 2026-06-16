@@ -278,6 +278,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/natlan.dds"
 		alwaystransparent = yes
 	}
+	#原神配偶-挪德卡莱
+	spriteType = {
+		name = "gs_yuanshenpeiou_events.18_eventPicture"
+		texturefile = "gfx/event_pictures/NodKrai.dds"
+		alwaystransparent = yes
+	}
 	#原神配偶-至冬
 	spriteType = {
 		name = "gs_yuanshenpeiou_events.16_eventPicture"
@@ -335,6 +341,12 @@ spriteTypes = {
 	spriteType = {
 		name = "gs_yuanshenadvisor_events.15_eventPicture"
 		texturefile = "gfx/event_pictures/natlan.dds"
+		alwaystransparent = yes
+	}
+	#原神顾问-挪德卡莱
+	spriteType = {
+		name = "gs_yuanshenadvisor_events.18_eventPicture"
+		texturefile = "gfx/event_pictures/NodKrai.dds"
 		alwaystransparent = yes
 	}
 	#原神顾问-至冬
