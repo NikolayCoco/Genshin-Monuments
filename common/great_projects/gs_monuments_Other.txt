@@ -274,7 +274,7 @@ jinpingguo = {	#金苹果群岛
 }
 
 Bottleland = {	#琉形蜃境
-	start = 1099 #索科特拉
+	start = 1248 #马尔代夫
 	date = -1426.01.01
 	time = { months = 0 }
 	build_cost = 0
@@ -378,7 +378,7 @@ Bottleland = {	#琉形蜃境
 }
 
 Simulanka = {	#希穆兰卡
-	start = 1248 #马尔代夫
+	start = 1979
 	date = -1426.01.01
 	time = { months = 0 }
 	build_cost = 0
