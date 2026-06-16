@@ -232,6 +232,26 @@ spriteTypes = {
         texturefile = "gfx/interface/leader/gs_leader_taliya_pic.png"
         legacy_lazy_load = no
     }
+	spriteType = { #杜林
+        name = "GFX_text_gs_leader_dulin_tooltip_pic"
+        texturefile = "gfx/interface/leader/gs_leader_dulin_pic.png"
+        legacy_lazy_load = no
+    }
+	spriteType = { #法尔伽
+        name = "GFX_text_gs_leader_faerjia_tooltip_pic"
+        texturefile = "gfx/interface/leader/gs_leader_faerjia_pic.png"
+        legacy_lazy_load = no
+    }
+	spriteType = { #布伦妮
+        name = "GFX_text_gs_leader_bulunni_tooltip_pic"
+        texturefile = "gfx/interface/leader/gs_leader_bulunni_pic.png"
+        legacy_lazy_load = no
+    }
+	spriteType = { #洛恩
+        name = "GFX_text_gs_leader_luoen_tooltip_pic"
+        texturefile = "gfx/interface/leader/gs_leader_luoen_pic.png"
+        legacy_lazy_load = no
+    }
 	#璃月
 	spriteType = { #凝光
 		name = "GFX_text_gs_leader_ningguang_tooltip_pic"
@@ -670,6 +690,57 @@ spriteTypes = {
 	spriteType = { #伊法
 		name = "GFX_text_gs_leader_yifa_tooltip_pic"
 		texturefile = "gfx/interface/leader/gs_leader_yifa_pic.png"
+		legacy_lazy_load = no
+	}
+	#挪德卡莱
+	spriteType = { #伊涅芙
+		name = "GFX_text_gs_leader_yiniefu_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_yiniefu_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #爱诺
+		name = "GFX_text_gs_leader_ainuo_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_ainuo_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #菈乌玛
+		name = "GFX_text_gs_leader_lawuma_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_lawuma_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #菲林斯
+		name = "GFX_text_gs_leader_feilinsi_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_feilinsi_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #奈芙尔
+		name = "GFX_text_gs_leader_naifuer_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_naifuer_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #雅珂达
+		name = "GFX_text_gs_leader_yakeda_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_yakeda_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #哥伦比娅
+		name = "GFX_text_gs_leader_columbina_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_columbina_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #叶洛亚
+		name = "GFX_text_gs_leader_yeluoya_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_yeluoya_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #莉奈娅
+		name = "GFX_text_gs_leader_linnea_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_linnea_pic.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #尼可
+		name = "GFX_text_gs_leader_nike_tooltip_pic"
+		texturefile = "gfx/interface/leader/gs_leader_nike_pic.png"
 		legacy_lazy_load = no
 	}
 	#至冬

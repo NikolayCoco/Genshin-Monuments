@@ -160,6 +160,38 @@ spriteTypes = {
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_dulin"
+        texturefile = "gfx//interface//advisors//gs_advisor_dulin.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_faerjia"
+        texturefile = "gfx//interface//advisors//gs_advisor_faerjia.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_bulunni"
+        texturefile = "gfx//interface//advisors//gs_advisor_bulunni.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_luoen"
+        texturefile = "gfx//interface//advisors//gs_advisor_luoen.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
 	########————————璃月————————########
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_ningguang"
@@ -324,6 +356,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_lanyan"
 		texturefile = "gfx//interface//advisors//gs_advisor_lanyan.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_zibai"
+		texturefile = "gfx//interface//advisors//gs_advisor_zibai.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -773,6 +813,87 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	########————————挪德卡莱————————########
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yiniefu"
+		texturefile = "gfx//interface//advisors//gs_advisor_yiniefu.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_ainuo"
+		texturefile = "gfx//interface//advisors//gs_advisor_ainuo.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_lawuma"
+		texturefile = "gfx//interface//advisors//gs_advisor_lawuma.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_feilinsi"
+		texturefile = "gfx//interface//advisors//gs_advisor_feilinsi.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_naifuer"
+		texturefile = "gfx//interface//advisors//gs_advisor_naifuer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yakeda"
+		texturefile = "gfx//interface//advisors//gs_advisor_yakeda.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_columbina"
+		texturefile = "gfx//interface//advisors//gs_advisor_columbina.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yeluoya"
+		texturefile = "gfx//interface//advisors//gs_advisor_yeluoya.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_linnea"
+		texturefile = "gfx//interface//advisors//gs_advisor_linnea.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_nike"
+		texturefile = "gfx//interface//advisors//gs_advisor_nike.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	########————————至冬————————########
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_gongzi"
@@ -987,6 +1108,38 @@ spriteTypes = {
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_dulin_female"
+        texturefile = "gfx//interface//advisors//gs_advisor_dulin_female.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_faerjia_female"
+        texturefile = "gfx//interface//advisors//gs_advisor_faerjia_female.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_bulunni_female"
+        texturefile = "gfx//interface//advisors//gs_advisor_bulunni_female.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+	spriteType = {
+        name = "GFX_advisor_gs_advisor_luoen_female"
+        texturefile = "gfx//interface//advisors//gs_advisor_luoen_female.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
 	########————————璃月————————########
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_ningguang_female"
@@ -1151,6 +1304,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_lanyan_female"
 		texturefile = "gfx//interface//advisors//gs_advisor_lanyan_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_zibai_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_zibai_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1595,6 +1756,87 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_gs_advisor_yifa_female"
 		texturefile = "gfx//interface//advisors//gs_advisor_yifa_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########————————挪德卡莱————————########
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yiniefu_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_yiniefu_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_ainuo_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_ainuo_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_lawuma_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_lawuma_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_feilinsi_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_feilinsi_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_naifuer_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_naifuer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yakeda_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_yakeda_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_columbina_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_columbina_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_yeluoya_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_yeluoya_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_linnea_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_linnea_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_gs_advisor_nike_female"
+		texturefile = "gfx//interface//advisors//gs_advisor_nike_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
