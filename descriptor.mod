@@ -1,4 +1,4 @@
-version="6.5"
+version="7.0"
 tags={
 	"Monument"
 	"Event"
