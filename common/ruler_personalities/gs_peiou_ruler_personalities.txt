@@ -1492,8 +1492,8 @@ gs_peiou_linnea_personality = {#莉奈娅
 	}
 
 	#修正
-	idea_cost = -0.5
-	technology_cost = -0.5
+	idea_cost = -0.05
+	technology_cost = -0.05
 }
 gs_peiou_nike_personality = {#尼可
 	allow = { always = no }
