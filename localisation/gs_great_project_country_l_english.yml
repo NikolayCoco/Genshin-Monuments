@@ -1,7 +1,7 @@
 ﻿l_english:
- gs_set_ruler_wendi_title:0 "ÿ1ZPN³Q®‹	ÿO£anemo£§T)nê§!b:Nßu»lw"
+ gs_set_ruler_wendi_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£anemo£§T)nê§!b:Nßu»lw"
  gs_set_ruler_wendi_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£anemo£§T)nê§!b:Nßu»lw0"
- gs_country_MONDSTADT_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£anemo£§T™„·V§!"
+ gs_country_MONDSTADT_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£anemo£§T™„·V§!"
  gs_country_MONDSTADT_desc:0 "§T[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£anemo£§T™„·V§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
  gs_country_MONDSTADT_emperor_title:0 "±Rðy£anemo£§T‡vMO§!"
  gs_country_MONDSTADT_emperor_desc:0 "§T[Root.Monarch.GetTitle]§!(WNÿbìNMb=fwck„v^yW‡v^ÿ"
@@ -30,9 +30,9 @@
  MONDSTADT_ideas_6_desc:0 "|Vöe„v)nêÿŸS,g=fSƒX'Y0WN†TîT„vCSÎ˜-N„vN0\nTeg«ˆðyjO0ôTôTXb¯e0„vÖNÿSVöev^àeT›^yKN<hÿêS=fÎ˜-NÆu®V„vCQ.t¾|upÿ=fN0ýwY&^egÆuS„vl:gN^gKNÎ˜00"
  MONDSTADT_ideas_7:0 ",rŒN!k™„·Vi—‹T"
  MONDSTADT_ideas_7_desc:0 ")n®YŽƒŽcwÍS—b³R&O¯e¶RÏe:N–™„v5ÏeN6R„vHQðXÿˆVëV—V0Rs^l„v=ecÿT0WNÍS—bºNirŒTÄuÇuÿSìb±ƒn‚¬‚·V0KQYuyQt·V ³R&O¯e0åNÊSäSi`^S·V¶RÏe·u·uÍT”^ÿ™„·V„v,rŒN!ki—‹T1SdkrÑS0\nÏuÇ•g—e‰Nÿ)n®YŽƒ†˜üR„vÍS—b›QÖS—V†Ni—‹TÜw)R0™„·V5ÏeŒTN5Ïe:N^—jOyk„v¿R›RgÈu«ˆqšúQ™„·V0W:S0ŸS«R÷^T›üR^RàV*gýweSLˆVüR™„·V5ÏeT„U„vLw1¦N«ˆqšÿFOvQYuN„våwÆ‹WµNóÊN:NºNNb(u0\ni—‹TÜw)RTÿ)n®YŽƒùR™„·VÛLˆ†NYy˜9ei—0–™HQÖSˆm†N5ÏeOŠ„v>yO0WMOÿ:N2–bk‰|<O´fTQ!kúQ°sÿvQ!kÿú^Ëz†N‰Î˜‘šëXâVv^úQûN–™ûNâV•ÿðy:N0îrYr‘šëX0ÿÍ‘ÄuçeYeO:N‰Î˜YeOv^¶–^S‘šëXâVÿQ!knxËz™„·V„vê1uáOðN0^:WN„vØšTXmN«ˆ¨cPÍ‘ú^:NÎ˜^yÕ–ÏP0"
- gs_set_ruler_zhongli_title:0 "ÿ1ZPN³Q®‹	ÿO£geo£§YŸ”»y§!b:Nßu»lw"
+ gs_set_ruler_zhongli_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£geo£§YŸ”»y§!b:Nßu»lw"
  gs_set_ruler_zhongli_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£geo£§YŸ”»y§!b:Nßu»lw0"
- gs_country_LIYUE_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£geo£§Yƒtg§!"
+ gs_country_LIYUE_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£geo£§Yƒtg§!"
  gs_country_LIYUE_desc:0 "§Y[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£geo£§Yƒtg§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
  gs_country_LIYUE_Heaven_title:0 "±Rðy£geo£§Y)YPR§!"
  gs_country_LIYUE_Heaven_desc:0 "§Y[Root.Monarch.GetTitle]§!(WNÿbìNMb=fwck„v-NNS)YPRÿ"
@@ -61,9 +61,9 @@
  LIYUE_ideas_6_desc:0 "(WBS©SèTn0W•^ÿºNìNú^ËzPc„v0WNÎW^ÿv^åb	gÀQSñmn„v1W4l„v›RÏ‘0\ngRBS©SèTn0Whˆ‘u<OmN	gå‹‡ef„vWù0\nTeg)Y‰”M–NÿBS©SèTn0Whˆ‘u<OàVdk%V+o'Yþ–0\n)Y‰”M–NTBS©SèTnNQTESOO0ESOO(WBS©SèTn„vºNìNÁûy0ReÜ„v‰l‰s7Œÿ(W‰l‰s7ŒQrw†NôvØš)Y„vmyðSÿYuNàepeb`R„v¿k‡R0"
  LIYUE_ideas_7:0 "NfkQè•"
  LIYUE_ideas_7_desc:0 "0Nf0hQðy:Nƒtg8^‰š®‹‹NÔYXTOÿ1u)Y¢g0)Y‡t0)Y‘s0)YCg0‰saˆ0V3–0GdIQNfÄubÿCg›R-NÃVMOŽN‰s¬NðSgwm­N0ÖNìN=fãNhˆNÍyFUN¿R›R„v'YFUºNÿÙ*NýV¶R„vžRE–Œcµcw0©S^yidÉbKQ¯e–KNTÿƒtgØSb1uƒtgNfŒcµcÿN–kQè•¡rtte*Nƒtglu0"
- gs_set_ruler_leishen_title:0 "ÿ1ZPN³Q®‹	ÿO£electro£§V÷–5uqV§!b:Nßu»lw"
+ gs_set_ruler_leishen_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£electro£§V÷–5uqV§!b:Nßu»lw"
  gs_set_ruler_leishen_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£electro£§V÷–5uqV§!b:Nßu»lw0"
- gs_country_INAZUMA_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£electro£§VIz»Y§!"
+ gs_country_INAZUMA_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£electro£§VIz»Y§!"
  gs_country_INAZUMA_desc:0 "§V[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£electro£§VIz»Y§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
  THE_INAZUMA:0 "Iz»Y"
  THE_INAZUMA_ADJ:0 "Iz»Y"
@@ -90,9 +90,9 @@
  INAZUMA_ideas_6_desc:0 "bTÿdkMR«ˆ6e4„v^yKN<w‰`peIYØ0)Y†˜IYLˆkNagkRLˆ0ØRšRIYLˆÊgNaËN«ˆUceQñr0aºNOô•Œ…QîhÎNÍS—b›Q›Q%„²d»y0kNag¶R‹ŽN¡lK„0ÊsZt«RNU^œ^®‹ŒTÿb‹N‚föes^o`ÿFOÌS¹eTYuNšRRøR0"
  INAZUMA_ideas_7:0 "egê*geg„v^y1jh"
  INAZUMA_ideas_7_desc:0 "÷–5uqVã‰d–<wéräN„v³QšRäNS›QµNu`‘uÿ:N†N2R­e÷–5uqV=f&T×S0RèxmcÿMRegNvQùR(0(WNS›QNjuRËxTÿ÷–5uqV—V0R†N÷–1j„vÍyPRÿSvQÍy(W500t^MR„vIz»YÿÝO²bIz»Y(WoÑžŒp„SöeMQ×SµO­ˆ0gTÿ÷–5uqVNwZP†NgT„vS+Rÿw„vaÆ‹1Sdkˆmce0"
- gs_set_ruler_naxida_title:0 "ÿ1ZPN³Q®‹	ÿO£dendro£§J³u‰²Y§!b:Nßu»lw"
+ gs_set_ruler_naxida_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£dendro£§J³u‰²Y§!b:Nßu»lw"
  gs_set_ruler_naxida_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£dendro£§J³u‰²Y§!b:Nßu»lw0"
- gs_country_SUMERU_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£dendro£§J‰˜%V§!"
+ gs_country_SUMERU_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£dendro£§J‰˜%V§!"
  gs_country_SUMERU_desc:0 "§J[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£dendro£§J‰˜%V§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
  THE_SUMERU:0 "‰˜%V"
  THE_SUMERU_ADJ:0 "‰˜%V"
@@ -119,9 +119,9 @@
  SUMERU_ideas_6_desc:0 "Blåww„vupÿVÿ=f‰˜%VgØš„vfR=g:g„g0YeäNb–-NS+TmQ'YfR>mÿR+ROXbŽNmQ'YfRb–ÿ(WYeäNb–åb	g8lENYe-^0"
  SUMERU_ideas_7:0 "NLuhKNNb(W"
  SUMERU_ideas_7_desc:0 "dkY:NNLuhÿªV0u‹T¯gcƒªV¯sKNt0ÿ0W	ªV¯s„vu‰knÞV„vÈuïzKNNb(W0"
- gs_set_ruler_funingna_title:0 "ÿ1ZPN³Q®‹	ÿO£hydro£§M™‚RZ ·V «g9N§!b:Nßu»lw"
+ gs_set_ruler_funingna_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£hydro£§M™‚RZ ·V «g9N§!b:Nßu»lw"
  gs_set_ruler_funingna_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£hydro£§M™‚RZ ·V «g9N§!b:Nßu»lw0"
- gs_country_FONTAINE_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£hydro£§M«g9N§!"
+ gs_country_FONTAINE_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£hydro£§M«g9N§!"
  gs_country_FONTAINE_desc:0 "§M[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£hydro£§M«g9N§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!\n\n§M04l^y'YºN&yY&êTýN(W&&0§!"
  THE_FONTAINE:0 "«g9N"
  THE_FONTAINE_ADJ:0 "«g9N"
@@ -165,11 +165,11 @@
  Revolution_FONTAINE_ideas_6_desc:0 "÷–…Q··V·iOyr‰ƒïSNÅ–T^:N0‹vÞmKNôV0-Ni—‹Tw„vPRãUÿ«ˆeQ4lÙNASWRb–‰Q²wÿN?–pQ0›sKN‰R:Nåzt^©s4O0NW^tšNŒpØSMR«ˆoRb–•XbØNÙuaSS ñ‚b·V6e‰Qÿ–‰Q6rÛVY’Qi–0\n÷–…Q:N†NÐc›OKbNÄuÇuŒTRV^Saÿ(u04lÙNASWRb–0‹TT0fRO0:N04lÙNASWRÓu>y0åNÔYXbáO’VžR‹N0Óu>ybXTS÷–…Qðy:N0'Y^00SÅ–T^ðy:N0ñ‚b·VHQu00"
  Revolution_FONTAINE_ideas_7:0 "¦^Ç¨m4lqS:g"
  Revolution_FONTAINE_ideas_7_desc:0 "0‹VP÷mýw06eÆ–ŒRÕkÿ™‚aSm¯e«Ž‰kMOmp004l^y0^yMO«ˆgdÁkÿÐcætyrêSiRNmQMOgb?e0\nNb	g„výwÏ‘©‹±ôu±ƒyrÿbÞVŒRte„v0äS™Ÿ'YCg0ÿ±ôu±ƒyrûQ%¸œ|œv^mbl«g9NºNO«ˆ¶nã‰„vyr(0\n„˜ŠbwÿFOgÈu—VåNã‰³Q0«g9NºNb:N†NwckaINN„vºN0"
- gs_set_ruler_maweika_title:0 "ÿ1ZPN³Q®‹	ÿO£pyro£§R›s‡…aS§!b:Nßu»lw"
+ gs_set_ruler_maweika_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£pyro£§R›s‡…aS§!b:Nßu»lw"
  gs_set_ruler_maweika_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£pyro£§R›s‡…aS§!b:Nßu»lw0"
- gs_country_NATLAN_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£pyro£§R³uTX§!"
+ gs_country_NATLAN_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy£pyro£§R³uTX§!"
  gs_country_NATLAN_desc:0 "§M[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy£pyro£§M³uTX§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
- gs_country_NATLAN_civilize_title:0 "VSÿ"
+ gs_country_NATLAN_civilize_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0VSÿ"
  gs_country_NATLAN_civilize_desc:0 "§M[Root.Monarch.GetTitle]§!(WNÿbìNMbN=fÀNHNÎ‘î†ºNÿ"
  gs_country_NATLAN_civilize_tt:0 "ôv¥cŒRbùRbìN„v>yOŒT—RYe„v9ei—0"
  THE_NATLAN:0 "³uTX"
@@ -197,15 +197,44 @@
  NATLAN_ideas_6_desc:0 "NÒuü™ŸqQTuImÿT:N0±‚ËO0„vèÏeåNvQÞ˜Ô„vËüw—VT0ÏkåeÿNÒuü™ŸNwÞ˜Lˆ„vèÏebXTÿýO(Wzz-NáTÆ‰ÖNìN„v†˜0W0"
  NATLAN_ideas_7:0 "0NÏ…NwÍy„vƒlÎ‘"
  NATLAN_ideas_7_desc:0 "NzÒ‰™ŸqQTuImÿT:N0ƒlF–KN¦0„vèÏeåNkpqSˆ™`„vƒlWw—VT0kpqS„vYOpp&^ÙuÖNìN¥wƒl„vW0Wÿ(WÙÌ‘ÿaŒVÌRv™„vÑ‘Wz(WèÏel„vÌSKbKN-N–Î˜Fd¨R0"
- gs_country_name_Remuria_title:0 "ÿ1ZPN³Q®‹	ÿÇ‘(u÷–Fz)RšNýVT"
+ gs_set_ruler_columbina_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0O£hydro£§WåT&OÔkZ§!b:Nßu»lw"
+ gs_set_ruler_columbina_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£hydro£§WåT&OÔkZ§!b:Nßu»lw0"
+ gs_country_NodKrai_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy§W*c·VaS±ƒ§!"
+ gs_country_NodKrai_desc:0 "§W[Root.Monarch.GetTitle]§!(WNÿbìNïSåN±Rðy§W*c·VaS±ƒ§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
+ THE_NodKrai:0 "*c·VaS±ƒ"
+ THE_NodKrai_ADJ:0 "*c·VaS±ƒ"
+ REV_THE_NodKrai:0 "i—‹T*c·VaS±ƒ"
+ REV_THE_NodKrai_ADJ:0 "i—‹T*c·VaS±ƒ"
+ NodKrai:0 "gKNýV"
+ COLUMBINA:0 "g^y"
+ god_of_pyro_personality:0 "£pyro£°egsY^y"
+ desc_god_of_pyro_personality:0 "£pyro£°egsY^y\n\n\n\n\n\n\n\n\n\n\n£gs_leader_columbina_tooltip_pic£\n\n\n\n\n\n\n\n\n\n\nŽN°egRGSKNöeÿT)YzzKNgHyBl0ÌRN‹YÐ„vêNV0`OŒRhQïSåN²‹:NÙ=fÐcætyr„v,rNn°egÿóS=f`OÁ‰0R„v,rNn0"
+ NodKrai_ideas:0 "*c·VaS±ƒtõV"
+ NodKrai_ideas_start:0 "*c·VaS±ƒ.Oßu"
+ NodKrai_ideas_bonus:0 "*c·VaS±ƒÎ‘ÃV"
+ NodKrai_ideas_1:0 "gNjmù„vPNíV"
+ NodKrai_ideas_1_desc:0 "*c·VaS±ƒ=fMOŽNÐcætyr'YF–‰Sè„vgQOKN0Wÿ«ˆðy:N0gNjmù„vPNíV0ÿ=fó¬Q0W:S„vê»l:S0ªVNw°egºuúQ„vö”¿uMRLˆÿ!nŠÛQËQ„vÒRÎ˜NÍ‚·Q„vÔ‚ŸSÿ‚YŽxj•„vVnÊl-N.fúQ„v=f˜NäSNûy„v—r‚‰’‚0‹våeæ‚íwÿ6qw+o•„vÑžY-NÿI`O	gzzg„vIQNLk‰Ôg0WšbÇÅew„vb—qV0¹p®NØšTXN„vopkp'TÿôvówžR„vgIQgqwÙGrW0W„v±Nåe0"
+ NodKrai_ideas_2:0 "géw›R”^(u"
+ NodKrai_ideas_2_desc:0 "åT&OÔkZS«ŽSOS:NgIQmT*c·VaS±ƒÿƒRSb:Ngéw›R‡eQÙGr'Y0WÿIr…VupB›„vRVeg0"
+ NodKrai_ideas_3:0 "RƒTNŸXÑX„v×‹Çr"
+ NodKrai_ideas_3_desc:0 "‰vNVÓböeãNWYu„vØšTXÿ‚YgR„vgbopëX,‚eg†SÏuÎ˜—„vRƒWN²qS0\nfåeVb„vNˆùS*gr^¸mÿàeðX„v×‹ÇrOçe(WVnTu«R–„v‹k±Wô•ÞVaƒ0–NwäSw„vÇNLeÍ‘°eZwÆ–(Wff—f„v4–‘NNÿNo`„vgÎ˜ÈSSQ¦^9TÍTMRÛ„vbLk0"
+ NodKrai_ideas_4:0 "1WãUN–YçP"
+ NodKrai_ideas_4_desc:0 ":N†NƒzÖSzzgNbWK„„v›RÏ‘ÿô‹¹eŠ„v–YçPTO–Yup„v™l‡v.sNÒk¡‹ÿ–ŽNqS—g„vgåzìNàVdkR)T»ygÿTÞw„vÐY¹Y×S‹TÐqšOŽNgkKNï0gÈuê‹TNáQ„vÂrºNmN*gýw8)YóX„vÚV<rÿ«ˆ„Yó`KS4Y„vT›)YNbTlV0\n\n0±N‰k„vÒkÇ†ÅVS2N¦^YImÿQ«ˆ	N!kûQPÿôv0R«ˆgNNLu„vñ‚Ä–ìN‰V•^ËWl„0"
+ NodKrai_ideas_5:0 "ÄžÑ‘ÎW„vWQR"
+ NodKrai_ideas_5_desc:0 "OªVäSw„v„˜Š×‹ÿÄžÑ‘KNÎW„vWãU(WRƒÂRƒwFz„vÔ‚ŸSNîOQrwN„v1WX0CS‹gIQ(W—‹v„v—gô•„`6qAmÌmÿÈuS„vÔˆÄwOçej`ˆRNwäSw„vmy<yNáOðNÿåNàeUt„vØyö”I•.úQÍ‚r‚„v<y Qÿãb	úQóm„vINmyÿcVOºNMRLˆ„v¹eTÿ‚Yçeåe±,‚ÿTNwéeòT»S„v^yf.sNwygÿTNwNQÞV”^„vØš)Y.sNT1U0=U	g±.Ob„vwyLkÿ=U	g±CSt^MR„vmy<yÿMbýwb:Nôuû|1YaNw„vËVàz0"
+ NodKrai_ideas_6:0 "Äuú^TwTO"
+ NodKrai_ideas_6_desc:0 "*c·VaS±ƒ„vT¿R›RmN(WqS:g‹NöNÓumgTbËz†NTwTOÿâVÓuwegqQTã‰³Qî•˜˜ÿØyû•†™„vHY™‚S0—gKNPR„vÈƒLN›s0îSÃ”ÐTwUË†wSåTJW„v1rú‹0gbopºN„vöSmšN0O<SQYFUO„vTXSú‹IrGW:NTwTOãNhˆ0"
+ NodKrai_ideas_7:0 "zzgRVaN"
+ NodKrai_ideas_7_desc:0 "·ƒ—V†N0	NgCgýw0„våT&OÔkZ·^Às^X±ƒ<SZÿNg®NNTÍ‘4NÐcætyr0"
+ gs_country_name_Remuria_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0Ç‘(u÷–Fz)RšNýVT"
  gs_country_name_Remuria_desc:0 "YtQ†NWlšÿÍ‘ú^†NÄžÑ‘„v'Y«Rÿ=föeP©‹÷–Fz)RšNKNTQ!k°sN†N0"
  THE_Remuria:0 "÷–Fz)RšN^ýV"
  THE_Remuria_ADJ:0 "÷–Fz)RšN"
  REV_THE_Remuria:0 "i—‹T÷–Fz)RšN^ýV"
  REV_THE_Remuria_ADJ:0 "i—‹T÷–Fz)RšN"
- gs_set_ruler_ailixiya_title:0 "ÿ1ZPN³Q®‹	ÿO£zhenwo£§V1r‰ƒ^Å–§!b:Nßu»lw"
+ gs_set_ruler_ailixiya_title:0 "0ŸS^yGYÂ‰·1ZPN!jV·iVË†0O£zhenwo£§V1r‰ƒ^Å–§!b:Nßu»lw"
  gs_set_ruler_ailixiya_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£zhenwo£§V1r‰ƒ^Å–§!b:Nßu»lw0jO:N£zhenwo£§VºNKN‹Vw§!ÿyY=f§V8lu„v§!ÿv^NwQ	gg:V„v§V‹VwCgýw§!0"
- gs_country_YONGSHILETU_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£zhenwo£§V8lNPNW§!"
+ gs_country_YONGSHILETU_title:0 "0ŸS^yGYÂ‰·1ZPN!jV·iVË†0±Rðy£zhenwo£§V8lNPNW§!"
  gs_country_YONGSHILETU_desc:0 "§V)TOW^y§!(WNÿbìNïSåN±Rðy£zhenwo£§V8lNPNW§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!\n\n§V0èU~ó`b†NT~0§!"
  THE_YONGSHILETU:0 "8lNPNW"
  THE_YONGSHILETU_ADJ:0 "8lNPNW"
@@ -233,9 +262,9 @@
  YONGSHILETU_ideas_6_desc:0 "`OòTåwSf†Nb„vÇ»SÿjO:N²Nbcÿbó`Á‰Á‹`O„v*geg0"
  YONGSHILETU_ideas_7:0 "IQ‰ÿ‚YÈuU^Vo"
  YONGSHILETU_ideas_7_desc:0 "Ee‹NI`	gÓuNSÿFOƒRYuN„v°‹ÆVŒTÅ`aONôvö^íuÿN=fT"
- gs_set_ruler_zibai_title:0 "ÿ1ZPN³Q®‹	ÿO£geo£§TyQ‹v§!b:Nßu»lw"
+ gs_set_ruler_zibai_title:0 "0ŸS^yGYÂ‰·1ZPN!jV·iVË†0O£geo£§TyQ‹v§!b:Nßu»lw"
  gs_set_ruler_zibai_desc:0 "`OòTú^bùR”^„v	NµuGYÂ‰ÿïS(WdkYäN£geo£§TyQ‹v§!b:Nßu»lw0jO:N£geo£§TgO§!ÿyY=f§T8lu„v§!"
- gs_country_LANGGAN_title:0 "ÿ1ZPN³Q®‹	ÿ±Rðy£geo£§Tt•s§!"
+ gs_country_LANGGAN_title:0 "0ŸS^yGYÂ‰·1ZPN!jV·iVË†0±Rðy£geo£§Tt•s§!"
  gs_country_LANGGAN_desc:0 "bìNïSåN±Rðy£geo£§Tt•s§!ÿ\n§Yôf9eýV¶RTðyNýV¶Rœ˜r‚ÿN9eØStag0§!"
  THE_LANGGAN:0 "t•s"
  THE_LANGGAN_ADJ:0 "t•s"
@@ -263,11 +292,11 @@
  LANGGAN_ideas_6_desc:0 ":NŒt‰l‰s7Œ„v4lWÿt•sHQlNÙNºN(WdkQrwmyiWdgðS0ðSNNyÑs›R‚YfopÿcVNwNCSÍ‚up²œGlZwÿåNmyNyKN›Rôuû|)Y0Ws^aˆ0TNyÑs.sNÍ‚up²œÿck=ft•såN‰s^yáOðN„vóØšSO°sÿ¦N=f²bQOýVZyõuö^„v„^%NêNxQ0"
  LANGGAN_ideas_7:0 "‰l‰sÈuLk"
  LANGGAN_ideas_7_desc:0 "åNn4l0t‰sÿåNÙNõ—nmË‚0ƒtgŒNWRÿa:N©Sô•	tƒt‘Nô•gÿyQ‹vcV„v	tƒtKNýVt•sv^*gˆm1YÿƒRòT‡eQƒtg=n„vúW©S©S‹s^T„vQY¦uN)YO„vkyy(Wdk²NGl0SV‰l‰s7Œ„v6ƒ™™Q!kØ˜MRY—„vWˆ÷TÿbìNÈuS(WäSw„vŸ^ŸXNÍ‘ú^‰Lq0"
- gs_country_name_Rever_title:0 "b`YRËYýVT"
+ gs_country_name_Rever_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0b`YRËYýVT"
  gs_country_name_Rever_desc:0 "b`YRËYýVT0dk³Q®‹SO—V0±Rðy0Í‘°eïS(uÿïSåNÇQ!kO(u0±Rðy0„v¹eVÍ‘°e9eØSýVT0"
- gs_country_color_Rever_title:0 "b`YRËYýV¶Rœ˜r‚"
+ gs_country_color_Rever_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0b`YRËYýV¶Rœ˜r‚"
  gs_country_color_Rever_desc:0 "b`YRËYýV¶Rœ˜r‚0dk³Q®‹SO—V0±Rðy0Í‘°eïS(uÿïSåNÇQ!kO(u0±Rðy0„v¹eVÍ‘°e9eØSýV¶Rœ˜r‚0"
- gs_country_ideal_Rever_title:0 "b`YRËYýV¶RtõV"
+ gs_country_ideal_Rever_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0b`YRËYýV¶RtõV"
  gs_country_ideal_Rever_desc:0 "b`YRËYýV¶RtõV0dk³Q®‹SO—V0±Rðy0Í‘°eïS(uÿïSåNÇQ!kO(u0±Rðy0„v¹eVÍ‘°e9eØSýV¶RtõV0"
- gs_god_ruler_defender_of_the_faith_title:0 "±Rðy0áOðNˆR²bw0"
+ gs_god_ruler_defender_of_the_faith_title:0 "0ŸS^yGYÂ‰·1ZPN!jV0±Rðy0áOðNˆR²bw0"
  gs_god_ruler_defender_of_the_faith_desc:0 "§M[Root.Monarch.GetTitle]§!(WNÿbìNMb=fwck„v0áOðNˆR²bw0ÿ"
