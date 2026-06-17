@@ -1409,7 +1409,7 @@ gs_advisor_columbina = { #哥伦比娅
 	monarch_power = ADM
 	allow_only_female = yes
 
-	all_power_cost = 0.1
+	all_power_cost = -0.05
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
@@ -1436,7 +1436,7 @@ gs_advisor_nike = { #尼可
 	monarch_power = ADM
 	allow_only_female = yes
 
-	all_power_cost = 0.1
+	all_power_cost = -0.05
 	skill_scaled_modifier = {
 		modifier = {
 			meritocracy = 0.5
