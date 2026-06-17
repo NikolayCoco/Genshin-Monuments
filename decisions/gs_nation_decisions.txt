@@ -37,6 +37,7 @@ country_decisions = {
 	#âò%V	SUMERU		IÉ	144 204 0
 	#´g9N	FONTAINE	4l	0 192 255
 	#≥uTX	NATLAN		kp	255 102 64
+	#*c∑VaS±É	LANGGAN	    g	214 236 240
 	#ÛÅ¨Q	SNEZHNAYA	∞Q	128 255 255
 	#PNW	YONGSHILETU	wb	255 204 251
 	#tïs	LANGGAN	    âs	127 255 212
@@ -408,6 +409,70 @@ country_decisions = {
 				}
 			}
 			custom_tooltip = desc_god_of_pyro_personality
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				gs_is_gs_nation = yes
+			}
+			modifier = {
+				factor = 0
+				gs_is_gs_nation_ai_set = yes
+				sr_is_gs_nation_ai_set = yes
+				NOT = { has_country_flag = gs_ruler_maweika_ai_set }
+			}
+		}
+	}
+	gs_set_ruler_columbina = {
+		color = { 214 236 240 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_country_modifier = gs_leader_columbina
+			NOT = { has_ruler_flag = gs_ruler_columbina }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "£hydro£ ÂT&O‘kZ"
+				dynasty = "^¿s^X±É<SZ"
+				#culture = 
+				#religion = norse_pagan_reformed
+				culture = ROOT
+				religion = ROOT
+				adm = 6
+				dip = 6
+				mil = 6
+				age = 500
+				birth_date = 944.1.14
+				claim = 100
+				female = yes
+				fixed = yes
+			}
+			hidden_effect = {
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = god_of_moon_personality
+				#add_ruler_personality = 
+				add_ruler_personality = patron_of_arts_personality
+				set_ruler_flag = gs_ruler_columbina
+				set_ai_personality ={
+					personality = ai_balanced
+					locked = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+						NOT = { gs_is_gs_nation_ai_set = yes }
+						NOT = { sr_is_gs_nation_ai_set = yes }
+					}
+					set_country_flag = gs_ruler_columbina_ai_set
+				}
+			}
+			custom_tooltip = desc_god_of_moon_personality
 		}
 		ai_will_do = {
 			factor = 1
@@ -994,6 +1059,63 @@ country_decisions = {
 						NOT = { same_continent = ROOT }
 					}
 				}
+			}
+		}
+	}
+	gs_country_NodKrai = {
+		color = { 214 236 240 }
+		major = no
+		potential = {
+			gs_happy_mod_trigger = yes
+			has_ruler_flag = gs_ruler_columbina
+			OR = {
+				NOT = { has_country_flag = gs_set_country_name_NodKrai }
+				NOT = { has_country_flag = gs_set_country_color_NodKrai }
+				NOT = { has_country_flag = gs_set_country_idea_NodKrai }
+			}
+			is_lesser_in_union = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = gs_set_country_name_NodKrai
+			set_country_flag = gs_set_country_color_NodKrai
+			if = {
+				limit = { is_revolution_target = yes }
+				override_country_name = REV_THE_NodKrai
+			}
+			else = { override_country_name = THE_NodKrai }
+			change_country_color = { color = { 214 236 240 } }
+			if = {
+				limit = { NOT = { has_country_flag = gs_set_country_idea_NodKrai } }
+				set_country_flag = gs_set_country_idea_NodKrai
+				country_event = { id = ideagroups.1 }
+			}
+			add_stability = -1
+			if = {
+				limit = { NOT = { has_country_flag = gs_country_NodKrai_first } }
+				if = {
+					limit = { ai = yes }
+					set_estate_privilege = estate_genshin_base
+					change_estate_land_share = {
+						estate = estate_genshin
+						share = 30
+					}
+					add_idea_group = gs_element_adm_ideas
+					add_idea_group = gs_element_dip_ideas
+					add_idea_group = gs_element_mil_ideas
+					add_adm_power = -150
+					add_dip_power = -150
+					add_mil_power = -150
+					add_treasury = -300
+				}
+			}
+			set_country_flag = gs_country_NodKrai_first
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = gs_estate_open }
 			}
 		}
 	}
