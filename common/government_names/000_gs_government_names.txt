@@ -106,6 +106,24 @@ THE_NATLAN = {
 	}
 }
 
+THE_NodKrai = {
+	rank = {
+		1 = NodKrai
+		2 = NodKrai
+		3 = NodKrai
+	}
+
+	ruler_female = {
+		1 = COLUMBINA
+		2 = COLUMBINA
+		3 = COLUMBINA
+	}
+
+	trigger = {
+		has_ruler_flag = gs_ruler_columbina
+	}
+}
+
 THE_YONGSHILETU = {
 	rank = {
 		1 = YONGSHILETU
