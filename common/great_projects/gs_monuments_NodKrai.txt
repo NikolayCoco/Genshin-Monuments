@@ -1006,7 +1006,7 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 		upgrade_time = { months = 100}
 		cost_to_upgrade = { factor =  500 }
 		province_modifiers = {
-			local_manpower = 3333
+			local_manpower = 3.333
 		}
 		area_modifier = {
 
@@ -1028,7 +1028,7 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 		upgrade_time = { months = 200}
 		cost_to_upgrade = { factor =  1000 }
 		province_modifiers = {
-			local_manpower = 6666
+			local_manpower = 6.666
 		}
 		area_modifier = {
 
@@ -1050,7 +1050,7 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 		upgrade_time = { months = 300}
 		cost_to_upgrade = { factor =  1500 }
 		province_modifiers = {
-			local_manpower = 9999
+			local_manpower = 9.999
 		}
 		area_modifier = {
 
@@ -3089,7 +3089,7 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		country_modifiers = {
 			monarch_lifespan = 0.1
-			all_power_cost = 0.01
+			all_power_cost = -0.01
 			idea_cost = -0.1
 		}
 		conditional_modifier = {
@@ -3110,7 +3110,7 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		country_modifiers = {
 			monarch_lifespan = 0.3
-			all_power_cost = 0.05
+			all_power_cost = -0.05
 			idea_cost = -0.2
 		}
 		conditional_modifier = {
@@ -3131,7 +3131,7 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		country_modifiers = {
 			monarch_lifespan = 0.5
-			all_power_cost = 0.1
+			all_power_cost = -0.1
 			idea_cost = -0.3
 		}
 		conditional_modifier = {
