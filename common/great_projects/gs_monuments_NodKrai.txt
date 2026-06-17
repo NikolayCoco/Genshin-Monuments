@@ -1880,7 +1880,7 @@ kongjizoulang = {	# 空寂走廊
 		upgrade_time = { months = 100}
 		cost_to_upgrade = { factor =  500 }
 		province_modifiers = {
-			local_manpower = 3333
+			local_manpower = 3.333
 		}
 		area_modifier = {
 			
@@ -1900,7 +1900,7 @@ kongjizoulang = {	# 空寂走廊
 		upgrade_time = { months = 200}
 		cost_to_upgrade = { factor =  1000 }
 		province_modifiers = {
-			local_manpower = 6666
+			local_manpower = 6.666
 		}
 		area_modifier = {
 			
@@ -1920,7 +1920,7 @@ kongjizoulang = {	# 空寂走廊
 		upgrade_time = { months = 300}
 		cost_to_upgrade = { factor =  1500 }
 		province_modifiers = {
-			local_manpower = 9999
+			local_manpower = 9.999
 		}
 		area_modifier = {
 			
@@ -2945,7 +2945,7 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		country_modifiers = {
 			discipline = 0.03
-			land_attrition = 0.05
+			land_attrition = -0.05
 			infantry_power = 0.1
 		}
 		conditional_modifier = {
@@ -2966,7 +2966,7 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		country_modifiers = {
 			discipline = 0.05
-			land_attrition = 0.1
+			land_attrition = -0.1
 			infantry_power = 0.2
 		}
 		conditional_modifier = {
@@ -2987,7 +2987,7 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		country_modifiers = {
 			discipline = 0.1
-			land_attrition = 0.2
+			land_attrition = -0.2
 			infantry_power = 0.3
 		}
 		conditional_modifier = {
