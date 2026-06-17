@@ -273,10 +273,11 @@ SUMERU_ideas = {
 	}
 	SUMERU_ideas_3 = {
 		land_attrition = -0.2
-		mercenary_discipline = 0.1
+		development_cost = -0.2
 	}
 	SUMERU_ideas_4 = {
 		mercenary_cost = -0.25
+		mercenary_discipline = 0.1
 		merc_maintenance_modifier = -0.25
 		possible_condottieri = 1
 	}
@@ -351,6 +352,7 @@ FONTAINE_ideas = {
 NATLAN_ideas = {
 	start = {
 		may_establish_frontier = yes
+		colony_development_boost = 1
 		core_creation = -0.2
 		ae_impact = -0.2
 	}
@@ -396,6 +398,60 @@ NATLAN_ideas = {
 	NATLAN_ideas_7 = {
 		global_manpower_modifier = 0.2
 		morale_damage_received = -0.2
+	}
+}
+
+NodKrai_ideas = {
+	start = {
+		may_explore = yes
+		colonists = 2
+		global_colonial_growth = 20
+		range = 1
+	}
+	
+	bonus = {
+		colony_development_boost = 1
+		global_monthly_devastation = -0.1
+		global_prosperity_growth = 0.1
+	}
+	
+	trigger = {
+		has_country_flag = gs_set_country_idea_NodKrai
+	}
+	free = yes
+	
+	NodKrai_ideas_1 = {
+		native_uprising_chance = -0.5
+		native_assimilation = 0.5
+		colonist_placement_chance = 0.2
+	}
+	NodKrai_ideas_2 = {
+		development_cost = -0.2
+		infantry_power = 0.2
+		global_trade_goods_size_modifier = 0.2
+	}
+	NodKrai_ideas_3 = {
+		discipline = 0.1
+		land_morale = 0.2
+	}
+	NodKrai_ideas_4 = {
+		tolerance_own = 2
+		global_missionary_strength = 0.03
+		missionary_maintenance_cost = -0.3
+	}
+	NodKrai_ideas_5 = {
+		ae_impact = -0.2
+		idea_cost = -0.2
+	}
+	NodKrai_ideas_6 = {
+		religious_unity = 0.2
+		administrative_efficiency = 0.1
+		trade_steering = 0.1
+		trade_efficiency = 0.1
+	}
+	NodKrai_ideas_7 = {
+		core_creation = -0.2
+		all_power_cost = -0.05
 	}
 }
 
