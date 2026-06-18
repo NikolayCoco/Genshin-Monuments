@@ -71,7 +71,7 @@ masike = {	#马斯克礁
 		province_modifiers = { }
 		area_modifier = { }
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				native_uprising_chance = 0.05
 			}
@@ -91,7 +91,7 @@ masike = {	#马斯克礁
 			local_colonist_placement_chance = 0.05
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				colonists = 1
 				range = 0.1
@@ -114,7 +114,7 @@ masike = {	#马斯克礁
 			local_colonist_placement_chance = 0.1
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				colonists = 2
 				range = 0.25
@@ -137,7 +137,7 @@ masike = {	#马斯克礁
 			local_colonist_placement_chance = 0.15
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				colonists = 3
 				range = 0.4
@@ -272,7 +272,7 @@ jinpingguo = {	#金苹果群岛
 			province_trade_power_value = 1
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				number_of_cannons_flagship = 20
 				number_of_cannons_flagship_modifier = 0.1
@@ -299,7 +299,7 @@ jinpingguo = {	#金苹果群岛
 			province_trade_power_value = 2
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				number_of_cannons_flagship = 50
 				number_of_cannons_flagship_modifier = 0.3
@@ -342,7 +342,7 @@ jinpingguo = {	#金苹果群岛
 			province_trade_power_value = 3
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				number_of_cannons_flagship = 100
 				number_of_cannons_flagship_modifier = 0.5
@@ -469,7 +469,7 @@ Bottleland = {	#琉形蜃境
 		province_modifiers = { }
 		area_modifier = { }
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				technology_cost = -0.02
 				idea_cost = -0.1
@@ -490,7 +490,7 @@ Bottleland = {	#琉形蜃境
 		}
 		area_modifier = { }
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				technology_cost = -0.05
 				idea_cost = -0.15
@@ -511,7 +511,7 @@ Bottleland = {	#琉形蜃境
 			local_development_cost = -0.15
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				technology_cost = -0.1
 				idea_cost = -0.2
@@ -620,7 +620,7 @@ Simulanka = {	#希穆兰卡
 		province_modifiers = { }
 		area_modifier = { }
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				prestige = 0.1
 				max_absolutism = 10
@@ -641,7 +641,7 @@ Simulanka = {	#希穆兰卡
 		}
 		area_modifier = { }
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				prestige = 0.3
 				max_absolutism = 15
@@ -662,7 +662,7 @@ Simulanka = {	#希穆兰卡
 			local_autonomy = -0.1
 		}
 		conditional_modifier = {
-			trigger = { gs_amplitude_3_trigger = yes }
+			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
 				prestige = 0.5
 				max_absolutism = 20
