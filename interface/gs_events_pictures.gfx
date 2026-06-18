@@ -224,6 +224,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/general.dds"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = "gs_decisions_events_1004_eventPicture"
+		texturefile = "gfx/event_pictures/general.dds"
+		alwaystransparent = yes
+	}
 	#派蒙还钱
 	spriteType = {
 		name = "gs_decisions_events_1003_eventPicture"
