@@ -123,7 +123,6 @@ yinyuezhiting = {	# 银月之庭
 				global_missionary_strength = 0.01
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -152,7 +151,6 @@ yinyuezhiting = {	# 银月之庭
 				global_missionary_strength = 0.03
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -181,7 +179,6 @@ yinyuezhiting = {	# 银月之庭
 				global_missionary_strength = 0.03
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -317,7 +314,6 @@ miwenguan = {	# 秘闻馆
 				core_creation = -0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -347,7 +343,6 @@ miwenguan = {	# 秘闻馆
 				core_creation = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -392,7 +387,6 @@ miwenguan = {	# 秘闻馆
 				core_creation = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -529,7 +523,6 @@ funiqi = {	# 伏尼契商会
 				global_trade_goods_size_modifier = 0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -560,7 +553,6 @@ funiqi = {	# 伏尼契商会
 				global_trade_goods_size_modifier = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -591,7 +583,6 @@ funiqi = {	# 伏尼契商会
 				global_trade_goods_size_modifier = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -710,7 +701,6 @@ sipeilanzha = {	# 斯佩兰扎
 				global_trade_goods_size_modifier = 0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -737,7 +727,6 @@ sipeilanzha = {	# 斯佩兰扎
 				global_trade_goods_size_modifier = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -764,7 +753,6 @@ sipeilanzha = {	# 斯佩兰扎
 				global_trade_goods_size_modifier = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -885,6 +873,10 @@ qijian = {	# 旗舰
 			trade_goods_size_modifier = 0.1
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -893,7 +885,6 @@ qijian = {	# 旗舰
 				land_attrition = -0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -907,6 +898,10 @@ qijian = {	# 旗舰
 			trade_goods_size_modifier = 0.2
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -915,7 +910,6 @@ qijian = {	# 旗舰
 				land_attrition = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -929,6 +923,10 @@ qijian = {	# 旗舰
 			trade_goods_size_modifier = 0.3
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -937,7 +935,6 @@ qijian = {	# 旗舰
 				land_attrition = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -1029,6 +1026,10 @@ ainuodejia = {	# 爱诺的家
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1036,7 +1037,6 @@ ainuodejia = {	# 爱诺的家
 				all_power_cost = -0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1048,6 +1048,10 @@ ainuodejia = {	# 爱诺的家
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1055,7 +1059,6 @@ ainuodejia = {	# 爱诺的家
 				all_power_cost = -0.08
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1067,6 +1070,10 @@ ainuodejia = {	# 爱诺的家
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1074,7 +1081,6 @@ ainuodejia = {	# 爱诺的家
 				all_power_cost = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -1183,6 +1189,10 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			local_manpower = 3.333
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1192,7 +1202,6 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 				global_manpower_modifier = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1206,6 +1215,10 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			local_manpower = 6.666
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1215,7 +1228,6 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 				global_manpower_modifier = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1229,6 +1241,10 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			local_manpower = 9.999
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1238,7 +1254,6 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 				global_manpower_modifier = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -1364,7 +1379,6 @@ shuangyuezhifang = {	# 霜月之坊
 				land_morale = 0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1395,7 +1409,6 @@ shuangyuezhifang = {	# 霜月之坊
 				land_morale = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1426,7 +1439,6 @@ shuangyuezhifang = {	# 霜月之坊
 				land_morale = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -1536,6 +1548,10 @@ muguangzhitai = {	# 沐光之台
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1543,7 +1559,6 @@ muguangzhitai = {	# 沐光之台
 				global_missionary_strength = 0.01
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1555,6 +1570,10 @@ muguangzhitai = {	# 沐光之台
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1562,7 +1581,6 @@ muguangzhitai = {	# 沐光之台
 				global_missionary_strength = 0.02
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1574,6 +1592,10 @@ muguangzhitai = {	# 沐光之台
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1583,7 +1605,6 @@ muguangzhitai = {	# 沐光之台
 				global_missionary_strength = 0.03
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -1687,6 +1708,10 @@ lanpohu = {	# 蓝珀湖
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1695,7 +1720,6 @@ lanpohu = {	# 蓝珀湖
 				global_institution_spread = 0.5
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1707,6 +1731,10 @@ lanpohu = {	# 蓝珀湖
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1715,7 +1743,6 @@ lanpohu = {	# 蓝珀湖
 				global_institution_spread = 0.75
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1727,6 +1754,10 @@ lanpohu = {	# 蓝珀湖
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1735,7 +1766,6 @@ lanpohu = {	# 蓝珀湖
 				global_institution_spread = 1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -1827,6 +1857,10 @@ jijingqiantan = {	# 寂静的浅滩
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1835,7 +1869,6 @@ jijingqiantan = {	# 寂静的浅滩
 				naval_attrition = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1847,6 +1880,10 @@ jijingqiantan = {	# 寂静的浅滩
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1855,7 +1892,6 @@ jijingqiantan = {	# 寂静的浅滩
 				naval_attrition = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -1867,6 +1903,10 @@ jijingqiantan = {	# 寂静的浅滩
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1876,7 +1916,6 @@ jijingqiantan = {	# 寂静的浅滩
 				sea_repair = yes
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -1971,6 +2010,10 @@ shiyanshejiju = {	# 月矩力实验设计局
 			local_production_efficiency = 0.1
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1981,7 +2024,6 @@ shiyanshejiju = {	# 月矩力实验设计局
 				global_manpower_modifier = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -1996,6 +2038,10 @@ shiyanshejiju = {	# 月矩力实验设计局
 			local_production_efficiency = 0.2
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2006,7 +2052,6 @@ shiyanshejiju = {	# 月矩力实验设计局
 				global_manpower_modifier = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2021,6 +2066,10 @@ shiyanshejiju = {	# 月矩力实验设计局
 			local_production_efficiency = 0.3
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2032,7 +2081,6 @@ shiyanshejiju = {	# 月矩力实验设计局
 				global_manpower_modifier = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			#owner = {
 			#    if = {
@@ -2137,6 +2185,10 @@ kongjizoulang = {	# 空寂走廊
 			local_manpower = 3.333
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2144,7 +2196,6 @@ kongjizoulang = {	# 空寂走廊
 				supply_limit_modifier = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2158,6 +2209,10 @@ kongjizoulang = {	# 空寂走廊
 			local_manpower = 6.666
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2165,7 +2220,6 @@ kongjizoulang = {	# 空寂走廊
 				supply_limit_modifier = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2179,6 +2233,10 @@ kongjizoulang = {	# 空寂走廊
 			local_manpower = 9.999
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2186,7 +2244,6 @@ kongjizoulang = {	# 空寂走廊
 				supply_limit_modifier = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -2290,6 +2347,10 @@ zhongyechangying = {	# 终夜长茔
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2298,7 +2359,6 @@ zhongyechangying = {	# 终夜长茔
 				shock_damage_received = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2310,6 +2370,10 @@ zhongyechangying = {	# 终夜长茔
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2318,7 +2382,6 @@ zhongyechangying = {	# 终夜长茔
 				shock_damage_received = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2330,6 +2393,10 @@ zhongyechangying = {	# 终夜长茔
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2338,7 +2405,6 @@ zhongyechangying = {	# 终夜长茔
 				shock_damage_received = -0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -2485,7 +2551,6 @@ pilamida = {	# 皮拉米达城
 				military_tactics = 0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2516,7 +2581,6 @@ pilamida = {	# 皮拉米达城
 				military_tactics = 0.15
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2548,7 +2612,6 @@ pilamida = {	# 皮拉米达城
 				free_mil_policy = 1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -2640,6 +2703,10 @@ leidemilebaozang = {	# 乐园最后的宝藏
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2649,7 +2716,6 @@ leidemilebaozang = {	# 乐园最后的宝藏
 				prestige = 0.5
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2661,6 +2727,10 @@ leidemilebaozang = {	# 乐园最后的宝藏
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2670,7 +2740,6 @@ leidemilebaozang = {	# 乐园最后的宝藏
 				prestige = 0.75
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2682,6 +2751,10 @@ leidemilebaozang = {	# 乐园最后的宝藏
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2691,7 +2764,6 @@ leidemilebaozang = {	# 乐园最后的宝藏
 				prestige = 1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -2783,6 +2855,10 @@ linghaobinansuo = {	# 零号避难所
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2794,7 +2870,6 @@ linghaobinansuo = {	# 零号避难所
 				tolerance_of_heathens_capacity = 100
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2806,6 +2881,10 @@ linghaobinansuo = {	# 零号避难所
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2817,7 +2896,6 @@ linghaobinansuo = {	# 零号避难所
 				tolerance_of_heathens_capacity = 100
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2829,6 +2907,10 @@ linghaobinansuo = {	# 零号避难所
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2840,7 +2922,6 @@ linghaobinansuo = {	# 零号避难所
 				tolerance_of_heathens_capacity = 100
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -2932,6 +3013,10 @@ yishixianting = {	# 遗世的仙庭
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2940,7 +3025,6 @@ yishixianting = {	# 遗世的仙庭
 				monarch_lifespan = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -2952,6 +3036,10 @@ yishixianting = {	# 遗世的仙庭
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2960,7 +3048,6 @@ yishixianting = {	# 遗世的仙庭
 				monarch_lifespan = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -2972,6 +3059,10 @@ yishixianting = {	# 遗世的仙庭
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2981,7 +3072,6 @@ yishixianting = {	# 遗世的仙庭
 				allow_free_estate_privilege_revocation = yes
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -3076,6 +3166,10 @@ ebula = {	# 厄布拉神柱
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3088,7 +3182,6 @@ ebula = {	# 厄布拉神柱
 				meritocracy = 1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3100,6 +3193,10 @@ ebula = {	# 厄布拉神柱
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3112,7 +3209,6 @@ ebula = {	# 厄布拉神柱
 				meritocracy = 2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -3124,6 +3220,10 @@ ebula = {	# 厄布拉神柱
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3136,7 +3236,6 @@ ebula = {	# 厄布拉神柱
 				meritocracy = 3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -3264,6 +3363,10 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3272,7 +3375,6 @@ zhangetingtang = {	# 战歌回荡的厅堂
 				infantry_power = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3284,6 +3386,10 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3292,7 +3398,6 @@ zhangetingtang = {	# 战歌回荡的厅堂
 				infantry_power = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -3304,6 +3409,10 @@ zhangetingtang = {	# 战歌回荡的厅堂
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3312,7 +3421,6 @@ zhangetingtang = {	# 战歌回荡的厅堂
 				infantry_power = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }
@@ -3413,6 +3521,10 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3421,7 +3533,6 @@ monvdehuayuan = {	# 魔女的花园
 				idea_cost = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3433,6 +3544,10 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3441,7 +3556,6 @@ monvdehuayuan = {	# 魔女的花园
 				idea_cost = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -3453,6 +3567,10 @@ monvdehuayuan = {	# 魔女的花园
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3461,7 +3579,6 @@ monvdehuayuan = {	# 魔女的花园
 				idea_cost = -0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			custom_tooltip = {
 				tooltip = monvdehuayuan_nike_help
@@ -3598,6 +3715,10 @@ wangyayingbi = {	# 望崖营壁
 			local_defensiveness = 0.1
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3607,7 +3728,6 @@ wangyayingbi = {	# 望崖营壁
 				morale_damage_received = -0.05
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3622,6 +3742,10 @@ wangyayingbi = {	# 望崖营壁
 			local_defensiveness = 0.3
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3631,7 +3755,6 @@ wangyayingbi = {	# 望崖营壁
 				morale_damage_received = -0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -3646,6 +3769,10 @@ wangyayingbi = {	# 望崖营壁
 			local_defensiveness = 0.5
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3655,7 +3782,6 @@ wangyayingbi = {	# 望崖营壁
 				morale_damage_received = -0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -3786,6 +3912,10 @@ xifengshulei = {	# 西风戍垒
 			local_defensiveness = 0.1
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3796,7 +3926,6 @@ xifengshulei = {	# 西风戍垒
 				movement_speed = 0.1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3811,6 +3940,10 @@ xifengshulei = {	# 西风戍垒
 			local_defensiveness = 0.3
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3822,7 +3955,6 @@ xifengshulei = {	# 西风戍垒
 				movement_speed = 0.2
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -3837,6 +3969,10 @@ xifengshulei = {	# 西风戍垒
 			local_defensiveness = 0.5
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3848,7 +3984,6 @@ xifengshulei = {	# 西风戍垒
 				movement_speed = 0.3
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
@@ -3967,6 +4102,10 @@ keladizhiyan = {	# 刻拉蒂之眼
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3976,7 +4115,6 @@ keladizhiyan = {	# 刻拉蒂之眼
 				native_assimilation = 0.15
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
@@ -3988,6 +4126,10 @@ keladizhiyan = {	# 刻拉蒂之眼
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3997,7 +4139,6 @@ keladizhiyan = {	# 刻拉蒂之眼
 				native_assimilation = 0.20
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 	tier_3 = {
@@ -4009,6 +4150,10 @@ keladizhiyan = {	# 刻拉蒂之眼
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4020,7 +4165,6 @@ keladizhiyan = {	# 刻拉蒂之眼
 				colony_development_boost = 1
 			}
 		}
-		conditional_modifier = { }
 		on_upgraded = { }
 	}
 }

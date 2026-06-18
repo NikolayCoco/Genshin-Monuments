@@ -70,6 +70,10 @@ masike = {	#马斯克礁
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -492,6 +496,10 @@ Bottleland = {	#琉形蜃境
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -513,6 +521,10 @@ Bottleland = {	#琉形蜃境
 			local_development_cost = -0.15
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -647,6 +659,10 @@ Simulanka = {	#希穆兰卡
 		}
 		province_modifiers = { }
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -668,6 +684,10 @@ Simulanka = {	#希穆兰卡
 			local_autonomy = -0.05
 		}
 		area_modifier = { }
+		country_modifiers = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
