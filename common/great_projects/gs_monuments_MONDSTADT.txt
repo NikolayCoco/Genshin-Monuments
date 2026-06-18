@@ -1677,7 +1677,7 @@ xingluo = {	#星落湖
 }
 
 zhaixing = {	#摘星崖
-	start = 38 #里加
+	start = 1858 #斯德丁
 	date = -1426.01.01
 	time = {
 		months = 0
