@@ -139,15 +139,13 @@ jingshan = {	#净善宫
 		area_modifier = {
 			local_unrest = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				can_recruit_rajputs = yes
 				all_power_cost = -0.02
 				idea_cost = -0.1
 				administrative_efficiency = 0.05
-				}
 			}
 		}
 		on_upgraded = { }
@@ -163,15 +161,13 @@ jingshan = {	#净善宫
 		area_modifier = {
 			local_unrest = -2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				can_recruit_rajputs = yes
 				all_power_cost = -0.05
 				idea_cost = -0.2
 				administrative_efficiency = 0.08
-				}
 			}
 		}
 		on_upgraded = { }
@@ -187,16 +183,14 @@ jingshan = {	#净善宫
 		area_modifier = {
 			local_unrest = -3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				can_recruit_rajputs = yes
 				all_power_cost = -0.1
 				free_adm_policy = 1
 				idea_cost = -0.3
 				administrative_efficiency = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -373,14 +367,12 @@ jiaoling = {	#教令院
 			local_tax_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -1
 				administrative_efficiency = 0.05
 				governing_capacity_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -396,14 +388,12 @@ jiaoling = {	#教令院
 			local_tax_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -1
 				administrative_efficiency = 0.08
 				governing_capacity_modifier = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -434,16 +424,14 @@ jiaoling = {	#教令院
 			local_tax_modifier = 0.3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -2
 				administrative_efficiency = 0.1
 				governing_capacity_modifier = 0.3
 				monarch_admin_power = 1
 				free_adm_policy = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -583,15 +571,13 @@ zhihuigong = {	#智慧宫
 		area_modifier = {
 			institution_growth = 10
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.05
 				global_institution_spread = 0.3
 				embracement_cost = -0.1
 				diplomats = 1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -607,15 +593,13 @@ zhihuigong = {	#智慧宫
 		area_modifier = {
 			institution_growth = 15
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.1
 				global_institution_spread = 0.5
 				embracement_cost = -0.2
 				diplomats = 2
-				}
 			}
 		}
 		on_upgraded = {
@@ -646,17 +630,15 @@ zhihuigong = {	#智慧宫
 		area_modifier = {
 			institution_growth = 20
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.2
 				global_institution_spread = 1
 				embracement_cost = -0.3
 				diplomats = 3
 				free_dip_policy = 1
 				local_heir_dip = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -799,15 +781,13 @@ dabazha = {	#大巴扎
 		area_modifier = {
 			local_unrest = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				culture_conversion_cost = -0.05
 				num_accepted_cultures = 1
 				culture_conversion_time = -0.05
 				stability_cost_modifier = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -823,15 +803,13 @@ dabazha = {	#大巴扎
 		area_modifier = {
 			local_unrest = -2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				culture_conversion_cost = -0.1
 				num_accepted_cultures = 2
 				culture_conversion_time = -0.1
 				stability_cost_modifier = -0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -847,15 +825,13 @@ dabazha = {	#大巴扎
 		area_modifier = {
 			local_unrest = -3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				culture_conversion_cost = -0.3
 				num_accepted_cultures = 3
 				culture_conversion_time = -0.2
 				stability_cost_modifier = -0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -985,15 +961,13 @@ jusha = {	#聚沙厅
 		area_modifier = {
 			local_governing_cost = -0.05
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.05
 				discipline = 0.05
 				fire_damage = 0.1
 				global_manpower_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1011,15 +985,13 @@ jusha = {	#聚沙厅
 		area_modifier = {
 			local_governing_cost = -0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.1
 				discipline = 0.08
 				fire_damage = 0.2
 				global_manpower_modifier = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1037,17 +1009,15 @@ jusha = {	#聚沙厅
 		area_modifier = {
 			local_governing_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.2
 				discipline = 0.1
 				fire_damage = 0.3
 				global_manpower_modifier = 0.3
 				monarch_military_power = 1
 				free_mil_policy = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -1178,14 +1148,12 @@ Gandharva = {	#化城郭
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.05
 				global_tariffs = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1202,14 +1170,12 @@ Gandharva = {	#化城郭
 			province_trade_power_value = 2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.1
 				global_tariffs = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -1242,14 +1208,12 @@ Gandharva = {	#化城郭
 			province_trade_power_value = 3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 2
 				trade_efficiency = 0.2
 				global_tariffs = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -1378,13 +1342,11 @@ Gandhahill = {	#香醉坡
 		}
 		province_modifiers = { }
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.1
 				artillery_power = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1398,13 +1360,11 @@ Gandhahill = {	#香醉坡
 		}
 		province_modifiers = { }
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.2
 				artillery_power = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1418,14 +1378,12 @@ Gandhahill = {	#香醉坡
 		}
 		province_modifiers = { }
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.3
 				artillery_power = 0.3
 				artillery_levels_available_vs_fort = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -1555,14 +1513,12 @@ Devadaha = {	#天臂池
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				caravan_power = 0.1
 				merchants = 1
 				trade_efficiency = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1578,14 +1534,12 @@ Devadaha = {	#天臂池
 			province_trade_power_value = 2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				caravan_power = 0.2
 				merchants = 1
 				trade_efficiency = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -1601,14 +1555,12 @@ Devadaha = {	#天臂池
 			province_trade_power_value = 3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				caravan_power = 0.3
 				merchants = 2
 				trade_efficiency = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -1738,12 +1690,10 @@ Alcazarzaray = {	#卡萨扎莱宫
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				advisor_cost = -0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -1768,14 +1718,12 @@ Alcazarzaray = {	#卡萨扎莱宫
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				global_tariffs = 0.1
 				advisor_cost = -0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -1814,14 +1762,12 @@ Alcazarzaray = {	#卡萨扎莱宫
 			allowed_num_of_buildings = 1
 			local_institution_spread = 1
 			local_governing_cost = -0.2}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				global_tariffs = 0.2
 				advisor_cost = -0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -1961,12 +1907,10 @@ Ormos = {	#奥摩斯港
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				trade_efficiency = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -1991,14 +1935,12 @@ Ormos = {	#奥摩斯港
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				global_tariffs = 0.1
 				trade_efficiency = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -2025,15 +1967,13 @@ Ormos = {	#奥摩斯港
 			local_institution_spread = 1
 			local_governing_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 2
 				global_tariffs = 0.2
 				trade_efficiency = 0.3
 				merc_independent_from_trade_range = yes
-				}
 			}
 		}
 		on_upgraded = {
@@ -2176,13 +2116,11 @@ Bayda = {	#拜达港
 		area_modifier = {
 			province_trade_power_modifier = 0.05
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				trade_efficiency = 0.05
 				trade_range_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -2204,13 +2142,11 @@ Bayda = {	#拜达港
 		area_modifier = {
 			province_trade_power_modifier = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				trade_efficiency = 0.1
 				trade_range_modifier = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -2233,15 +2169,13 @@ Bayda = {	#拜达港
 		area_modifier = {
 			province_trade_power_modifier = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				trade_efficiency = 0.2
 				trade_range_modifier = 0.4
 				merchants = 1
 				placed_merchant_power = 3
-				}
 			}
 		}
 		on_upgraded = {
@@ -2375,13 +2309,11 @@ Vimala = {	#维摩庄
 		area_modifier = {
 			province_trade_power_modifier = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_missionary_strength = 0.01
 				missionary_maintenance_cost = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2397,13 +2329,11 @@ Vimala = {	#维摩庄
 		area_modifier = {
 			province_trade_power_modifier = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_missionary_strength = 0.03
 				missionary_maintenance_cost = -0.15
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2419,13 +2349,11 @@ Vimala = {	#维摩庄
 		area_modifier = {
 			province_trade_power_modifier = 0.3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_missionary_strength = 0.05
 				missionary_maintenance_cost = -0.2
-				}
 			}
 		}
 		on_upgraded = { owner = { country_event = { id = gs_monuments_events.8 } }
@@ -2549,12 +2477,10 @@ Vanarana = {	#桓那兰那
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				governing_capacity_modifier = -0.15
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2573,13 +2499,11 @@ Vanarana = {	#桓那兰那
 		area_modifier = {
 			local_defensiveness = 0.4
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.05
 				governing_capacity_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2598,14 +2522,12 @@ Vanarana = {	#桓那兰那
 		area_modifier = {
 			local_defensiveness = 0.8
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.08
 				governing_capacity_modifier = 0.2
 				global_unrest = -1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2624,14 +2546,12 @@ Vanarana = {	#桓那兰那
 		area_modifier = {
 			local_defensiveness = 1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.1
 				governing_capacity_modifier = 0.3
 				global_unrest = -2
-				}
 			}
 		}
 		on_upgraded = { owner = { country_event = { id = gs_monuments_events.9 } }
@@ -2747,12 +2667,10 @@ Dhyai = {	#禅那园
 		}
 		province_modifiers = { }
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				ae_impact = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2768,13 +2686,11 @@ Dhyai = {	#禅那园
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				ae_impact = -0.1
 				core_creation = -0.05
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2790,13 +2706,11 @@ Dhyai = {	#禅那园
 		area_modifier = {
 			local_defensiveness = 0.4
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				ae_impact = -0.2
 				core_creation = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2813,13 +2727,11 @@ Dhyai = {	#禅那园
 			local_defensiveness = 0.6
 			local_governing_cost = -0.5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				ae_impact = -0.3
 				core_creation = -0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -2937,14 +2849,12 @@ Apam = {	#水天丛林
 		area_modifier = {
 			local_defensiveness = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				enforce_religion_cost = -0.1
 				warscore_cost_vs_other_religion = -0.05
 				governing_capacity_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2963,14 +2873,12 @@ Apam = {	#水天丛林
 		area_modifier = {
 			local_defensiveness = 0.3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				enforce_religion_cost = -0.3
 				warscore_cost_vs_other_religion = -0.1
 				governing_capacity_modifier = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -2989,14 +2897,12 @@ Apam = {	#水天丛林
 		area_modifier = {
 			local_defensiveness = 0.5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				enforce_religion_cost = -0.5
 				warscore_cost_vs_other_religion = -0.2
 				governing_capacity_modifier = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -3112,14 +3018,12 @@ Dahri = {	#荼诃之座
 		area_modifier = {
 			local_hostile_attrition = 1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				embracement_cost = -0.1
 				global_institution_spread = 0.1
 				institution_spread_from_true_faith = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -3139,14 +3043,12 @@ Dahri = {	#荼诃之座
 		area_modifier = {
 			local_hostile_attrition = 3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				embracement_cost = -0.3
 				global_institution_spread = 0.3
 				institution_spread_from_true_faith = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -3166,14 +3068,12 @@ Dahri = {	#荼诃之座
 		area_modifier = {
 			local_hostile_attrition = 5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				embracement_cost = -0.5
 				global_institution_spread = 0.5
 				institution_spread_from_true_faith = 0.5
-				}
 			}
 		}
 		on_upgraded = {
@@ -3313,14 +3213,12 @@ Caravan = {	#喀万驿
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				mercenary_cost = -0.05
 				merc_maintenance_modifier = -0.05
 				mercenary_manpower= 0.05
-				}
 			}
 		}
 		on_upgraded = {
@@ -3345,16 +3243,14 @@ Caravan = {	#喀万驿
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				mercenary_cost = -0.1
 				merc_maintenance_modifier = -0.1
 				mercenary_discipline = 0.05
 				mercenary_manpower= 0.1
 				can_recruit_janissaries = yes
-				}
 			}
 		}
 		on_upgraded = {
@@ -3406,10 +3302,9 @@ Caravan = {	#喀万驿
 			local_institution_spread = 1
 			local_governing_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				mercenary_cost = -0.2
 				merc_maintenance_modifier = -0.2
 				mercenary_discipline = 0.1
@@ -3417,7 +3312,6 @@ Caravan = {	#喀万驿
 				allow_mercenary_drill = yes
 				allow_janissaries_from_own_faith = yes
 				can_recruit_janissaries = yes
-				}
 			}
 		}
 		on_upgraded = {
@@ -3545,13 +3439,11 @@ Aru = {	#阿如村
 			local_development_cost = -0.05
 			regiment_recruit_speed = -0.15
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -3574,13 +3466,11 @@ Aru = {	#阿如村
 			local_development_cost = -0.1
 			regiment_recruit_speed = -0.25
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -3604,13 +3494,11 @@ Aru = {	#阿如村
 			local_manpower_modifier = 1
 			regiment_recruit_speed = -0.4
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 2
 				trade_efficiency = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -3867,10 +3755,9 @@ Chiwangling = {	#赤王陵
 			trade_goods_size_modifier = 0.1
 			local_development_cost = -0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -1
 				administrative_efficiency = 0.05
 				governing_capacity_modifier = 0.1
@@ -3881,7 +3768,6 @@ Chiwangling = {	#赤王陵
 				monthly_favor_modifier = 0.1
 				land_morale = 0.1
 				discipline = 0.05
-				}
 			}
 		}
 		on_upgraded = {
@@ -3911,10 +3797,9 @@ Chiwangling = {	#赤王陵
 			trade_goods_size_modifier = 0.2
 			local_development_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -2
 				administrative_efficiency = 0.1
 				governing_capacity_modifier = 0.2
@@ -3928,7 +3813,6 @@ Chiwangling = {	#赤王陵
 				free_adm_policy = 1
 				free_dip_policy = 1
 				free_mil_policy = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -3959,10 +3843,9 @@ Chiwangling = {	#赤王陵
 			local_development_cost = -0.3
 			local_has_mamluks = yes
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -2
 				administrative_efficiency = 0.1
 				governing_capacity_modifier = 0.2
@@ -3981,7 +3864,6 @@ Chiwangling = {	#赤王陵
 				monarch_military_power = 1
 				has_mamluks = yes
 				allowed_mamluks_fraction = 0.25
-				}
 			}
 		}
 		on_upgraded = {
@@ -4167,13 +4049,11 @@ Baoyin = {	#饱饮之丘
 			local_tax_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_favor_modifier = 0.1
 				ae_impact = -0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4193,14 +4073,12 @@ Baoyin = {	#饱饮之丘
 			local_tax_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_favor_modifier = 0.2
 				ae_impact = -0.2
 				free_dip_policy = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4220,15 +4098,13 @@ Baoyin = {	#饱饮之丘
 			local_tax_modifier = 0.3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_favor_modifier = 0.3
 				ae_impact = -0.3
 				free_dip_policy = 1
 				monarch_diplomatic_power = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4408,13 +4284,11 @@ Shuoshi = {	#铄石之丘
 			local_manpower_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.05
 				discipline = 0.025
-				}
 			}
 		}
 		on_upgraded = {
@@ -4434,14 +4308,12 @@ Shuoshi = {	#铄石之丘
 			local_manpower_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.1
 				discipline = 0.05
 				free_mil_policy = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4461,15 +4333,13 @@ Shuoshi = {	#铄石之丘
 			local_manpower_modifier = 0.5
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_morale = 0.2
 				discipline = 0.1
 				free_mil_policy = 1
 				monarch_military_power = 1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4649,14 +4519,12 @@ Birang = {	#避让之丘
 			trade_goods_size_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.02
 				global_institution_spread = 0.3
 				embracement_cost = -0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -4676,14 +4544,12 @@ Birang = {	#避让之丘
 			trade_goods_size_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.05
 				global_institution_spread = 0.5
 				embracement_cost = -0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -4703,14 +4569,12 @@ Birang = {	#避让之丘
 			trade_goods_size_modifier = 0.3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				technology_cost = -0.1
 				global_institution_spread = 1
 				embracement_cost = -0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -4850,13 +4714,11 @@ miyi = {	#秘仪圣殿
 			local_tax_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				all_estate_loyalty_equilibrium = 0.1
 				stability_cost_modifier = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -4872,13 +4734,11 @@ miyi = {	#秘仪圣殿
 			local_tax_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				all_estate_loyalty_equilibrium = 0.2
 				stability_cost_modifier = -0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -4894,14 +4754,12 @@ miyi = {	#秘仪圣殿
 			local_tax_modifier = 0.3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				all_estate_loyalty_equilibrium = 0.3
 				allow_free_estate_privilege_revocation = yes
 				stability_cost_modifier = -0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -5054,15 +4912,13 @@ jianmo = {	#缄默之殿
 			local_missionary_strength = -1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -1
 				culture_conversion_cost = -0.1
 				num_accepted_cultures = 1
 				culture_conversion_time = -0.05
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5078,15 +4934,13 @@ jianmo = {	#缄默之殿
 			local_missionary_strength = -1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -2
 				culture_conversion_cost = -0.2
 				num_accepted_cultures = 2
 				culture_conversion_time = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5102,15 +4956,13 @@ jianmo = {	#缄默之殿
 			local_missionary_strength = -1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_unrest = -3
 				culture_conversion_cost = -0.3
 				num_accepted_cultures = 3
 				culture_conversion_time = -0.2
-				}
 			}
 		}
 		on_upgraded = {
@@ -5253,15 +5105,13 @@ qipan = {	#神之棋盘
 		area_modifier = {
 			local_unrest = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				governing_capacity_modifier = 0.1
 				prestige = 1
 				administrative_efficiency = 0.05
 				reduced_liberty_desire = 10
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5277,15 +5127,13 @@ qipan = {	#神之棋盘
 		area_modifier = {
 			local_unrest = -2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				governing_capacity_modifier = 0.2
 				prestige = 2
 				administrative_efficiency = 0.08
 				reduced_liberty_desire = 20
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5301,15 +5149,13 @@ qipan = {	#神之棋盘
 		area_modifier = {
 			local_unrest = -3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				governing_capacity_modifier = 0.3
 				prestige = 3
 				administrative_efficiency = 0.1
 				reduced_liberty_desire = 30
-				}
 			}
 		}
 		on_upgraded = {
@@ -5430,14 +5276,12 @@ shengxian = {	#圣显厅
 			local_tax_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.1
 				global_tariffs = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5454,14 +5298,12 @@ shengxian = {	#圣显厅
 			local_tax_modifier = 0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 1
 				trade_efficiency = 0.2
 				global_tariffs = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5478,14 +5320,12 @@ shengxian = {	#圣显厅
 			local_tax_modifier = 0.3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				merchants = 2
 				trade_efficiency = 0.3
 				global_tariffs = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -5623,14 +5463,12 @@ huoli = {	#活力之家
 		area_modifier = {
 			local_unrest = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_attrition = -0.1
 				reinforce_speed = 0.1
 				manpower_recovery_speed = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5646,14 +5484,12 @@ huoli = {	#活力之家
 		area_modifier = {
 			local_unrest = -3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_attrition = -0.2
 				reinforce_speed = 0.2
 				manpower_recovery_speed = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5669,14 +5505,12 @@ huoli = {	#活力之家
 		area_modifier = {
 			local_unrest = -5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				land_attrition = -0.3
 				reinforce_speed = 0.3
 				manpower_recovery_speed = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -5809,13 +5643,11 @@ Damavand = {	#达马山
 			local_tax_modifier = 0.05
 			local_development_cost = -0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 0.5
 				reduced_liberty_desire = 5
-				}
 			}
 		}
 		on_upgraded = { }
@@ -5834,13 +5666,11 @@ Damavand = {	#达马山
 			local_tax_modifier = 0.1
 			local_development_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 1
 				reduced_liberty_desire = 10
-				}
 			}
 		}
 		on_upgraded = {
@@ -5863,14 +5693,12 @@ Damavand = {	#达马山
 			local_tax_modifier = 0.15
 			local_development_cost = -0.3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 1.5
 				reduced_liberty_desire = 15
 				accept_vassalization_reasons = 20
-				}
 			}
 		}
 		on_upgraded = {
@@ -6029,15 +5857,13 @@ lvzhou = {	#永恒绿洲
 			province_trade_power_value = 1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 0.5
 				reduced_liberty_desire = 5
 				monarch_lifespan = 0.1
 				heir_chance = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6053,15 +5879,13 @@ lvzhou = {	#永恒绿洲
 			province_trade_power_value = 2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 1
 				reduced_liberty_desire = 10
 				monarch_lifespan = 0.2
 				heir_chance = 0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6077,10 +5901,9 @@ lvzhou = {	#永恒绿洲
 			province_trade_power_value = 3
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				prestige = 1.5
 				reduced_liberty_desire = 15
 				monarch_lifespan = 0.3
@@ -6090,7 +5913,6 @@ lvzhou = {	#永恒绿洲
 				amount_of_cawa = 1
 				#is_cawa_modifier = yes
 				cawa_cost_modifier = -0.5
-				}
 			}
 		}
 		on_upgraded = {
@@ -6224,14 +6046,12 @@ Gurabad = {	#居尔城
 			local_manpower_modifier = 0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.1
 				cavalry_power = 0.1
 				artillery_power = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6249,15 +6069,13 @@ Gurabad = {	#居尔城
 		area_modifier = {
 			local_manpower_modifier = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.1
 				cavalry_power = 0.1
 				artillery_power = 0.1
 				discipline = 0.05
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6274,16 +6092,14 @@ Gurabad = {	#居尔城
 			local_tax_modifier = 0.2
 			local_manpower_modifier = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				infantry_power = 0.1
 				cavalry_power = 0.1
 				artillery_power = 0.1
 				discipline = 0.1
 				land_morale = 0.1
-				}
 			}
 		}
 		on_upgraded = { owner = { country_event = { id = gs_monuments_events.2 } }
@@ -6431,15 +6247,13 @@ Tanit = {	#塔尼特部族
 			min_local_autonomy = 30
 			local_autonomy = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				yearly_corruption = 0.05
 				spy_offence = 0.05
 				global_spy_defence = -0.1
 				global_tax_income = 24
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6458,15 +6272,13 @@ Tanit = {	#塔尼特部族
 			min_local_autonomy = 50
 			local_autonomy = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				yearly_corruption = 0.1
 				spy_offence = 0.1
 				global_spy_defence = -0.2
 				global_tax_income = 48
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6601,13 +6413,11 @@ Hadramaveth = {	#千壑沙地
 		area_modifier = {
 			native_uprising_chance = -0.5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				colonist_placement_chance = 0.05
 				colonists = 1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6623,14 +6433,12 @@ Hadramaveth = {	#千壑沙地
 		area_modifier = {
 			native_uprising_chance = -0.5
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				colonist_placement_chance = 0.1
 				global_colonial_growth = 10
 				colonists = 1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -6646,15 +6454,13 @@ Hadramaveth = {	#千壑沙地
 		area_modifier = {
 			native_uprising_chance = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				colonist_placement_chance = 0.2
 				global_colonial_growth = 20
 				colonists = 2
 				may_explore = yes
-				}
 			}
 		}
 		on_upgraded = {
@@ -6796,12 +6602,10 @@ Apaosha = {	#焚真之天象
 		area_modifier = {
 			local_monthly_devastation = 0.03
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -6823,12 +6627,10 @@ Apaosha = {	#焚真之天象
 		area_modifier = {
 			local_monthly_devastation = 0.05
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -6851,12 +6653,10 @@ Apaosha = {	#焚真之天象
 			local_monthly_devastation = 0.1
 			local_development_cost = 0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 0.5
-				}
 			}
 		}
 		on_upgraded = {
@@ -6984,15 +6784,13 @@ Harvisptokhm = {	#万种母树
 		area_modifier = {
 			local_monthly_devastation = -0.03
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 0.7
 				monthly_adur_burzhen_mihr = 0.1
 				monthly_adur_farnbag = 0.1
 				monthly_adur_gushnasp = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7010,16 +6808,14 @@ Harvisptokhm = {	#万种母树
 		area_modifier = {
 			local_monthly_devastation = -0.05
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 0.7
 				monthly_adur_burzhen_mihr = 0.1
 				monthly_adur_farnbag = 0.1
 				monthly_adur_gushnasp = 0.1
 				cb_on_religious_enemies = yes
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7036,17 +6832,15 @@ Harvisptokhm = {	#万种母树
 			local_monthly_devastation = -0.1
 			local_development_cost = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				monthly_asha_vahishta = 2
 				monthly_adur_burzhen_mihr = 0.2
 				monthly_adur_farnbag = 0.2
 				monthly_adur_gushnasp = 0.2
 				cb_on_religious_enemies = yes
 				extra_manpower_at_religious_war = yes
-				}
 			}
 		}
 		on_upgraded = {
@@ -7187,15 +6981,13 @@ Vourukasha = {	#甘露花海
 			local_production_efficiency = 0.05
 			local_tax_modifier = 0.05
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.03
 				discipline = 0.03
 				production_efficiency = 0.05
 				trade_efficiency = 0.05
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7214,15 +7006,13 @@ Vourukasha = {	#甘露花海
 			local_production_efficiency = 0.1
 			local_tax_modifier = 0.1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.05
 				discipline = 0.05
 				production_efficiency = 0.1
 				trade_efficiency = 0.1
-				}
 			}
 		}
 		on_upgraded = {
@@ -7248,10 +7038,9 @@ Vourukasha = {	#甘露花海
 			local_tax_modifier = 0.15
 			local_has_qizilbash = yes
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				administrative_efficiency = 0.1
 				discipline = 0.1
 				production_efficiency = 0.1
@@ -7259,7 +7048,6 @@ Vourukasha = {	#甘露花海
 				has_qizilbash = yes
 				amount_of_qizilbash = 6
 				allowed_qizilbash_fraction = 0.75
-				}
 			}
 		}
 		on_upgraded = { owner = { country_event = { id = gs_monuments_events.7 } }
@@ -7404,12 +7192,10 @@ hollow = {	#荼泥黑渊
 			local_manpower_modifier = -0.1
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				raze_power_gain = 0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7427,14 +7213,12 @@ hollow = {	#荼泥黑渊
 			local_manpower_modifier = -0.2
 		}
 		area_modifier = { }
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				raze_power_gain = 0.2
 				available_province_loot = 0.3
 				loot_amount = 0.3
-				}
 			}
 		}
 		on_upgraded = {
@@ -7463,10 +7247,9 @@ hollow = {	#荼泥黑渊
 			local_production_efficiency = -0.2
 			local_manpower_modifier = -0.2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				raze_power_gain = 0.3
 				available_province_loot = 0.5
 				loot_amount = 0.5
@@ -7474,7 +7257,6 @@ hollow = {	#荼泥黑渊
 				force_march_free = yes
 				can_recruit_cossacks = yes
 				allowed_cossack_fraction = 0.25
-				}
 			}
 		}
 		on_upgraded = {
@@ -7621,13 +7403,11 @@ basong = {	#跋松顶
 		area_modifier = {
 			local_unrest = -1
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				global_missionary_strength = 0.01
 				missionary_maintenance_cost = -0.1
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7643,14 +7423,12 @@ basong = {	#跋松顶
 		area_modifier = {
 			local_unrest = -2
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				missionaries = 1
 				global_missionary_strength = 0.03
 				missionary_maintenance_cost = -0.2
-				}
 			}
 		}
 		on_upgraded = { }
@@ -7666,14 +7444,12 @@ basong = {	#跋松顶
 		area_modifier = {
 			local_unrest = -3
 		}
-		country_modifiers = {
-			conditional_modifier = {
-				trigger = { gs_monuments_amplitude_3_trigger = yes }
-				modifier = {
+		conditional_modifier = {
+			trigger = { gs_amplitude_3_trigger = yes }
+			modifier = {
 				missionaries = 2
 				global_missionary_strength = 0.05
 				missionary_maintenance_cost = -0.3
-				}
 			}
 		}
 		on_upgraded = {
