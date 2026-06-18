@@ -121,6 +121,10 @@ qunyu = {	#群玉阁
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -150,6 +154,10 @@ qunyu = {	#群玉阁
 		}
 		area_modifier = {
 			local_defensiveness = 0.4
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -186,6 +194,10 @@ qunyu = {	#群玉阁
 			local_defensiveness = 0.6
 			local_governing_cost = -0.5
 			local_has_banners = yes
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -372,6 +384,10 @@ yiyan = {	#倚岩殿
 		area_modifier = {
 			local_unrest = -0.5
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -393,6 +409,10 @@ yiyan = {	#倚岩殿
 		province_modifiers = { }
 		area_modifier = {
 			local_unrest = -1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -421,6 +441,10 @@ yiyan = {	#倚岩殿
 		}
 		area_modifier = {
 			local_unrest = -2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -611,6 +635,10 @@ yuehai = {	#月海亭
 		area_modifier = {
 			local_monthly_devastation = -0.05
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -639,6 +667,10 @@ yuehai = {	#月海亭
 		}
 		area_modifier = {
 			local_monthly_devastation = -0.1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -814,6 +846,10 @@ yujing = {	#玉京台
 		area_modifier = {
 			institution_growth = 0.5
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -856,6 +892,10 @@ yujing = {	#玉京台
 		area_modifier = {
 			institution_growth = 0.5
 			local_unrest = -1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1019,6 +1059,10 @@ thegoldenhouse = {	#黄金屋
 			local_tax_modifier = 0.1
 			province_trade_power_modifier = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1045,6 +1089,10 @@ thegoldenhouse = {	#黄金屋
 		area_modifier = {
 			local_tax_modifier = 0.2
 			province_trade_power_modifier = 0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1082,6 +1130,10 @@ thegoldenhouse = {	#黄金屋
 			local_governing_cost = -0.2
 			local_tax_modifier = 0.25
 			province_trade_power_modifier = 0.25
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1268,6 +1320,10 @@ fenglin = {	#华光林
 			local_defensiveness = 0.1
 			fort_level = 1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1298,6 +1354,10 @@ fenglin = {	#华光林
 			local_defensiveness = 0.3
 			fort_level = 2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1327,6 +1387,10 @@ fenglin = {	#华光林
 		area_modifier = {
 			local_defensiveness = 0.5
 			fort_level = 3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1711,6 +1775,10 @@ qingce = {	#轻策庄
 			regiment_recruit_speed = -0.15
 			province_trade_power_value = 1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1738,6 +1806,10 @@ qingce = {	#轻策庄
 			local_development_cost = -0.1
 			regiment_recruit_speed = -0.25
 			province_trade_power_value = 2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1768,6 +1840,10 @@ qingce = {	#轻策庄
 			local_manpower_modifier = 1
 			regiment_recruit_speed = -0.4
 			province_trade_power_value = 3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -1946,6 +2022,10 @@ tianheng = {	#天衡山
 			fort_level = 1
 			local_defensiveness = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -1975,6 +2055,10 @@ tianheng = {	#天衡山
 			garrison_growth = 0.1
 			fort_level = 2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2003,6 +2087,10 @@ tianheng = {	#天衡山
 			local_defensiveness = 0.5
 			garrison_growth = 0.2
 			fort_level = 3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -2186,6 +2274,10 @@ wangshu = {	#望舒客栈
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2217,6 +2309,10 @@ wangshu = {	#望舒客栈
 			allowed_num_of_buildings = 1
 			local_institution_spread = 1
 			local_governing_cost = -0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -2803,6 +2899,10 @@ guyun = {	#孤云阁
 			local_colonial_growth = 20
 			local_colonist_placement_chance = 0.05
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2829,6 +2929,10 @@ guyun = {	#孤云阁
 			local_colonial_growth = 50
 			local_colonist_placement_chance = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -2854,6 +2958,10 @@ guyun = {	#孤云阁
 		area_modifier = {
 			local_colonial_growth = 100
 			local_colonist_placement_chance = 0.15
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -3059,6 +3167,10 @@ guizhong = {	#归终机
 			local_defensiveness = 0.3
 			local_hostile_attrition = 5
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3230,6 +3342,10 @@ lingju = {	#灵矩关
 			local_defensiveness = 0.3
 			local_culture_conversion_cost = -0.3
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3255,6 +3371,10 @@ lingju = {	#灵矩关
 			fort_level = 3
 			local_defensiveness = 0.5
 			local_culture_conversion_cost = -0.5
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -3395,6 +3515,10 @@ lisha = {	#璃沙郊
 		area_modifier = {
 			local_tax_modifier = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3413,6 +3537,10 @@ lisha = {	#璃沙郊
 		province_modifiers = { }
 		area_modifier = {
 			local_tax_modifier = 0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -3434,6 +3562,10 @@ lisha = {	#璃沙郊
 		province_modifiers = { }
 		area_modifier = {
 			local_tax_modifier = 0.3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -3619,6 +3751,10 @@ hulao = {	#琥牢山
 			local_defensiveness = 0.15
 			garrison_growth = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3664,6 +3800,10 @@ hulao = {	#琥牢山
 			local_hostile_attrition = 1
 			local_defensiveness = 0.25
 			garrison_growth = 0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -3832,6 +3972,10 @@ wanmin = {	#万民堂
 			local_tax_modifier = 0.1
 			local_production_efficiency = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3853,6 +3997,10 @@ wanmin = {	#万民堂
 			local_tax_modifier = 0.2
 			local_production_efficiency = 0.2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -3873,6 +4021,10 @@ wanmin = {	#万民堂
 		area_modifier = {
 			local_tax_modifier = 0.3
 			local_production_efficiency = 0.3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -4035,6 +4187,10 @@ wangsheng = {	#往生堂
 			local_tax_modifier = 0.1
 			local_unrest = -1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4058,6 +4214,10 @@ wangsheng = {	#往生堂
 			local_tax_modifier = 0.2
 			local_unrest = -3
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4080,6 +4240,10 @@ wangsheng = {	#往生堂
 		area_modifier = {
 			local_tax_modifier = 0.3
 			local_unrest = -5
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -4236,6 +4400,10 @@ bubulu = {	#不卜庐
 			local_production_efficiency = 0.1
 			local_unrest = -1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4258,6 +4426,10 @@ bubulu = {	#不卜庐
 		area_modifier = {
 			local_production_efficiency = 0.2
 			local_unrest = -3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -4296,6 +4468,10 @@ bubulu = {	#不卜庐
 		area_modifier = {
 			local_production_efficiency = 0.3
 			local_unrest = -5
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -4682,6 +4858,10 @@ shimen = {	#石门
 		area_modifier = {
 			local_institution_spread = 0.5
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4869,6 +5049,10 @@ heiyan = {	#黑岩厂
 		area_modifier = {
 			local_governing_cost = 0.05
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -4894,6 +5078,10 @@ heiyan = {	#黑岩厂
 		}
 		area_modifier = {
 			local_governing_cost = 0.1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -4921,6 +5109,10 @@ heiyan = {	#黑岩厂
 		}
 		area_modifier = {
 			local_governing_cost = 0.15
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -5121,6 +5313,10 @@ yanceng = {	#层岩巨渊 地面矿区
 		area_modifier = {
 			trade_goods_size_modifier = 0.2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -5149,6 +5345,10 @@ yanceng = {	#层岩巨渊 地面矿区
 		area_modifier = {
 			local_production_efficiency = 0.2
 			trade_goods_size_modifier = 0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -5339,6 +5539,10 @@ dansha = {	#层岩巨渊 丹砂崖
 			local_defensiveness = 0.2
 			local_governing_cost = -0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -5366,6 +5570,10 @@ dansha = {	#层岩巨渊 丹砂崖
 		area_modifier = {
 			local_defensiveness = 0.2
 			local_governing_cost = -0.1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -5397,6 +5605,10 @@ dansha = {	#层岩巨渊 丹砂崖
 		area_modifier = {
 			local_defensiveness = 0.2
 			local_governing_cost = -0.1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -5612,6 +5824,10 @@ juyuanzhikou = {	#层岩巨渊 巨渊之口
 		area_modifier = {
 			local_development_cost = -0.2
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -5639,6 +5855,10 @@ juyuanzhikou = {	#层岩巨渊 巨渊之口
 		province_modifiers = { }
 		area_modifier = {
 			local_development_cost = -0.4
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -5844,6 +6064,10 @@ qiao = {	#翘英庄
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -5874,6 +6098,10 @@ qiao = {	#翘英庄
 			allowed_num_of_buildings = 1
 			local_institution_spread = 1
 			local_governing_cost = -0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -6092,6 +6320,10 @@ yiloong = {	#遗珑埠
 			local_institution_spread = 0.5
 			local_governing_cost = -0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -6124,6 +6356,10 @@ yiloong = {	#遗珑埠
 			allowed_num_of_buildings = 1
 			local_institution_spread = 1
 			local_governing_cost = -0.2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -6294,6 +6530,10 @@ baojue = {	#宝玦口
 		area_modifier = {
 			local_governing_cost = -0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -6315,6 +6555,10 @@ baojue = {	#宝玦口
 		area_modifier = {
 			local_governing_cost = -0.3
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -6335,6 +6579,10 @@ baojue = {	#宝玦口
 		}
 		area_modifier = {
 			local_governing_cost = -0.5
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }

@@ -90,6 +90,10 @@ masike = {	#马斯克礁
 			local_colonial_growth = 20
 			local_colonist_placement_chance = 0.05
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -113,6 +117,10 @@ masike = {	#马斯克礁
 			local_colonial_growth = 50
 			local_colonist_placement_chance = 0.1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -135,6 +143,10 @@ masike = {	#马斯克礁
 		area_modifier = {
 			local_colonial_growth = 100
 			local_colonist_placement_chance = 0.15
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -271,6 +283,10 @@ jinpingguo = {	#金苹果群岛
 			local_production_efficiency = 0.05
 			province_trade_power_value = 1
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -297,6 +313,10 @@ jinpingguo = {	#金苹果群岛
 		area_modifier = {
 			local_production_efficiency = 0.1
 			province_trade_power_value = 2
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -340,6 +360,10 @@ jinpingguo = {	#金苹果群岛
 		area_modifier = {
 			local_production_efficiency = 0.2
 			province_trade_power_value = 3
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
@@ -510,6 +534,10 @@ Bottleland = {	#琉形蜃境
 		area_modifier = {
 			local_development_cost = -0.15
 		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
+		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
 			modifier = {
@@ -660,6 +688,10 @@ Simulanka = {	#希穆兰卡
 		province_modifiers = { }
 		area_modifier = {
 			local_autonomy = -0.1
+		}
+		country__modifier = {
+			estate_genshin_influence_modifier = 0.01
+			estate_genshin_loyalty_modifier =  0.01
 		}
 		conditional_modifier = {
 			trigger = { gs_monuments_amplitude_3_trigger = yes }
