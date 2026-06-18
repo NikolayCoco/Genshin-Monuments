@@ -1201,6 +1201,7 @@ country_decisions = {
 				has_country_flag = gs_set_country_name_SUMERU
 				has_country_flag = gs_set_country_name_FONTAINE
 				has_country_flag = gs_set_country_name_NATLAN
+				has_country_flag = gs_set_country_name_NodKrai
 				has_country_flag = gs_set_country_name_Remuria
 				has_country_flag = gs_set_country_name_YONGSHILETU
 				has_country_flag = gs_set_country_name_LANGGAN
@@ -1237,6 +1238,7 @@ country_decisions = {
 				has_country_flag = gs_set_country_color_SUMERU
 				has_country_flag = gs_set_country_color_FONTAINE
 				has_country_flag = gs_set_country_color_NATLAN
+				has_country_flag = gs_set_country_color_NodKrai
 				has_country_flag = gs_set_country_color_YONGSHILETU
 				has_country_flag = gs_set_country_color_LANGGAN
 			}
@@ -1271,6 +1273,7 @@ country_decisions = {
 				has_country_flag = gs_set_country_idea_SUMERU
 				has_country_flag = gs_set_country_idea_FONTAINE
 				has_country_flag = gs_set_country_idea_NATLAN
+				has_country_flag = gs_set_country_idea_NodKrai
 				has_country_flag = gs_set_country_idea_YONGSHILETU
 				has_country_flag = gs_set_country_idea_LANGGAN
 			}
