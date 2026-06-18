@@ -5,48 +5,60 @@
  gs_decisions_events_1000_desc:0 "§B,gmodS+TåNN…Q¹Rÿ§!\n1.ŸS^yGYÂ‰0N›NGYÂ‰GSµuO	gÎ˜sT‹NöNŒTìryr„vHeœg0Ø	g0)TOW3000*gšR‹NöN?|000)TOWÿfyzÁ”S0ŒT0Ýu:Sö–0„viVË†GYÂ‰0\n2.ŸS^yÒ‰r‚ÿÇGSµuGYÂ‰·ƒ—V0·ƒ—VŸS^yÒ‰r‚TÿïSåN(W³Q®‹-N=T(u0^yKN<w0c	gw6–BS0ÙuˆN0^yKN<w0c	gw6–BSyrCgÿïSåN©‹ŸS^yÒ‰r‚b:NS†˜0Œ˜î•ŒTM‘vPÿåNÊS=T(uLˆ?e0Y²N0›Q‹N	N*NCQ.ttõVÄu0\n3.1ZPN³Q®‹ÿO^yfb:N§G8lu„v§!ßu»lwÿØïSåNÛNekbËzŸS^yýV¶Rÿôf9eýV¶R„vTðy0œ˜r‚NtõVÿ§Gv^NO9eØStag§!	ÿ0\n4.ïSåN(W¾‹n‹NöNÌ‘ÖSˆmŸS^yGYÂ‰P–6R0V=T1ZPN!jVŒTiVË†!jVÿAQ¸‹AIO(uÐg›N³Q®‹Ir0\n§R³uTXGYÂ‰°sòTôf°e0å‚^gýwYnxÝO«ˆ–kl0W:SŸSOOl„vuXRÿïSåNV=T0ËpÈp„vØB›×‹0ÿƒRS(WŸSOOlµb—bµOeuwöeÙuˆNvQ:V›RžXÊv0§!\n\nN›NGYÂ‰ú^bóÐgIrµuöeOæ‰ÑSN›NVY±R0FO=f‚Yœg`O—V0Rå‹GYÂ‰bán³å‹GYÂ‰„vagöNöeÿƒRòTÏu¾0RbØšŽNå‹Irµuÿ1S¡lžRÕlQ!k0ú^b0ƒRåN—V0RVY±R†N0\n§G(W,gmod-NN—‰ÅbÃVÙÍyÅ`µQÿùRŽNÔkƒÍ‘‰„v0ú^b0VY±Rÿ‹O‚YŸS^yÒ‰r‚08lENîOck09eØSFUÁT0GSµuFU=nIrÿïSåNÇ³Q®‹07R°eGYÂ‰VY±R0·ƒ—V0§!"
  gs_decisions_events.1000.a:0 "!jV¾‹n"
  gs_decisions_events.1000.b:0 "AI¾‹n"
- gs_decisions_events.1000.c:0 "0TNwf°Nñmnÿ0"
- gs_decisions_events.1000.d:0 "bg‹Y„vO4ObTÿ"
+ gs_decisions_events.1000.c:0 ":V¦^¾‹n"
+ gs_decisions_events.1000.d:0 "0TNwf°Nñmnÿ0"
+ gs_decisions_events.1000.e:0 "bg‹Y„vO4ObTÿ"
  gs_start:0 "ŸS^yGYÂ‰"
  desc_gs_start:0 "0kÎ ReQ²NAm²ÿ95916676300kÎegÍSˆ™aÁ‰ÿôf0kÎeg9T4lò•Jwÿp>y8nb0s|8nåNÊSÛlŒN!kCQøvsQÝ‹˜˜ýïSåN0"
  gs_Paimon_start:0 "‹†6qíwg…QïSýwÿbN0RvQÖNŸS^yÒ‰r‚ÿFO=f>m™„I`Oj–(W`O«Ž¹ÿN&&NOT*YY`O¶R'Ys|†NfUÿ\n\n\n\n\n\n\n\n\n\n£gs_Paimon_start_tooltip_pic£\n\n\n\n\n\n\n\n\n\n0¡l•ÿ`O„vx^y1S=f>m™„„vx^yNTÿNbåNÍSÇegô‹ÿ>m™„x^yÿ`OmNx^y00"
- gs_decisions_events_1001_title:0 "ŸS^yGYÂ‰!jV¾‹n"
+ gs_decisions_events_1001_title:0 "ŸS^yGYÂ‰·!jV¾‹n"
  gs_decisions_events_1001_desc:0 "§R0ËpÈp„vØB›×‹0§!:nxÝO³uTX0W:SýV¶R„vuXRÿ(WŸSOOlµb—bµOeuwöeÙuˆNvQ:V›RžXÊv0\n\nGYÂ‰‹TTwýNÿú^bGYÂ‰TO9VúQ‹NöNîO9ewýNTðy0\n\n§BàeP–6R!jVÿ§!ÖSˆmNb	gŸS^yGYÂ‰„vú^.0GSµu0(uP–6R0\n\n§B1ZPN!jVÿ§!Søv”^„vGYÂ‰ú^.0R	NµuTÿïSåN=T(u³Q®‹egO^yfb:N§G8lu„v§!ßu»lwÿ^yfßu»lwïSåNàeagöN=T(uùR”^ýV¶R„vNb	gGYÂ‰ÿØïSåNÛNekbËzŸS^yýV¶Rÿôf9eýV¶R„vTðy0œ˜r‚NtõVÿ§Gv^NO9eØSTGA§!	ÿ0\n=T¨R1ZPN!jVv^AQ¸‹AIO(u1ZPN!jV³Q®‹TÿO	gåNNHeœgÿAIOØS«ŽŸS^yýV¶RÿØS«ŽýV¶R„v³Q®‹NOàV«ˆ`S†˜wM–µuÿOæ‰ÑSN›NÎ˜sT‹NöNÞ‹u°e„vŸS^yýV¶R0\n\n§BiVË†!jVÿ§!mod-NS+T0)TOW3000*gšR‹NöN?|0ŒT0)TOWÿfyzÁ”S0„viVË†GYÂ‰ÿ¾bÐg›NagöNTÇ–Ï…³Q®‹Rú^0iVË†GYÂ‰O(WfKbT•ÁkÿAINOO(u0iVË†ÏkNS8nbêSýwæ‰ÑSN!k0"
- gs_decisions_events.1001.a:0 "V=T0ËpÈp„vØB›×‹0"
- gs_decisions_events.1001.b:0 "sQí•0ËpÈp„vØB›×‹0"
+ gs_decisions_events.1001.a:0 "Rbc0ËpÈp„vØB›×‹0¶r`ÿSVMR¶r`:Nÿ§RsQí•§!	ÿ"
+ gs_decisions_events.1001.b:0 "Rbc0ËpÈp„vØB›×‹0¶r`ÿSVMR¶r`:Nÿ§GV=T§!	ÿ"
  gs_Natlan_Ode_Resurrection:0 "0ËpÈp„vØB›×‹0"
  gs_Natlan_Ode_Resurrection_modifier:0 "0ËpÈp„vØB›×‹0"
  desc_gs_Natlan_Ode_Resurrection_modifier:0 "bìN0âVÓu0NÃVÿ\nÏu×S0ÞVkp0m<yÿ\n©w0kyy0äSTÿ\nåwSf0›RÏ‘0waÿ\n¥c³u0IY.s0‹TÐÿ\nÈuÎ0…Š0KNkpÿ\n:N†N³uTXÿ\n\nåNkpKNT›^yk^Ì‘FzKNTÿ\n±R^ÿérYwb‰NVU^ÿ\nØB›×‹S‡^QONb	gu‹Tÿ\nôvób‰NÈuÓuÿ"
- gs_decisions_events.1001.c:0 "V=TàeP–6R!jV"
- gs_decisions_events.1001.d:0 "sQí•àeP–6R!jV"
+ gs_decisions_events.1001.c:0 "RbcàeP–6R!jV¶r`ÿSVMR¶r`:Nÿ§RsQí•§!	ÿ"
+ gs_decisions_events.1001.d:0 "RbcàeP–6R!jV¶r`ÿSVMR¶r`:Nÿ§GV=T§!	ÿ"
  gs_monuments_unlimit_trigger_tt:0 "àeP–6R!jV(u"
  gs_monuments_unlimit_open:0 "ŸS^yGYÂ‰ú^.'Y^"
  desc_gs_monuments_unlimit_open:0 "ïSåNàeP–6Rú^.ŸS^yGYÂ‰"
- gs_decisions_events.1001.e:0 "V=TGYÂ‰‹TTwýN!jV"
- gs_decisions_events.1001.f:0 "sQí•GYÂ‰‹TTwýN!jV"
- gs_decisions_events.1001.g:0 "V=T1ZPN!jV"
- gs_decisions_events.1001.h:0 "sQí•1ZPN!jV"
- gs_decisions_events.1001.i:0 "V=TiVË†!jV"
- gs_decisions_events.1001.j:0 "sQí•iVË†!jV"
+ gs_decisions_events.1001.e:0 "RbcGYÂ‰‹TTwýN!jV¶r`ÿSVMR¶r`:Nÿ§RsQí•§!	ÿ"
+ gs_decisions_events.1001.f:0 "RbcGYÂ‰‹TTwýN!jV¶r`ÿSVMR¶r`:Nÿ§GV=T§!	ÿ"
+ gs_decisions_events.1001.g:0 "Rbc1ZPN!jV¶r`ÿSVMR¶r`:Nÿ§RsQí•§!	ÿ"
+ gs_decisions_events.1001.h:0 "Rbc1ZPN!jV¶r`ÿSVMR¶r`:Nÿ§GV=T§!	ÿ"
+ gs_decisions_events.1001.i:0 "RbciVË†!jV¶r`ÿSVMR¶r`:Nÿ§RsQí•§!	ÿ"
+ gs_decisions_events.1001.j:0 "RbciVË†!jV¶r`ÿSVMR¶r`:Nÿ§GV=T§!	ÿ"
  gs_happy_mod_trigger_tt:0 "1ZPN!jV(u"
  gs_has_OnlyFans_monuments:0 "åb	giVË†GYÂ‰"
  gs_has_OnlyFans_leader:0 "åb	giVË†S†˜"
  gs_decisions_events.1001.k:0 "ÔÞV"
- gs_decisions_events_1002_title:0 "ŸS^yGYÂ‰mod AI¾‹n"
+ gs_decisions_events_1002_title:0 "ŸS^yGYÂ‰·AI¾‹n"
  gs_decisions_events_1002_desc:0 "AIàeP–6R!jVN©s¶R„vàeP–6R!jV’NNqVÍT0\n\nàV:N0ìS2UŸS^yS†˜0—‰0^yKN<w0c	gw6–BSyrCgÿàVdkå‚ybkAIO(u0^yKN<w0c	gw6–BSÿAQ¸‹AIO(u³Q®‹0ìS2UŸS^yS†˜0¾‹nSàeHe0AII`NýwO(uŸS^yŒ˜î•NŸS^yM‘vP0\nAIŸS^yýV¶RI`ýwO(u0^yKN<w0c	gw6–BSŒTCQ.ttõVÄu0"
- gs_decisions_events.1002.a:0 "AQ¸‹AIàeP–6Rú^.ŸS^yGYÂ‰"
- gs_decisions_events.1002.b:0 "ybkAIàeP–6Rú^.ŸS^yGYÂ‰"
- gs_decisions_events.1002.c:0 "AIV=TGYÂ‰‹TTwýN"
- gs_decisions_events.1002.d:0 "AIsQí•GYÂ‰‹TTwýN"
- gs_decisions_events.1002.e:0 "AQ¸‹AIO(u³Q®‹0ìS2UŸS^yS†˜0"
- gs_decisions_events.1002.f:0 "ybkAIO(u³Q®‹0ìS2UŸS^yS†˜0"
- gs_decisions_events.1002.g:0 "AQ¸‹AIO(u1ZPN!jV³Q®‹"
- gs_decisions_events.1002.h:0 "ybkAIO(u1ZPN!jV³Q®‹"
- gs_decisions_events.1002.i:0 "AQ¸‹AIO(u0^yKN<w0c	gw6–BS"
- gs_decisions_events.1002.j:0 "ybkAIO(u0^yKN<w0c	gw6–BS"
- gs_decisions_events.1002.k:0 "AQ¸‹AIO(uCQ.ttõVÄu"
- gs_decisions_events.1002.l:0 "ybkAIO(uCQ.ttõVÄu"
+ gs_decisions_events.1002.a:0 "RbcAIàeP–6Rú^.ŸS^yGYÂ‰¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.b:0 "RbcAIàeP–6Rú^.ŸS^yGYÂ‰¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
+ gs_decisions_events.1002.c:0 "RbcAIGYÂ‰‹TTwýN¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.d:0 "RbcAIGYÂ‰‹TTwýN¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
+ gs_decisions_events.1002.e:0 "RbcAIO(u³Q®‹0ìS2UŸS^yS†˜0¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.f:0 "RbcAIO(u³Q®‹0ìS2UŸS^yS†˜0¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
+ gs_decisions_events.1002.g:0 "RbcAIO(u1ZPN!jV³Q®‹¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.h:0 "RbcAIO(u1ZPN!jV³Q®‹¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
+ gs_decisions_events.1002.i:0 "RbcAIO(u0^yKN<w0c	gw6–BS¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.j:0 "RbcAIO(u0^yKN<w0c	gw6–BS¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
+ gs_decisions_events.1002.k:0 "RbcAIO(uCQ.ttõVÄu¶r`ÿSVMR¶r`:Nÿ§Rybk§!	ÿ"
+ gs_decisions_events.1002.l:0 "RbcAIO(uCQ.ttõVÄu¶r`ÿSVMR¶r`:Nÿ§GAQ¸‹§!	ÿ"
  gs_decisions_events.1002.m:0 "ÔÞV"
+ gs_decisions_events_1004_title:0 "ŸS^yGYÂ‰·:V¦^¾‹n"
+ gs_decisions_events_1004_desc:0 "AIN©s¶R„v:V¦^¾‹n’NNqVÍT0\n\n§BàeîOck!jV§!»Sd–†NNb	gGYÂ‰Ðc›O„výV¶RîOck0"
+ gs_decisions_events.1004.a:0 "Rbc©s¶RŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§BàeîOck!jV§!	ÿ"
+ gs_decisions_events.1004.b:0 "Rbc©s¶RŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§RNµu:V¦^§!	ÿ"
+ gs_decisions_events.1004.c:0 "Rbc©s¶RŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§YŒNµu:V¦^§!	ÿ"
+ gs_decisions_events.1004.d:0 "Rbc©s¶RŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§Gck8^!jV§!	ÿ"
+ gs_decisions_events.1004.e:0 "RbcAIŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§BàeîOck!jV§!	ÿ"
+ gs_decisions_events.1004.f:0 "RbcAIŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§RNµu:V¦^§!	ÿ"
+ gs_decisions_events.1004.g:0 "RbcAIŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§YŒNµu:V¦^§!	ÿ"
+ gs_decisions_events.1004.h:0 "RbcAIŸS^yGYÂ‰:V¦^ÿSVMR¶r`:Nÿ§Gck8^!jV§!	ÿ"
+ gs_decisions_events.1004.i:0 "ÔÞV"
  gs_decisions_events_1003_title:0 "ÀNHNÿ>m™„Šb`OT4xµN†Nÿ"
  gs_decisions_events_1003_desc:0 "0jT&sžºN™†™ô‹bìN.k†N	N*Ngm™±”ÿSýVö”Lˆ„v¨‹:PºNRR(W)YNý†N>m™„	NWÿÞ™™ñƒýî•bìN‰N‰VS•ôTØ:P†Nÿ0\n0jT&>m™„N=fEea„vVÿ(f)Y(Wƒtg=nw0RNlXJS÷Nÿ1S&1SÍVNOO¹p†N4lnqÑžÌwˆœM‘Ýu‘Nii°QÇmËm&0\n\n0FO0FO=fÿ`OwÙ*N0\n0Ù=f>m™„wPwPXR„vÿ(uÏk)Yac„vvf8hßÐcs|bcKžPRr™™eÿQVSÙunÉlG•sºN&Ø	g.^ïQmt3tŒb0N1Y„v+se„vS9ÿ0\n\n0êS	gÙN!kæTÿw„vêS	gÙN!kæTÿ>m™„„vSÑ‘“^w„vòTÏuczz†N&0"
  gs_decisions_events.1003.a:0 ">m™„êl<wjljlCU.tÜƒ»S†N&"

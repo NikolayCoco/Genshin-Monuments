@@ -19,9 +19,13 @@ country_event = {
 		name = gs_decisions_events.1000.b
 		country_event = { id = gs_decisions_events.1002 }
 	}
-
 	option = {
 		name = gs_decisions_events.1000.c
+		country_event = { id = gs_decisions_events.1004 }
+	}
+
+	option = {
+		name = gs_decisions_events.1000.d
 		highlight = yes
 		
 		if = {
@@ -52,7 +56,7 @@ country_event = {
 	}
 
 	option = {
-		name = gs_decisions_events.1000.d
+		name = gs_decisions_events.1000.e
 		highlight = yes
 		trigger = { NOT = { has_country_modifier = gs_Paimon } }
 
@@ -260,6 +264,81 @@ country_event = {
 	}
 	option = {
 		name = gs_decisions_events.1002.m
+		country_event = { id = gs_decisions_events.1000 }
+	}
+}
+country_event = {
+	id = gs_decisions_events.1004
+	title = gs_decisions_events_1004_title
+	desc = gs_decisions_events_1004_desc
+	picture = gs_decisions_events_1004_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = { }
+
+	option = {
+		name = gs_decisions_events.1004.a
+		trigger = {
+			NOT = { has_global_flag = gs_monuments_amplitude_1_player }
+			NOT = { has_global_flag = gs_monuments_amplitude_2_player }
+			NOT = { has_global_flag = gs_monuments_amplitude_3_player }
+		}
+		set_global_flag = gs_monuments_amplitude_3_player
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.b
+		trigger = { has_global_flag = gs_monuments_amplitude_1_player }
+		clr_global_flag = gs_monuments_amplitude_1_player
+		set_global_flag = gs_monuments_amplitude_2_player
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.c
+		trigger = { has_global_flag = gs_monuments_amplitude_2_player }
+		clr_global_flag = gs_monuments_amplitude_2_player
+		set_global_flag = gs_monuments_amplitude_3_player
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.d
+		trigger = { has_global_flag = gs_monuments_amplitude_3_player }
+		clr_global_flag = gs_monuments_amplitude_3_player
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.e
+		trigger = {
+			NOT = { has_global_flag = gs_monuments_amplitude_1_ai }
+			NOT = { has_global_flag = gs_monuments_amplitude_2_ai }
+			NOT = { has_global_flag = gs_monuments_amplitude_3_ai }
+		}
+		set_global_flag = gs_monuments_amplitude_3_ai
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.f
+		trigger = { has_global_flag = gs_monuments_amplitude_1_ai }
+		clr_global_flag = gs_monuments_amplitude_1_ai
+		set_global_flag = gs_monuments_amplitude_2_ai
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.g
+		trigger = { has_global_flag = gs_monuments_amplitude_2_ai }
+		clr_global_flag = gs_monuments_amplitude_2_ai
+		set_global_flag = gs_monuments_amplitude_3_ai
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.h
+		trigger = { has_global_flag = gs_monuments_amplitude_3_ai }
+		clr_global_flag = gs_monuments_amplitude_3_ai
+		country_event = { id = gs_decisions_events.1000 }
+	}
+	option = {
+		name = gs_decisions_events.1004.i
 		country_event = { id = gs_decisions_events.1000 }
 	}
 }
