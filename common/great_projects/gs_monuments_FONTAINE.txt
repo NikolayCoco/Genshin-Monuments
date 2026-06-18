@@ -114,11 +114,7 @@ momang = {	#沫芒宫
 		area_modifier = {
 			local_tax_modifier = 0.05
 		}
-		country__modifier = {
-			estate_genshin_influence_modifier = 0.01
-			estate_genshin_loyalty_modifier =  0.01
-		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -144,7 +140,7 @@ momang = {	#沫芒宫
 			local_tax_modifier = 0.1
 			local_monthly_devastation = -0.05
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -189,7 +185,7 @@ momang = {	#沫芒宫
 			local_monthly_devastation = -0.1
 
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -364,7 +360,7 @@ zhengqi = {	#蒸汽鸟报社
 		area_modifier = {
 			local_production_efficiency = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -391,7 +387,7 @@ zhengqi = {	#蒸汽鸟报社
 			local_production_efficiency = 0.2
 			local_institution_spread = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -420,7 +416,7 @@ zhengqi = {	#蒸汽鸟报社
 			local_production_efficiency = 0.3
 			local_institution_spread = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -596,7 +592,7 @@ Debord = {	#德波大饭店
 		area_modifier = {
 			local_trade_power = 0.15
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -622,7 +618,7 @@ Debord = {	#德波大饭店
 		area_modifier = {
 			local_trade_power = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -777,7 +773,7 @@ qianzhi = {	#千织屋
 			local_manpower_modifier = 0.1
 			local_defensiveness = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -804,7 +800,7 @@ qianzhi = {	#千织屋
 			local_manpower_modifier = 0.2
 			local_defensiveness = 0.4
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -832,7 +828,7 @@ qianzhi = {	#千织屋
 			local_manpower_modifier = 0.3
 			local_defensiveness = 0.6
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1193,7 +1189,7 @@ Epiclese = {	#欧庇克莱歌剧院
 		area_modifier = {
 			local_tax_modifier = 0.25
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1236,7 +1232,7 @@ Epiclese = {	#欧庇克莱歌剧院
 		area_modifier = {
 			local_tax_modifier = 0.35
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1287,7 +1283,7 @@ Epiclese = {	#欧庇克莱歌剧院
 			local_governing_cost = -0.2
 			local_tax_modifier = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1447,7 +1443,7 @@ Poisson = {	#白淞镇
 		area_modifier = {
 			local_tax_modifier = 0.25
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1473,7 +1469,7 @@ Poisson = {	#白淞镇
 		area_modifier = {
 			local_tax_modifier = 0.35
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1509,7 +1505,7 @@ Poisson = {	#白淞镇
 			local_governing_cost = -0.2
 			local_tax_modifier = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1659,7 +1655,7 @@ kexueyuan = {	#枫丹动能工程科学研究院
 		area_modifier = {
 			local_institution_spread = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1684,7 +1680,7 @@ kexueyuan = {	#枫丹动能工程科学研究院
 		area_modifier = {
 			local_institution_spread = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1726,7 +1722,7 @@ kexueyuan = {	#枫丹动能工程科学研究院
 		area_modifier = {
 			local_institution_spread = 1.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1869,7 +1865,7 @@ highmore = {	#海沫村
 		area_modifier = {
 			local_development_cost = -0.05
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1898,7 +1894,7 @@ highmore = {	#海沫村
 		area_modifier = {
 			local_development_cost = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1930,7 +1926,7 @@ highmore = {	#海沫村
 		area_modifier = {
 			local_development_cost = -0.15
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2102,7 +2098,7 @@ Meropide = {	#梅洛彼得堡
 			local_defensiveness = 0.2
 			local_governing_cost = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2129,7 +2125,7 @@ Meropide = {	#梅洛彼得堡
 			local_defensiveness = 0.4
 			local_governing_cost = -0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2174,7 +2170,7 @@ Meropide = {	#梅洛彼得堡
 			local_defensiveness = 0.5
 			local_governing_cost = -0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2345,7 +2341,7 @@ dixaicheng = {	#灰河
 		area_modifier = {
 			local_manpower_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2371,7 +2367,7 @@ dixaicheng = {	#灰河
 		area_modifier = {
 			local_manpower_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2396,7 +2392,7 @@ dixaicheng = {	#灰河
 			local_unrest = -2
 			local_manpower_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2961,7 +2957,7 @@ Lumidouce = {	#柔灯港
 		area_modifier = {
 			ship_recruit_speed = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2993,7 +2989,7 @@ Lumidouce = {	#柔灯港
 			local_ship_cost = -0.2
 			ship_recruit_speed = -0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3333,7 +3329,7 @@ Narzissenkreuz = {	#自然哲学研究所
 		area_modifier = {
 			local_monthly_devastation = 0.01
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3362,7 +3358,7 @@ Narzissenkreuz = {	#自然哲学研究所
 			local_manpower_modifier = 0.05
 
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3390,7 +3386,7 @@ Narzissenkreuz = {	#自然哲学研究所
 			local_monthly_devastation = 0.05
 			local_manpower_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3552,7 +3548,7 @@ Ipsissimus = {	#自体自身之塔
 		area_modifier = {
 			local_unrest = -2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4116,7 +4112,7 @@ Petrichor = {	#佩特莉可镇
 		area_modifier = {
 			trade_goods_size = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4142,7 +4138,7 @@ Petrichor = {	#佩特莉可镇
 		area_modifier = {
 			trade_goods_size = 2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4172,7 +4168,7 @@ Petrichor = {	#佩特莉可镇
 		area_modifier = {
 			trade_goods_size = 3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4308,7 +4304,7 @@ Aurea = {	#黄金的大宫
 		area_modifier = {
 			local_governing_cost = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4333,7 +4329,7 @@ Aurea = {	#黄金的大宫
 		area_modifier = {
 			local_governing_cost = -0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4358,7 +4354,7 @@ Aurea = {	#黄金的大宫
 		area_modifier = {
 			local_governing_cost = -0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}

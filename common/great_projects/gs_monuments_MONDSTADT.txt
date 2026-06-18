@@ -82,7 +82,7 @@ xifengqishi = {	#西风骑士团
 		area_modifier = {
 			local_governing_cost = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -108,7 +108,7 @@ xifengqishi = {	#西风骑士团
 			local_governing_cost = 0.8
 			local_warscore_cost_modifier = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -138,7 +138,7 @@ xifengqishi = {	#西风骑士团
 			local_governing_cost = 0.6
 			local_warscore_cost_modifier = 0.7
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -184,7 +184,7 @@ xifengqishi = {	#西风骑士团
 			local_governing_cost = 0.2
 			local_warscore_cost_modifier = 1.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -324,7 +324,7 @@ bbts = {	#风神像
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -349,7 +349,7 @@ bbts = {	#风神像
 		area_modifier = {
 			local_defensiveness = 0.4
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -376,7 +376,7 @@ bbts = {	#风神像
 			local_defensiveness = 0.6
 			local_governing_cost = -0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -593,7 +593,7 @@ xifengchurch = {	#西风大教堂
 		area_modifier = {
 			local_religious_conversion_resistance = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -913,7 +913,7 @@ chenxi = {	#晨曦酒庄
 			local_production_efficiency = 0.1
 			trade_goods_size_modifier = 0.05
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -941,7 +941,7 @@ chenxi = {	#晨曦酒庄
 			local_production_efficiency = 0.2
 			trade_goods_size_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1004,7 +1004,7 @@ chenxi = {	#晨曦酒庄
 			local_production_efficiency = 0.3
 			trade_goods_size_modifier = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1154,7 +1154,7 @@ qianfeng = {	#千风神殿
 		area_modifier = {
 			local_development_cost = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1184,7 +1184,7 @@ qianfeng = {	#千风神殿
 		area_modifier = {
 			local_development_cost = -0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1215,7 +1215,7 @@ qianfeng = {	#千风神殿
 		area_modifier = {
 			local_development_cost = -0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1592,7 +1592,7 @@ xingluo = {	#星落湖
 		area_modifier = {
 			local_development_cost = -0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1722,7 +1722,7 @@ zhaixing = {	#摘星崖
 		area_modifier = {
 			local_defensiveness = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1751,7 +1751,7 @@ zhaixing = {	#摘星崖
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1780,7 +1780,7 @@ zhaixing = {	#摘星崖
 		area_modifier = {
 			local_defensiveness = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1946,7 +1946,7 @@ pugongying = {	#蒲公英海
 			local_institution_spread = 0.5
 			local_governing_cost = -0.10
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -1983,7 +1983,7 @@ pugongying = {	#蒲公英海
 			local_institution_spread = 1
 			local_governing_cost = -0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2137,7 +2137,7 @@ shiyan = {	#誓言岬
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2170,7 +2170,7 @@ shiyan = {	#誓言岬
 		area_modifier = {
 			local_defensiveness = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2319,7 +2319,7 @@ fengqidi = {	#风起地
 			local_production_efficiency = 0.1
 			province_trade_power_value = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2343,7 +2343,7 @@ fengqidi = {	#风起地
 			local_production_efficiency = 0.2
 			province_trade_power_value = 3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2371,7 +2371,7 @@ fengqidi = {	#风起地
 			local_production_efficiency = 0.3
 			province_trade_power_value = 0.5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2896,7 +2896,7 @@ dafengjiguan = {	#大风机关
 			trade_goods_size_modifier = 0.05
 			local_production_efficiency = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2923,7 +2923,7 @@ dafengjiguan = {	#大风机关
 			trade_goods_size_modifier = 0.1
 			local_production_efficiency = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -2950,7 +2950,7 @@ dafengjiguan = {	#大风机关
 			trade_goods_size_modifier = 0.2
 			local_production_efficiency = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3255,7 +3255,7 @@ qingquan = {	#清泉镇
 		area_modifier = {
 			local_tax_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3279,7 +3279,7 @@ qingquan = {	#清泉镇
 		area_modifier = {
 			local_tax_modifier = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3303,7 +3303,7 @@ qingquan = {	#清泉镇
 		area_modifier = {
 			local_tax_modifier = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3462,7 +3462,7 @@ jingfu = {	#荆夫港
 			local_production_efficiency = 0.1
 			province_trade_power_value = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3490,7 +3490,7 @@ jingfu = {	#荆夫港
 			local_production_efficiency = 0.2
 			province_trade_power_value = 3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3534,7 +3534,7 @@ jingfu = {	#荆夫港
 			local_production_efficiency = 0.3
 			province_trade_power_value = 5
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3689,7 +3689,7 @@ fengche = {	# 风车镇
 		area_modifier = {
 			local_tax_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3714,7 +3714,7 @@ fengche = {	# 风车镇
 		area_modifier = {
 			local_tax_modifier = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3739,7 +3739,7 @@ fengche = {	# 风车镇
 		area_modifier = {
 			local_tax_modifier = 0.3
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3870,7 +3870,7 @@ fuxue = {	#龙脊雪山 覆雪之路
 		area_modifier = {
 			local_defensiveness = 0.2
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3897,7 +3897,7 @@ fuxue = {	#龙脊雪山 覆雪之路
 		area_modifier = {
 			local_defensiveness = 0.4
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3925,7 +3925,7 @@ fuxue = {	#龙脊雪山 覆雪之路
 		area_modifier = {
 			local_defensiveness = 0.8
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -3952,7 +3952,7 @@ fuxue = {	#龙脊雪山 覆雪之路
 		area_modifier = {
 			local_defensiveness = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4098,7 +4098,7 @@ xuezang = {	#龙脊雪山 雪葬之都
 		area_modifier = {
 			local_defensiveness = 0.4
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4125,7 +4125,7 @@ xuezang = {	#龙脊雪山 雪葬之都
 		area_modifier = {
 			local_defensiveness = 0.8
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4166,7 +4166,7 @@ xuezang = {	#龙脊雪山 雪葬之都
 		area_modifier = {
 			local_defensiveness = 1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4313,7 +4313,7 @@ hantian = {	#龙脊雪山 寒天之钉
 		area_modifier = {
 			local_warscore_cost_modifier = 0.05
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4339,7 +4339,7 @@ hantian = {	#龙脊雪山 寒天之钉
 		area_modifier = {
 			local_warscore_cost_modifier = 0.1
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
@@ -4365,7 +4365,7 @@ hantian = {	#龙脊雪山 寒天之钉
 		area_modifier = {
 			local_warscore_cost_modifier = 0.15
 		}
-		country__modifier = {
+		country_modifier = {
 			estate_genshin_influence_modifier = 0.01
 			estate_genshin_loyalty_modifier =  0.01
 		}
