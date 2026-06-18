@@ -192,6 +192,26 @@ on_province_owner_change = {
 					tier = 1
 				}
 			}
+			if = {
+				limit = {
+					has_great_project = {
+						type = yinyuezhiting
+						tier = 0
+					}
+				}
+				add_great_project_tier = {
+					type = yinyuezhiting
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = yinyuezhiting
+					tier = 1
+				}
+				add_great_project_tier = {
+					type = yinyuezhiting
+					tier = 1
+				}
+			}
 		}
 		#移除彩蛋奇观
 		if = {
