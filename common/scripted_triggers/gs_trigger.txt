@@ -1,3 +1,19 @@
+gs_monuments_amplitude_3_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = gs_monuments_amplitude_3_trigger_tt
+		OR = {
+			AND = {
+				owner = { ai = no }
+				has_global_flag = gs_monuments_amplitude_3_player
+			}
+			AND = {
+				owner = { ai = yes }
+				has_global_flag = gs_monuments_amplitude_3_ai
+			}
+		}
+	}
+}
+
 gs_monuments_unlimit_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = gs_monuments_unlimit_trigger_tt

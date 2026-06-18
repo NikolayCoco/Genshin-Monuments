@@ -3,10 +3,12 @@ on_startup = {
 	hidden_effect = {
 		if = {
 			limit = { NOT = { has_global_flag = gs_start_end } }
-			set_global_flag = gs_start_end
 			set_global_flag = ys_qiguan_shengfen_mingzi
 			set_global_flag = gs_allow_ai_Easter
 			set_global_flag = gs_allow_ai_gs_estate
+			set_global_flag = gs_monuments_amplitude_3_player
+			set_global_flag = gs_monuments_amplitude_3_ai
+			set_global_flag = gs_start_end
 			if = {
 				limit = { has_global_flag = gs_move_start }
 				set_global_flag = ys_ai_qiguan_shengfen_mingzi
