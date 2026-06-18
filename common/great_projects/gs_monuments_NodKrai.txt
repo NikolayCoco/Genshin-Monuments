@@ -7,7 +7,9 @@
 yinyuezhiting = {	# 银月之庭
 	start = 370 # 雷克雅未克
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -18,7 +20,9 @@ yinyuezhiting = {	# 银月之庭
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -31,14 +35,20 @@ yinyuezhiting = {	# 银月之庭
 			}
 		}
 	}
-	on_built = { show_ambient_object = yinyuezhiting }
-	on_destroyed = { hide_ambient_object = yinyuezhiting }
+	on_built = {
+		show_ambient_object = yinyuezhiting
+	}
+	on_destroyed = {
+		hide_ambient_object = yinyuezhiting
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -56,7 +66,9 @@ yinyuezhiting = {	# 银月之庭
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -74,94 +86,111 @@ yinyuezhiting = {	# 银月之庭
 		#owner = { ai = yes }
 	}
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_production_efficiency = 0.1
-            trade_goods_size = 1
+			trade_goods_size = 1
 		}
 		area_modifier = {
 			local_unrest = -5
 		}
 		country_modifiers = {
-			administrative_efficiency = 0.01
-            global_unrest = -1
-            global_missionary_strength = 0.01
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.01
+				global_unrest = -1
+				global_missionary_strength = 0.01
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_production_efficiency = 0.2
-            trade_goods_size = 2
+			trade_goods_size = 2
 		}
 		area_modifier = {
 			local_unrest = -8
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.03
-            global_unrest = -2
-            global_missionary_strength = 0.03
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.03
+				global_unrest = -2
+				global_missionary_strength = 0.03
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
-            local_production_efficiency = 0.3
-            trade_goods_size = 3
+			local_production_efficiency = 0.3
+			trade_goods_size = 3
 		}
 		area_modifier = {
-			  local_unrest = -10
+				local_unrest = -10
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.05
-            global_unrest = -3
-            global_missionary_strength = 0.03
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.05
+				global_unrest = -3
+				global_missionary_strength = 0.03
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_columbina } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_columbina
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_columbina
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_columbina
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_columbina
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -169,7 +198,9 @@ yinyuezhiting = {	# 银月之庭
 miwenguan = {	# 秘闻馆
 	start = 1 # 斯德哥尔摩
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -180,23 +211,29 @@ miwenguan = {	# 秘闻馆
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
 		}
-		else = {
-			
-		}
+		else = { }
 	}
-	on_built = { show_ambient_object = miwenguan }
-	on_destroyed = { hide_ambient_object = miwenguan }
+	on_built = {
+		show_ambient_object = miwenguan
+	}
+	on_destroyed = {
+		hide_ambient_object = miwenguan
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -214,7 +251,9 @@ miwenguan = {	# 秘闻馆
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -229,17 +268,15 @@ miwenguan = {	# 秘闻馆
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
 		on_upgraded = {
 			culture_group = scandinavian
 			OR = {
@@ -249,8 +286,12 @@ miwenguan = {	# 秘闻馆
 		}
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_tax_modifier = 0.1
 		}
@@ -258,21 +299,26 @@ miwenguan = {	# 秘闻馆
 			local_unrest = -5
 		}
 		country_modifiers = {
-			spy_offence = 0.1
-            global_spy_defence = 0.33
-            global_unrest = -1
-            core_creation = -0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				spy_offence = 0.1
+				global_spy_defence = 0.33
+				global_unrest = -1
+				core_creation = -0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_tax_modifier = 0.3
 		}
@@ -280,58 +326,76 @@ miwenguan = {	# 秘闻馆
 			local_unrest = -8
 		}
 		country_modifiers = {
-			spy_offence = 0.3
-            global_spy_defence = 0.5
-            diplomats = 1
-            global_unrest = -2
-            core_creation = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				spy_offence = 0.3
+				global_spy_defence = 0.5
+				diplomats = 1
+				global_unrest = -2
+				core_creation = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_yakeda } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_yakeda
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_yakeda
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_yakeda
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_yakeda
-			    }
-		    }
+				}
+			}
 		}
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
-            local_tax_modifier = 0.5
+			local_tax_modifier = 0.5
 		}
 		area_modifier = {
-			  local_unrest = -10
+				local_unrest = -10
 		}
 		country_modifiers = {
-			spy_offence = 0.5
-            global_spy_defence = 1
-            diplomats = 2
-            global_unrest = -3
-            core_creation = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				spy_offence = 0.5
+				global_spy_defence = 1
+				diplomats = 2
+				global_unrest = -3
+				core_creation = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_naifuer } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_naifuer
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_naifuer
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_naifuer
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_naifuer
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -339,7 +403,9 @@ miwenguan = {	# 秘闻馆
 funiqi = {	# 伏尼契商会
 	start = 1 # 斯德哥尔摩
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -350,7 +416,9 @@ funiqi = {	# 伏尼契商会
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -363,14 +431,20 @@ funiqi = {	# 伏尼契商会
 			}
 		}
 	}
-	on_built = { show_ambient_object = funiqi }
-	on_destroyed = { hide_ambient_object = funiqi }
+	on_built = {
+		show_ambient_object = funiqi
+	}
+	on_destroyed = {
+		hide_ambient_object = funiqi
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -388,7 +462,9 @@ funiqi = {	# 伏尼契商会
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -403,98 +479,111 @@ funiqi = {	# 伏尼契商会
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_tax_modifier = 0.1
-            trade_goods_size = 0.5
-            province_trade_power_value = 2
+			trade_goods_size = 0.5
+			province_trade_power_value = 2
 		}
 		area_modifier = {
 			local_production_efficiency = 0.1
 		}
 		country_modifiers = {
-            trade_efficiency = 0.1
-            trade_steering = 0.1
-            global_trade_goods_size_modifier = 0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				trade_efficiency = 0.1
+				trade_steering = 0.1
+				global_trade_goods_size_modifier = 0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_tax_modifier = 0.3
-            trade_goods_size = 1
-            province_trade_power_value = 4
+			trade_goods_size = 1
+			province_trade_power_value = 4
 		}
 		area_modifier = {
 			local_production_efficiency = 0.2
 		}
 		country_modifiers = {
-			merchants = 1
-            trade_efficiency = 0.2
-            trade_steering = 0.2
-            global_trade_goods_size_modifier = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				merchants = 1
+				trade_efficiency = 0.2
+				trade_steering = 0.2
+				global_trade_goods_size_modifier = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			local_tax_modifier = 0.5
-            trade_goods_size = 2
-            province_trade_power_value = 6
+			trade_goods_size = 2
+			province_trade_power_value = 6
 		}
 		area_modifier = {
 			local_production_efficiency = 0.3
 		}
 		country_modifiers = {
-			merchants = 2
-            trade_efficiency = 0.3
-            trade_steering = 0.3
-            global_trade_goods_size_modifier = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				merchants = 2
+				trade_efficiency = 0.3
+				trade_steering = 0.3
+				global_trade_goods_size_modifier = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 sipeilanzha = {	# 斯佩兰扎
 	start = 1 # 斯德哥尔摩
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -505,7 +594,9 @@ sipeilanzha = {	# 斯佩兰扎
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -518,14 +609,20 @@ sipeilanzha = {	# 斯佩兰扎
 			}
 		}
 	}
-	on_built = { show_ambient_object = sipeilanzha }
-	on_destroyed = { hide_ambient_object = sipeilanzha }
+	on_built = {
+		show_ambient_object = sipeilanzha
+	}
+	on_destroyed = {
+		hide_ambient_object = sipeilanzha
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -543,7 +640,9 @@ sipeilanzha = {	# 斯佩兰扎
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -558,24 +657,24 @@ sipeilanzha = {	# 斯佩兰扎
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			trade_goods_size = 0.5
 		}
@@ -583,19 +682,24 @@ sipeilanzha = {	# 斯佩兰扎
 			local_trade_power = 0.1
 		}
 		country_modifiers = {
-            global_unrest = -1
-            global_trade_goods_size_modifier = 0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				global_unrest = -1
+				global_trade_goods_size_modifier = 0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			trade_goods_size = 0.8
 		}
@@ -603,19 +707,24 @@ sipeilanzha = {	# 斯佩兰扎
 			local_trade_power = 0.2
 		}
 		country_modifiers = {
-            global_unrest = -1
-            global_trade_goods_size_modifier = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				global_unrest = -1
+				global_trade_goods_size_modifier = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			trade_goods_size = 1
 		}
@@ -623,23 +732,30 @@ sipeilanzha = {	# 斯佩兰扎
 			local_trade_power = 0.3
 		}
 		country_modifiers = {
-            global_unrest = -2
-            global_trade_goods_size_modifier = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				global_unrest = -2
+				global_trade_goods_size_modifier = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_linnea } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_linnea
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_linnea
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_linnea
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_linnea
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -647,7 +763,9 @@ sipeilanzha = {	# 斯佩兰扎
 qijian = {	# 旗舰
 	start = 1 # 斯德哥尔摩
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -658,7 +776,9 @@ qijian = {	# 旗舰
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -671,14 +791,20 @@ qijian = {	# 旗舰
 			}
 		}
 	}
-	on_built = { show_ambient_object = qijian }
-	on_destroyed = { hide_ambient_object = qijian }
+	on_built = {
+		show_ambient_object = qijian
+	}
+	on_destroyed = {
+		hide_ambient_object = qijian
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -696,7 +822,9 @@ qijian = {	# 旗舰
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -711,90 +839,97 @@ qijian = {	# 旗舰
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			trade_goods_size_modifier = 0.1
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            manpower_recovery_speed = 0.1
-            reinforce_speed = 0.1
-            land_attrition = -0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				manpower_recovery_speed = 0.1
+				reinforce_speed = 0.1
+				land_attrition = -0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			trade_goods_size_modifier = 0.2
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            manpower_recovery_speed = 0.2
-            reinforce_speed = 0.2
-            land_attrition = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				manpower_recovery_speed = 0.2
+				reinforce_speed = 0.2
+				land_attrition = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			trade_goods_size_modifier = 0.3
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            manpower_recovery_speed = 0.3
-            reinforce_speed = 0.3
-            land_attrition = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				manpower_recovery_speed = 0.3
+				reinforce_speed = 0.3
+				land_attrition = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 ainuodejia = {	# 爱诺的家
 	start = 8 # 达拉斯科根
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -805,7 +940,9 @@ ainuodejia = {	# 爱诺的家
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -814,14 +951,20 @@ ainuodejia = {	# 爱诺的家
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = ainuodejia }
-	on_destroyed = { hide_ambient_object = ainuodejia }
+	on_built = {
+		show_ambient_object = ainuodejia
+	}
+	on_destroyed = {
+		hide_ambient_object = ainuodejia
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -835,7 +978,9 @@ ainuodejia = {	# 爱诺的家
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -846,88 +991,93 @@ ainuodejia = {	# 爱诺的家
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            technology_cost = -0.05
-            all_power_cost = -0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				technology_cost = -0.05
+				all_power_cost = -0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            technology_cost = -0.1
-            all_power_cost = -0.08
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				technology_cost = -0.1
+				all_power_cost = -0.08
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            technology_cost = -0.15
-            all_power_cost = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				technology_cost = -0.15
+				all_power_cost = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_ainuo } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_ainuo
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_ainuo
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_ainuo
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_ainuo
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -935,7 +1085,9 @@ ainuodejia = {	# 爱诺的家
 dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 	start = 8 # 达拉斯科根
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -946,7 +1098,9 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -955,14 +1109,20 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = dinglingkuanglang }
-	on_destroyed = { hide_ambient_object = dinglingkuanglang }
+	on_built = {
+		show_ambient_object = dinglingkuanglang
+	}
+	on_destroyed = {
+		hide_ambient_object = dinglingkuanglang
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -976,7 +1136,9 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -987,94 +1149,105 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_manpower = 3.333
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.1
-            global_trade_goods_size_modifier = 0.1
-            manpower_recovery_speed = 0.1
-            global_manpower_modifier = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.1
+				global_trade_goods_size_modifier = 0.1
+				manpower_recovery_speed = 0.1
+				global_manpower_modifier = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			 
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_manpower = 6.666
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.2
-            global_trade_goods_size_modifier = 0.2
-            manpower_recovery_speed = 0.2
-            global_manpower_modifier = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.2
+				global_trade_goods_size_modifier = 0.2
+				manpower_recovery_speed = 0.2
+				global_manpower_modifier = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			local_manpower = 9.999
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.3
-            global_trade_goods_size_modifier = 0.3
-            manpower_recovery_speed = 0.3
-            global_manpower_modifier = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.3
+				global_trade_goods_size_modifier = 0.3
+				manpower_recovery_speed = 0.3
+				global_manpower_modifier = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
-            owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_yiniefu } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_yiniefu
-			    	    duration = -1
-			    	}
+			owner = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_yiniefu
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_yiniefu
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_yiniefu
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -1082,7 +1255,9 @@ dinglingkuanglang = {	# 叮铃哐啷蛋卷工坊
 shuangyuezhifang = {	# 霜月之坊
 	start = 4144 # 布拉茨堡
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1093,7 +1268,9 @@ shuangyuezhifang = {	# 霜月之坊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1102,14 +1279,20 @@ shuangyuezhifang = {	# 霜月之坊
 			religion = norse_pagan_reformed
 		}
 	}
-	on_built = { show_ambient_object = shuangyuezhifang }
-	on_destroyed = { hide_ambient_object = shuangyuezhifang }
+	on_built = {
+		show_ambient_object = shuangyuezhifang
+	}
+	on_destroyed = {
+		hide_ambient_object = shuangyuezhifang
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1123,7 +1306,9 @@ shuangyuezhifang = {	# 霜月之坊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1134,24 +1319,24 @@ shuangyuezhifang = {	# 霜月之坊
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_missionary_strength = -5
 			trade_goods_size = 1
@@ -1160,22 +1345,27 @@ shuangyuezhifang = {	# 霜月之坊
 			local_tax_modifier = 0.1
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.01
-			missionaries = 1
-			global_missionary_strength = 0.01
-			missionary_maintenance_cost = -0.1
-			land_morale = 0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.01
+				missionaries = 1
+				global_missionary_strength = 0.01
+				missionary_maintenance_cost = -0.1
+				land_morale = 0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_missionary_strength = -8
 			trade_goods_size = 2
@@ -1184,22 +1374,27 @@ shuangyuezhifang = {	# 霜月之坊
 			local_tax_modifier = 0.1
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.03
-			missionaries = 2
-			global_missionary_strength = 0.03
-			missionary_maintenance_cost = -0.3
-			land_morale = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.03
+				missionaries = 2
+				global_missionary_strength = 0.03
+				missionary_maintenance_cost = -0.3
+				land_morale = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			local_missionary_strength = -10
 			trade_goods_size = 2
@@ -1208,26 +1403,33 @@ shuangyuezhifang = {	# 霜月之坊
 			local_tax_modifier = 0.1
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.05
-			missionaries = 3
-			global_missionary_strength = 0.05
-			missionary_maintenance_cost = -0.5
-			land_morale = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.05
+				missionaries = 3
+				global_missionary_strength = 0.05
+				missionary_maintenance_cost = -0.5
+				land_morale = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_lawuma } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_lawuma
-			    	    duration = -1
-			    	}
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_lawuma
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_lawuma
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_lawuma
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -1235,7 +1437,9 @@ shuangyuezhifang = {	# 霜月之坊
 muguangzhitai = {	# 沐光之台
 	start = 23 # 布拉茨堡
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1246,7 +1450,9 @@ muguangzhitai = {	# 沐光之台
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1256,14 +1462,20 @@ muguangzhitai = {	# 沐光之台
 			has_owner_religion = yes
 		}
 	}
-	on_built = { show_ambient_object = muguangzhitai }
-	on_destroyed = { hide_ambient_object = muguangzhitai }
+	on_built = {
+		show_ambient_object = muguangzhitai
+	}
+	on_destroyed = {
+		hide_ambient_object = muguangzhitai
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1278,7 +1490,9 @@ muguangzhitai = {	# 沐光之台
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1290,89 +1504,90 @@ muguangzhitai = {	# 沐光之台
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            religious_unity = 0.1
-			global_missionary_strength = 0.01
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				religious_unity = 0.1
+				global_missionary_strength = 0.01
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            religious_unity = 0.3
-			global_missionary_strength = 0.02
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				religious_unity = 0.3
+				global_missionary_strength = 0.02
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			cb_on_religious_enemies = yes
-			extra_manpower_at_religious_war = yes
-            religious_unity = 0.5
-			global_missionary_strength = 0.03
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				cb_on_religious_enemies = yes
+				extra_manpower_at_religious_war = yes
+				religious_unity = 0.5
+				global_missionary_strength = 0.03
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 lanpohu = {	# 蓝珀湖
 	start = 29 # 塔瓦斯特兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1383,7 +1598,9 @@ lanpohu = {	# 蓝珀湖
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1396,14 +1613,20 @@ lanpohu = {	# 蓝珀湖
 			}
 		}
 	}
-	on_built = { show_ambient_object = lanpohu }
-	on_destroyed = { hide_ambient_object = lanpohu }
+	on_built = {
+		show_ambient_object = lanpohu
+	}
+	on_destroyed = {
+		hide_ambient_object = lanpohu
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1421,7 +1644,9 @@ lanpohu = {	# 蓝珀湖
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1436,90 +1661,91 @@ lanpohu = {	# 蓝珀湖
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            idea_cost = -0.1
-			all_power_cost = -0.01
-			global_institution_spread = 0.5
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				idea_cost = -0.1
+				all_power_cost = -0.01
+				global_institution_spread = 0.5
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            idea_cost = -0.2
-			all_power_cost = -0.05
-			global_institution_spread = 0.75
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				idea_cost = -0.2
+				all_power_cost = -0.05
+				global_institution_spread = 0.75
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            idea_cost = -0.3
-			all_power_cost = -0.1
-			global_institution_spread = 1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				idea_cost = -0.3
+				all_power_cost = -0.1
+				global_institution_spread = 1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 jijingqiantan = {	# 寂静的浅滩
 	start = 19 # 东博腾
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1530,7 +1756,9 @@ jijingqiantan = {	# 寂静的浅滩
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1539,14 +1767,20 @@ jijingqiantan = {	# 寂静的浅滩
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = jijingqiantan }
-	on_destroyed = { hide_ambient_object = jijingqiantan }
+	on_built = {
+		show_ambient_object = jijingqiantan
+	}
+	on_destroyed = {
+		hide_ambient_object = jijingqiantan
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1560,7 +1794,9 @@ jijingqiantan = {	# 寂静的浅滩
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1571,91 +1807,92 @@ jijingqiantan = {	# 寂静的浅滩
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            naval_morale = 0.1
-			ship_durability = 0.05
-			naval_attrition = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				naval_morale = 0.1
+				ship_durability = 0.05
+				naval_attrition = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            naval_morale = 0.3
-			ship_durability = 0.1
-			naval_attrition = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				naval_morale = 0.3
+				ship_durability = 0.1
+				naval_attrition = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            naval_morale = 0.5
-			ship_durability = 0.2
-			naval_attrition = -0.3
-			sea_repair = yes
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				naval_morale = 0.5
+				ship_durability = 0.2
+				naval_attrition = -0.3
+				sea_repair = yes
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 shiyanshejiju = {	# 月矩力实验设计局
 	start = 27 # 奥布
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1666,7 +1903,9 @@ shiyanshejiju = {	# 月矩力实验设计局
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1675,14 +1914,20 @@ shiyanshejiju = {	# 月矩力实验设计局
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = shiyanshejiju }
-	on_destroyed = { hide_ambient_object = shiyanshejiju }
+	on_built = {
+		show_ambient_object = shiyanshejiju
+	}
+	on_destroyed = {
+		hide_ambient_object = shiyanshejiju
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1696,7 +1941,9 @@ shiyanshejiju = {	# 月矩力实验设计局
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1707,90 +1954,97 @@ shiyanshejiju = {	# 月矩力实验设计局
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			institution_growth = 2
 			local_production_efficiency = 0.1
 		}
-		area_modifier = {
-
-		}
+		area_modifier = { }
 		country_modifiers = {
-            administrative_efficiency = 0.01
-			idea_cost = -0.1
-			core_creation = -0.05
-			manpower_recovery_speed = 0.1
-			global_manpower_modifier = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.01
+				idea_cost = -0.1
+				core_creation = -0.05
+				manpower_recovery_speed = 0.1
+				global_manpower_modifier = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			institution_growth = 4
 			local_production_efficiency = 0.2
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-            administrative_efficiency = 0.03
-			idea_cost = -0.2
-			core_creation = -0.1
-			manpower_recovery_speed = 0.2
-			global_manpower_modifier = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.03
+				idea_cost = -0.2
+				core_creation = -0.1
+				manpower_recovery_speed = 0.2
+				global_manpower_modifier = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			institution_growth = 6
 			local_production_efficiency = 0.3
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-            administrative_efficiency = 0.05
-			idea_cost = -0.3
-			core_creation = -0.2
-			free_adm_policy = 1
-			manpower_recovery_speed = 0.3	
-			global_manpower_modifier = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.05
+				idea_cost = -0.3
+				core_creation = -0.2
+				free_adm_policy = 1
+				manpower_recovery_speed = 0.3
+				global_manpower_modifier = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			#owner = {
 			#    if = {
@@ -1801,7 +2055,7 @@ shiyanshejiju = {	# 月矩力实验设计局
 			#    	}
 			#		custom_tooltip = desc_gs_leader_sangduonie
 			#    }
-		    #}
+			#}
 		}
 	}
 }
@@ -1809,7 +2063,9 @@ shiyanshejiju = {	# 月矩力实验设计局
 kongjizoulang = {	# 空寂走廊
 	start = 21 # 霍罗家兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1820,7 +2076,9 @@ kongjizoulang = {	# 空寂走廊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1829,14 +2087,20 @@ kongjizoulang = {	# 空寂走廊
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = kongjizoulang }
-	on_destroyed = { hide_ambient_object = kongjizoulang }
+	on_built = {
+		show_ambient_object = kongjizoulang
+	}
+	on_destroyed = {
+		hide_ambient_object = kongjizoulang
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1850,7 +2114,9 @@ kongjizoulang = {	# 空寂走廊
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1861,87 +2127,94 @@ kongjizoulang = {	# 空寂走廊
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_manpower = 3.333
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-            movement_speed = 0.1
-			supply_limit_modifier = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				movement_speed = 0.1
+				supply_limit_modifier = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_manpower = 6.666
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-            movement_speed = 0.2
-			supply_limit_modifier = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				movement_speed = 0.2
+				supply_limit_modifier = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			local_manpower = 9.999
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-            movement_speed = 0.3
-			supply_limit_modifier = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				movement_speed = 0.3
+				supply_limit_modifier = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 zhongyechangying = {	# 终夜长茔
 	start = 1777 # 科拉
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -1952,7 +2225,9 @@ zhongyechangying = {	# 终夜长茔
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1965,14 +2240,20 @@ zhongyechangying = {	# 终夜长茔
 			}
 		}
 	}
-	on_built = { show_ambient_object = zhongyechangying }
-	on_destroyed = { hide_ambient_object = zhongyechangying }
+	on_built = {
+		show_ambient_object = zhongyechangying
+	}
+	on_destroyed = {
+		hide_ambient_object = zhongyechangying
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -1990,7 +2271,9 @@ zhongyechangying = {	# 终夜长茔
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2005,91 +2288,96 @@ zhongyechangying = {	# 终夜长茔
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            morale_damage_received = -0.1
-			land_morale = 0.1
-			shock_damage_received = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				morale_damage_received = -0.1
+				land_morale = 0.1
+				shock_damage_received = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            morale_damage_received = -0.2
-			land_morale = 0.2
-			shock_damage_received = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				morale_damage_received = -0.2
+				land_morale = 0.2
+				shock_damage_received = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            morale_damage_received = -0.3
-			land_morale = 0.3
-			shock_damage_received = -0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				morale_damage_received = -0.3
+				land_morale = 0.3
+				shock_damage_received = -0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_feilinsi } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_feilinsi
-			    	    duration = -1
-			    	}
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_feilinsi
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_feilinsi
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_feilinsi
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -2097,7 +2385,9 @@ zhongyechangying = {	# 终夜长茔
 pilamida = {	# 皮拉米达城
 	start = 38 # 里加
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2108,7 +2398,9 @@ pilamida = {	# 皮拉米达城
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2124,14 +2416,20 @@ pilamida = {	# 皮拉米达城
 			}
 		}
 	}
-	on_built = { show_ambient_object = pilamida }
-	on_destroyed = { hide_ambient_object = pilamida }
+	on_built = {
+		show_ambient_object = pilamida
+	}
+	on_destroyed = {
+		hide_ambient_object = pilamida
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2152,7 +2450,9 @@ pilamida = {	# 皮拉米达城
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2170,24 +2470,24 @@ pilamida = {	# 皮拉米达城
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			local_production_efficiency = 0.1
 			fort_level = 1
@@ -2197,21 +2497,26 @@ pilamida = {	# 皮拉米达城
 			local_tax_modifier = 0.1
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.01
-			land_maintenance_modifier = -0.1
-			prestige = 0.25
-			military_tactics = 0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.01
+				land_maintenance_modifier = -0.1
+				prestige = 0.25
+				military_tactics = 0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			local_production_efficiency = 0.2
 			fort_level = 2
@@ -2221,21 +2526,26 @@ pilamida = {	# 皮拉米达城
 			local_tax_modifier = 0.2
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.03
-			land_maintenance_modifier = -0.2
-			prestige = 0.5
-			military_tactics = 0.15
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.03
+				land_maintenance_modifier = -0.2
+				prestige = 0.5
+				military_tactics = 0.15
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			local_production_efficiency = 0.3
 			fort_level = 3
@@ -2245,25 +2555,28 @@ pilamida = {	# 皮拉米达城
 			local_tax_modifier = 0.3
 		}
 		country_modifiers = {
-            administrative_efficiency = 0.05
-			land_maintenance_modifier = -0.3
-			prestige = 1
-			military_tactics = 0.25
-			free_mil_policy = 1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				administrative_efficiency = 0.05
+				land_maintenance_modifier = -0.3
+				prestige = 1
+				military_tactics = 0.25
+				free_mil_policy = 1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 leidemilebaozang = {	# 乐园最后的宝藏
 	start = 25 # 哥德兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2274,7 +2587,9 @@ leidemilebaozang = {	# 乐园最后的宝藏
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2283,14 +2598,20 @@ leidemilebaozang = {	# 乐园最后的宝藏
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = leidemilebaozang }
-	on_destroyed = { hide_ambient_object = leidemilebaozang }
+	on_built = {
+		show_ambient_object = leidemilebaozang
+	}
+	on_destroyed = {
+		hide_ambient_object = leidemilebaozang
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2304,7 +2625,9 @@ leidemilebaozang = {	# 乐园最后的宝藏
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2315,93 +2638,94 @@ leidemilebaozang = {	# 乐园最后的宝藏
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.1
-			global_tax_modifier = 0.1
-			leader_cost = -0.1
-			prestige = 0.5
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.1
+				global_tax_modifier = 0.1
+				leader_cost = -0.1
+				prestige = 0.5
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.2
-			global_tax_modifier = 0.2
-			leader_cost = -0.2
-			prestige = 0.75
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.2
+				global_tax_modifier = 0.2
+				leader_cost = -0.2
+				prestige = 0.75
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            production_efficiency = 0.3
-			global_tax_modifier = 0.3
-			leader_cost = -0.3
-			prestige = 1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				production_efficiency = 0.3
+				global_tax_modifier = 0.3
+				leader_cost = -0.3
+				prestige = 1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 linghaobinansuo = {	# 零号避难所
 	start = 1978 # 设得兰群岛
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2412,7 +2736,9 @@ linghaobinansuo = {	# 零号避难所
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2421,14 +2747,20 @@ linghaobinansuo = {	# 零号避难所
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = linghaobinansuo }
-	on_destroyed = { hide_ambient_object = linghaobinansuo }
+	on_built = {
+		show_ambient_object = linghaobinansuo
+	}
+	on_destroyed = {
+		hide_ambient_object = linghaobinansuo
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2442,7 +2774,9 @@ linghaobinansuo = {	# 零号避难所
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2453,99 +2787,100 @@ linghaobinansuo = {	# 零号避难所
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            stability_cost_modifier = -0.1
-			prestige_decay = -0.3
-			tolerance_heretic = 1
-			tolerance_of_heretics_capacity = 100
-			tolerance_heathen = 1
-			tolerance_of_heathens_capacity = 100
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				stability_cost_modifier = -0.1
+				prestige_decay = -0.3
+				tolerance_heretic = 1
+				tolerance_of_heretics_capacity = 100
+				tolerance_heathen = 1
+				tolerance_of_heathens_capacity = 100
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            stability_cost_modifier = -0.2
-			prestige_decay = -0.5
-			tolerance_heretic = 2
-			tolerance_of_heretics_capacity = 100
-			tolerance_heathen = 2
-			tolerance_of_heathens_capacity = 100
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				stability_cost_modifier = -0.2
+				prestige_decay = -0.5
+				tolerance_heretic = 2
+				tolerance_of_heretics_capacity = 100
+				tolerance_heathen = 2
+				tolerance_of_heathens_capacity = 100
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            stability_cost_modifier = -0.3
-			prestige_decay = -1
-			tolerance_heretic = 3
-			tolerance_of_heretics_capacity = 100
-			tolerance_heathen = 3
-			tolerance_of_heathens_capacity = 100
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				stability_cost_modifier = -0.3
+				prestige_decay = -1
+				tolerance_heretic = 3
+				tolerance_of_heretics_capacity = 100
+				tolerance_heathen = 3
+				tolerance_of_heathens_capacity = 100
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 yishixianting = {	# 遗世的仙庭
 	start = 1930 # 奥兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2556,7 +2891,9 @@ yishixianting = {	# 遗世的仙庭
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2565,14 +2902,20 @@ yishixianting = {	# 遗世的仙庭
 			always = yes
 		}
 	}
-	on_built = { show_ambient_object = yishixianting }
-	on_destroyed = { hide_ambient_object = yishixianting }
+	on_built = {
+		show_ambient_object = yishixianting
+	}
+	on_destroyed = {
+		hide_ambient_object = yishixianting
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2586,7 +2929,9 @@ yishixianting = {	# 遗世的仙庭
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2597,91 +2942,92 @@ yishixianting = {	# 遗世的仙庭
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            all_estate_loyalty_equilibrium = 0.1
-			all_estate_influence_modifier = 0.05
-			monarch_lifespan = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				all_estate_loyalty_equilibrium = 0.1
+				all_estate_influence_modifier = 0.05
+				monarch_lifespan = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            all_estate_loyalty_equilibrium = 0.2
-			all_estate_influence_modifier = 0.1
-			monarch_lifespan = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				all_estate_loyalty_equilibrium = 0.2
+				all_estate_influence_modifier = 0.1
+				monarch_lifespan = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            all_estate_loyalty_equilibrium = 0.3
-			all_estate_influence_modifier = 0.15
-			monarch_lifespan = 0.5
-			allow_free_estate_privilege_revocation = yes
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				all_estate_loyalty_equilibrium = 0.3
+				all_estate_influence_modifier = 0.15
+				monarch_lifespan = 0.5
+				allow_free_estate_privilege_revocation = yes
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 ebula = {	# 厄布拉神柱
 	start = 315 # 芬马克
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2692,7 +3038,9 @@ ebula = {	# 厄布拉神柱
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2702,14 +3050,20 @@ ebula = {	# 厄布拉神柱
 			has_owner_religion = yes
 		}
 	}
-	on_built = { show_ambient_object = ebula }
-	on_destroyed = { hide_ambient_object = ebula }
+	on_built = {
+		show_ambient_object = ebula
+	}
+	on_destroyed = {
+		hide_ambient_object = ebula
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2724,7 +3078,9 @@ ebula = {	# 厄布拉神柱
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2736,102 +3092,103 @@ ebula = {	# 厄布拉神柱
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            advisor_cost = -0.1
-			global_unrest = -1
-			legitimacy = 1
-			republican_tradition = 0.33
-			devotion = 1
-			horde_unity = 1
-			meritocracy = 1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				advisor_cost = -0.1
+				global_unrest = -1
+				legitimacy = 1
+				republican_tradition = 0.33
+				devotion = 1
+				horde_unity = 1
+				meritocracy = 1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            advisor_cost = -0.2
-			global_unrest = -2
-			legitimacy = 2
-			republican_tradition = 0.66
-			devotion = 2
-			horde_unity = 2
-			meritocracy = 2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				advisor_cost = -0.2
+				global_unrest = -2
+				legitimacy = 2
+				republican_tradition = 0.66
+				devotion = 2
+				horde_unity = 2
+				meritocracy = 2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-            advisor_cost = -0.3
-			global_unrest = -3
-			legitimacy = 3
-			republican_tradition = 1
-			devotion = 3
-			horde_unity = 3
-			meritocracy = 3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				advisor_cost = -0.3
+				global_unrest = -3
+				legitimacy = 3
+				republican_tradition = 1
+				devotion = 3
+				horde_unity = 3
+				meritocracy = 3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 zhangetingtang = {	# 战歌回荡的厅堂
 	start = 18 # 拉普兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -2842,7 +3199,9 @@ zhangetingtang = {	# 战歌回荡的厅堂
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2863,14 +3222,20 @@ zhangetingtang = {	# 战歌回荡的厅堂
 			}
 		}
 	}
-	on_built = { show_ambient_object = zhangetingtang }
-	on_destroyed = { hide_ambient_object = zhangetingtang }
+	on_built = {
+		show_ambient_object = zhangetingtang
+	}
+	on_destroyed = {
+		hide_ambient_object = zhangetingtang
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2896,7 +3261,9 @@ zhangetingtang = {	# 战歌回荡的厅堂
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -2919,90 +3286,91 @@ zhangetingtang = {	# 战歌回荡的厅堂
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			discipline = 0.03
-			land_attrition = -0.05
-			infantry_power = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				discipline = 0.03
+				land_attrition = -0.05
+				infantry_power = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			discipline = 0.05
-			land_attrition = -0.1
-			infantry_power = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				discipline = 0.05
+				land_attrition = -0.1
+				infantry_power = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			discipline = 0.1
-			land_attrition = -0.2
-			infantry_power = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				discipline = 0.1
+				land_attrition = -0.2
+				infantry_power = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
 
 monvdehuayuan = {	# 魔女的花园
 	start = 5 # 韦姆兰
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -3013,7 +3381,9 @@ monvdehuayuan = {	# 魔女的花园
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3025,14 +3395,20 @@ monvdehuayuan = {	# 魔女的花园
 			}
 		}
 	}
-	on_built = { show_ambient_object = monvdehuayuan }
-	on_destroyed = { hide_ambient_object = monvdehuayuan }
+	on_built = {
+		show_ambient_object = monvdehuayuan
+	}
+	on_destroyed = {
+		hide_ambient_object = monvdehuayuan
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3049,7 +3425,9 @@ monvdehuayuan = {	# 魔女的花园
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3063,80 +3441,81 @@ monvdehuayuan = {	# 魔女的花园
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			monarch_lifespan = 0.1
-			all_power_cost = -0.01
-			idea_cost = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				monarch_lifespan = 0.1
+				all_power_cost = -0.01
+				idea_cost = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			monarch_lifespan = 0.3
-			all_power_cost = -0.05
-			idea_cost = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				monarch_lifespan = 0.3
+				all_power_cost = -0.05
+				idea_cost = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			monarch_lifespan = 0.5
-			all_power_cost = -0.1
-			idea_cost = -0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				monarch_lifespan = 0.5
+				all_power_cost = -0.1
+				idea_cost = -0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			custom_tooltip = {
 				tooltip = monvdehuayuan_nike_help
@@ -3145,15 +3524,19 @@ monvdehuayuan = {	# 魔女的花园
 				}
 			}
 			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_nike } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_nike
-			    	    duration = -1
-			    	}
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_nike
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_nike
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_nike
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -3161,7 +3544,9 @@ monvdehuayuan = {	# 魔女的花园
 wangyayingbi = {	# 望崖营壁
 	start = 40 # 梅梅尔
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -3172,7 +3557,9 @@ wangyayingbi = {	# 望崖营壁
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3188,14 +3575,20 @@ wangyayingbi = {	# 望崖营壁
 			}
 		}
 	}
-	on_built = { show_ambient_object = wangyayingbi }
-	on_destroyed = { hide_ambient_object = wangyayingbi }
+	on_built = {
+		show_ambient_object = wangyayingbi
+	}
+	on_destroyed = {
+		hide_ambient_object = wangyayingbi
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3216,7 +3609,9 @@ wangyayingbi = {	# 望崖营壁
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3234,97 +3629,108 @@ wangyayingbi = {	# 望崖营壁
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			fort_level = 1
 			local_defensiveness = 0.1
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			own_territory_dice_roll_bonus = 1
-			fire_damage_received = -0.05
-			shock_damage_received = -0.05
-			morale_damage_received = -0.05
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				own_territory_dice_roll_bonus = 1
+				fire_damage_received = -0.05
+				shock_damage_received = -0.05
+				morale_damage_received = -0.05
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			fort_level = 2
 			local_defensiveness = 0.3
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			own_territory_dice_roll_bonus = 1
-			fire_damage_received = -0.1
-			shock_damage_received = -0.1
-			morale_damage_received = -0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				own_territory_dice_roll_bonus = 1
+				fire_damage_received = -0.1
+				shock_damage_received = -0.1
+				morale_damage_received = -0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			fort_level = 3
 			local_defensiveness = 0.5
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			global_defender_dice_roll_bonus = 1
-			fire_damage_received = -0.2
-			shock_damage_received = -0.1
-			morale_damage_received = -0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				global_defender_dice_roll_bonus = 1
+				fire_damage_received = -0.2
+				shock_damage_received = -0.1
+				morale_damage_received = -0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
-			    if = {
-				    limit = { NOT = { has_country_modifier = gs_leader_yeluoya } }
-			    	add_country_modifier = {
-			    	    name = gs_leader_yeluoya
-			    	    duration = -1
-			    	}
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_yeluoya
+						}
+					}
+					add_country_modifier = {
+						name = gs_leader_yeluoya
+						duration = -1
+					}
 					custom_tooltip = desc_gs_leader_yeluoya
-			    }
-		    }
+				}
+			}
 		}
 	}
 }
@@ -3332,7 +3738,9 @@ wangyayingbi = {	# 望崖营壁
 xifengshulei = {	# 西风戍垒
 	start = 41 # 柯尼斯堡
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -3343,7 +3751,9 @@ xifengshulei = {	# 西风戍垒
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3359,14 +3769,20 @@ xifengshulei = {	# 西风戍垒
 			}
 		}
 	}
-	on_built = { show_ambient_object = xifengshulei }
-	on_destroyed = { hide_ambient_object = xifengshulei }
+	on_built = {
+		show_ambient_object = xifengshulei
+	}
+	on_destroyed = {
+		hide_ambient_object = xifengshulei
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3387,7 +3803,9 @@ xifengshulei = {	# 西风戍垒
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3405,95 +3823,106 @@ xifengshulei = {	# 西风戍垒
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
+		upgrade_time = {
+			months = 100
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
 		province_modifiers = {
 			fort_level = 1
 			local_defensiveness = 0.1
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			own_territory_dice_roll_bonus = 1
-			cavalry_power = 0.1
-			cavalry_flanking = 0.5
-			cav_to_inf_ratio = 0.1
-			movement_speed = 0.1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				own_territory_dice_roll_bonus = 1
+				cavalry_power = 0.1
+				cavalry_flanking = 0.5
+				cav_to_inf_ratio = 0.1
+				movement_speed = 0.1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
+		upgrade_time = {
+			months = 200
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
 		province_modifiers = {
 			fort_level = 2
 			local_defensiveness = 0.3
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			own_territory_dice_roll_bonus = 1
-			cavalry_power = 0.2
-			cavalry_flanking = 0.75
-			cav_to_inf_ratio = 0.3
-			shock_damage = 0.2
-			movement_speed = 0.2
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				own_territory_dice_roll_bonus = 1
+				cavalry_power = 0.2
+				cavalry_flanking = 0.75
+				cav_to_inf_ratio = 0.3
+				shock_damage = 0.2
+				movement_speed = 0.2
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
+		upgrade_time = {
+			months = 300
+		}
+		cost_to_upgrade = {
+			factor = 1500
+		}
 		province_modifiers = {
 			fort_level = 3
 			local_defensiveness = 0.5
 		}
-		area_modifier = {
-			
-		}
+		area_modifier = { }
 		country_modifiers = {
-			global_defender_dice_roll_bonus = 1
-			cavalry_power = 0.3
-			cavalry_flanking = 1
-			cav_to_inf_ratio = 0.5
-			shock_damage = 0.3
-			movement_speed = 0.3
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				global_defender_dice_roll_bonus = 1
+				cavalry_power = 0.3
+				cavalry_flanking = 1
+				cav_to_inf_ratio = 0.5
+				shock_damage = 0.3
+				movement_speed = 0.3
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
+		conditional_modifier = { }
 		on_upgraded = {
 			owner = {
 				if = {
-					limit = { NOT = { has_country_modifier = gs_leader_faerjia } }
+					limit = {
+						NOT = {
+							has_country_modifier = gs_leader_faerjia
+						}
+					}
 					add_country_modifier = {
 						name = gs_leader_faerjia
 						duration = -1
@@ -3508,7 +3937,9 @@ xifengshulei = {	# 西风戍垒
 keladizhiyan = {	# 刻拉蒂之眼
 	start = 3 # 卡尔玛
 	date = -1426.01.01
-	time = { months = 0 }
+	time = {
+		months = 0
+	}
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
@@ -3519,7 +3950,9 @@ keladizhiyan = {	# 刻拉蒂之眼
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3532,14 +3965,20 @@ keladizhiyan = {	# 刻拉蒂之眼
 			}
 		}
 	}
-	on_built = { show_ambient_object = xifengshulei }
-	on_destroyed = { hide_ambient_object = xifengshulei }
+	on_built = {
+		show_ambient_object = xifengshulei
+	}
+	on_destroyed = {
+		hide_ambient_object = xifengshulei
+	}
 	can_use_modifiers_trigger = {
 		if = {
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3557,7 +3996,9 @@ keladizhiyan = {	# 刻拉蒂之眼
 			limit = {
 				OR = {
 					gs_monuments_unlimit_trigger = yes
-					owner = { has_ruler_flag = gs_ruler_columbina }
+					owner = {
+						has_ruler_flag = gs_ruler_columbina
+					}
 				}
 			}
 			always = yes
@@ -3572,87 +4013,86 @@ keladizhiyan = {	# 刻拉蒂之眼
 	}
 	keep_trigger = { }
 	tier_0 = {
-		upgrade_time = { months = 0}
-		cost_to_upgrade = { factor =  0 }
-		province_modifiers = {
-			 
+		upgrade_time = {
+			months = 0
 		}
-		area_modifier = {
-			 
+		cost_to_upgrade = {
+			factor = 0
 		}
-		country_modifiers = {
-			 
-		}
-		on_upgraded = {
-			 
-		}
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
 	tier_1 = {
-		upgrade_time = { months = 100}
-		cost_to_upgrade = { factor =  500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 100
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			range = 0.1
-			global_colonial_growth = 10
-			colonist_placement_chance = 0.05
-			native_assimilation = 0.15
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				range = 0.1
+				global_colonial_growth = 10
+				colonist_placement_chance = 0.05
+				native_assimilation = 0.15
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_2 = {
-		upgrade_time = { months = 200}
-		cost_to_upgrade = { factor =  1000 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 200
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1000
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			range = 0.2
-			global_colonial_growth = 15
-			colonist_placement_chance = 0.1
-			native_assimilation = 0.20
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				range = 0.2
+				global_colonial_growth = 15
+				colonist_placement_chance = 0.1
+				native_assimilation = 0.20
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-            
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 	tier_3 = {
-		upgrade_time = { months = 300}
-		cost_to_upgrade = { factor =  1500 }
-		province_modifiers = {
-			
+		upgrade_time = {
+			months = 300
 		}
-		area_modifier = {
-			
+		cost_to_upgrade = {
+			factor = 1500
 		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
-			range = 0.3
-			colonists = 1
-			global_colonial_growth = 20
-			colonist_placement_chance = 0.2
-			native_assimilation = 0.25
-			colony_development_boost = 1
+			conditional_modifier = {
+				trigger = { gs_amplitude_3_trigger = yes }
+				modifier = {
+				range = 0.3
+				colonists = 1
+				global_colonial_growth = 20
+				colonist_placement_chance = 0.2
+				native_assimilation = 0.25
+				colony_development_boost = 1
+				}
+			}
 		}
-		conditional_modifier = {
-			
-		}
-		on_upgraded = {
-			
-		}
+		conditional_modifier = { }
+		on_upgraded = { }
 	}
 }
