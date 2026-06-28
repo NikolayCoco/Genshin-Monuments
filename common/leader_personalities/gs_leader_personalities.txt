@@ -673,7 +673,7 @@ gs_leader_linnea_personality = {
 	allow = { always = no }
 	land_attrition = -0.2
 }
-gs_leader_linnea_personality = {
+gs_leader_nike_personality = {
 	allow = { always = no }
 	morale_damage = 0.15
 }

@@ -1432,6 +1432,19 @@ gs_advisor_yeluoya = { #叶洛亚
 	chance = { factor = 0 }
 	ai_will_do = { factor = 0 }
 }
+gs_advisor_linnea = { #莉奈娅
+	monarch_power = ADM
+	allow_only_male = yes
+
+	global_institution_spread = 0.2
+	skill_scaled_modifier = {
+		modifier = {
+			meritocracy = 0.5
+        }
+	}
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
 gs_advisor_nike = { #尼可
 	monarch_power = ADM
 	allow_only_female = yes
