@@ -1,5 +1,5 @@
 country_decisions = {
-	#介绍事件
+	# 介绍事件
 	gs_monuments_intro = {
 		major = yes
 		potential = { ai = no }
@@ -13,7 +13,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#原神阶层
+	# 原神阶层
 	gs_yuanshen_estate_open = {
 		color = { 0 255 255 }
 		major = no
@@ -59,7 +59,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	#原神配偶
+	# 原神配偶
 	gs_yuanshen_peiou = {
 		color = { 0 255 255 }
 		major = no
@@ -83,7 +83,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#原神顾问
+	# 原神顾问
 	gs_yuanshen_advisor = {
 		color = { 0 255 255 }
 		major = no
@@ -106,7 +106,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#修建运河
+	# 修建运河
 	gs_build_kiel_canal = { # 基尔运河
 		major = no
 		potential = {
@@ -213,7 +213,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#一键建成原神奇观
+	# 一键建成原神奇观
 	gs_monuments_build_all = {
 		major = no
 		potential = {
@@ -225,7 +225,7 @@ country_decisions = {
 		}
 		effect = { country_event = { id = gs_decisions_events.31 } }
 	}
-	#添加元素理念
+	# 添加元素理念
 	gs_yuanshen_ideas_add = {
 		major = no
 		potential = {
@@ -270,7 +270,7 @@ country_decisions = {
 			}
 		}
 	}
-	#白淞之围
+	# 白淞之围
 	gs_Siege_of_Poisson = {
 		major = no
 		potential = {
@@ -311,7 +311,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#砸群玉阁
+	# 砸群玉阁
 	gs_destroy_qunyu = {
 		major = no
 		potential = {
@@ -364,7 +364,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#白淞之围
+	# 皈依灵光
 	gs_Convert_to_Vourukasha = {
 		major = no
 		potential = {
@@ -386,6 +386,51 @@ country_decisions = {
 		}
 		effect = {
 			change_religion = zoroastrian
+			every_owned_province = {
+				limit = {
+					has_great_project = {
+						type = Vourukasha
+						tier = 3
+					}
+				}
+				change_religion = zoroastrian
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	# 皈依霜月
+	gs_Convert_to_Frostmoon = {
+		major = no
+		potential = {
+			any_owned_province = {
+				has_great_project = {
+					type = shuangyuezhifang
+					tier = 3
+				}
+			}
+			NOT = { religion = norse_pagan_reformed  }
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = shuangyuezhifang
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			change_religion = norse_pagan_reformed
+			every_owned_province = {
+				limit = {
+					has_great_project = {
+						type = shuangyuezhifang
+						tier = 3
+					}
+				}
+				change_religion = norse_pagan_reformed
+			}
 		}
 		ai_will_do = {
 			factor = 0
