@@ -1,5 +1,5 @@
 country_decisions = {
-	#*YZÜqS
+	# *YZÜqS
 	gs_taixu_build = {
 		major = no
 		potential = {
@@ -58,7 +58,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#8lNPNW
+	# 8lNPNW
 	gs_letu_build = {
 		color = { 255 204 251 }
 		major = no
@@ -118,7 +118,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#ÏS2UÒÇNh
+	# ÏS2UÒÇNh
 	gs_yingjie_build = {
 		color = { 255 204 251 }
 		major = no
@@ -238,7 +238,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#NXX
+	# NXX
 	gs_NXX_build = {
 		major = no
 		potential = {
@@ -305,7 +305,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#fyzRfè
+	# fyzRfè
 	gs_Star_build = {
 		major = no
 		potential = {
@@ -364,7 +364,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#∞eåÇ)R˝ê
+	# ∞eåÇ)R˝ê
 	gs_ZZZ_build = {
 		major = no
 		potential = {
@@ -435,7 +435,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	#tïs
+	# tïs
 	gs_langgan_build = {
 		color = { 255 204 251 }
 		major = no
@@ -446,7 +446,8 @@ country_decisions = {
 			capital_scope = {
 				or = {
 					region = xinan_region
-					region = sichuan_region
+					region = dali_region
+					region = shu_region
 				}
 			}
 		}
@@ -454,7 +455,8 @@ country_decisions = {
 			capital_scope = {
 				or = {
 					region = xinan_region
-					region = sichuan_region
+					region = dali_region
+					region = shu_region
 				}
 			}
 		}
