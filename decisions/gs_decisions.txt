@@ -371,10 +371,10 @@ country_decisions = {
 			any_owned_province = {
 				has_great_project = {
 					type = Vourukasha
-					tier = 3
+					tier = 0
 				}
 			}
-			NOT = { religion = zoroastrian  }
+			NOT = { religion = zoroastrian }
 		}
 		allow = {
 			any_owned_province = {
@@ -383,6 +383,7 @@ country_decisions = {
 					tier = 3
 				}
 			}
+			NOT = { religion = zoroastrian }
 		}
 		effect = {
 			change_religion = zoroastrian
@@ -407,7 +408,7 @@ country_decisions = {
 			any_owned_province = {
 				has_great_project = {
 					type = shuangyuezhifang
-					tier = 3
+					tier = 0
 				}
 			}
 			NOT = { religion = norse_pagan_reformed  }
@@ -416,9 +417,10 @@ country_decisions = {
 			any_owned_province = {
 				has_great_project = {
 					type = shuangyuezhifang
-					tier = 3
+					tier = 0
 				}
 			}
+			NOT = { religion = norse_pagan_reformed  }
 		}
 		effect = {
 			change_religion = norse_pagan_reformed
@@ -426,7 +428,7 @@ country_decisions = {
 				limit = {
 					has_great_project = {
 						type = shuangyuezhifang
-						tier = 3
+						tier = 0
 					}
 				}
 				change_religion = norse_pagan_reformed
