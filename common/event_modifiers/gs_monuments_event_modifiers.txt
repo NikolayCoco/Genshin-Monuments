@@ -273,15 +273,15 @@ gs_langgan_xiansuo_2 = {
 	prestige = 0.1
 }
 fengdan_shuidao_province_modifier = {
+	picture = "Picture_fengdan_shuidao"
 	province_trade_power_modifier = 0.3
 	local_friendly_movement_speed = 10
-	picture = "Picture_fengdan_shuidao"
 }
 fengdan_shuidao_dushi_province_modifier = {
+	picture = "Picture_fengdan_shuidao_dushi"
 	province_trade_power_modifier = 0.3
 	local_friendly_movement_speed = 10
 	trade_goods_size = 1
 	trade_value = 6
-	picture = "Picture_fengdan_shuidaodecisions/gs_decisions_shuidao.txt"
 }
 
