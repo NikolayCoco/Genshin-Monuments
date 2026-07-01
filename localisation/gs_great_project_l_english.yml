@@ -291,6 +291,8 @@
  Lumidouce_desc:0 "--------------\nŽVegvQÖNýV¦^„vIN‰=nãS0\nncô‹þfÏu	gîOú^,rÛVagáTh9‚*‚¿uÿÞÔgop=nN«g9N÷^„v¡‹R0\nFOÙN¡‹R–Nwg	g›R„vgbLˆwKN‰kwàeP–gjPFd†N0"
  Romaritime:0 "wm2—=n"
  Romaritime_desc:0 "--------------\nckINS=fwt-f:yÿv`w×SZÿ„Uw—VP0\nw`ObNÇ=fŸS4l-N„vNônÿgR„v?agmNÈu–Þ˜Mn%`AmNS‰l¡lÿN«ˆWØV„vPN&rN—fí‹NTËWl„0"
+ shuidaozhongshu:0 "«g9N4lS¢gËuI`Ùz"
+ shuidaozhongshu_desc:0 "--------------\n«g9NØš¶g4lï„vŒ¦^ÃVÿpeASagzz-N4lSNYÄu'Y‹WGSM–¯h(Wdk²NGl0<fYNo`„vŸn.O¨Rô•ÿ9‚êSŽNNTØš¦^BSô•s^3zAmlÙµ^¢”Á”Nvfx„gQr„vèT„gÿâe=firAm‹T	ÿ¦N=f«g9NåTzZêN„vžRSO0N‘x0"
  Narzissenkreuz:0 "ê6qòTfRxvzNb"
  Narzissenkreuz_desc:0 "--------------\nfåeAucƒ„vWˆ÷TòTÏu4O–Nw<P—V8Yw„vNR¡leQñm4l0\n‚YÊNzLˆŽNñbÊ^KNô•„vêS	g|œ²ÿNdRÂR„vwmnoKNðX0"
  Ipsissimus:0 "êSOê«ŽKNTX"
@@ -484,3 +486,9 @@
  gs_ZZZ_modifier:0 "Random PlayUVÏP—^"
  gs_langgan_xiansuo_1:0 "ºN8S^yNb(W"
  gs_langgan_xiansuo_2:0 "0W8S^yNb(W"
+ fengdan_shuidao_province_modifier:0 "4lS="
+ fengdan_shuidao_province_modifier_desc:0 "dkwòT¥ceQ«g9NØš¶g4lSQÜu0zz-N.n*j=ƒX…QÿGSM–¯h¢gËu<fYÐlÿ'9‚ïS„VôvŠœ–wÇ0,g0W8fAm'YE^ÐcÿÍ‘‹W'irÐ“b,g>fW„M–NO0"
+ fengdan_shuidao_province_modifier_tooltip:0 "dkwòT¥ceQ«g9NØš¶g4lSQÜu0zz-N.n*j=ƒX…QÿGSM–¯h¢gËu<fYÐlÿ'9‚ïS„VôvŠœ–wÇ0,g0W8fAm'YE^ÐcÿÍ‘‹W'irÐ“b,g>fW„M–NO0"
+ fengdan_shuidao_dushi_province_modifier:0 "4lS¢gËu=n"
+ fengdan_shuidao_dushi_province_modifier_desc:0 "dkÎW=f4lSQÜuÄ‰R-N„vÍ‘‰•¹p0Øš¶g4lSåNËzñgÎdXbÿêÊÎ‘ôv=ÎW±WÿYag4l	(WdkGlZwRAmÿGSM–¯h²Äu„gbNN²N•„vËzSOl*‚Ð¢gËu0ŽVeg‚kiNQOV)Y6q³lSÿw=fÌQzzzLˆŽN|i‡RKNô•ÿdkÎWàV4lwGSÿòT^—ûR8^F–0WýO0"
+ fengdan_shuidao_dushi_province_modifier_tooltip:0 "dkÎW=f4lSQÜuÄ‰R-N„vÍ‘‰•¹p0Øš¶g4lSåNËzñgÎdXbÿêÊÎ‘ôv=ÎW±WÿYag4l	(WdkGlZwRAmÿGSM–¯h²Äu„gbNN²N•„vËzSOl*‚Ð¢gËu0ŽVeg‚kiNQOV)Y6q³lSÿw=fÌQzzzLˆŽN|i‡RKNô•ÿdkÎWàV4lwGSÿòT^—ûR8^F–0WýO0"

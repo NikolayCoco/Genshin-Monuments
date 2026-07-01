@@ -1,0 +1,19 @@
+namespace = gs_fengdan_shuidao_events
+
+country_event = {
+	id = gs_fengdan_shuidao_events.1
+	title = gs_fengdan_shuidao_events_1_title
+	desc = gs_fengdan_shuidao_events_1_desc
+	picture = gs_fengdan_shuidao_events_1_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+
+	}
+
+	option = { 
+		name = gs_fengdan_shuidao_events.1.a
+		set_country_flag = gs_fengdan_shuidao
+	}
+}

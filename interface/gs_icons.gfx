@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "Picture_fengdan_shuidao"
+		texturefile = "gfx//interface//ideas_EU4//fengdan_shuidao_province_modifier.dds"
+	}
+	spriteType = {
+		name = "Picture_fengdan_shuidao_dushi"
+		texturefile = "gfx//interface//ideas_EU4//fengdan_shuidao_dushi_province_modifier.dds"
+	}
+}

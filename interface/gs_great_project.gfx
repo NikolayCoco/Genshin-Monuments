@@ -544,6 +544,10 @@ spriteTypes = {
 		name = "GFX_great_project_Romaritime"
 		texturefile = "gfx//interface//great_projects//Romaritime.dds"
 	}
+	spriteType = {#水道枢纽
+		name = "GFX_great_project_shuidaozhongshu"
+		texturefile = "gfx//interface//great_projects//shuidaozhongshu.dds"
+	}
 	####————水仙十字————####
 	spriteType = {#自然哲学研究所
 		name = "GFX_great_project_Narzissenkreuz"
