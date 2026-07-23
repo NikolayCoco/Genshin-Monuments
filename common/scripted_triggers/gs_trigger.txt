@@ -276,6 +276,7 @@ gs_has_gs_leader_with_vision_cryo = {
 			has_country_modifier = gs_leader_nainai
 			#has_country_modifier = gs_leader_skirk
 			has_country_modifier = gs_leader_luoen
+			has_country_modifier = gs_leader_sangduonie
 		}
 	}
 }
@@ -535,9 +536,30 @@ gs_eu4_MONDSTADT = {
 	}
 }
 
+gs_eu4_LIYUE_cengyan = {
+	OR = {
+		culture = xibei
+	}
+}
+
+gs_eu4_LIYUE_chenyu = {
+	OR = {
+		culture = cantonese
+		culture = hakka
+		culture = yi
+		culture = bai
+		culture = miao
+	}
+}
+
 gs_eu4_LIYUE = {
 	OR = {
+		gs_eu4_LIYUE_cengyan = yes
+		gs_eu4_LIYUE_chenyu = yes
 		culture_group = east_asian
+		culture_group = tibetan_group
+		culture_group = evenks
+		culture_group = altaic
 		technology_group = chinese
 	}
 }
