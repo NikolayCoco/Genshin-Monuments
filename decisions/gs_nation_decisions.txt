@@ -37,7 +37,7 @@ country_decisions = {
 	#âò%V	SUMERU		IÉ	144 204 0
 	#´g9N	FONTAINE	4l	0 192 255
 	#≥uTX	NATLAN		kp	255 102 64
-	#*c∑VaS±É	LANGGAN	    g	214 236 240
+	#*c∑VaS±É	NOD-KRAI	    g	214 236 240
 	#ÛÅ¨Q	SNEZHNAYA	∞Q	128 255 255
 	#PNW	YONGSHILETU	wb	255 204 251
 	#tïs	LANGGAN	    âs	127 255 212
